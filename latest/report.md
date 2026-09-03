@@ -1,121 +1,127 @@
-# 📚 学术研究进展分析 - 2026-09-03
+# 📚 学术研究进展分析 - 2026-09-04
 
-**分析论文数**: 183 篇 | **涵盖主题**: 6 个
-**论文详情**: [papers_2026-09-03.md](papers_2026-09-03.md)
+**分析论文数**: 153 篇 | **涵盖主题**: 5 个
+**论文详情**: [papers_2026-09-04.md](papers_2026-09-04.md)
 
 ---
 
 ## 📑 目录
 
-- [LLM (大语言模型)](#llm-大语言模型) (156 篇)
-- [MLLM (多模态大语言模型)](#mllm-多模态大语言模型) (5 篇)
-- [EEG / BCI (脑电与脑机接口)](#eeg--bci-脑电与脑机接口) (7 篇)
-- [EEG Foundation Models / Tokenization](#eeg-foundation-models--tokenization) (1 篇)
+- [LLM (大语言模型)](#llm-大语言模型) (119 篇)
+- [MLLM (多模态大语言模型)](#mllm-多模态大语言模型) (10 篇)
+- [EEG / BCI (脑电与脑机接口)](#eeg--bci-脑电与脑机接口) (16 篇)
 - [MI / ME (运动想象与运动执行)](#mi--me-运动想象与运动执行) (1 篇)
-- [Foundation Models (基础模型)](#foundation-models-基础模型) (17 篇)
+- [Foundation Models (基础模型)](#foundation-models-基础模型) (10 篇)
 
 ---
 
 ## 🔬 LLM (大语言模型)
 
-*本主题共 156 篇相关论文*
+*本主题共 119 篇相关论文*
 
 **高度相关论文:**
 
-- [1] **EDGE: Error Dependency Graph-Guided Multi-Error Attribution in Multi-Agent LLM Systems**
-  > Large language model (LLM) agent failures often contain multiple related errors rather than a single mistake. Existing attribution methods usually ide...
+- [1] **AIM: Anchor Identity Features, Then Match for Multimodal Large Language Model Unlearning**
+  > Existing MLLM unlearning methods often assume access to retain images or ground-truth an… alyze how a fine-tuned MLLM organizes identity and visual-pe...
 
-- [2] **Skill Following: Evaluating Actual Skill Use in Retrieval-Enabled LLM Agents**
-  > Large Language Model (LLM) agents increasingly rely on external skills, yet standard evaluations obscure whether retrieving these skills actually help...
+- [2] **NS-Copilot: An LLM-Driven Agent System for Autonomous Neuroscience Analysis**
+  > AI is rapidly advancing neuroscience, yet many laboratories fail to fully unleash its potential due to significant interdisciplinary barriers. While p...
 
-- [3] **AutoXRD: Autonomous LLM Agents and Comprehensive Evaluation for Powder Diffraction Analysis**
-  > Powder X-ray diffraction (XRD) is central to materials characterization, yet reliable end-to-end automation remains challenging. An XRD agent must int...
+- [3] **Act More, Decide Less: Skill-Guided Adaptive Action Chunking for Long-Horizon LLM Agents**
+  > Large language model (LLM) agents for long-horizon interactive tasks typically follow a ReAct-style protocol, issuing one primitive action per LLM rou...
 
-- [4] **Learning What to Retain: Gated-Memory Routing for Efficient Collaboration in Multi-Agent LLM Systems**
-  > Large language model (LLM)-based multi-agent systems tackle complex reasoning by orchestrating how multiple agents are configured and how they collabo...
+- [4] **Speculative Probing: LLM Monitoring at Speculative-Decoding Cost**
+  > We pick 4 tasks across different LLM monitoring scenarios for model deployers. … The authors acknowledge the use of large language model ( LLM ) techn...
 
-- [5] **Embedded Conditional Independence Tests for Large Language Model Generated Text with an Application to German Parliament Speeches**
-  > Conditional independence tests (CITs) test for conditional dependence between two random objects $X$ and $Y$ given a third random object $Z$. Existing...
+- [5] **Prompt-Space Meta-Learning Does Not Transfer Across Users: A Frozen-LLM Negative Result**
+  > Personalizing a frozen large language model (LLM) to individual users is often framed as a meta-learning problem in prompt space: each user is a task,...
 
-- [6] **mzCache: On-Device LLM Memory Management under Multitasking**
-  > On-device mobile Large Language Model (LLM) inference is gaining significant attention. However, mobile devices operate in highly dynamic multitasking...
+- [6] **LLM-Driven Joint Evolution of Coupled Heuristics Components for Routing Optimization**
+  > Heuristic design for combinatorial optimization remains heavily reliant on expert knowledge, while existing large language model (LLM)-enhanced evolut...
 
-**相关论文** (85 篇):
+- [7] **How Fast Do Agents Rot? An Empirical Study of Long-Horizon Degradation in LLM Agents for Production Decision-Making**
+  > Production deployments of large language model (LLM) agents remain unreliable on long, multi-step workflows even as benchmark success rates climb stea...
 
-- [7] SkillRet: A Large-Scale Benchmark for Skill Retrieval in LLM Agents
-- [8] RestoreBench: Can AI Agents Restore Power Flow Convergence?
-- [9] RetroReasoner: A Reasoning LLM for Strategic Retrosynthesis Prediction
-- [10] MicroEvo: Knowledge-Guided LLM Sampling for Efficient Microarchitecture Design Space Exploration
-- [11] Pre-carved Niches: The Formation Dynamics of Modular Task Partitions in Early LLM Training
-- [12] ChatDev 2.0: A No-Code Multi-Agent Platform for Developing Everything
-- [13] Learning to Refine Hidden States for Reliable LLM Reasoning
-- [14] UrbanDS: A Graph-Guided LLM Multi-Agent System for Data-Intensive Urban Tasks
-- [15] LLM-driven design of physics-constrained constitutive models: two agents are better than one
-- [16] Do LLMs Know Your Neighborhood? Auditing LLM Priors for Neighborhood-Level Mobility Prediction and Structural Alignment
-- [17] Beyond Language Priors: Diagnosing and Fixing Visual-Origin Hallucinations in Multimodal LLM
-- [18] RPCBench: A Benchmark for Proactive Premise Critique in LLM-based Recommendation
-- [19] Deterministic LLM Inference Across GPU Kernels: Power-of-Two INT8 Quantization Scales and the Limits of Tolerance-Based Conformance
-- [20] REAL-Q: E2E LLM Quantization via Dynamic Gradient Descent
-- [21] StudentSim: Training LLM-based Student Simulators
-- [22] ContextPipe: Database-Inspired Context Assembly for Long-Horizon Agents
-- [23] PCoMoE: Shifting MoE Inference from Monolithic Expert Selection to Fine-Grained Path Composition
-- [24] RePro: Proof-Verified Benchmark Rewriting for Reliable Evaluation of LLM Mathematical Problem Solving
-- [25] OUTLETS: Output-Length Prediction from Speculative Decoding Backbones
-- [26] Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation
-- 以及 [27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91]
+- [8] **CAITLYN: Can LLM Agents Autonomously Synthesize Defenses against Emerging Injection Attacks?**
+  > Prompt injection attacks on Large Language Model ( LLM ) agents seek to introduce malicious instructions or content into external text sources retriev...
 
-**其他提及** (65 篇): [92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121]...
+**相关论文** (66 篇):
+
+- [9] Isolation as a First-Class Principle for LLM-Agent System Safety: Concepts, Taxonomy, Challenges and Future Directions
+- [10] MultiGhostBench: A Multilingual Benchmark for Long-Form LLM-Generated Text Attribution under Distribution Shifts
+- [11] Git4Data: Database-Native Version Control for AI Agents
+- [12] Compositional Spectral Prompts for LLM-based Online Time Series Forecasting
+- [13] Beyond Dialogue Time: Temporal Semantic Memory for Personalized LLM Agents
+- [14] LLM Watermarking as Big Data Provenance: A Deployment-Oriented Systematization
+- [15] Beyond Outcome Gaps: Process-Aware Fairness Diagnosis for LLM-based Multi-Agent Decision Systems
+- [16] XMerge: Cross-Axis Selection and Reconstructive Layer Merging for LLM Depth Compression
+- [17] Grounded, Compute-Efficient LLM Policy Agents for Energy-Poverty Equity in Physically-Constrained Peer-to-Peer Energy Markets
+- [18] CAPTURE: Disentangling Preference Drift from Memory Poisoning in Personalized LLM Agents
+- [19] Rating the Raters: Rasch Measurement Theory for LLM Evaluation
+- [20] Medical Heuristic Learning: An LLM-Driven Framework for Interpretable and Auditable Clinical Decision Rules
+- [21] Codebook Agent: Amortized Topology Design for LLM Multi-Agent Systems
+- [22] WeaveMark: Robust and Scalable Multi-bit LLM Watermarking via Coded Payload Spreading
+- [23] UniToolCall: Unifying Tool-Use Representation, Data, and Evaluation for LLM Agents
+- [24] GPTKB 2.0: Browsing, Querying, and Auditing a Disambiguated LLM-Derived Knowledge Base
+- [25] Regularizing the Prompt: Stable Model -Agnostic LLM Responses Through Inversion Theory
+- [26] CapAgent: Semantic Data-Flow Governance for LLM Agents in Big-Data Cognitive Computing
+- [27] Can LLM-as-a-Judge Reliably Verify Rubrics in Agentic Scenarios?
+- [28] Evaluating the Evaluator: Summarization Metrics and LLM-Judges beyond English
+- 以及 [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74]
+
+**其他提及** (45 篇): [75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104]...
 
 
 ---
 
 ## 🔬 MLLM (多模态大语言模型)
 
-*本主题共 5 篇相关论文*
+*本主题共 10 篇相关论文*
+
+**高度相关论文:**
+
+- [1] **AIM: Anchor Identity Features, Then Match for Multimodal Large Language Model Unlearning**
+  > Existing MLLM unlearning methods often assume access to retain images or ground-truth an… alyze how a fine-tuned MLLM organizes identity and visual-pe...
 
 **相关论文** (1 篇):
 
-- [157] Distributed Implicit Harm: A Compositional Safety Blind Spot in MLLM-Based Video Moderation
+- [120] YesTrack: Referring Multi-Object Tracking via MLLM-based Yes/No Verification
 
-**其他提及** (4 篇): [158, 159, 160, 161]
+**其他提及** (8 篇): [121, 122, 123, 124, 125, 126, 127, 128]
 
 
 ---
 
 ## 🔬 EEG / BCI (脑电与脑机接口)
 
-*本主题共 7 篇相关论文*
+*本主题共 16 篇相关论文*
 
 **高度相关论文:**
 
-- [162] **Lightweight Adaptation of EEG Foundation Models for Stroke Motor Imagery Decoding: Domain Shift and Subject-Level Robustness**
-  > Motor imagery (MI) electroencephalography (EEG) decoding could support post-stroke rehabilitation, but models developed on healthy cohorts may not tra...
+- [129] **Decoding Decision Correctness from EEG Under High Cognitive Workload in Virtual Reality: Implications for Collaborative Brain-Computer Interface Teams**
+  > Collaborative Brain-Computer Interfaces (cBCIs) offer a promising mechanism to augment team decision-making, but existing approaches rely exclusively ...
 
-- [163] **EEG-AS: Instance-Level Foundation Model Selection for EEG Foundation Models via Behavior Reconstruction**
-  > Electroencephalography (EEG) is a non-invasive technique for measuring neural activity and has been widely used in neuroscience applications. Recent a...
+- [2] **NS-Copilot: An LLM-Driven Agent System for Autonomous Neuroscience Analysis**
+  > AI is rapidly advancing neuroscience, yet many laboratories fail to fully unleash its potential due to significant interdisciplinary barriers. While p...
 
-- [164] **EEG-VID: Task-Guided Latent Predictive Pretraining for EEG Decoding and Assistive Target Selection**
-  > We propose EEG-VID, a task-guided latent predictive pretraining framework for EEG decoding under session and subject shifts. EEG-VID predicts future l...
+- [130] **Neural network-based dynamic functional connectivity estimation for motor imagery decoding from EEG**
+  > Abstract Accurate decoding of motor imagery (MI) from electroencephalography ( EEG ) … (FC) modeling into the feature space of EEG signals via mutual ...
 
-**相关论文** (3 篇):
+**相关论文** (11 篇):
 
-- [165] NeuroPriv: Adversarial Representation Learning for Privacy in Wearable EEG Systems
-- [166] Leakage-Audited Benchmarking Reveals Limited Evidence for Cross-Subject Auditory-Evoked EEG Vowel Perception Decoding
-- [167] S-CEReBrO: Breaking the Memory Barrier in Continuous EEG Monitoring
+- [131] EEG-based Visual Retrieval and Reconstruction: From Neurally Visible Optimal Layer to Hierarchical Diffusion Generation
+- [132] Leveraging a Foundation Model for the EEG -Based Diagnosis of Alzheimer's Disease
+- [133] EEG signatures for Tactile Object Individuation On A Finger Tip
+- [134] NeuroVisionArm: Gaze- EEG Hybrid Control for Assistive Robotic Prosthetics
+- [135] Machine-Learning-Based Localization of Cortical Hyperexcitability Zones from Background EEG Activity in Epilepsy
+- [136] Large-scale EEG neural network changes following accelerated high-definition transcranial direct current stimulation in major depressive disorder: A randomized …
+- [137] EEG deconvolution modelling of naturalistic reading reveals surprisal effects modulated during mind wandering
+- [138] EEG-VID: Task-Guided Latent Predictive Pretraining for EEG Decoding and Assistive Target Selection
+- [139] EfDIC-BrainNets: EEG -fNIRS dynamic interactive causal brain networks for emotion recognition
+- [140] Subjective Visibility Enhances Early Posterior EEG Decoding of Stimulus Location across Report and No-report Tasks
+- [141] A Low-Cost Wearable Multimodal Brain Signal Acquisition System Integrating EEG and fNIRS for Depression Detection
 
-**其他提及** (1 篇): [168]
-
-
----
-
-## 🔬 EEG Foundation Models / Tokenization
-
-*本主题共 1 篇相关论文*
-
-**高度相关论文:**
-
-- [163] **EEG-AS: Instance-Level Foundation Model Selection for EEG Foundation Models via Behavior Reconstruction**
-  > Electroencephalography (EEG) is a non-invasive technique for measuring neural activity and has been widely used in neuroscience applications. Recent a...
+**其他提及** (2 篇): [142, 143]
 
 
 ---
@@ -126,58 +132,48 @@
 
 **高度相关论文:**
 
-- [162] **Lightweight Adaptation of EEG Foundation Models for Stroke Motor Imagery Decoding: Domain Shift and Subject-Level Robustness**
-  > Motor imagery (MI) electroencephalography (EEG) decoding could support post-stroke rehabilitation, but models developed on healthy cohorts may not tra...
+- [130] **Neural network-based dynamic functional connectivity estimation for motor imagery decoding from EEG**
+  > Abstract Accurate decoding of motor imagery (MI) from electroencephalography ( EEG ) … (FC) modeling into the feature space of EEG signals via mutual ...
 
 
 ---
 
 ## 🔬 Foundation Models (基础模型)
 
-*本主题共 17 篇相关论文*
+*本主题共 10 篇相关论文*
 
-**高度相关论文:**
+**相关论文** (4 篇):
 
-- [162] **Lightweight Adaptation of EEG Foundation Models for Stroke Motor Imagery Decoding: Domain Shift and Subject-Level Robustness**
-  > Motor imagery (MI) electroencephalography (EEG) decoding could support post-stroke rehabilitation, but models developed on healthy cohorts may not tra...
+- [144] Evaluating Fundus-Specific Foundation Models for Diabetic Macular Edema Detection
+- [145] Self-Geometry: GT-Free and Plug-and-Play Test-Time Adaptation for Geometrically Consistent 3D Vision Foundation Models
+- [146] Morphology signal in whole slide image foundation models can automatically triage slides
+- [147] Do Tabular Foundation Models Know Physics? Contamination, Units, and the Deterministic Limit
 
-- [163] **EEG-AS: Instance-Level Foundation Model Selection for EEG Foundation Models via Behavior Reconstruction**
-  > Electroencephalography (EEG) is a non-invasive technique for measuring neural activity and has been widely used in neuroscience applications. Recent a...
-
-**相关论文** (7 篇):
-
-- [169] Foundation models for electricity price forecasting and battery arbitrage: Can they replace market-specific forecasting models?
-- [170] MMAI Gym for Science: Training Liquid Foundation Models for Drug Discovery
-- [171] Breaking the Reasoning Horizon in Entity Alignment Foundation Models
-- [172] Unmasking Face Embeddings: Reading, Rendering and Naming with Foundation Models
-- [173] Context Window Failures in Relational Foundation Models
-- [174] Do Satellites See Commuters? A Critical Benchmark of Vision Foundation Models
-- [175] What, Where, and How: Probing Spatiotemporal Representations in Video Foundation Models
-
-**其他提及** (8 篇): [176, 177, 178, 179, 180, 181, 182, 183]
+**其他提及** (6 篇): [148, 149, 150, 151, 152, 153]
 
 
 ---
 
 ## 📊 统计
 
-- **LLM (大语言模型)**: 156 篇
-- **MLLM (多模态大语言模型)**: 5 篇
-- **EEG / BCI (脑电与脑机接口)**: 7 篇
-- **EEG Foundation Models / Tokenization**: 1 篇
+- **LLM (大语言模型)**: 119 篇
+- **MLLM (多模态大语言模型)**: 10 篇
+- **EEG / BCI (脑电与脑机接口)**: 16 篇
 - **MI / ME (运动想象与运动执行)**: 1 篇
-- **Foundation Models (基础模型)**: 17 篇
+- **Foundation Models (基础模型)**: 10 篇
 
 ### 关键词命中分布
 
-- **LLM**: 152 篇
-- **Large Language Model**: 27 篇
-- **Foundation Models**: 17 篇
-- **EEG**: 7 篇
-- **MLLM**: 5 篇
+- **LLM**: 107 篇
+- **Large Language Model**: 28 篇
+- **EEG**: 14 篇
+- **MLLM**: 10 篇
+- **Foundation Models**: 10 篇
+- **BCI**: 2 篇
+- **Multimodal Large Language Model**: 1 篇
+- **Brain-Computer Interface**: 1 篇
+- **Neural Signal**: 1 篇
 - **Motor Imagery**: 1 篇
-- **EEG Foundation Model**: 1 篇
-- **BCI**: 1 篇
 
 ---
-*生成时间: 2026-09-03 01:24:56*
+*生成时间: 2026-09-04 01:17:24*
