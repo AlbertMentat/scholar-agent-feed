@@ -1,75 +1,60 @@
-# 📚 学术研究进展分析 - 2026-10-04
+# 📚 学术研究进展分析 - 2026-10-05
 
-**分析论文数**: 30 篇 | **涵盖主题**: 6 个
-**论文详情**: [papers_2026-10-04.md](papers_2026-10-04.md)
+**分析论文数**: 30 篇 | **涵盖主题**: 4 个
+**论文详情**: [papers_2026-10-05.md](papers_2026-10-05.md)
 
 ---
 
 ## 📑 目录
 
-- [LLM (大语言模型)](#llm-大语言模型) (14 篇)
-- [MLLM (多模态大语言模型)](#mllm-多模态大语言模型) (9 篇)
+- [LLM (大语言模型)](#llm-大语言模型) (11 篇)
+- [MLLM (多模态大语言模型)](#mllm-多模态大语言模型) (10 篇)
 - [EEG / BCI (脑电与脑机接口)](#eeg--bci-脑电与脑机接口) (10 篇)
-- [EEG Foundation Models / Tokenization](#eeg-foundation-models--tokenization) (1 篇)
-- [MI / ME (运动想象与运动执行)](#mi--me-运动想象与运动执行) (3 篇)
 - [Foundation Models (基础模型)](#foundation-models-基础模型) (1 篇)
 
 ---
 
 ## 🔬 LLM (大语言模型)
 
-*本主题共 14 篇相关论文*
+*本主题共 11 篇相关论文*
 
 **高度相关论文:**
 
-- [1] **TACTIC: Temporal and Context-Aware LLM Tactical Planning for Roadside LiDAR Attacks**
-  > We present TACTIC, a scene-aware framework that uses a multimodal large language model ( MLLM ) to … Local perception provides metric vehicle states, ...
+- [1] **UniOVA: Universal On-demand Video Analytics with Edge-Cloud Collaborative Multimodal LLM**
+  > Video analytics is ubiquitous in modern society, and the emergence of Multimodal Large Language Models (MLLMs) has made its application even more exte...
 
-- [2] **Agentic Tool-Augmented Reasoning for Explainable Image Forgery Detection**
-  > interpretable evidence, while recent multimodal large language model ( MLLM )-based approaches generate post-hoc explanations of … F1 on six zero-shot...
+**相关论文** (9 篇):
 
-- [3] **When Not to Diagnose: Evaluating Evidence-Sufficiency Recognition in ECG Multimodal Language Models with ECGTrustBench**
-  > Existing ECG multimodal large language model ( MLLM ) evaluations cannot support this, as they assume every question is answerable. We introduce ECGTr...
+- [2] Context Matters: Improving the Practical Reliability of LLM -Based Unit Test Generation (Experience Paper)
+- [3] Function Calling as a Flexible LLM Defense Add-On: Capability and Application Exploration
+- [4] Learning Causal Structures from LLM -AHP Comparisons for Interpretable Forecasting
+- [5] PatchPorter: LLM -Driven Security Patch Porting via Version Tracing and Context Selection for NPM
+- [6] Context matters in LLM -driven algorithm design: A controlled study in black-box optimization
+- [7] Datura: Progressive Red Teaming Testing for Tool Invocation Chain in LLM Agents
+- [8] Psy-DMTL: Psychology-guided dynamic multi-task learning for LLM -based personality detection
+- [9] From Similarity Ranking to Definitive Verdict: LLM -Enhanced Source-to-Binary Function Localization
+- [10] KG- LLM : Knowledge graph-guided LLM augmentation for fine-grained subtitle similarity
 
-- [4] **Focus on Evidence: Relational-Structure Enhances LLM Effectiveness in TableQA**
-  > Table Question Answering (TableQA) requires reasoning over natural language questions and structured tables, and remains challenging due to noisy evid...
-
-**相关论文** (10 篇):
-
-- [5] LLM -driven personalized and adaptive systems for health and wellness: a systematic review
-- [6] Filtering LLM -Synthesized Data for Cold-Start Recommendation: A Progressive Influence Function Approach
-- [7] PhantomEnvironments: Training LLM Agents in Fictional Worlds
-- [8] LLM Persona Unlearning
-- [9] Multimodal Affective Computing in the Era of LLM -based Educational Agents: Key Insights, Challenges, and Future Prospects
-- [10] Agent-Warden: eBPF-based kernel-native process-file provenance tracking for LLM agents
-- [11] Turning Cold Entities Warm: LLM -Based User and Item Interaction Simulation for Recommendations
-- [12] Automated assessment and cross-system benchmarking of Chinese reading text difficulty via multi - model analysis
-- [13] Open-ended Human Activity Understanding via LLM -assisted Motion Decomposition and Semantic Fusion
-- [14] EchoLIFE: Zero-Shot In-Home ADL Recognition with LLM -Guided Active Acoustic Sensing
+**其他提及** (1 篇): [11]
 
 
 ---
 
 ## 🔬 MLLM (多模态大语言模型)
 
-*本主题共 9 篇相关论文*
+*本主题共 10 篇相关论文*
 
 **高度相关论文:**
 
-- [1] **TACTIC: Temporal and Context-Aware LLM Tactical Planning for Roadside LiDAR Attacks**
-  > We present TACTIC, a scene-aware framework that uses a multimodal large language model ( MLLM ) to … Local perception provides metric vehicle states, ...
+- [1] **UniOVA: Universal On-demand Video Analytics with Edge-Cloud Collaborative Multimodal LLM**
+  > Video analytics is ubiquitous in modern society, and the emergence of Multimodal Large Language Models (MLLMs) has made its application even more exte...
 
-- [2] **Agentic Tool-Augmented Reasoning for Explainable Image Forgery Detection**
-  > interpretable evidence, while recent multimodal large language model ( MLLM )-based approaches generate post-hoc explanations of … F1 on six zero-shot...
+**相关论文** (2 篇):
 
-- [3] **When Not to Diagnose: Evaluating Evidence-Sufficiency Recognition in ECG Multimodal Language Models with ECGTrustBench**
-  > Existing ECG multimodal large language model ( MLLM ) evaluations cannot support this, as they assume every question is answerable. We introduce ECGTr...
+- [12] Do MLLM Judges Judge the Edit? Auditing Bias in Image Editing Evaluation with Verified Quality Preservation
+- [13] 복잡한텍스트에대한이미지분할을위한SAM3 기반다중 MLLM 에이전트토론프레임워크
 
-**相关论文** (1 篇):
-
-- [15] MLLM -as-a-Judge for Financial Document Image Machine Translation
-
-**其他提及** (5 篇): [16, 17, 18, 19, 20]
+**其他提及** (7 篇): [14, 15, 16, 17, 18, 19, 20]
 
 
 ---
@@ -80,58 +65,20 @@
 
 **高度相关论文:**
 
-- [21] **ARTHX-Net: A hybrid transformer-XGBoost framework for motor imagery EEG decoding with adaptive feature recalibration and glowworm swarm optimization**
-  > EEG -based motor imagery (MI) decoding remains a persistent challenge in Brain–Computer Interface (BCI) research due to low signal-to-noise ratios, no...
+- [21] **CortexBridge: Cortical Alignment of EEG Montages for Foundation Models**
+  > Electroencephalography ( EEG ) foundation models are often pretrained with a fixed channel vocabulary or a limited set of montages, making transfer di...
 
-- [22] **SAST-KAN: A Spectral Adaptive Spatio-Temporal Kolmogorov–Arnold Network for Motor Imagery EEG Decoding**
-  > Motor imagery–based brain–computer interface (MI-BCI) provides an effective pathway for post-stroke motor rehabilitation by decoding motor intentions ...
+**相关论文** (9 篇):
 
-- [23] **A spatial-channel reconstruction guided frequency-time-space deep neural framework for SSVEP-based brain-computer interface EEG decoding**
-  > study, with EEG signals provided at a sampling rate of 250 Hz; therefore, no additional downsampling was performed. Nine EEG electrodes … Considering ...
-
-- [24] **Tsmd-net: two-stage multi-domain distillation network for cross-subject MI- EEG domain generalization**
-  > Motor imagery electroencephalography (MI- EEG ) decoding enables brain–computer interface (BCI) systems to convert self-generated motor intentions int...
-
-- [25] **NeurDuo- EEG : A Long-Sequence EEG Foundation Model with Persistent State and Explicit Memory**
-  > We present NeurDuo- EEG , a causal EEG foundation model with channel-resolved persistent memory. NeurDuo EEG introduces multi-… To address these chall...
-
-**相关论文** (5 篇):
-
-- [26] Efficient EEG Imagined Speech Decoding Using Channel Selection and Residual Attention-Based Lightweight Model
-- [27] Redundant Perceptual Inputs Modulate Early Neural Activity Patterns in Visual Working Memory: Evidence from EEG Decoding
-- [28] MEFD-JTFR-Based Classification of Alzheimer's Disease, Frontotemporal Dementia, and Healthy Controls From EEG
-- [29] IDEAL: A Multimodal Domain Adaptation Framework for EEG -Eye Emotion Recognition
-- [30] EEG Signal Processing and Feature Extraction
-
-
----
-
-## 🔬 EEG Foundation Models / Tokenization
-
-*本主题共 1 篇相关论文*
-
-**高度相关论文:**
-
-- [25] **NeurDuo- EEG : A Long-Sequence EEG Foundation Model with Persistent State and Explicit Memory**
-  > We present NeurDuo- EEG , a causal EEG foundation model with channel-resolved persistent memory. NeurDuo EEG introduces multi-… To address these chall...
-
-
----
-
-## 🔬 MI / ME (运动想象与运动执行)
-
-*本主题共 3 篇相关论文*
-
-**高度相关论文:**
-
-- [21] **ARTHX-Net: A hybrid transformer-XGBoost framework for motor imagery EEG decoding with adaptive feature recalibration and glowworm swarm optimization**
-  > EEG -based motor imagery (MI) decoding remains a persistent challenge in Brain–Computer Interface (BCI) research due to low signal-to-noise ratios, no...
-
-- [22] **SAST-KAN: A Spectral Adaptive Spatio-Temporal Kolmogorov–Arnold Network for Motor Imagery EEG Decoding**
-  > Motor imagery–based brain–computer interface (MI-BCI) provides an effective pathway for post-stroke motor rehabilitation by decoding motor intentions ...
-
-- [24] **Tsmd-net: two-stage multi-domain distillation network for cross-subject MI- EEG domain generalization**
-  > Motor imagery electroencephalography (MI- EEG ) decoding enables brain–computer interface (BCI) systems to convert self-generated motor intentions int...
+- [22] Integrative EEG /fMRI Evidence for a Multi-scale Network Underlying Self-Face and Personal-Object Recognition
+- [23] A Frequency-Band Siamese Network with Dual Functional Connectivity Metrics for Subject-Independent EEG Depression Detection
+- [24] Eeg -based analysis of Driver cognitive load in subsea tunnel vs. Open Road: A Hybrid Machine learning and Statistical Modeling Approach
+- [25] CoDrag: Coupled Label and Feature Prototype Dragging via Confidence-Aware Estimation for EEG -based Emotion Decoding
+- [26] A High-Density EEG Dataset for Stimulus-Driven Auditory Attention
+- [27] HASTE: Topology-constrained adaptive coupling for streaming EEG fatigue regression
+- [28] Effects of winter bedroom air temperature and experimentally elevated CO₂ concentration on sleep quality and EEG spectral characteristics
+- [29] EEG -based mental workload recognition during multi-tasking scenarios: the role of resting-state normalization and brain region of EEG features
+- [30] HHEEG: Healthy Hybrid EEG -Based Mental Workload Assessment for Healthcare Using Integrated Spatial, Temporal Spectral Deep Learning
 
 
 ---
@@ -142,32 +89,26 @@
 
 **高度相关论文:**
 
-- [25] **NeurDuo- EEG : A Long-Sequence EEG Foundation Model with Persistent State and Explicit Memory**
-  > We present NeurDuo- EEG , a causal EEG foundation model with channel-resolved persistent memory. NeurDuo EEG introduces multi-… To address these chall...
+- [21] **CortexBridge: Cortical Alignment of EEG Montages for Foundation Models**
+  > Electroencephalography ( EEG ) foundation models are often pretrained with a fixed channel vocabulary or a limited set of montages, making transfer di...
 
 
 ---
 
 ## 📊 统计
 
-- **LLM (大语言模型)**: 14 篇
-- **MLLM (多模态大语言模型)**: 9 篇
+- **LLM (大语言模型)**: 11 篇
+- **MLLM (多模态大语言模型)**: 10 篇
 - **EEG / BCI (脑电与脑机接口)**: 10 篇
-- **EEG Foundation Models / Tokenization**: 1 篇
-- **MI / ME (运动想象与运动执行)**: 3 篇
 - **Foundation Models (基础模型)**: 1 篇
 
 ### 关键词命中分布
 
-- **LLM**: 12 篇
 - **EEG**: 10 篇
-- **MLLM**: 9 篇
-- **Large Language Model**: 5 篇
-- **BCI**: 3 篇
-- **Motor Imagery**: 3 篇
-- **Multimodal Large Language Model**: 3 篇
-- **Brain-Computer Interface**: 1 篇
-- **EEG Foundation Model**: 1 篇
+- **LLM**: 10 篇
+- **MLLM**: 10 篇
+- **Foundation Models**: 1 篇
+- **Large Language Model**: 1 篇
 
 ---
-*生成时间: 2026-10-04 01:38:37*
+*生成时间: 2026-10-05 01:51:55*
