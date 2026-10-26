@@ -1,120 +1,161 @@
-# 📚 学术研究进展分析 - 2026-10-26
+# 📚 学术研究进展分析 - 2026-10-27
 
-**分析论文数**: 30 篇 | **涵盖主题**: 3 个
-**论文详情**: [papers_2026-10-26.md](papers_2026-10-26.md)
+**分析论文数**: 129 篇 | **涵盖主题**: 5 个
+**论文详情**: [papers_2026-10-27.md](papers_2026-10-27.md)
 
 ---
 
 ## 📑 目录
 
-- [LLM (大语言模型)](#llm-大语言模型) (16 篇)
-- [MLLM (多模态大语言模型)](#mllm-多模态大语言模型) (10 篇)
-- [EEG / BCI (脑电与脑机接口)](#eeg--bci-脑电与脑机接口) (9 篇)
+- [LLM (大语言模型)](#llm-大语言模型) (107 篇)
+- [MLLM (多模态大语言模型)](#mllm-多模态大语言模型) (7 篇)
+- [EEG / BCI (脑电与脑机接口)](#eeg--bci-脑电与脑机接口) (3 篇)
+- [MI / ME (运动想象与运动执行)](#mi--me-运动想象与运动执行) (1 篇)
+- [Foundation Models (基础模型)](#foundation-models-基础模型) (14 篇)
 
 ---
 
 ## 🔬 LLM (大语言模型)
 
-*本主题共 16 篇相关论文*
+*本主题共 107 篇相关论文*
 
 **高度相关论文:**
 
-- [1] **Assisting Blind People at Mealtime Using Plate Detection and Multimodal LLM**
-  > and an MLLM to assist blind users in understanding the layout and contents of their meals. We employ GPT-4o [22] as the MLLM due to its … The detected...
+- [1] **U-STS-LLM: A Unified Spatio-Temporal Steered Large Language Model for Traffic Prediction and Imputation**
 
-- [2] **PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models**
-  > ask a Multimodal Large Language Model ( MLLM ) to assess physical plausibility from video. … Instead, we use the MLLM for reasoning over temporal cont...
+- [2] **Knowing Whom to Trust is not Enough: The Trust--Agreement Gap in Repeated Multi-Party LLM Negotiation**
+  > Large language model (LLM) agents increasingly participate in negotiations on behalf of individuals and organizations, yet they remain vulnerable to m...
 
-- [3] **Whose hotel does the AI recommend? An algorithm audit of reputation signals in LLM -assisted hotel selection**
-  > Travelers increasingly ask large language model ( LLM ) assistants which hotel to book, making these systems gatekeepers of property visibility, yet w...
+- [3] **Efficient Omni-modal Large Language Model Inference via Per-Query Modality Selection**
+  > Omni-modal large language models (Omni-LLMs) can jointly process a broad range of modalities, such as text, audio, and video, enabling stronger multim...
 
-- [4] **A New Dataset and Lightweight Model for Accident Scene Understanding in Autonomous Driving**
-  > cost of existing multimodal large language model ( MLLM ) architectures. This cost can make … while using substantially fewer parameters than MLLM bas...
+- [4] **LeafSkill: Efficient Leaf-Level Action Grounding for Recursive LLM Agents**
+  > Recursive large language model (LLM) agents solve long-horizon tasks through decomposition, execution, and environmental feedback. Yet after producing...
 
-- [5] **From Avatar to Self: Embodiment, Identity, and the Proteus Effect in LLM -Based Multi-Agent AI Simulation**
-  > This article presents Café Proteus, a browser-based multi-agent simulation platform designed to investigate whether identity framing was associated wi...
+- [5] **KnitTrans: Coordinated Trajectory Transfer for Effective and Efficient LLM Reinforcement Learning**
+  > Trajectory transfer from rollout to training affects both learning quality and system efficiency in large language model reinforcement learning (RL). ...
 
-- [6] **Quantification of Numerical Prediction Uncertainty Based on Multimodal Large Model Generation Capabilities**
-  > : MLLM -UQ is a new framework for uncertainty quantification in numerical prediction based on a multimodal large language model ( MLLM ), … quantifica...
+- [6] **Not Every Agent Needs the Strongest Model: Unified Prompt-Model Optimization for Heterogeneous LLM-based Multi-Agent Systems**
+  > Large language model (LLM)-based multi-agent systems (MAS) rely on role-specific prompts and execution models to solve complex tasks collaboratively. ...
 
-**相关论文** (9 篇):
+- [7] **Async-RBench: Benchmarking Asynchronous Task Execution in LLM Agents**
+  > Large language model (LLM) agents increasingly execute tasks asynchronously: a main agent continues working while its subagents run, and the task stat...
 
-- [7] Predicting Music Valence and Arousal via Textual and Multimodal In-Context Learning in Large Language Models
-- [8] LLM -enhanced Graph Contrastive Learning for Technology Flow Forecasting
-- [9] TutorCaseBench: A Case-Grounded Benchmark for Evaluating LLM Tutors in Supporting Students with Challenging Behaviors
-- [10] RALLM-STAR: Spatial-Temporal Aligned Retrieval-Augmented LLM for zero-shot next POI recommendation
-- [11] MIDI- LLM : Improving Text-to-MIDI Music Generation via Adapting Large Language Models
-- [12] CoCoSim: Bridging the Sim-to-Real Gap for Distributed LLM Inference in 6G Mobile Networks
-- [13] LLM -powered construction of antibiotic resistance datasets and knowledge graphs for accelerated antibiotic resistance gene discovery
-- [14] RG-Agent: Risk-Gated and Adaptive LLM Agents for Reliable Automated Tabular Data Analysis
-- [15] An LLM -based decision aid for collaborative decision-making in juvenile idiopathic arthritis: A multimethod evaluation
+- [8] **Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms**
+  > Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to a...
 
-**其他提及** (1 篇): [16]
+**相关论文** (64 篇):
+
+- [9] Trusting the Tool: Asymmetric Deference of LLM Vulnerability Auditors to Static-Analysis Evidence
+- [10] Machine-Readable Operator Manuals over the ISO 11783 Network for Offline, Multilingual LLM Assistance
+- [11] Fooling LLM Safety Guards into Judging the Wrong Text
+- [12] $M^3$: A Multi-LLM System for Multi-Turn Jailbreaking as a Markov Decision Process
+- [13] Probe Before You Edit: Probing-Guided Molecular Optimization for LLM Agents in Structure-Based Drug Design
+- [14] Training-Free Task Vectors for LLM Behavioral Control
+- [15] AI Alignment for Digital Democracy: Fairer Voters Representation against LLM Biases
+- [16] J-Comm: Jacobian-Guided Latent Communication between LLM Agents
+- [17] ALLMTS: Automated LLM-based Medical Triage System
+- [18] POETS: Uncertainty-Aware LLM Optimization via Compute-Efficient Policy Ensembles
+- [19] From Uncertain Judgments to Calibrated Rankings: Conformal Elo Estimation for LLM Evaluation
+- [20] Same Answer, Different Confidence: Protocol Sensitivity in LLM Confidence Calibration
+- [21] Solvent: Long-Horizon Reasoning for Multi-Step Retrosynthesis
+- [22] Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox
+- [23] ActionRAG: Evidence-Refining Graph Diffusion for Long-Term Memory in LLM Agents
+- [24] The LLENS Platform for On-Premises Large Language Model Agents in a Japanese University Hospital: Development and Evaluation Study
+- [25] When Should I Trust This? Designing and Evaluating Factuality Indicators for LLM-based Chatbots
+- [26] Do AI-for-Science Agents Preserve Model Safety?
+- [27] SpectrumQuant: Spectrum Alignment for LLM Quantization
+- [28] InferSlice: A Reference Architecture for SLO-driven LLM Inference over a Telco Wide-Area Network
+- 以及 [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+
+**其他提及** (35 篇): [73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102]...
 
 
 ---
 
 ## 🔬 MLLM (多模态大语言模型)
 
-*本主题共 10 篇相关论文*
-
-**高度相关论文:**
-
-- [1] **Assisting Blind People at Mealtime Using Plate Detection and Multimodal LLM**
-  > and an MLLM to assist blind users in understanding the layout and contents of their meals. We employ GPT-4o [22] as the MLLM due to its … The detected...
-
-- [2] **PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models**
-  > ask a Multimodal Large Language Model ( MLLM ) to assess physical plausibility from video. … Instead, we use the MLLM for reasoning over temporal cont...
-
-- [4] **A New Dataset and Lightweight Model for Accident Scene Understanding in Autonomous Driving**
-  > cost of existing multimodal large language model ( MLLM ) architectures. This cost can make … while using substantially fewer parameters than MLLM bas...
-
-- [6] **Quantification of Numerical Prediction Uncertainty Based on Multimodal Large Model Generation Capabilities**
-  > : MLLM -UQ is a new framework for uncertainty quantification in numerical prediction based on a multimodal large language model ( MLLM ), … quantifica...
+*本主题共 7 篇相关论文*
 
 **相关论文** (3 篇):
 
-- [17] Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation
-- [18] Toward MLLM -Driven Explainable Fake News Video Detection via Counterfactual Reasoning
-- [7] Predicting Music Valence and Arousal via Textual and Multimodal In-Context Learning in Large Language Models
+- [108] A Broader Look into MLLM's Retrieval Heads
+- [32] An Agentic Approach with Evidence-Grounded Verification for Multimodal Emotion Reasoning in Conversation
+- [109] Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation
 
-**其他提及** (3 篇): [19, 20, 21]
+**其他提及** (4 篇): [110, 111, 112, 113]
 
 
 ---
 
 ## 🔬 EEG / BCI (脑电与脑机接口)
 
-*本主题共 9 篇相关论文*
+*本主题共 3 篇相关论文*
 
-**相关论文** (9 篇):
+**高度相关论文:**
 
-- [22] Transformer networks are robust learners of source localization for EEG measurements
-- [23] Intracranial EEG for Detecting Epileptic Activity in Acute Brain Injury: A Systematic Review and Meta-analysis
-- [24] Mapping EEG Microstates Across Physiological States: A Systematic Review
-- [25] Schizophrenia classification from multichannel EEG using EEGNet with SHAP and Grad-CAM
-- [26] An Explainable Weighted Ensemble Deep Learning Framework for Subject-Independent ADHD Detection Using EEG Signals
-- [27] FAST-BiMamba: Frequency-Aware Spatio-Temporal Bidirectional Mamba for Efficient Finger-Level EEG Decoding
-- [28] EEG -Captioner: Grounding EEG -to-Language Generation in Fundamental Signal Properties
-- [29] Multi-Scale Attention-Enhanced BiLSTM Network for EEG Emotion Recognition
-- [30] EEG Edge-Centric Dynamics Reveal Distinct Post-Stroke Somatosensory Network Responses to Vibratory and Electrical Stimulation
+- [114] **Controlled Evaluation of EEG Foundation Models: Random Initialisation, Band-Power and Validation-Selected Probes**
+  > EEG foundation models report downstream gains, yet their protocols seldom include three controls. These are the same encoder untrained, spectral featu...
+
+**相关论文** (2 篇):
+
+- [115] U-NeXt: General-purpose event detection for neonatal EEG
+- [116] FOCUS: A Lightweight Mamba-2 Model for EEG-Based Cognitive Workload Classification
+
+
+---
+
+## 🔬 MI / ME (运动想象与运动执行)
+
+*本主题共 1 篇相关论文*
+
+**高度相关论文:**
+
+- [114] **Controlled Evaluation of EEG Foundation Models: Random Initialisation, Band-Power and Validation-Selected Probes**
+  > EEG foundation models report downstream gains, yet their protocols seldom include three controls. These are the same encoder untrained, spectral featu...
+
+
+---
+
+## 🔬 Foundation Models (基础模型)
+
+*本主题共 14 篇相关论文*
+
+**高度相关论文:**
+
+- [114] **Controlled Evaluation of EEG Foundation Models: Random Initialisation, Band-Power and Validation-Selected Probes**
+  > EEG foundation models report downstream gains, yet their protocols seldom include three controls. These are the same encoder untrained, spectral featu...
+
+**相关论文** (6 篇):
+
+- [117] Beyond Channel Data: Configuration-Enriched Radio Foundation Models
+- [118] Track finding and particle identification performance with particle physics foundation models
+- [119] Tabular Foundation Models for Credit Risk Prediction: A Dedicated Review and Empirical Comparison
+- [120] Beyond Local Accuracy: Benchmarking the Rollout Reliability of PDE Foundation Models
+- [121] Forecasting Associations, Not Interventions: A Preregistered Causal Audit of Covariate-Aware Time Series Foundation Models
+- [122] Reuse, Don't Retrain: Efficient, Modality-Versatile Geospatial Foundation Models through Feature Distillation
+
+**其他提及** (7 篇): [123, 124, 125, 126, 127, 128, 129]
 
 
 ---
 
 ## 📊 统计
 
-- **LLM (大语言模型)**: 16 篇
-- **MLLM (多模态大语言模型)**: 10 篇
-- **EEG / BCI (脑电与脑机接口)**: 9 篇
+- **LLM (大语言模型)**: 107 篇
+- **MLLM (多模态大语言模型)**: 7 篇
+- **EEG / BCI (脑电与脑机接口)**: 3 篇
+- **MI / ME (运动想象与运动执行)**: 1 篇
+- **Foundation Models (基础模型)**: 14 篇
 
 ### 关键词命中分布
 
-- **LLM**: 12 篇
-- **MLLM**: 10 篇
-- **EEG**: 9 篇
-- **Large Language Model**: 6 篇
-- **Multimodal Large Language Model**: 3 篇
+- **LLM**: 101 篇
+- **Large Language Model**: 20 篇
+- **Foundation Models**: 14 篇
+- **MLLM**: 7 篇
+- **EEG**: 3 篇
+- **Motor Imagery**: 1 篇
 
 ---
-*生成时间: 2026-10-26 01:14:22*
+*生成时间: 2026-10-27 03:35:37*
