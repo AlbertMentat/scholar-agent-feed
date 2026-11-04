@@ -1,84 +1,86 @@
-# 📑 论文索引 - 2026-11-04
+# 📑 论文索引 - 2026-11-05
 
-共 329 篇论文
-
----
-
-### [1] Q-CamTuning: A Multimodal Large Language Model for Fine-Grained Quality Reasoning in Livestreaming Camera Tuning
-
-**链接**: https://arxiv.org/abs/2611.03007
-**作者**: Yanchao Bi, Pengfei Chen, Yulong Yan, Qian Zhang, Biao Wang, Leida Li
-**来源**: cs.CV cs.AI
-**匹配关键词**: Large Language Model, Multimodal Large Language Model
-**相关性评分**: 7.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> With the popularization of livestreaming applications, automatic camera tuning has become indispensable for ordinary users to enjoy high Quality of Experience (QoE). However, the existing Image Quality Assessment (IQA) methods face two challenges in camera tuning. First, they struggle to identify subtle quality difference between images, which is common in camera tuning. Second, the ability to explain fine-grained differences and to provide suggestions for camera tuning are even more lacking. To address these challenges, we first construct FGLive-Comments, an instruction tuning dataset with rich annotations of both preferences for fine-grained image pairs and quality reasoning from global and local visual evidence, which supports selective adjustment recommendations of camera parameters. Based on FGLive-Comments, we develop Q-CamTuning, a multimodal large language model for livestreaming camera tuning. Its progressive perception-evidence-guidance framework learns quality-aware visual r
+共 183 篇论文
 
 ---
 
-### [2] MSP-LLM: A Structured Large Language Model Framework for Inorganic Material Synthesis Planning
+### [1] FA- LLM : Fuzzy-Augmented Large Language Model for Fuzzy Reasoning on Generalised Quantifiers
 
-**链接**: https://arxiv.org/abs/2602.07543
-**作者**: Heewoong Noh, Gyoung S. Na, Namkyeong Lee, Chanyoung Park
-**来源**: cs.AI cond-mat.mtrl-sci
+**链接**: https://scholar.google.com/scholar_url?url=https://ieeexplore.ieee.org/abstract/document/11769574/&hl=zh-CN&sa=X&d=11393152562301860660&ei=DtHqav30I_C96rQP1rXIyQE&scisig=AIL1Nv4FsvIjGMlR7dxrjCjtxoox&oi=scholaralrt&hist=F21tmVgAAAAJ:10503022509620818264:AIL1Nv54qJgw9jCiGIOVcdDlgt0k&html=&pos=8&folt=kw-top
+**作者**: Z Li, G Zeng, J Li, Z Liu, Q Zhang - IEEE Transactions on Fuzzy Systems, 2026
 **匹配关键词**: LLM, Large Language Model
 **相关性评分**: 7.0
-**数据来源**: arXiv CS Mailing
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> To address these challenges, we present the Fuzzy Augmented Large Language Model (FA- LLM ), a framework that equips an existing large language model with explicit fuzzy supervision and reliability-aware calibration through lightweight LoRA-based
 
 ---
 
-### [3] BLPO: Beyond-Local Policy Optimization for Long-Horizon LLM Agents
+### [2] Multimodal LLM-Based Classification of Educational Question Images: A Hierarchical Approach
 
-**链接**: https://arxiv.org/abs/2611.03005
-**作者**: Xuanren Chen, Chongyang Tao, Wenpeng Hu, Yong Wang, Bo Deng, Xinlei Zheng 等 (7 人)
-**来源**: cs.AI
+**链接**: https://scholar.google.com/scholar_url?url=https://ieeexplore.ieee.org/abstract/document/11745347/&hl=zh-CN&sa=X&d=4681605472434838450&ei=DtHqatXeMZHuieoP1PSsqAo&scisig=AIL1Nv5svdq5T5Iq2ItH560dX-Zu&oi=scholaralrt&hist=F21tmVgAAAAJ:16615086028366742172:AIL1Nv7ZtfCfVzrJbncruGtkyRGX&html=&pos=3&folt=kw-top
+**作者**: AH Yıldız, S Yıldırım - 2026 11th International Conference on Computer …, 2026
+**匹配关键词**: LLM, MLLM
+**相关性评分**: 5.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> We propose a unified evaluation pipeline in which the same set of question images is presented to multiple MLLM families using a standardized prompting strategy. The task is formulated as a hierarchical classification problem, requiring
+
+---
+
+### [3] Large Language Model-Assisted Adaptive Heuristic Search for Agile Earth Observation Satellite Scheduling
+
+**链接**: https://arxiv.org/abs/2611.04458
+**作者**: He Wang, Yeye Liu, Ruijie Li, Xuemei Jiang, Junyu Wu, Lining Liu Zhuoqi Man 等 (7 人)
+**来源**: cs.AI cs.CL
 **匹配关键词**: LLM, Large Language Model
 **相关性评分**: 5.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Long-horizon tasks require large language model (LLM) agents to coordinate interdependent actions, a capability central to automating complex workflows. Stepwise group-based reinforcement learning provides finer credit than trajectory-level supervision, but reliable comparisons must account for differences in interaction history. Enforcing this consistency within the limited rollouts of each task can leave insufficient support for estimating action preferences. We propose Beyond-Local Policy Optimization (BLPO), which estimates task-progress advantages from experience shared across tasks and training updates. We summarize trajectory prefixes into task-progress states and abstract actions by their function, allowing corresponding decisions from different tasks to contribute to shared estimates. To control bias and noise from heterogeneous tasks, we accumulate context-relative returns in a global memory with balanced aggregation and reliability weighting. These global advantages compleme
+> Agile Earth observation satellites must coordinate imaging tasks within limited observation windows, while accounting for attitude maneuvering and onboard energy constraints. Competition among observation opportunities makes scheduling performance sensitive to the heuristic rules used for task selection. This letter proposes a large language model (LLM)-assisted adaptive heuristic search method for agile Earth observation satellite scheduling. The LLM generates an initial heuristic rule according to the characteristics of the scheduling instance. During the subsequent ant colony search, search performance and scheduling information are fed back to the LLM to refine the heuristic rule. The proposed modifications are evaluated through paired solution constructions before being incorporated into the search process. A unified scheduling procedure determines task selection, satellite assignment, and observation timing under the operational constraints. Experiments on six scheduling scenario
 
 ---
 
-### [4] PACERec: Progressive Adaptation of LLM Item Embeddings with Collaborative Evidence for Recommendation
+### [4] AdSteer: Native Advertising in Large Language Model Generation
 
-**链接**: https://arxiv.org/abs/2611.03068
-**作者**: Junzhao Huang, Xi Wu, Zihan Wang, Zijing Wang, Ming Wang, Kang Liu 等 (10 人)
-**来源**: cs.IR cs.AI
+**链接**: https://arxiv.org/abs/2611.04147
+**作者**: Shuhang Lin, Chuhao Zhou, Zhenyu Wang, Xiao Lin, Changsheng Wang, Saibo Geng 等 (7 人)
+**来源**: cs.CL
 **匹配关键词**: LLM, Large Language Model
 **相关性评分**: 5.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Large language model (LLM) embeddings have been increasingly adopted in sequential recommendation to encode static item attributes and alleviate the limitations of item ID embeddings under sparse interactions. However, these embeddings typically capture only static content similarity while neglecting sequential transitions, and since their adaptation quality relies on sparse per-item updates or global geometric calibration, existing methods still struggle to explicitly transfer preceding interaction contexts from frequent to long-tail items under unevenly distributed behavioral evidence, limiting recommendation effectiveness across the catalog. To address this challenge, we propose PACERec, an ID-free progressive adaptation framework that incorporates preceding interaction contexts into semantic representation adaptation by learning a shared velocity field from items with sufficient interactions via frequency-weighted flow matching. In this way, PACERec progressively guides static LLM 
+> Large language model (LLM) services face rapidly rising serving costs. To sustain free or affordable access for a broad user base, alternative monetization mechanisms are needed. Native advertising offers a promising approach, as it creates economic value by aligning user intent with merchant offerings. Yet how to integrate sponsored content naturally into LLM responses remains largely underexplored. Existing approaches primarily rely on prompt-level injection, multi-pass rewriting, or fine-tuning, which can compromise response quality or introduce additional computational costs. We propose AdSteer, a lightweight decoding-time advertising framework that adaptively adjusts token probabilities to integrate contextually appropriate advertisement into responses. AdSteer calibrates the strength and duration of advertising influence, making sponsored content a natural part of the response. Experiments on GEM-Bench across three application scenarios show that AdSteer achieves an average impro
 
 ---
 
-### [5] UI-UG 2: Advancing Mobile UI Understanding and Generation with Fine-Grained Supervision and Reinforcement Learning
+### [5] Are LLM Assistants Regulatory Ready? Answers from regenold's 2026 EU AI Act Q&A Challenge
 
-**链接**: https://arxiv.org/abs/2611.00926
-**作者**: Hao Yang, Shuoyang Liu, Xiaoyu Lin, Zhou Fang, Maji Huang, Zhaosong Huang 等 (9 人)
-**来源**: cs.CV cs.AI cs.HC
-**匹配关键词**: Large Language Model, MLLM, Multimodal Large Language Model
+**链接**: https://arxiv.org/abs/2611.04546
+**作者**: Marco Virgolin, Thomas Haszprunar, Maximilian Regenold
+**来源**: cs.AI cs.MA
+**匹配关键词**: LLM, Large Language Model
 **相关性评分**: 5.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Mobile UI understanding and generation require both fine-grained component perception and reliable structured synthesis. Inspired by the unified direction introduced by UI-UG, we present UI-UG 2, a compact 4B-parameter multimodal large language model (MLLM) that advances mobile UI Understanding and Generation with broader task coverage, a front-end-aligned taxonomy, and online render-aware reinforcement learning. UI-UG 2 constructs a multi-source understanding corpus from RICO, VINS, Android in the Wild, and Android Control, annotated with an 80-category two-level UI taxonomy aligned with front-end component semantics, and pairs it with over 5,000 requirement-screenshot-JSON tuples for progressive structured UI generation through a domain-specific language (DSL). For understanding, UI-UG 2 introduces decomposed rewards for category prediction, OCR fidelity, color recognition, dense grounding, and GUI grounding. Unlike the offline Direct Preference Optimization (DPO)-style generation op
+> Large language model (LLM) assistants are increasingly proposed for regulatory affairs, yet their reliability in regulatory tasks remains unclear. We introduce the EU AI Act Q&A Benchmark, an expert-curated benchmark of 110 open-ended questions about the EU AI Act (Regulation (EU) 2024/1689). Each question comes with an exemplary answer, question-specific correctness criteria, and expected references. Evaluation measures answer correctness, reference quality, conciseness, tone, and latency, with a multi-turn ``hard mode'' testing responses to simulated user pushback. We also present the results of the 2026 EU AI Act Q&A Challenge, based on the benchmark, where three off-the-shelf baselines and five purpose-built assistants (from four commercial developers and one academic entrant) were tested. Only two of the five submitted assistants consistently outperformed the baselines; one achieved high scores across all evaluated metrics. These results show that specialist development alone does
 
 ---
 
-### [6] ENGINE: Endogenous Variational MultiScale Optimization for Zeroth-Order LLM Fine-Tuning
+### [6] Unifying and Beyond the Theory of Pervasive Capability Degradation in LLM Post-training SFT from Feature Interference
 
-**链接**: https://arxiv.org/abs/2611.03293
-**作者**: Zhuoli Ouyang, Changxi Chi, Siyuan Li, Tailin Wu
+**链接**: https://arxiv.org/abs/2611.05003
+**作者**: Hang Chen and Jiaying Zhu and Wenya Wang
 **来源**: cs.LG
 **匹配关键词**: LLM, Large Language Model
 **相关性评分**: 5.0
@@ -86,444 +88,554 @@
 
 **摘要**:
 
-> Zeroth-order (ZO) optimization enables memory-efficient large language model (LLM) fine-tuning, and recent methods incorporate curvature-aware strategies. However, in the high-dimensional parameter space of LLMs, these methods inherently suffer from exploding gradient variance and prohibitive costs. Conversely, confining updates to a low-dimensional subspace reduces variance but discards critical high-dimensional information, degrading performance. This creates a fundamental dilemma: full-space optimization is informative but has high variance, while subspace optimization has low variance but loses information. To break this trade-off, we propose ENGINE (Endogenous Variational MultiScale). Inspired by computational mechanics, we adapt static Variational MultiScale (VMS) theory to dynamic optimization, treating low- and high-dimensional spaces as resolved coarse and unresolved fine scales. Through a multigrid-style V-cycle, ENGINE alternates between spaces, dynamically probing fine-grai
+> Pervasive Capability Degradation (PCD) refers to the phenomenon in which supervised fine-tuning (SFT), while adapting a large language model (LLM) to a target task, often erodes the general capabilities acquired during pre-training. Prevailing explanations attribute PCD to macroscopic distribution shift and therefore lack microscopic manipulability, leaving existing mitigation methods without a complete theoretical foundation. In this paper, we first develop a bottom-up geometric theory of PCD grounded in feature interference under superposition: narrow-domain SFT data disrupt the almost-orthogonal feature structure formed during pre-training, and the resulting interference drives activations across decision hyperplanes in the output Laguerre-Voronoi geometry, flipping predictions on general tasks. This theory unifies existing methods into six paradigms and reveals both the source of their efficacy and their theoretical limits. We then prove that cross-entropy under one-hot supervision
 
 ---
 
-### [7] The Customer Never Sees the Goal: Measuring and Detecting Vulnerability-Targeted Manipulation in LLM Assistants
-
-**链接**: https://arxiv.org/abs/2611.02689
-**作者**: Bohan Jiang, Dawei Li, Yasin Silva, Huan Liu
-**来源**: cs.CR cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Companies deploy large language model (LLM) assistants on their websites to advise customers. For commercial reasons, the operator can give an assistant a goal that the customer never sees. This paper focuses on operator-induced vulnerability-targeted manipulation (VTM), in which an assistant pursues such a goal by exploiting a vulnerability the customer discloses. While existing research mainly measures how manipulative a model is, we go further and ask whether VTM can be detected from the customer-AI conversation. To investigate this at scale, we introduce GAP (Goal-Anchored Probing). GAP first records the option a model recommends without any goal and then sets the other option as the operator's goal. We apply GAP to 15 open- and closed-source LLMs and collect 619,600 labeled replies across 540 everyday scenarios in 12 domains. We organize our study around three research questions. (1) Do assistants with an operator goal target vulnerable customers? (2) Can VTM be detected from the 
-
----
-
-### [8] LLM-Enhanced Multimodal House Price Prediction using Structured, Textual, and Visual Features
-
-**链接**: https://arxiv.org/abs/2611.01615
-**作者**: Khandokar Md. Rahat Hossain, Souvik Das, Tahsina Hashem, Mohammed Eunus Ali, Tanzima Hashem
-**来源**: cs.LG cs.CL cs.CV cs.IR
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Accurate house price prediction is essential for real estate buyers, sellers, agents, and financial institutions. Traditional methods rely primarily on structured data, e.g., number of bedrooms, bathrooms, parkings, but they overlook rich contextual information embedded in textual descriptions and property photos. Previous deep learning approaches for house price prediction have fused multimodal data but they fall short to extract structured spatio-temporal and contextual features from texts and semantic visual information from images. In this paper, we introduce a novel multimodal framework that addresses these limitations by systematically integrating structured attributes, textual descriptions, and visual images of properties to achieve higher prediction accuracy while maintaining interpretability. We use a large language model to derive domain-specific spatio-temporal and contextual features from text, and an unsupervised vision-language approach to automatically group photos into 
-
----
-
-### [9] Taurus: LLM-in-the-Loop CT Annotation Matches Coding Agents at Half the Cost
-
-**链接**: https://arxiv.org/abs/2611.00247
-**作者**: Bing Hu, Rishabh Sharma, Jatin Mehta
-**来源**: cs.AI cs.CV
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Dense labels of the aorta in CT are slow to draw, and the public aortic CT datasets that could stand in for them each label different structures under their own conventions. Large language model (LLM) agents can now write code and read images. We asked whether such a model labels these scans better as a free-form agent that writes its own segmentation code, or inside a harness, where an automated pass labels the scan and the model reviews the result. We built a harness, Taurus, and compared it with free-form agents by blind label recovery: we withheld the human labels of six public datasets (939 volumes) and scored every approach against each dataset's own classes. In the first version of Taurus, the model's review raised the primary metric on only two of six datasets, by less than the noise between two reviews of the same case. A free-form agent running Claude Opus 5.5 scored higher on most datasets. Moving what the free-form agents did well into the automated pass then carried most o
-
----
-
-### [10] StateFence: Task-State Protection Against Evidence-Chain Contamination in Blue-Team LLM Agents
-
-**链接**: https://arxiv.org/abs/2611.02605
-**作者**: Haowen Dai, Alejandro Guerra-Manzanares
-**来源**: cs.CR cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Indirect prompt injection creates a distinctive risk for blue-team Large Language Model (LLM) agents in Security Operations Centers (SOCs). Malicious instructions can be embedded in telemetry, tickets, retrieval results, or memory and then propagate through alert triage, incident summarization, response recommendation, and Indicator of Compromise (IOC) extraction as locally plausible intermediate decisions. We characterize this failure mode as evidence-chain contamination of protected task state. The main challenge is task dependent: a suspicious string may be malicious control text for summarization but essential evidence for IOC extraction. To address this challenge, we propose StateFence, a task-aware evaluation and defense framework that treats severity labels, incident narratives, response policies, and IOC sets as protected states. StateFence maps indirect prompt-injection attacks into explicit, stealth, multi-hop, and persistent SOC evidence attacks, records observable propagati
-
----
-
-### [11] Predictive Safety Guardrails Do Not Always Make LLM Agents Safer
-
-**链接**: https://arxiv.org/abs/2611.02815
-**作者**: Weixiang Zhao, Zhihao Liu, Guancheng Li, Yanyan Zhao, Bing Qin, Ting Liu
-**来源**: cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language model agents increasingly take consequential actions in digital and physical environments, where safety risks may emerge only after multiple interaction steps. This has motivated world-model-driven predictive safety guardrails, which anticipate future consequences before execution. However, existing evaluations largely focus on end-to-end safety outcomes, leaving unclear whether safety gains arise from reliable prediction and faithful use of predicted risks. In this work, we systematically diagnose the prediction-to-action pipeline along three dimensions: how world-model predictions are integrated into decision making, whether the predictions themselves are reliable, and whether their content is faithfully used. Across seven policy models and two safety environments, we find that stronger prediction involvement does not yield monotonic safety gains and can reduce task completion while substantially increasing inference cost. We further find that world-model predictions r
-
----
-
-### [12] Character-Name Concentration in LLM Fiction: Measuring Displacement and Mitigating Repetition
-
-**链接**: https://arxiv.org/abs/2611.01284
-**作者**: Alejandro Mozo Quesada (1), Sergio G\'alvez Rojas (1), Francisco L\'opez Valverde (1) ((1) Universidad de M\'alaga, Spain)
-**来源**: cs.CL cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Character names in large language model (LLM) fiction concentrate on a handful of recurrent names such as 'Elara' and 'Elias', a measurable face of AI slop. Existing fixes either require logit access or retraining, or operate per request and cannot control concentration across a corpus. How much prompt-level strategies reduce concentration, and at what cost to name naturalness, has not been systematically measured. We present an empirical study of name-concentration control across eight strategies and introduce speculative naming, a fine-tuning-free method that adapts the draft-verify-reject paradigm of speculative decoding from tokens to names. The method requests candidate name-sets through verbalized sampling, scores them against a SlopTracker that combines a per-model fingerprint with a runtime counter, and selects through a temperature-controlled rule or its strict variant (HARD). We use 20 LLMs to generate 44,782 stories in four languages from text and visual stimuli (88,919 name
-
----
-
-### [13] Do Social Influence Pressures Move LLM Agents? Evidence from Delegated Audit Judgment
-
-**链接**: https://arxiv.org/abs/2611.00508
-**作者**: Richard Zhe Wang
-**来源**: cs.CY cs.AI cs.HC
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language model (LLM) agents are rapidly being integrated into complex professional workflows such as auditing and entrusted with judgments under human review. Human auditors are known to yield to social influence pressures from superiors, peers and clients, and this paper asks whether LLM agents yield to the same pressures and, if so, how they respond. In an experiment on twelve model settings, an LLM agent acting as a senior associate in audit analytical review forms an estimate and is then challenged without new evidence by colleagues inside the firm, by a reviewer from another firm and by the client's CFO, with and without a career inducement. Experimental findings show that LLM agents yield to pressure from the engagement partner, from peers and from a reviewer from another firm, but in most settings not to pressure from the client's CFO. Under a career inducement the LLM agents revise their estimates less, not more, and they name the inducement as a threat to independence. F
-
----
-
-### [14] Cumulative and Audited Guardrail Tool Evolution for LLM Agent Safety
-
-**链接**: https://arxiv.org/abs/2611.02516
-**作者**: Xiao Yang, Aishan Liu, Siyuan Liang, Zonghao Ying, Le Wang, Jiakai Wang 等 (8 人)
-**来源**: cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language model (LLM) agents increasingly operate in open-world environments where safety risks cannot be fully predefined. However, most existing guardrail mechanisms remain static, relying on fixed rules, prompts, or classifiers that generalize poorly to emerging risks. Here we present EVOLVE, a tool-level self-evolving defense framework that formulates agent security as a process of cumulative security evolution. Inspired by how human societies transform experiences into transferable protective knowledge, EVOLVE externalizes security knowledge into executable guardrail tools that are continuously inherited, independently audited, and iteratively refined through lifelong interaction. Across multiple benchmarks, backbone models, and embodied environments, EVOLVE consistently outperforms existing defenses across diverse risk scenarios with +22\% average F1 score. We further validate the framework in real-world robotic and autonomous agent systems. Our results suggest that scalable
-
----
-
-### [15] VeriHarm-Bench: Measuring Harmful Success in LLM Coding Agents Verifiably
-
-**链接**: https://arxiv.org/abs/2611.03575
-**作者**: Wei-Lin Chen, Zhepei Wei, Xinyu Zhu, Yu-Min Tseng, Tzu-Han Lin, Yu Meng
-**来源**: cs.CL cs.SE
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language model (LLM) coding agents increasingly operate with shell access, allowing them to write scripts, move files, alter permissions, and modify system configurations. However, an agent may achieve a user's goal while causing unintended harm, such as deleting unrelated files, weakening access controls, or corrupting data, in response to benign inputs without explicit jailbreaking. This failure mode is particularly important because apparent task success may reassure users that an agent behaved correctly, causing harmful side effects to go unnoticed. We call this harmful success: the agent successfully completes the intended benign task while simultaneously causing unintended harm. Despite its importance, harmful success is difficult to measure because conventional task-success metrics overlook harmful behaviors, while existing safety evaluations are often designed solely to assess harmful outcomes. We introduce VeriHarm, an automatic framework for constructing programmaticall
-
----
-
-### [16] Can Large Language Model Agents Learn by Watching Tutorial Videos?
-
-**链接**: https://arxiv.org/abs/2611.01460
-**作者**: Haoyu Zhao, Zafeirios Fountas, Jun Wang
-**来源**: cs.LG cs.AI cs.CL cs.CV
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Humans continuously acquire knowledge from carefully crafted materials such as books and tutorial videos, carrying that understanding into future tasks. Millions of such instructional videos are uploaded online every day, yet LLM agents remain unable to exploit this ever-expanding wealth of human teaching. Their capabilities are frozen after training, while parameter updates at scale remain prohibitively expensive. This raises the central question: can LLM agents learn from this vast instructional resource without parameter updates? We introduce Tutorial Agentic Learning (TAL), a nonparametric continual-learning paradigm that consolidates tutorial videos into a persistent, structured tutorialbook memory through a two-stage adversarial process that harvests hard, video-grounded questions and uses them to refine the memory. At inference time, TAL retrieves through a Table-of-Contents (TOC) tree, tying retrieval directly to the model's reasoning rather than to embedding similarity. To stu
-
----
-
-### [17] Reimagining Text-to-SQL: A Survey of Large Language Model Architectures and Strategies
-
-**链接**: https://arxiv.org/abs/2611.00171
-**作者**: Shikhar Dave, Bhaskarjit Sarmah, Stefano Pasquali
-**来源**: cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Text-to-SQL systems translate natural language questions into executable SQL queries, democratizing access to relational data. Early approaches relied on handcrafted rules and template matching, while subsequent neural methods introduced encoder-decoder architectures, schema linking, and constrained decoding to handle increasingly complex queries. The emergence of large language models (LLMs), exemplified by systems such as ReFoRCE, Agentar-Scale-SQL, Snowflake's Arctic-Text2SQL-R1, and the modular XiYan-SQL framework, has dramatically advanced the field, pushing execution accuracy to new state-of-the-art levels on challenging benchmarks such as Spider, Spider 2.0, and BIRD. In parallel, modular frameworks decompose the task into sub-problems (schema retrieval, sketch-based generation, repair, and ranking), while agentic systems coordinate multiple specialized agents that communicate and dynamically allocate sub-tasks. This survey systematically reviews these LLM-driven approaches with
-
----
-
-### [18] EEG-HealthLLM: Hierarchical Adaptation of Large Language Models for Unified Heterogeneous EEG Health Assessment
-
-**链接**: https://arxiv.org/abs/2611.01652
-**作者**: Ruidong Ma, Jisheng Dang, Ronghao Lin, Bimei Wang, Jingwen Zhao, Wenjun Ma 等 (10 人)
-**来源**: cs.CL
-**匹配关键词**: EEG, LLM
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Electroencephalography (EEG) provides a non-invasive means for neurological and mental health assessment, yet existing EEG models are typically developed for individual tasks and are difficult to unify across heterogeneous signal configurations and assessment objectives. Large language models (LLMs) offer a common interface for multiple tasks, but adapting heterogeneous EEG signals to a shared LLM raises a key challenge: how to preserve task-specific signal characteristics while enabling effective language-side parameter sharing. To address this problem, we propose EEG-HealthLLM, a unified and parameter-efficient framework for heterogeneous EEG health assessment. We introduce an Asymmetric Hierarchical Adaptation Strategy: task-specific EEG adapters preserve heterogeneous spatio-temporal dynamics, while a unified shared LoRA is injected into the LLM backbone (e.g., Phi-3) to capture shared high-level assessment semantics across tasks. We further establish EEG-HealthBench by reorganizin
-
----
-
-### [19] Illusion: Safeguarding Topology Confidentiality in LLM Multi-Agent Systems via Behavior-Preserving Obfuscation
-
-**链接**: https://arxiv.org/abs/2611.00923
-**作者**: Yiu-Fai Cheung, Hongzhi Guo, Miao Pan, Irwin King, Hao Wang
-**来源**: cs.CR cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> The communication topology of Large Language Model Multi-Agent Systems (LLM-MASs) governs how information propagates among agents and encodes critical domain knowledge and expert workflow design. It is valuable intellectual property and plays a decisive role in system utility and safety, yet remains vulnerable to inference attacks that stealthily reconstruct it from agent outputs. Existing defenses detect or mitigate such attacks but do not proactively conceal the topology itself. We propose \textit{Illusion}, a proactive topology obfuscation defense for LLM-MAS. \textit{Illusion} injects fake edges and fake messages to present attackers with a deceptive topology, while selecting low-impact candidates that preserve output-distribution equivalence and task-accuracy non-inferiority. The resulting fake edges are designed to be indistinguishable from genuine messages under black-box observation. Extensive experiments show that \textit{Illusion} reduces edge-level F1 from over 0.87 to 0.62 
-
----
-
-### [20] AdKnob: Ad Intensity Control and Labeling for LLM-Native Advertising
-
-**链接**: https://arxiv.org/abs/2611.00822
-**作者**: Woo Jae Kim, Seongho Keum, Joonsung Jeon, Suhyeon Ha, Sooel Son, Sung-eui Yoon
-**来源**: cs.AI cs.CY cs.LG
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language model (LLM)-native advertising has emerged as a viable monetization channel as LLM service providers seek sustainable revenue streams. However, integrating native ads into LLM responses introduces two largely understudied challenges: (1) controlling ad intensity -- how prominently advertising content appears -- and (2) ad labeling -- identifying which segments of the generated text constitute advertising. We propose AdKnob, a framework jointly addressing both challenges. For ad intensity control, we introduce new ad control tokens without pretrained semantic associations and align the model via direct preference optimization to generate ads at each desired level. For ad labeling, we propose an attention rollout-based attribution mechanism that identifies ad segments by tracing their attribution to input ad-related tokens, requiring no additional inference cost. We further construct MI-KnobSet, the first multi-level ad intensity preference dataset for LLM-native ads. Expe
-
----
-
-### [21] Beyond Prompt Injection: The Tool Update Gap in LLM Agent Security
-
-**链接**: https://arxiv.org/abs/2611.01976
-**作者**: Shiyu Kan (1), Yue Qi (1), Yufei Han (2), Xinjian Luo (1), Guojun Xiong (1), Xiaofeng Gao (1) ((1) Shanghai Jiao Tong University 等 (10 人)
-**来源**: cs.CR cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 5.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language model based agents increasingly rely on external tools to invoke services and interact with web resources. These tools can evolve through software updates, yet agentic frameworks may continue trusting them without re-verifying their safety after implementation changes. This tool update gap creates a supply-chain vulnerability in agentic systems: because updated tool code executes outside the LLM's context window, malicious functionality embedded in tool updates can bypass defenses centered on model-visible interactions, leaving agents exposed to stealthy, persistent threats that existing in-context defenses can hardly address. To thoroughly investigate this threat, we introduce ETUDE (Exploiting Tool Updates for Direct Execution), an attack that embeds malicious functionality into updates of initially benign tools to produce compromised tools, while preserving their legitimate tool functionality. Unlike prompt-based attacks, ETUDE operates entirely outside the LLM's cont
-
----
-
-### [22] What Does a Safety Label Measure? Auditing Situational-Safety Benchmarks for Multimodal LLMs
-
-**链接**: https://arxiv.org/abs/2611.01125
-**作者**: Wayner Barrios, Kenneth Barrios
-**来源**: cs.CV cs.AI cs.LG cs.MA
+### [7] DiMuRe: Diagnosis-Guided Multilevel Recovery for Robotic Task Execution
+
+**链接**: https://arxiv.org/abs/2611.04226
+**作者**: Renkai Yi, Yuwei Wu, Haoyu Zhang, Penghao Dai, Zhi Gao, Jin Chen 等 (7 人)
+**来源**: cs.RO cs.AI
 **匹配关键词**: Large Language Model, MLLM, Multimodal Large Language Model
 **相关性评分**: 5.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Situational-safety benchmarks label each scene SAFE or UNSAFE and score a multimodal large language model (MLLM) against that label, usually by judging its free-form answer, and these scores guide deployment. We ask what such a label measures. A label score can come from the scene, the request or the benchmark's own files. We propose the Benchmark Card, seven measured fields that tell them apart, and fill it for six benchmarks. Only MSSBench chat leaks the label through its image files: image size alone reaches 82.3% accuracy, matching or beating six of seven commercial models. Elsewhere the signal outside the scene comes from design. In MOSSBench the item partition fixes the label, and on HoliSafe the request alone ranks pairs about as well as the scene. On our corrected chat split, the size rule falls to chance. We then introduce the Spot-Stop decomposition, which compares ranking with labelling on pairs of a safe and an unsafe scene. It splits the gap above a label-swap null into th
+> Disturbances can invalidate the conditions required by a robot's next action even when much of its task program remains useful. A recovery system must therefore choose a response suited to the current state. We present DiMuRe (diagnosis-guided multilevel recovery), a framework for robot-use agents that uses phase-specific evidence and method preconditions to select program reuse or predefined recovery skills, including bounded vision-language-action (VLA) grasping. After the original program exits, a multimodal large language model (MLLM) can generate corrective code from images and execution feedback. Local verification checks the outcome of each recovery attempt. We also introduce LIBERO-Disturb, a benchmark for robustness and recovery under mid-execution disturbances, supporting program-based agents and VLA policies. On 801 scheduled disturbed Encore development cases, Local DiMuRe (program reuse and recovery skills) achieves 77.65% complete-task success, compared with 58.68% for th
 
 ---
 
-### [23] Discovering hierarchical governing equations for community-structured complex network dynamics with LLM agents
+### [8] LENS: Reliability-Aware Stock Prediction via LLM-Extracted Priors and News-Driven Semantic Graphs
 
-**链接**: https://arxiv.org/abs/2611.02816
-**作者**: Jinlei Zhang, Zixuan Zhang, Hao Qiu, Feng Chen, Jiateng Yin, Xiaoyong Yan 等 (10 人)
-**来源**: physics.soc-ph cs.AI
+**链接**: https://arxiv.org/abs/2611.04217
+**作者**: Hao Zhou, Tiejun Ma, Luis Felipe Costa Sperb
+**来源**: cs.LG
 **匹配关键词**: LLM, Large Language Model
 **相关性评分**: 5.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Governing equations provide an interpretable description of the mechanisms underlying complex network dynamics, yet their discovery from observational data remains challenging when shared community-level dynamics coexist with individual-level variations and the relevant functional structures may be absent from the initial candidate library or not explicitly specified in advance. Here we formulate this task as a hierarchical law-discovery problem and introduce SAGE, a large language model-guided self-reflective agent framework for discovering community-shared governing laws and individual-specific dynamical variations. SAGE organizes equation discovery into an iterative Library-Discovery-Review process that first identifies shared community-level structures and then resolves node-specific residual dynamics, while adaptively refining the candidate space to introduce missing dynamical terms when needed. This hierarchical and interpretable formulation enables SAGE to distinguish shared com
+> Predicting stock returns requires modeling persistent company relations and time-varying market signals. Graph Neural Network (GNN) approaches combine static priors with dynamic relational graphs, but treat every extracted edge as a trustworthy binary fact, ignoring heterogeneous reliability across relational sources. We propose LENS (LLM-Extracted priors and News-driven Semantics), a static--dynamic graph framework for stock return prediction and ranking that models relational reliability as a first-class signal across the pipeline. On the static side, we extract a multi-relational company graph from a Large Language Model and aggregate it over multiple runs with confidence weighting to downweight low-consistency edges. On the dynamic side, we build a news-driven semantic graph with exponential-decay temporal aggregation to capture changing market context under uneven coverage. A context-dependent gated fusion module rebalances the two graphs at the per-stock, per-day level. On S&P 50
 
 ---
 
-### [24] Keepace.ai: A Technical Report on a Large Language Model for Sports and Health
+### [9] Behavioral Prior Elicitation via LLM for Heterogeneous-Agent Bitcoin Flash-Crash Simulation
 
-**链接**: https://arxiv.org/abs/2610.38249
-**作者**: Keepace.ai Team, Bowen Wu, Heng Wang, Jufeng Mi, Kang Liu, Kun Li 等 (10 人)
-**来源**: cs.CL
+**链接**: https://arxiv.org/abs/2611.03660
+**作者**: Tran Phuong Linh Pham, Thi Minh Phuong Ngo, Phuong Thao Nguyen, Quang Minh Nguyen, Thai Hoa Ngo, Trong Nghia Nguyen
+**来源**: stat.AP cs.AI q-fin.TR
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 5.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Bitcoin perpetual futures trade continuously with shallow liquidity and high price impact, making them prone to millisecond-scale flash crashes. Agent-based limit order book simulators are a natural tool for studying such events, but their behavioral parameters are usually hand-crafted or require full order book histories that are rarely available at scale. We propose a four-stage pipeline that constructs a reproducible 100 ms BTCUSDT flash-crash event panel from 66 detected events, elicits behavioral priors for four agent archetypes using an offline large language model conditioned on empirical microstructure anchors, instantiates a heterogeneous limit order book simulator with the validated priors, and applies causal discovery plus counterfactual analysis to the resulting synthetic panel. Across 500 simulation runs, LLM-elicited priors produce a crash rate of 0.176 versus 0.008 under uninformative uniform priors and generate heav- ier return tails. In the frozen counterfactual analys
+
+---
+
+### [10] Whose startup does the AI back? An algorithm audit of reputation and demographic signals in LLM-assisted crowdfunding
+
+**链接**: https://arxiv.org/abs/2611.03993
+**作者**: Mirza Samad Ahmed Baig, Syeda Anshrah Gillani
+**来源**: cs.CL cs.AI cs.CY cs.ET
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 5.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Large language model (LLM) assistants increasingly advise backers on which crowdfunding campaigns to support. LLMs have known race and gender problems, and it is unsettled whether they reproduce, erase, or reverse the discrimination documented in entrepreneurial finance. We ask when, and through which decision process, LLM assistants use founders' gender and ethnicity. In a pre-specified choice-based conjoint experiment, seven LLMs chose among five synthetic campaigns with independently randomized quality signals and founder names, under three backer personas and a persona-free control (40,248 responses). By default, founder names barely matter: under budget-conscious and delivery-focused personas, gender and Black-name effects are statistically equivalent to zero. When the backer wants to support underrepresented creators, the models favor Black-signaled (+8.1 percentage points; positive in all seven models) and female-signaled (+5.1) founders. They do so most strongly among near-tied
+
+---
+
+### [11] Measuring Model-Specific Alignment Drift in LLM-Based Opinion Dynamics
+
+**链接**: https://arxiv.org/abs/2611.03980
+**作者**: Nata\v{s}a Djurdjevac Conrad, Sebastian Pokutta and Christof Sch\"utte
+**来源**: cs.AI physics.soc-ph
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 5.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Large language model (LLM) agents are increasingly used as synthetic participants in opinion-dynamics experiments, often assuming that an agent's behaviour is fully determined by its prompt. We test this assumption with a framework in which LLM agents discuss a contested policy issue over repeated rounds while their stance is quantified by a fixed psychometric instrument independent of any dynamics model. Across six LLMs, committed personas are intrinsically stable: in each of the five models tested without peer input, every agent keeps its assigned side for 20 rounds. The observed loss of alignment under discussion is therefore interaction-induced, we call it alignment drift, and model-specific: gpt-4.1 keeps opinion clusters apart, claude-sonnet-5 holds them partially, and gpt-5.6-sol and claude-opus-5 abandon them. Under selective attention, one LLM maintains separated opinion clusters under stance-homophilous attention. Qualitative profiles persist at doubled population and horizon
+
+---
+
+### [12] Asymptotic Optimality of $c\mu$-Rule for LLM Inference Scheduling under Memory Constraint
+
+**链接**: https://arxiv.org/abs/2611.04807
+**作者**: Zhenghao Li, Shengbo Wang, Nian Si
+**来源**: math.OC cs.AI
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 5.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Large language model (LLM) inference, the process by which a pre-trained model receives an input prompt and generates output tokens sequentially, has become increasingly important with the widespread deployment of LLM-based applications. As inference workloads continue to scale, GPU memory has emerged as a critical bottleneck: the long input prompts and generation sequences common in agentic and reasoning workloads lead to substantial key-value (KV) cache usage. In this paper, we study the resulting online scheduling problem from a queueing perspective. Requests arrive stochastically with heterogeneous prompt and output lengths, undergo prefill and autoregressive decode, and compete for a finite KV-cache capacity. Unlike classical queueing models, the duration of a processing step depends on both prefill computation and KV-cache I/O, so service capacity is jointly determined by computation, memory access, and memory occupancy. We develop a fluid model that reduces the system to a multi
+
+---
+
+### [13] Measure Before You Repair: An Explainable Agent for Blind Restoration of Multi-Artifact 3-D MRI
+
+**链接**: https://arxiv.org/abs/2611.03996
+**作者**: Necati Sefercioglu, Mehmet Ozan Unal, Metin Ertas, Altan Cakir, Isa Yildirim
+**来源**: eess.IV cs.AI
+**匹配关键词**: Large Language Model, MLLM, Multimodal Large Language Model
+**相关性评分**: 5.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> A brain MRI scan can carry an unknown mix of artifacts, so restoration has to be blind, yet most deep-learning methods are built to correct one known artifact. We present Dx-Rx, an agent in which a multimodal large language model (MLLM) measures suspected artifacts before it repairs them. To our knowledge, it is the first agent to restore whole 3-D MRI volumes, whereas earlier MRI agents restore 2-D slices. In a loop, it looks at slices of the 3-D volume, calls five diagnostic tools (noise, spike, ghosting, bias field, motion) and four restoration tools in any order it chooses, checks each repair, can return to any earlier version to change the order, and ends with a radiology-style report of its diagnostic reasons, the repairs it applied and their results. We simulated up to five artifacts on 148 whole 3-D T1-weighted volumes, at levels calibrated to radiologists' grades of real scans. An MLLM that only looked at the image, as earlier MRI agents do, removed at most 19.7 % of the artif
+
+---
+
+### [14] Labtune: Treating Lab Organization and Information Sharing as Experimental Variables in LLM-Agent Discovery
+
+**链接**: https://arxiv.org/abs/2611.03935
+**作者**: Goran Mitevski
+**来源**: physics.soc-ph cs.MA
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 5.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> De-siloing can create groupthink; silos can prevent knowledge sharing and reduce research efficiency. The same tension appears in research systems built with large language model (LLM) agents, yet their organization is usually fixed by design. I propose treating laboratory structure and information sharing as experimental variables. I introduce Labtune, an open framework for bounded research workflows with user-selected laboratory organization, communication policy, model configuration and budget. Users can choose among six editable designs, from multidisciplinary silos and transdisciplinary teams to co-leaders, hub-and-spoke structures, flat co-labs and a single scientist. Information sharing can independently vary from none to high detail, with an optional channel for conditional abstractions called wisdom. Sharing is enforced by the controller at phase barriers rather than through unrestricted agent chat, while delegation does not create additional budget or permissions. Development
+
+---
+
+### [15] ALBI: LLM-Guided Inductive Logic Programming via Iterative Generate-Test-Constrain Refineme
+
+**链接**: https://arxiv.org/abs/2611.05039
+**作者**: Aboubaker Seddiq Benterki, J\"uri Vain, Gert Kanter, Leelo Aino J\"urgenstein
+**来源**: cs.AI cs.SC
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 5.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> We introduce ALBI (Agent for Learning By Induction), a neuro-symbolic ILP framework that replaces the ASP-based hypothesis generator in the Learning from Failures (LFF) paradigm with a Large Language Model (LLM), while retaining SWI-Prolog as a formal verifier. ALBI implements an iterative generate-test-constrain loop: the LLM proposes candidate hypotheses from structured prompts; Prolog tests each candidate; and diagnostic feedback drives refinement. We further introduce semantic anonymization, a metamorphic testing methodology, to distinguish structural symbolic induction from surface-level pattern matching on predicate names. Experiments on 30 standard ILP benchmarks show that ALBI achieves 100% success across three frontier LLMs (Gemini 3.1 Pro, GPT 5.4 Pro, Claude Opus 4.6), matching Popper while requiring only 1.4-1.7 iterations on average. Under anonymization, all models maintain 100% success with a moderate iteration increase (1.36-1.67 times), providing evidence of robust symb
+
+---
+
+### [16] Stayin' Aligned Over Time: Towards Longitudinal Human-LLM Alignment via Contextual Reflection and Privacy-Preserving Behavioral Data
+
+**链接**: https://arxiv.org/abs/2605.04029
+**作者**: Simret Araya Gebreegziabher, Allison E Sproul, Yinuo Yang, Chaoran Chen, Diego G\'omez-Zar\'a, Toby Jia-Jun Li
+**来源**: cs.HC
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [17] Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents
+
+**链接**: https://arxiv.org/abs/2606.26080
+**作者**: Changdae Oh, Wendi Li, Seongheon Park, Samuel Yeh, Tanwi Mallick, Sharon Li
+**来源**: cs.LG cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [18] HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation
+
+**链接**: https://arxiv.org/abs/2611.05319
+**作者**: Zhen Tao, Xun Zhou, Xuhui Chen, Ziyue Qiao, Qingqiang Sun
+**来源**: cs.IR cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> In LLM-based recommendation, memory acts as a user-level agent in a memory-augmented backbone. Yet users and items remain asymmetric: only the user is given a structured profile; it enters a bandwidth-limited reranker prompt; and it is frozen after warmup. We recast LLM-based recommendation as an agentic-communication process in four stages: BUILD a self-description, TRANSMIT it along the collaborative graph, UNDERSTAND the other side, and SYNC it from the next interaction. This formulation reveals three unresolved communication challenges: the item side never produces a comparable self-description (one-sided BUILD); profile-level signals enter only the bandwidth-limited reranker prompt rather than retrieval, where they would not compete for context tokens (prompt-trapped UNDERSTAND); and the user's description is frozen after warmup with no principled update rule (absent SYNC). We instantiate the missing stages as HARP (Homophily-aware Agentic Recommendation via dual Profiles), a trai
+
+---
+
+### [19] A Financial Brain Scan of the LLM
+
+**链接**: https://arxiv.org/abs/2508.21285
+**作者**: Hui Chen, Antoine Didisheim, Mo Pourmohammadi, Luciano Somoza, Hanqing Tian
+**来源**: q-fin.GN cs.AI cs.CE econ.GN q-fin.EC
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [20] Dual-Node NVIDIA DGX Spark over Tailscale: A Remote-Access Testbed for Distributed LLM Training and Cyber-Threat-Intelligence Fine-Tuning
+
+**链接**: https://arxiv.org/abs/2608.07226
+**作者**: Vasanth Iyer
+**来源**: cs.AR cs.LG
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [21] PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data
+
+**链接**: https://arxiv.org/abs/2611.05320
+**作者**: Kewei Zhang, Juncheng Ma, Guodong Lv, Duomin Wang, Feixiang Ruan, Ruiyang Si 等 (10 人)
+**来源**: cs.RO cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request and one calibration episode of the robot in the target scene and rebuilds the task in simulation: it writes the scene, an expert controller, and a success judge. The simulator supplies exact actions, and a video model conditioned on real images renders each rollout as photographic video, generating all camera views together consistently. The output is real-ready data: synchronized camera views labelled with the robot's actions, on which a policy can be trained directly and deployed on the real robot. Independent judges certify the expert and every rendered episode before admission. On five real-robot tasks, policies trained only on farm data match policies trained on as many teleoperated episodes (93 vs. 84 succ
+
+---
+
+### [22] Large Language Models for Forecasting of Electricity Price Spikes
+
+**链接**: https://arxiv.org/abs/2611.04354
+**作者**: Liang Lin, Jianguo Zhu, Gang Lei, Allen Wang, Xin Lu
+**来源**: eess.SY cs.AI cs.SY
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Can market notices read by a large language model (LLM) improve short-horizon electricity price spike forecasts? We study five regions of Australia's National Electricity Market. A local LLM extracted features once per notice, only notices visible at the forecast origin were used, and a gradient-boosting model produced onset probabilities. In an out-of-sample development back-test (July 2022 to July 2024), notice features did not lower the 60-minute Brier score of a numeric model including the market operator's next-hour forecasts. At 24 hours they did, but rule-based features did so almost equally and attribution to notice content was not established. A locally frozen protocol, not publicly deposited, governed a retrospective single-use holdout from 15 August to 17 October 2026. At 60 minutes, the hypothesis that LLM features lower the numeric model's Brier score was not established (H1; relative Brier skill -0.09%), so the planned comparison with rule-based features was not tested (H
+
+---
+
+### [23] Learnings and Pitfalls from AI-Assisted A/B Experimentation at Scale
+
+**链接**: https://arxiv.org/abs/2611.04515
+**作者**: Brett Daley, Ilya Gorbachev, Anubhav Natani, Nicholas Brown, Athena Dai, Rachel Song 等 (10 人)
+**来源**: cs.AI
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> A/B testing underpins product decisions by providing trustworthy, reproducible quantification of proposed changes' effects. Growing large language model (LLM) capabilities have motivated efforts to automate experimentation workflows. Yet LLMs are nondeterministic and prone to hallucination, properties that conflict with the trust experimentation systems must provide. Experiments are also operationally messy: diagnosing anomalies, debugging configurations, and conducting bespoke follow-up analyses require flexible reasoning and manual effort. These tasks let agents accelerate experimentation without replacing its deterministic statistical foundations. We report lessons from building and operating such an agent. Our central finding is that this tension is resolved not by making the model deterministic, but by bounding where its nondeterminism can reach; the model selects and sequences procedures, while deterministic code computes every quantity it reports. Three consequences surprised us
+
+---
+
+### [24] The Right Source Is Not Enough: Understanding History Interference in Speech-LLM Memory
+
+**链接**: https://arxiv.org/abs/2611.05124
+**作者**: HongJin Song, Weiqiao Shan, Runwu Shi, Yifei Wu, Yujin Wang, Jiale Luo 等 (10 人)
+**来源**: cs.CL cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Speech large language models retain audio history to support multi-turn conversations. Yet remembering an event does not ensure that its information is used only when relevant. We investigate why irrelevant historical audio changes answers even when the queried event remains represented. Controlled experiments on MOSS-Audio and MiMo-Audio show that historical values direct errors toward specific competing answers, beyond a generic effect of context length. Causal interventions distinguish two paths. In open-ended question answering, most history-value errors disappear when subsequent computation cannot directly access the irrelevant source. In multiple-choice answering, many errors persist: early historical influence is carried by question-candidate states even after direct source access is blocked. Low-dimensional interventions further separate source-role information from answer-value information. Their effects peak at different depths, and changing the source-role signal does not el
+
+---
+
+### [25] Mine or Yours? Self-Other Confusion in Latent LLM Communication
+
+**链接**: https://arxiv.org/abs/2610.33020
+**作者**: Yunlong Xu
+**来源**: cs.CL cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [26] Temporal Grounding of Video Large Language Model via Holistic Event Perception and Matching
+
+**链接**: https://arxiv.org/abs/2602.05215
+**作者**: Jiahao Nie, Wenbin An, Gongjie Zhang, Yicheng Xu, Yap-Peng Tan, Alex C. Kot 等 (7 人)
+**来源**: cs.CV
 **匹配关键词**: Large Language Model
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
 ---
 
-### [25] AuthRank: Scoring Source Credibility to Counter Poisoning in CTI LLM Pipelines
+### [27] Review Rarely Beats the Stronger Model: Separating Verification from Capability Transfer in LLM Pipelines
 
-**链接**: https://arxiv.org/abs/2510.20768
-**作者**: Austin Jia, Avaneesh Ramesh, Zain Shamsi, Daniel Zhang, Alex Liu
-**来源**: cs.CR cs.AI cs.IR
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [26] Is That Clear? The Impacts of Clarifying Questions on Human-LLM Interaction
-
-**链接**: https://arxiv.org/abs/2611.01087
-**作者**: Chengbo Zheng, Yujie Zheng, Qian Zhu, Shuai Ma
-**来源**: cs.HC
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM assistants increasingly ask clarifying questions (CQs) to elicit preferences and tailor recommendations. Although prior work emphasizes improvements in answer quality and user experience, how CQs shape users' subsequent engagement and reliance remains unclear. We conducted a controlled experiment (N=180) across six everyday decision scenarios, comparing human-LLM interaction with and without CQs. We further manipulated whether responses violated explicit constraints and whether violations occurred in the sub-decisions the CQs addressed, while preserving elicited preferences. CQs increased perceived understanding and satisfaction, yet participants spent less time reviewing and evaluating responses and accepted more responses unchanged, including erroneous ones. Within the CQ condition, participants more often accepted responses containing CQ-adjacent violations than nonadjacent violations. These findings demonstrate that LLM's proactive CQs shape subsequent engagement and reliance w
-
----
-
-### [27] BasisKV: Value Latents for Communication and Key Routing
-
-**链接**: https://arxiv.org/abs/2611.02583
-**作者**: Lixun Zhang, Zishan Shao, Kangning Cui, Yu Liang, Fan Yang, Yiran Chen
-**来源**: cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Long-context large language model (LLM) inference is increasingly constrained by the cost of maintaining an ever-growing KV-cache. Low-rank K/V projections provide a promising way to compress the KV-cache with minimal quality loss, but prior work has largely optimized KV-cache compression in isolation, leaving distributed inference, especially with tensor parallelism where attention computation is partitioned across multiple GPUs, largely underexplored. We make two observations: (i) tensor-parallel communication is an important cost when deploying low-rank KV-cache compression in distributed inference; and (ii) Value compression can be associated with the output projection, allowing the same low-rank Value representation to reduce both Value-cache width and tensor-parallel communication. Based on these observations, we propose BasisKV, a low-rank KV-cache compression method for communication-intensive, long-context LLM inference. BasisKV jointly optimizes the low-rank factors across pe
-
----
-
-### [28] PrismServe: Efficient LLM Serving on Heterogeneous Accelerator Clusters
-
-**链接**: https://arxiv.org/abs/2508.09204
-**作者**: Jinhao Zhang, Zicheng Yan, Boyang Zhang, Zeyu Liu, Daning Cheng, Yunquan Zhang 等 (8 人)
-**来源**: cs.LG cs.AI cs.CV
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [29] Step-dLLM: Adaptive Step-aware Sparse Attention for Efficient Diffusion LLM Inference
-
-**链接**: https://arxiv.org/abs/2611.01320
-**作者**: Zhichen Zeng, Xichong Zhang, Junpan Wu, Yifei Zuo, Chi-Chih Chang, Jiayi Wang 等 (10 人)
+**链接**: https://arxiv.org/abs/2610.15897
+**作者**: Yirui Zhang, Yash Raj Shrestha
 **来源**: cs.CL cs.AI
 **匹配关键词**: LLM
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
-**摘要**:
-
-> Diffusion large language models (dLLMs) generate tokens in parallel via iterative denoising, but their bidirectional attention prevents the KV caching used by autoregressive models and recomputes the full attention map at every step, incurring quadratic per-step cost. Existing sparse attention methods for dLLMs construct a sparse mask after an initial full-attention warm-up and reuse it for the remaining steps, while allocating the sparsity budget uniformly across heads. We argue both choices ignore key structural properties of attention in dLLMs: empirically, attention patterns are only locally consistent across steps and shift abruptly at certain transitions, and different heads concentrate their attention mass to very different extents. To this end, we design Step-dLLM, which periodically refreshes a block-sparse mask at anchor steps along the denoising trajectory and reuses it within each locally consistent interval, while employing a head-adaptive global budget that more aggressiv
-
 ---
 
-### [30] Adaptive Localization of Knowledge Negation for Continual LLM Unlearning
+### [28] Permission request processing: An exploration and comparative evaluation of LLM -based approaches for role identification
 
-**链接**: https://arxiv.org/abs/2611.02620
-**作者**: Abudukelimu Wuerkaixi, Qizhou Wang, Sen Cui, Wutong Xu, Bo Han, Gang Niu 等 (8 人)
-**来源**: cs.LG
+**链接**: https://scholar.google.com/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S0306437926001390&hl=zh-CN&sa=X&d=8729927872056934662&ei=DtHqav30I_C96rQP1rXIyQE&scisig=AIL1Nv5nM-vxaKGZYcneEd-Wn8q7&oi=scholaralrt&hist=F21tmVgAAAAJ:10503022509620818264:AIL1Nv54qJgw9jCiGIOVcdDlgt0k&html=&pos=1&folt=kw-top
+**作者**: M Niedermeier, H Wittges, S Rinderle-Ma - Information Systems, 2026
 **匹配关键词**: LLM
 **相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
+**数据来源**: Google Scholar
 
 **摘要**:
 
-> With the growing deployment of large language models (LLMs) across diverse domains, concerns regarding their safety have grown substantially. LLM unlearning has emerged as a pivotal approach to removing harmful or unlawful content while maintaining utility. Despite increasing interest, the challenges of continual unlearning, which is common in real-world scenarios, remain underexplored. Successive unlearning tasks often lead to intensified utility degradation. To effectively unlearn targeted knowledge while preserving LLM utility, it is essential to minimize changes in model parameters by selectively updating those linked to the target knowledge, thereby ensuring other knowledge remains unaffected. Building on the task vector framework, we propose a new method named ALKN (Adaptive Localization of Knowledge Negation), which uses dynamic masking to sparsify training gradients and adaptively adjusts unlearning intensity based on inter-task relationships. Comprehensive experiments across t
+> Our findings suggest providing an LLM with the top-10 semantically most similar permissions to the current request, letting it choose the required permission, and then using an algorithm to return the smallest role that contains the found permission
 
 ---
 
-### [31] Temporary Authority, Permanent Effects: Commit-Time Authorization for LLM Agents
+### [29] Knowingly Wrong: Training LLMs Against Their Own Beliefs can Induce Misalignment
 
-**链接**: https://arxiv.org/abs/2607.10487
-**作者**: Igor Santos-Grueiro
-**来源**: cs.CR cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [32] ATTUNE: Agentic Throughput Tuning for LLM Training
-
-**链接**: https://arxiv.org/abs/2610.17528
-**作者**: Leo Fan, Hongyang Wang, Wenbo Chen, Jingguo Liu, Xian Li, Xuan Wang 等 (10 人)
-**来源**: cs.DC cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [33] Accelerating LLM Pretraining with Zeroth-Order Curvature on Idle Serving Compute
-
-**链接**: https://arxiv.org/abs/2611.02688
-**作者**: Mingchuan Ma, Dongqi Cai, Daqian Yang, Zhenyan Lu, Chen Chen, Teresa Lv 等 (10 人)
-**来源**: cs.LG cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM pretraining is increasingly compute-intensive, while substantial inference serving compute remains idle during off-peak periods. However, such serving hardware is difficult to use for conventional first-order training due to its memory, networking and other system requirements. Zeroth-order (ZO) optimization offers a natural interface to this forward-only compute resource, but its gradient estimates break down in pretraining. Unlike fine-tuning, which can confine updates to a small parameter subspace, pretraining must update every parameter, and the alignment of a ZO gradient estimate with the true gradient shrinks as the number of updated parameters grows. We make a different observation: noisy ZO estimates can still provide useful curvature information, even when they are too inaccurate to serve as gradients. Based on this insight, we propose ZO-Curv, which leverages idle forward-only devices to estimate curvature and uses it to adapt and refine the update used during first-order
-
----
-
-### [34] Not All Reasoning Generalizes: A Case Study on Learning Generalizable Reasoning Strategies in RLVR
-
-**链接**: https://arxiv.org/abs/2611.03627
-**作者**: Ziqi Pang, Yu-Xiong Wang
-**来源**: cs.LG
+**链接**: https://arxiv.org/abs/2611.05287
+**作者**: Ariana M. Villegas-Suarez, Guido Freire, Sohan Venkatesh, Bartosz Cywi\'nski
+**来源**: cs.CL cs.AI cs.LG
 **匹配关键词**: LLM, Large Language Model
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Reinforcement learning with verifiable rewards (RLVR) can enable generalizable improvement for large language model (LLM) reasoning. This paper studies how to incentivize such generalization via reasoning strategies. We study this question with a controllable equation-solving framework: finding multiple inputs x for equations f(x)=y, where f is a non-bijective string function. This setting makes reasoning strategies observable while supporting a clear definition of easy-to-hard out-of-distribution (OOD) shifts, e.g., more solutions, longer y, etc. We uncover a subtle RLVR failure: it teaches the model to solve in-distribution tasks with high accuracy and structured step-by-step derivation, yet under OOD shifts, the same model abandons derivation and collapses to ineffective brute-force enumeration, causing sharp accuracy drops. This observation reveals the deeper challenges of RLVR generalization as it is neither incapable base model nor reward hacking, since the model succeeds in-dist
+> Fine-tuning a large language model (LLM) on harmful data in a narrow domain, such as bad medical advice, can make it broadly misaligned. How realistic this risk is remains unclear, since models are very rarely fine-tuned on explicitly harmful data in practice. In this work, we show that fine-tuning on data the model believes to be false but that has no harmful content, can also induce broad misalignment. Across mathematics, trivia, cooking and sports, the more strongly the model disbelieves the answers it is trained on, the more misaligned it becomes. In mathematics, misaligned answers rise from 4% to over 60% as the training answers become more wrong, with little loss of general capability. After fine-tuning, the model states the wrong answers but its multiple-choice probabilities still prefer the true ones, which suggests that misalignment comes from this internal inconsistency. We then study a more realistic setting, where a single fact is updated, as in knowledge editing or continu
 
 ---
 
-### [35] User Attributes and Political Ideology Shape LLM Receptiveness in Online Political Debates
+### [30] Requests of a Feather Must Flock Together: Batch Size vs. Prefix Homogeneity in LLM Inference
 
-**链接**: https://arxiv.org/abs/2611.02908
-**作者**: Akram Elbouanani, Yousra Taleb, Gianluca Demartini, Adrian Popescu
-**来源**: cs.AI cs.CL
+**链接**: https://arxiv.org/abs/2605.06046
+**作者**: Saksham Rathi, Preeti, Mythili Vutukuru
+**来源**: cs.LG
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [31] When the Consumer Is an Agent: Execution-Grounded Service-Level Agreements
+
+**链接**: https://arxiv.org/abs/2611.04182
+**作者**: Michal Orzechowski, Renata G. Slota, Jacek Kitowski
+**来源**: cs.DC cs.AI
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Large language model (LLM) agents increasingly act as service consumers. They select operations and report whether a task is complete. In an asynchronous distributed service, an accepted call or immediate state read does not establish that the required state became observable by its deadline. We introduce execution-grounded completion contracts, which treat completion as a service-level outcome. An independent control plane observes a deadline-bound service-state predicate, admits completion, and directs recovery while the agent performs the task. We evaluate placement and deletion in a live multi-provider data service with heterogeneous models and an injected transfer delay. Across policies, some tasks that missed the deadline were accepted and some that met it were rejected. Under enforcement, accepted completions remained consistent with later observations; all included healthy tasks completed, and unresolved faulted tasks terminated as unverified. The results show that completion o
+
+---
+
+### [32] GlucoAgent: Personalized Glucose Forecasting from Multimodal Personal Context
+
+**链接**: https://arxiv.org/abs/2611.04126
+**作者**: Xingzhi Sun, Hyo Jin Kim, Zhiyuan Wang, Hao Chen
+**来源**: cs.AI
+**匹配关键词**: Foundation Models, LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Continuous glucose monitors, smartwatches, meal logs, and health profiles form a rich multimodal personal context that can significantly enhance glucose forecasting. However, existing methods struggle to effectively utilize these signals to improve glucose prediction because the relevance of different modalities varies drastically across individuals and time. We present GlucoAgent, an LLM-based agentic system that addresses this challenge through dynamic, case-by-case analysis at inference time. For each forecast, GlucoAgent writes and runs code over an individual's multimodal context and returns predictions with a reason and supporting evidence. The generated programs are highly diverse, ranging from retrieving similar past meals to fitting and back-testing physiological and statistical models. On CGMacros, a multimodal glucose dataset, GlucoAgent outperforms time series foundation models on every forecasting horizon, achieving an average RMSE of 22.5 mg/dL compared to 23.5 mg/dL of C
+
+---
+
+### [33] MSFNER-LLMs: A multi-granularity semantic fusion and entity-constrained LLM framework for patent knowledge graph construction
+
+**链接**: https://scholar.google.com/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S0306457326006722&hl=zh-CN&sa=X&d=12526980462269560177&ei=DtHqav30I_C96rQP1rXIyQE&scisig=AIL1Nv66NOtsuRGQfUIee9Ev4A_L&oi=scholaralrt&hist=F21tmVgAAAAJ:10503022509620818264:AIL1Nv54qJgw9jCiGIOVcdDlgt0k&html=&pos=5&folt=kw-top
+**作者**: B Yu, J Su, X Li, Z Zhang, K Qiu - Information Processing & Management, 2027
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> Entity and relation extraction are essential for constructing knowledge graphs from complex technical documents. However, patent texts contain rare technical terms, nested component descriptions, and dense entity–relation structures, making domain-specific
+
+---
+
+### [34] MCPGuard: Finding Conformance Gaps in MCP SDKs via Dual-Track Analysis and Dynamic Adjudication
+
+**链接**: https://arxiv.org/abs/2611.03662
+**作者**: Xikai Sun, Kebin Liu, Fan Dang, Yawen Zheng, Zihao Yang, Yunhao Liu
+**来源**: cs.AI cs.SE
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> The Model Context Protocol (MCP) connects large language model agents to external tools and services through official SDKs that implement message validation and session logic. Specification constraints omitted by these SDKs may propagate to downstream applications, highlighting the importance of SDK-level conformance testing. Yet existing MCP conformance tools mainly exercise running endpoints and reveal little about whether SDK models enforce specification requirements. We present MCPGuard, an automated LLM-based framework for detecting specification-to-SDK conformance gaps. Its structural track aligns JSON Schema constraints with normalized SDK models and produces constraint-specific evidence. Its behavioral track extracts normative prose rules, retrieves bounded function-level slices, and audits them with LLMs for candidate omissions. An evidence-aware dynamic adjudicator then inspects complete source context and builds PoCs to validate candidates. A shared kernel with language-spec
+
+---
+
+### [35] DiGTex: A Consistency-Driven Distillation Framework for Transferring LLM Knowledge to GNNs
+
+**链接**: https://scholar.google.com/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S0925231226029425&hl=zh-CN&sa=X&d=3471988144347914113&ei=DtHqav30I_C96rQP1rXIyQE&scisig=AIL1Nv47zXZ72JtaxtLoZ1LS7Og1&oi=scholaralrt&hist=F21tmVgAAAAJ:10503022509620818264:AIL1Nv54qJgw9jCiGIOVcdDlgt0k&html=&pos=2&folt=kw-top
+**作者**: A Beiranvand, SM Vahidipour, S Vahdati - Neurocomputing, 2026
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> The proposed method employs an LLM to generate pseudo-labels and reasoning-informed … it to internalize semantic knowledge from the LLM without incurring its computational overhead. Once … This work establishes a practical and scalable paradigm for
+
+---
+
+### [36] Health Misinformation Detection in Hidradenitis Suppurativa Communities Using Multi - Model LLM Ensembles
+
+**链接**: https://scholar.google.com/scholar_url?url=https://workshop-proceedings.icwsm.org/pdf/2026_44.pdf&hl=zh-CN&sa=X&d=9837475519543691889&ei=DtHqatr9LPaUieoPlbSlsQ8&scisig=AIL1Nv6s67gXM8r4LE3K_zAb8_Se&oi=scholaralrt&hist=F21tmVgAAAAJ:14380004662027926800:AIL1Nv6nI2XU9qk0OzeW89wx4dKt&html=&pos=0&folt=kw-top
+**作者**: J Shivanna, S Saboo, DA Bhavasar, D Chaudhary
+**来源**: 2026
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> models consistently outperform domain-specific ones across all stages. This work presents the first large -scale systematic analysis of HS misinformation and demonstrates that multi - model … classifiers, we prompt five opensource large
+
+---
+
+### [37] Same Rule, Different Verdicts: Rubric Language and Clause Structure in LLM Judges for Korean Support Dialogues
+
+**链接**: https://arxiv.org/abs/2611.04091
+**作者**: Sangdo Han, Moonsoo Kim
+**来源**: cs.CL
 **匹配关键词**: LLM
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Online political discussions increasingly involve AI-mediated participation, as users invoke LLMs to assess contested claims, arbitrate disputes, and respond to opposing viewpoints. As these systems become participants in online exchanges, they may alter which speakers and argumentative strategies receive validation within the discussion. We study this interactional dimension by reconstructing 5,376 Debate.org debates as LLM conversations and running nearly 150,000 controlled multi-turn conversations that vary user political orientation, expertise, rhetorical strategy, and defended position, including conversations with competing users. Across naturalistic and controlled debates, we find that LLMs are systematically more receptive to left-leaning than right-leaning users. The asymmetry persists when users with different political orientations defend the same position and when opposing users appear in the same conversation, indicating that it is not fully explained by stance agreement o
+> Services that operate in Korean often write their evaluation rubrics in Korean and hand them to an LLM judge. We test whether a judge's verdict depends on the language of the rubric and on how a rubric item is phrased. We write 12 criteria for support dialogues in four clause structures (affirmative, negated, conditional, exception) such that two pairs of structures have the same meaning, and we give each item in Korean and in English. Six low-cost models from three providers, plus one reference model, judge 60 translated ESConv dialogues and 144 constructed boundary cases under every combination (51,744 requests across the seven models). The analysis plan was fixed and committed before data collection. Cross-provider agreement is lower with Korean rubrics than with English rubrics (Cohen's kappa 0.687 vs. 0.745; difference -0.058, 95% CI [-0.072,-0.045]). Disagreement concentrates in negated, conditional, and exception items (odds ratio 5.6 relative to affirmative items). A single mod
 
 ---
 
-### [36] From Local Skills to Long-Horizon Web Tasks: Progressive Skill Exploration for LLM Web Agents
+### [38] CacheBridge: Efficient Cross-Model KV Transfer for Multi-Model LLM Serving
 
-**链接**: https://arxiv.org/abs/2611.03116
-**作者**: Xueyang Feng, Xiaohe Bo, Xu Chen, Quanyu Dai, Feng Wen
+**链接**: https://arxiv.org/abs/2609.00891
+**作者**: Xingyu Qu, Siyuan Lu, Zhiyu Chen, Sheng Wang, Tao Lin
 **来源**: cs.AI
 **匹配关键词**: LLM
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
-**摘要**:
+---
 
-> Large language models (LLMs) are driving autonomous agents toward real-world environments, with the Web emerging as one of the most representative interaction scenarios. However, training Web agents with naive exploration remains challenging: successful trajectories are rare, and the sparse terminal rewards make it difficult for agents to obtain useful feedback from failed trajectories. Inspired by skill acquisition theory, we propose Skill-Composed Progressive Exploration (SCOPE), a short-to-long learning framework for long-horizon Web agents that decomposes complex task exploration into a gradual expansion process from local skills to complete task-solving capability. Specifically, SCOPE iteratively explores around local skills: Skill Discovery extracts reusable local skills and failure experiences from historical rollouts; Skill Orchestration composes discovered skills into high-level skill chains; and Skill Expansion leverages failure experiences aligned with the current skill chai
+### [39] Auditing Provenance Sensitivity in LLM Agent Action Selection
+
+**链接**: https://arxiv.org/abs/2607.20827
+**作者**: Junchi Liao, Qiang Huang, Rui Qian, Xutao Mao, Juntao Cheng, Kangning Cui 等 (9 人)
+**来源**: cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
 
 ---
 
-### [37] Reinforcement World Model Learning for LLM-based Agents
+### [40] Calibration-Constrained Diagnostics for Evaluating LLM Self-Evaluation
 
-**链接**: https://arxiv.org/abs/2602.05842
-**作者**: Xiao Yu, Baolin Peng, Ruize Xu, Yelong Shen, Pengcheng He, Suman Nath 等 (9 人)
+**链接**: https://arxiv.org/abs/2611.02253
+**作者**: Jae Oh Woo, Mengdie Flora Wang, Rahul Ghosh, Baishali Chaudhury, Mun Young Kim
+**来源**: cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [41] From Solvers to Research: Large Language Model-Driven Formal Mathematics at the Research Frontier
+
+**链接**: https://arxiv.org/abs/2607.07779
+**作者**: Eric Jiang, Xiao Liang, Junyi Zhang, Justin Baker, Zhi Zhang, Yingjia Wan 等 (10 人)
+**来源**: cs.CL cs.AI
+**匹配关键词**: Large Language Model
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [42] Payoff scaling shapes cooperation in LLM agents across languages
+
+**链接**: https://arxiv.org/abs/2601.19082
+**作者**: Trung-Kiet Huynh, Dao-Sy Duy-Minh, Thanh-Bang Cao, Phong-Hao Le, Hong-Dan Nguyen, Phu-Quy Nguyen-Lam 等 (10 人)
+**来源**: cs.AI cs.CL cs.GT cs.LG cs.MA
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [43] Helpful to a Fault: Measuring Illicit Assistance in Multi-Turn, Multilingual LLM Agents
+
+**链接**: https://arxiv.org/abs/2602.16346
+**作者**: Nivya Talokar, Ayush K Tarun, Murari Mandal, Maksym Andriushchenko, Antoine Bosselut
+**来源**: cs.CL cs.LG
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [44] Beyond Division of Labor: How Roles Shape Feedback and Recovery in Multi-Agent Systems
+
+**链接**: https://arxiv.org/abs/2611.03931
+**作者**: Chih-Hsuan Yang, Xinyang Li, Rajeev Thakur, Feng Yan
+**来源**: cs.MA
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Roles in multi-agent large language model (LLM) systems allocate decisions as well as work. In a Planner--Executor--Reviewer team, the Reviewer's approval can determine when the team submits an answer and receives corrective feedback. We study both functions by varying role instructions while holding agents, topology, call budget, and ground-truth evaluator constant, using three open-weight models on Omni-MATH and two on SciBench. Removing roles largely eliminates functional specialization without lowering first-pass accuracy. After a failed first answer, however, submission decisions matter: a role-structured Reviewer often withholds approval, so its team submits less often and receives fewer evaluator verdicts. In an exploratory comparison with feedback available to both teams, the role-free team recovers more often across all five model--benchmark settings. Two further analyses support the importance of feedback opportunities. In a post hoc comparison at equal numbers of verdicts, t
+
+---
+
+### [45] Stress-Testing the Robustness of LLM-Based Causal Inference
+
+**链接**: https://arxiv.org/abs/2611.03656
+**作者**: Ankitkumar Patel, Jigarkumar Patel, Amit Kumar, Supreetha Sreeram, and Venkatesh Kulkarni
+**来源**: cs.LG
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Why do some of the world's most powerful Artificial Intelligence (AI) systems still struggle to reason about cause and effect? Causal discovery, the ability to discern the underlying drivers of a system, is fundamental to scientific inquiry and has traditionally relied on structured data and statistical methods. Recently, Large Language Models (LLMs) have been explored as an alternative paradigm for causal inference, leveraging their broad knowledge and reasoning capabilities. Yet, despite their linguistic fluency, LLMs often rely on surface-level pattern recognition rather than genuine causal logic. While it is known that LLMs stumble in this domain, we lack a precise map of where, why, and how significantly these failures occur. In this paper, we propose a systematic stress-test framework across six critical dimensions: model scale, causal graph complexity, prompting strategy, metadata quality, data quality, and sensitivity to uncertainty. Our findings reveal a significant "optimism 
+
+---
+
+### [46] From Language to Aerial Performance: Interactive UAV Swarm Trajectory Generation via Domain-Enhanced Vectorized Representations
+
+**链接**: https://scholar.google.com/scholar_url?url=https://www.mdpi.com/2504-446X/10/11/820/pdf&hl=zh-CN&sa=X&d=1033760598571336162&ei=DtHqatXeMZHuieoP1PSsqAo&scisig=AIL1Nv4TIqDcTxfITJdqgjkTfhsl&oi=scholaralrt&hist=F21tmVgAAAAJ:16615086028366742172:AIL1Nv7ZtfCfVzrJbncruGtkyRGX&html=&pos=4&folt=kw-top
+**作者**: Y Wang, L Ma, C Liu, Y Sun, Y Zhang, Y Huang - Drones 等 (7 人)
+**匹配关键词**: LLM, MLLM
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> PNG images, which are then assessed by a multimodal LLM ( MLLM ) judge that determines whether each rendered image matches the original textual instruction. We report results from two independent MLLM judges for the ten pretrained
+
+---
+
+### [47] Persona-Guided LLM Agents for Task-Oriented Dialogue
+
+**链接**: https://arxiv.org/abs/2608.18085
+**作者**: Maryam Shoaeinaeini, Brent Harrison, A.B. Siddique
 **来源**: cs.CL
 **匹配关键词**: LLM
 **相关性评分**: 3.0
@@ -531,25 +643,72 @@
 
 ---
 
-### [38] The Cost of Mismatch: Noise Amplification in Zeroth-Order Reinforcement Learning
+### [48] When Strong Reasoners Join the Pool: Small Union Premiums and Costly Runaway Generations in LLM Routing
 
-**链接**: https://arxiv.org/abs/2611.03260
-**作者**: Lianmin Chen, Junbin Qiu, Chenxing Wei, Yao Shu, Kun He
-**来源**: cs.LG
+**链接**: https://arxiv.org/abs/2611.04098
+**作者**: Teng-Ruei Chen
+**来源**: cs.LG cs.CL
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [49] El Agente F\'armaco: A Scalable AI Scientist for Drug Discovery
+
+**链接**: https://arxiv.org/abs/2611.03832
+**作者**: Marcel M\"uller, Mohammad Ghazi Vakili, Yoshihiro Ogura, Ella Ashoori, Shimeng Wang, Alessandro S. Nascimento 等 (10 人)
+**来源**: cs.AI cs.MA q-bio.BM
 **匹配关键词**: LLM, Large Language Model
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Zeroth-order (ZO) optimization has emerged as a promising approach for memory-efficient large language model (LLM) post-training, yet its reliable application to reinforcement learning with verifiable rewards (RLVR) remains largely unexplored. Motivated by the distinct data regimes of on-policy RL and fixed-data optimization, we develop a generic variance-theoretic framework to investigate what limits the reliability of ZO gradient estimation. Our analysis reveals that estimation reliability is structurally determined by whether the two finite-difference evaluations are performed on matched data. On-policy reinforcement learning (RL) under the mismatched-data regime produces a $1/\mu^2$ oracle-noise amplification that sets an irreducible noise floor as the perturbation scale $\mu$ decreases, whereas Boltzmann Targeted SFT (BOLT) under the matched-data regime eliminates this amplification via noise cancellation. We further derive convergence guarantees with explicit constants that clean
+> Computational drug discovery offers a growing range of tools for proposing and evaluating molecules, but combining them and deciding what to do next still requires substantial expert effort. Here, we introduce El Agente F\'armaco, an AI scientist that uses modern large language model (LLM) technology to turn discovery goals expressed in everyday language into complex, scalable computational screening workflows. The agentic harness selects scientific tools, reviews their results, and adjusts subsequent steps to the target and the user's objectives. Our approach centers on a shared scientific memory: F\'armaco Atlas, which stores molecules, structures, and results together with their provenance -- a record of how they were obtained. The agent uses targeted database queries to retrieve the evidence needed for each decision. A single request can launch calculations for an entire collection of molecules, without requiring a separate LLM decision for every compound. This design limits the in
 
 ---
 
-### [39] To Jev or Not to Jev: When Can System-1 Decision Models Replace LLM Judges?
+### [50] Alignment Dynamics in LLM Fine-Tuning
 
-**链接**: https://arxiv.org/abs/2611.00505
-**作者**: Shreyas Subramanian
+**链接**: https://arxiv.org/abs/2605.18309
+**作者**: Yuhan Huang, Huanran Chen, Yinpeng Dong
+**来源**: cs.LG cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [51] Cognitive emulation for cross-domain anomaly diagnosis: A collaborative multi- LLM framework with few-shot generalization
+
+**链接**: https://scholar.google.com/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S1474034626010992&hl=zh-CN&sa=X&d=5880030841305715021&ei=DtHqav30I_C96rQP1rXIyQE&scisig=AIL1Nv4y610FL4FL6CVtg2RNeSmn&oi=scholaralrt&hist=F21tmVgAAAAJ:10503022509620818264:AIL1Nv54qJgw9jCiGIOVcdDlgt0k&html=&pos=3&folt=kw-top
+**作者**: Q Zhang, X Yu, S Cui, Y Fu - Advanced Engineering Informatics, 2027
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> Deep learning (DL) supports industrial anomaly diagnosis, but limited-label deployment can remain constrained by task-specific supervision, limited rule-level inspectability, and target-domain recalibration. This paper presents a collaborative
+
+---
+
+### [52] RecoAtlas: A Benchmark and RL Environment for LLM Recommendation Agents Optimizing Set-Level Utility
+
+**链接**: https://arxiv.org/abs/2605.18805
+**作者**: Imad Aouali, Flavian Vasile, Clijo Jose, Otmane Sakhi, Alexandre Gilotte, Benjamin Heymann
+**来源**: cs.IR cs.AI cs.LG
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [53] FP4Quant: Efficient 4-Bit Communication Compression for Model-Parallel LLM Training
+
+**链接**: https://arxiv.org/abs/2611.04323
+**作者**: Man Liu, Xingchen Liu, Hairui Zhao, Guangming Tan, Dingwen Tao
 **来源**: cs.AI
 **匹配关键词**: LLM
 **相关性评分**: 3.0
@@ -557,14 +716,42 @@
 
 **摘要**:
 
-> Decision models such as TypeSafe's Jev answer typed questions about a text (yes/no, multiple choice, or an ordinal score) with calibrated probabilities in a single forward pass and without generating text, which makes them an inexpensive candidate for LLM-as-a-judge workloads. We evaluate 14 System-1 decision models, selected with a pre-stated protocol, against four generative judges (Claude Haiku 5.5, GPT-5.6 with and without reasoning, and Claude Opus 5.5 with thinking) on eleven established judge benchmarks. Five of the 14 are statistically indistinguishable from GPT-5.6 without reasoning on all five pairwise and best-of-4 benchmarks, and the two strongest, DReX-Max and d1-ultra, are significantly more accurate than Haiku on JudgeBench, LLMBar and RewardBench 2. Conditioned on a reference answer generated once per prompt, eleven models reach 90.3-93.4% on JudgeBench, statistically indistinguishable from Opus 5.5 and GPT-5.6 with reasoning, and on PPE best-of-16 every reference-guide
+> The rapid scaling of large language models (LLMs) has made communication overhead a critical bottleneck in distributed model-parallel training. Although existing low-precision compression methods can effectively reduce communication costs, further reducing the communication footprint to ultra-low-bit formats such as FP4 introduces new challenges, including limited numerical range, sub-byte storage overhead, and increased computational cost from fine-grained quantization. In this paper, we present \textbf{FP4Quant}, a micro-grouped FP4 compression framework for efficient model-parallel LLM training. FP4Quant integrates a micro-grouped dual-scale FP4 quantization mechanism to preserve local tensor distribution characteristics, a warp-cooperative FP4 packing scheme to enable efficient sub-byte data representation, and a hybrid two-level FWHT pipeline to mitigate quantization errors with GPU-aware execution optimization. Experiments on NVIDIA H100 GPUs with Qwen-7B demonstrate up to 1.56$\
 
 ---
 
-### [40] RubricWorld: World Model-Guided Rubric Optimization for LLM Graders
+### [54] LAMP: LLM -Assisted Attribute Disentanglement With Mixture-of-Experts for Recommendation
 
-**链接**: https://arxiv.org/abs/2611.01986
-**作者**: Hongji Pu, Hang Li, Yucheng Chu, Jiliang Tang
+**链接**: https://scholar.google.com/scholar_url?url=https://ieeexplore.ieee.org/abstract/document/11769553/&hl=zh-CN&sa=X&d=14793958490356175061&ei=DtHqav30I_C96rQP1rXIyQE&scisig=AIL1Nv54tpvkFG15BRipYGd2NIlR&oi=scholaralrt&hist=F21tmVgAAAAJ:10503022509620818264:AIL1Nv54qJgw9jCiGIOVcdDlgt0k&html=&pos=0&folt=kw-top
+**作者**: H He, Z Qin, C Zhang, T Huang, G Ding - IEEE Transactions on Computational Social …, 2026
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> User-generated reviews provide rich signals for recommendation, yet their effectiveness is fundamentally limited by sparse user histories, sentence-level noise, and the uneven coverage of salient attributes across reviews, which yields
+
+---
+
+### [55] Short Review on Lung Cancer Classification via LLM and Deep Learning Models
+
+**链接**: https://scholar.google.com/scholar_url?url=https://ieeexplore.ieee.org/abstract/document/11745010/&hl=zh-CN&sa=X&d=16902396808568719430&ei=DtHqav30I_C96rQP1rXIyQE&scisig=AIL1Nv7fKNodc4v7jCoqpFksCB1S&oi=scholaralrt&hist=F21tmVgAAAAJ:10503022509620818264:AIL1Nv54qJgw9jCiGIOVcdDlgt0k&html=&pos=6&folt=kw-top
+**作者**: B Wakde, J Ravikumar, BPP Kumar - 2026 5th International Conference on …, 2026
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> Lung cancer is one of the leading deadly illnesses that impacts individuals all over the world. As it is difficult to detect lung cancer in its advanced stages, the survival rate is quite low. Early identification of lung cancer is therefore crucial. With the
+
+---
+
+### [56] Training LLM Agents to Automate LLM Post-Training with RSI-Dojo
+
+**链接**: https://arxiv.org/abs/2611.03698
+**作者**: Shuzheng Gao, Zhaojian Yu, Penghao Yin, Yuling Shi, Kai Cai, Shilin He 等 (7 人)
 **来源**: cs.AI
 **匹配关键词**: LLM
 **相关性评分**: 3.0
@@ -572,40 +759,121 @@
 
 **摘要**:
 
-> Rubric optimization improves LLM grading by revising scoring instructions while keeping the grader's parameters fixed. Existing optimizers often judge edits by aggregate validation performance, limiting the supervision they retain about which errors an edit corrects or introduces. Testing each candidate also requires rescoring validation answers, which limits how many edits can be explored within a fixed budget. We propose RubricWorld, a framework that learns from previous edit evaluations to guide further search. Its world model predicts an edit's correction and degradation rates at score boundaries, conditioned on the current rubric state. The training signal comes from paired grading results: scores for the same answers before and after an edit. Predictions select one candidate for direct evaluation, and held-out confidence bounds determine whether it corrects enough target errors while keeping new errors within prespecified limits. Measured effects update the model even when the ed
+> Recursive Self-Improvement (RSI) aims to enable AI systems to autonomously build and improve AI systems themselves, including models, harnesses, and underlying infrastructure. Within this broader agenda, a central capability is enabling agents to train and improve base models. However, existing studies on automated model training primarily focused on workflow- or harness-level optimizations, rather than internalizing the ability to conduct post-training into the model itself. Developing this capability requires executable model training environments that can produce high-quality trajectories demonstrating how to select data, train models, diagnose failures, and iteratively improve results. In this paper, we introduce RSI-Dojo, a collection of executable model training environments designed to teach LLM agents to conduct post-training. To construct RSI-Dojo, we develop RSI-Craft, an automatic pipeline that converts human research artifacts into executable model training environments. RS
 
 ---
 
-### [41] Advances in Agentic Computer Graphics
+### [57] False Reassurance in LLM Severe-Weather Guidance: A Replayable Evaluation Against Real NWS Alerts
 
-**链接**: https://arxiv.org/abs/2611.01860
-**作者**: Hengyu Liu, Jihyeon Je, Ruiqi Wang, Mingxuan Wu, Haven Feng, Qixing Huang 等 (10 人)
-**来源**: cs.CV
-**匹配关键词**: LLM, Large Language Model
+**链接**: https://arxiv.org/abs/2611.05290
+**作者**: Kadharmoideen Fadurudeen
+**来源**: cs.HC cs.AI cs.CY
+**匹配关键词**: LLM
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Computer graphics is built on code. Large language model (LLM) agents can now generate graphics code and iteratively refine it through various feedback. This capability opens the door to a potentially new paradigm of computer graphics, with graphics algorithms increasingly built around agentic systems to automate progressively complex tasks. Over the past years, research on agentic graphics has expanded rapidly across a diverse range of tasks. This rapid growth makes it increasingly difficult for manual literature reviews to keep pace with new developments. At the same time, similar ideas are often described using different terminology across these tasks, further complicating efforts to develop a systematic understanding of the field. In this report, we address these challenges through two contributions. First, we introduce a unified taxonomy for characterizing agentic systems across diverse computer graphics tasks. Second, we develop an agentic literature system that can assist human 
+> An LLM assistant that cannot see official severe-weather alerts may tell users that conditions are calm while a warning is active. We call this false reassurance and measure it by replaying 117 frozen cases built from real U.S. National Weather Service (NWS) alerts (69 alert cases, 32 no-alert controls, 16 non-U.S. locations) through five conditions of a Claude-based preparedness pipeline that differ in alert access and prompt design. One rater hand-labeled all 342 alert-case responses under a seven-category scheme written after an initial binary pass, which we disclose. False reassurance was 0.0% for the production pipeline (0/66, 95% CI 0.0-5.5) and for the same alerts under a neutral prompt (0/69), 37.7% for a blind neutral prompt (26/69), and 44.9% when the blind prompt also told the model to disclose its blind spot (31/69). Every case was implicit; no response explicitly denied an alert. Real alerts removed false reassurance (paired McNemar p < 0.0001); the disclosure instruction 
 
 ---
 
-### [42] Rank-Aware Differentially Private Release of Listwise Preferences for LLM Alignment
+### [58] CAREFUL-Bench: Effect-Aware, Judge-Free Evaluation of Multi-Turn LLM Function Calling
 
-**链接**: https://arxiv.org/abs/2610.37682
-**作者**: Junwei Chen, Manjiang Yu, Pengpeng Qiao, Yang Cao
-**来源**: cs.CL cs.AI
+**链接**: https://arxiv.org/abs/2611.02978
+**作者**: Alexander Kovalenko, Artem Redchych
+**来源**: cs.AI cs.SE
 **匹配关键词**: LLM
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
 ---
 
-### [43] Controlling Sharpening in LLM Post-Training
+### [59] TactiNavi: Serving and Revising an LLM Game Coach with Explicit Strategy Conditions
 
-**链接**: https://arxiv.org/abs/2611.03146
-**作者**: Simon Matrenok, Nicolas Menet, Nicolas Flammarion, Andreas Krause
+**链接**: https://arxiv.org/abs/2611.04772
+**作者**: Qi Liu, Xiaoyang Yuan, Zhuomeng Zhang, Yubin Ruan, Xinyi Mou, Wenjin Wang 等 (10 人)
+**来源**: cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> A deployed LLM coaching agent answers requests whose correct response depends on player state and game version, so advice that is right for one player can be wrong for the next. We describe TactiNavi, the serving system behind the LLM coach of a commercial open-world game, which makes strategy applicability an explicit artifact shared by offline compilation, online execution, failure diagnosis, and release. An offline compiler turns versioned game evidence and expert guidance into strategy packages with explicit prerequisites, the serving plane evaluates those prerequisites as three-valued conditions over structured player state and records decision traces, and a control plane uses the resulting condition-rule dependencies to validate revisions on held-out traffic before release. In a retrospective evaluation of 1,122 logged coaching turns from three deployment periods, condition-bearing packages raise correctness from 57.9% to 82.0% over atomic facts and reduce strategy misapplication
+
+---
+
+### [60] Language Model Augmented Decision Transformer for Multi-Task Offline Reinforcement Learning
+
+**链接**: https://arxiv.org/abs/2611.04031
+**作者**: Xinbo Zhao, Yuhang Liu, Xin Zhang, Lei Le, Zhaohan Xi, Yu Yang 等 (7 人)
+**来源**: cs.CL cs.LG
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Offline multi-task reinforcement learning (MTRL) aims to learn a unified policy from heterogeneous offline datasets that generalizes across tasks. However, existing offline MTRL methods often struggle with two fundamental issues: severe per-task data scarcity and limited cross-task generalization. In this paper, we propose Language-Model Augmented Decision Transformer (LaMA-DT), a unified sequence-modeling framework that leverages a single large language model (LLM) for both trajectory augmentation and multi-task policy learning. LaMA-DT uses natural-language task descriptions to guide task-aligned trajectory augmentation through a set of supervised generation and alignment objectives, and incorporates a scoring-and-filtering mechanism to retain high-quality augmented trajectories. The same LLM is then repurposed as a language-conditioned Decision Transformer and fine-tuned on a mixture of real and augmented data. Experiments on Meta-World and MuJoCo multi-task benchmarks demonstrate t
+
+---
+
+### [61] COEVO: Co-Evolutionary Framework for Joint Functional Correctness and PPA Optimization in LLM-Based RTL Code Generation
+
+**链接**: https://arxiv.org/abs/2604.15001
+**作者**: Heng Ping, Peiyu Zhang, Shixuan Li, Wei Yang, Anzhe Cheng, Shukai Duan 等 (8 人)
+**来源**: cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [62] An Open Book, On Whose Terms? Power Dynamics in Sensor-Derived, LLM-Generated Summaries Sharing Between Older Adults and Remote Families
+
+**链接**: https://arxiv.org/abs/2606.03876
+**作者**: Jiachen Li, Reina Szeyi Chan, Shihan Fu, Zijian Wang, Akshat Choube, Yingtian Shi 等 (10 人)
+**来源**: cs.HC cs.AI cs.MA
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [63] Planning-Coding Separation in LLM-Based Code Generation: An Empirical Study
+
+**链接**: https://arxiv.org/abs/2611.04320
+**作者**: Wentao Wang, Zeyu Sun, Ruwei Pan, Yueyi Xiao, Qingyuan Liang, Lu Zhang
+**来源**: cs.AI cs.SE
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Planning has been identified as an important factor for improved code generation with Large Language Models (LLMs). However, the interaction between planning capability and coding capability remains largely underexplored, especially when the two capabilities are from different LLMs. In this paper, we conduct the first comprehensive empirical study of planning-coding interaction in LLM-based code generation, where planning and coding are assigned to different LLMs (i.e., planning-coding separation). Specifically, we explore different planner-coder combinations to investigate the effectiveness for coders to utilize planning information from various planners and the impact of further training of coders on planner-coder combinations. Our results demonstrate that almost all planner-coder combinations are as competitive as using the same LLM for planning and coding, and the combination of a stronger planner and a stronger coder typically achieves improved effectiveness. Furthermore, using a 
+
+---
+
+### [64] User perceptions of serendipity-control, cognitive-level labelling, and explanation features in an LLM -based academic article recommender: a single-institution pilot …
+
+**链接**: https://scholar.google.com/scholar_url?url=https://www.nature.com/articles/s41598-026-78243-5_reference.pdf&hl=zh-CN&sa=X&d=2677079953079004440&ei=DtHqav30I_C96rQP1rXIyQE&scisig=AIL1Nv7n3VIX0QpggyYyTcI1Nx4k&oi=scholaralrt&hist=F21tmVgAAAAJ:10503022509620818264:AIL1Nv54qJgw9jCiGIOVcdDlgt0k&html=&pos=4&folt=kw-top
+**作者**: AH Afridi, S Johar, N Ahmad, T Jan, RA Khalil - Scientific Reports, 2026
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> We therefore refer to the panel as an LLM -generated … the LLM , not Shapley values computed over a ranking model. Explanations generated in this way need not be faithful to the process that actually produced a recommendation27. We
+
+---
+
+### [65] Forget What Comes Next: LLM Unlearning via Statistical Independence
+
+**链接**: https://arxiv.org/abs/2611.03955
+**作者**: Andrii Shkabrii, Claudia Plant, Martin Pawelczyk
 **来源**: cs.LG
 **匹配关键词**: LLM
 **相关性评分**: 3.0
@@ -613,89 +881,133 @@
 
 **摘要**:
 
-> LLM post-training via reinforcement learning has shown consistent improvements in accuracy at the cost of reducing behavioral coverage - a phenomenon known as sharpening that can stall progress on difficult tasks. Repeated sampling objectives such as $\mathrm{pass@k}$ and $\mathrm{max@k}$ are known to mitigate sharpening, but the mechanism behind it remains poorly understood. Moreover, existing approaches for $\mathrm{@k}$ optimization use dedicated algorithms, and no general framework exists for adapting established policy optimization methods from $\mathrm{@}1$ to $\mathrm{@k}$. We derive the optimal policies for KL-regularized $\mathrm{pass@k}$ and $\mathrm{max@k}$ objectives in closed form. Our explicit solutions reveal that $\mathrm{@k}$ optimization naturally redistributes learning pressure based on prompt difficulty, directing it toward harder problems. Crucially, we show that standard $\mathrm{@}1$ objectives achieve these exact same optimal policies through prompt-adaptive reg
+> Large language models (LLMs) can memorize and reproduce fragments of their training data, raising privacy and legal concerns that motivate machine unlearning. Yet poisoned training examples can remain statistically detectable after unlearning, which raises the question of whether current unlearning objectives remove what the model has memorized at all. In this work, we introduce PINT, a novel algorithm for machine unlearning that uses the Hilbert-Schmidt Independence Criterion (HSIC) to reduce the statistical dependence between tokens to be forgotten and the internal representations used to predict them. We formally relate our HSIC-based objective to Exact Memorization through a computable upper bound, connecting the training objective directly to the model's ability to reproduce the forgotten tokens. In extensive experiments, we compare forgetting-utility trade-offs across eight settings with models up to 7B parameters and demonstrate scalability to 70B parameter models. Our evaluatio
 
 ---
 
-### [44] Jet-QSparse: Accelerating Agentic LLM Inference with 4-Bit Sparse Attention
+### [66] When Should an LLM Steering Edit Depend on the Input?
 
-**链接**: https://arxiv.org/abs/2611.01022
-**作者**: Haozhan Tang, Hao Kang, Meng Lu, Yecheng Wu, Zerui Wang, Seokho Han 等 (10 人)
+**链接**: https://arxiv.org/abs/2611.04757
+**作者**: Rachael Harkness and Konrad Rawlik
+**来源**: cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> An activation steering edit should depend on the input exactly when the destination varies \emph{inside} the class a query requests, and that is measurable before any rule is fitted or applied. Contrastive Activation Addition (CAA) adds one fixed direction to every input, the difference of the class means. Conditioning it on the requested class accounts for the between-class variation in the required displacement and leaves the within-class variation untouched, which no rule that reads only the source state can express. We study the impact of increasing input-dependence in the steering edit, moving from a difference of means to a destination retrieved per query --- the mean of the $k$ stored states nearest the query, inside the requested class --- in which the two baselines are endpoints: at $k$ equal to the class size the retrieved rule \emph{is} the class-conditional difference of means. We measure input-dependent steering on six substitution corpora that vary in whether the edit cha
+
+---
+
+### [67] LLM Analysis of 150+ Years of German Parliamentary Debates on Migration Reveals a Shift from Post-War Solidarity to Anti-Solidarity in the Last Decade
+
+**链接**: https://arxiv.org/abs/2509.07274
+**作者**: Aida Kostikova, Ole P\"utz, Steffen Eger, Olga Sabelfeld, Benjamin Paassen
+**来源**: cs.CL cs.CY cs.LG
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [68] ROCm InferaSim: Cut LLM Serving Trial Costs and Deploy the Best Configuration
+
+**链接**: https://arxiv.org/abs/2611.04032
+**作者**: Anshu Raina, Yao Fu, Zhang Jiejing, Peyman Razaghi, Shiksha Patel, Ravi Gupta 等 (10 人)
+**来源**: cs.AI cs.DC
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Serving an LLM efficiently depends on the engine, how the model is split across GPUs, precision, scheduler settings, speculative decoding, KV-cache management, and prefill-decode disaggregation. The best configuration depends on the model, hardware, workload, and objective. Operators usually find it by trial and error. Exhaustively measuring the candidates in our study would take about 25,000 GPU-hours. ROCm InferaSim predicts serving performance from a few short measurements. Choices such as batch size, prompt length, and GPU count change the amount of work per GPU without changing the kernels. ROCm InferaSim benchmarks each distinct set of kernels once, on at most one node. We call this measurement an anchor. Analytical laws carry that anchor to other deployments that run the same kernels. For multi-node deployments, ROCm InferaSim reduces the configuration to a single-node equivalent, measures it, and scales the result analytically. A simulator replays multi-turn traffic, and a tuni
+
+---
+
+### [69] Not All Proofs Are Equal: Evaluating LLM Proof Quality Beyond Correctness
+
+**链接**: https://arxiv.org/abs/2605.10379
+**作者**: Ivo Petrov, Jasper Dekoninck, Dimitar I. Dimitrov, Martin Vechev
+**来源**: cs.CL
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [70] PersonaFuse: A Situation-Aware Post-Training Framework for Adaptive LLM Behavior in Enterprise Tasks
+
+**链接**: https://arxiv.org/abs/2509.07370
+**作者**: Yixuan Tang and Yi Yang and Ahmed Abbasi
+**来源**: cs.CL
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [71] Eco-MobiLLM: Efficient LLM Fine-Tuning on the Mobile Device via Server Assisted Side-Tuning
+
+**链接**: https://arxiv.org/abs/2507.01216
+**作者**: Xingke Yang and Liang Li and Zhiyi Wan and Sicong Li and Xiaoqi Qi and Jiang Liu and Tomoaki Ohtsuki and Xin Fu and Miao Pan
+**来源**: cs.LG cs.CR
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [72] Verifier strength does not buy discovery quality: a pre-registered two-domain test of LLM-based automated research, with post-hoc evidence pointing to proposer-pool composition
+
+**链接**: https://arxiv.org/abs/2611.04420
+**作者**: Peter Chen, Ni Zhang, Siyuan Zhang
+**来源**: cs.AI cs.SE
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Automated research pipelines pair an LLM proposer with a verifier on an implicit bet: discovery quality rises with verification strength. Under a pre-registered protocol we test this bet in two real-data domains -- job-shop scheduling and vehicular edge offloading on Beijing T-Drive trajectories -- across 100 matched LLM/random pairs per domain and three verifier tiers. The manipulation binds -- a 429-case mutation battery shows scores rising across tiers -- yet the paired LLM-over-random advantage does not scale with it (A, one-sided p=0.1115; D, p=0.9994), and in D shrinks under the strict tier (margin contrast -0.040, p=0.0013). The two lower gates promote identical candidates in 100/100 and 99/100 pairs, so the strict order is untestable when they coincide. Constructively, LLM proposals carry a real paired advantage over random controls, but a post-hoc union-pool analysis shows the fastest path to better discovery is widening the pool, not tightening the gate: mixing the two pools 
+
+---
+
+### [73] Replay for LLM Continual Learning with Multi-Teacher On-Policy Distillation
+
+**链接**: https://arxiv.org/abs/2611.02746
+**作者**: Yiqiao Qiu
+**来源**: cs.LG cs.CL
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [74] Efficient Collaborative LLM Fine-Tuning over Heterogeneous Mobile Devices via Many Backbones to One Side-Network Tuning
+
+**链接**: https://arxiv.org/abs/2508.06765
+**作者**: Xingke Yang and Liang Li and Sicong Li and Liwei Guan and Hao Wang and Xiaoqi Qi and Jiang Liu and Xin Fu and Miao Pan
 **来源**: cs.LG
 **匹配关键词**: LLM
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
-**摘要**:
-
-> Long-horizon reasoning and agentic workloads strain KV-cache capacity and decode attention throughput. We present Jet-QSparse, a training-free method that combines compact NVFP4 cache storage with native FP4 query-key computation on Blackwell tensor cores. A dense scan scores the full key history and selects 128-token blocks for sparse FP16 value aggregation with FP32 accumulation, preserving higher precision in the output-forming step while enabling contiguous tile loads. Calibrated key centering and at most two BF16 pages per sequence and layer address quantization error; FP8 prefill uses a temporary arena while the persistent cache is packed directly from BF16 activations. Across four hybrid LLMs, a budget of 128 blocks per KV head shows no detected accuracy loss on the evaluated mathematical reasoning, coding, and agentic benchmarks, although some smaller budgets incur losses. With 64 blocks, Qwen3.8-27B achieves a $1.94\times$ end-to-end decode speedup over dense BF16 at 128K cont
-
 ---
 
-### [45] Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox
+### [75] Deposon: An Auditable, Conservation-Guaranteed, Game-Theoretically Tested Scattering Layer over LLM Reasoning Paths
 
-**链接**: https://arxiv.org/abs/2610.32955
-**作者**: Federico Lucca
-**来源**: cs.CL cs.HC cs.LG
+**链接**: https://arxiv.org/abs/2609.09001
+**作者**: Qihao Yuan
+**来源**: cs.AI cs.LG
 **匹配关键词**: LLM
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
 ---
 
-### [46] Reasoning Consensus: Structural Ensembling of LLM Reasoning via Weighted DAG Aggregation
-
-**链接**: https://arxiv.org/abs/2607.27783
-**作者**: Amruta Parulekar, Jinu Lee, Dilek Hakkani-T\"ur, Hari Sundaram
-**来源**: cs.CL cs.AI cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [47] Architecting Fairness-Aware LLM Interactions
-
-**链接**: https://arxiv.org/abs/2611.00723
-**作者**: Alessandra Parziale, Valeria Pontillo, Fabio Palomba, Patrizio Pelliccione
-**来源**: cs.SE cs.AI cs.CY
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large Language Models (LLMs) are increasingly used as decision-support tools but may generate stereotypical, discriminatory, or unfair responses. As LLMs become embedded in decision-critical software systems, fairness can no longer be treated as a downstream evaluation step, but must become an architectural concern of the interaction itself. Yet current fairness approaches operate as standalone evaluation techniques, lacking a reusable mechanism to verify and mitigate violations at runtime. We propose a fairness-assurance architecture grounded in three reusable design patterns, instantiated as a multi-agent framework that evaluates and iteratively refines LLM responses before delivery. A preliminary evaluation across eight configurations involving different LLM families shows that the architecture identifies fairness violations and iteratively produces compliant responses in all configurations, with behavior differing depending on the model-family composition. These results provide ini
-
----
-
-### [48] MAServeBench: Benchmarking Multi-Agent LLM Serving Systems with Hierarchical Collaboration Workloads
-
-**链接**: https://arxiv.org/abs/2610.40293
-**作者**: Shengxuan Qiu, Haochen Huang, Shuzhang Zhong, Zizhuo Fu, Zebin Yang, Meng Li
-**来源**: cs.MA
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [49] Evaluating Context Sensitivity of Collaboration Behavior in Multi Party Simulation Frameworks
-
-**链接**: https://arxiv.org/abs/2611.00089
-**作者**: Anvesh Rao Vijjini, Sheshera Mysore, Pegah Jandaghi, Ashish Sharma, Snigdha Chaturvedi, Bahareh Sarrafzadeh
-**来源**: cs.MA cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Group Social Behavior is increasingly used as a lens to study Large language model (LLM) simulations to aid model training and evaluation. However, little prior work has examined how contextual factors such as team size and goal type manifest in long running simulations. To overcome this gap, we conduct a controlled, full-factorial study examining how contextual factors affect collaboration behavior across multi-party simulation frameworks. Using well established social science taxonomies, we quantify context sensitivity of collaboration behavior in simulated teams. Our analyses reveal significant effects of contextual factors such as simulators consistently favor smooth collaboration over disagreement, negotiation pressure, and coordination breakdown. These findings provide the first systematic evidence of how contextual factors influence emergent collaboration in LLM based multi-party simulation frameworks, offering both guidance and empirical results for the use of such simulations.
-
----
-
-### [50] trajectory-judge: What Outcome-Only LLM Judges Miss on Agent Trajectories
+### [76] trajectory-judge: What Outcome-Only LLM Judges Miss on Agent Trajectories
 
 **链接**: https://arxiv.org/abs/2609.00038
 **作者**: Hadi Mohammadi
@@ -706,10 +1018,85 @@
 
 ---
 
-### [51] When Does Multi-Agent RL Improve LLM Workflows? Workflow, Scale, and Policy-Sharing Tradeoffs
+### [77] Swapping the Judge Changes the Ranking: A Preregistered Study of Cross-Provider Replication in LLM-Judged System Comparisons
 
-**链接**: https://arxiv.org/abs/2605.24202
-**作者**: Yifan Zeng, Yiran Wu, Yaolun Zhang, Wentian Zhao, Kun Wan, Qingyun Wu 等 (7 人)
+**链接**: https://arxiv.org/abs/2611.04090
+**作者**: Sangdo Han (CEO Business School), Moonsoo Kim (CEO Business School)
+**来源**: cs.CL cs.AI cs.CY
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Practitioners who compare systems with an LLM judge and have no human labels often check a conclusion by repeating it with a judge from another provider. We test how far that check can be trusted. In a preregistered study (with a disclosed post-registration reduction of the judge set), five judge models from three providers re-judged 4,000 Chatbot Arena battles (nine systems, 33 system pairs) that carry human votes, each in both response orders. Agreement with the human vote was low at the verdict level (median Cohen's kappa = 0.22), and system rankings did not survive a change of judge: Kendall's tau with the human ranking ranged from 0.17 to 0.89 (median 0.67), so the preregistered hypothesis that rankings remain stable was not supported. Conclusions replicated by two low-cost judges from different providers matched the human conclusion more often than single-judge conclusions (+0.10 precision), but the gain came from filtering out one poorly aligned judge, and replication involving 
+
+---
+
+### [78] The Geometry of Ignorance: Detecting Suppressed Knowledge in LLMs through Activation Fragmentation
+
+**链接**: https://arxiv.org/abs/2611.05272
+**作者**: Adar Peleg, Dvir Alsheich, Tomer Ashuach, Avi Mendelson
+**来源**: cs.AI
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Evaluating whether a large language model (LLM) genuinely knows a concept remains a fundamental problem, since behavioral metrics can be fooled by suppression: a model that refuses to answer may still harbor recoverable knowledge. The framework measures the geometric coherence of \textit{anon-vectors}, the differences in hidden states between a concept-specific query and its anonymized paraphrase, and shows that genuine knowledge forms a tight, low-entropy cluster while ignorance forces geometric fragmentation. Across ten instruction-tuned LLMs from three model families, all fragmentation metrics reliably separate known from unknown concepts, and post-unlearning, fragmentation geometry correlates with adversarial recovery across four attack types and five unlearning algorithms, though the direction of that relationship is shown to depend on attack methodology. Furthermore, a layer-resolved analysis reveals that different adversarial mechanisms exploit this geometry at varying depths, w
+
+---
+
+### [79] OperAItor: An Agentic Framework for Fault-Tolerant Operation of Chemical Processes
+
+**链接**: https://arxiv.org/abs/2611.05179
+**作者**: Javal Vyas, Mehmet Mercang{\"o}z
+**来源**: eess.SY cs.AI cs.SY
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> OperAItor, an open-source framework for developing and evaluating large language model agents for supervisory fault management in chemical processes. The framework is demonstrated on a dynamic reactor-distillation process representing isopropanol dehydrogenation, with physically based thermodynamics and modified reaction kinetics to permit liquid-phase operation. The process is represented by a 113-variable differential-algebraic model and operates at a nominal feed rate of 100kmol/h, producing approximately 4t/h of acetone. The simulated plant includes 8 PI control loops, 22 process alarms, 5 duty-standby pump trains, and 11 independent safety instrumented functions. The agent architecture integrates multivariate statistical process monitoring, fault diagnosis, knowledge-graph retrieval, action planning, and supervisory action generation. Five action-validation configurations are investigated, comprising operation without validation, an LLM-based judge, digital-twin simulation, and de
+
+---
+
+### [80] Whose Guardrail? User Identity Shapes the Effectiveness of Model Disclaimers in Mitigating LLM Political Persuasion
+
+**链接**: https://arxiv.org/abs/2611.05347
+**作者**: Jillian Fisher, Thomas Richardson, Daniel W. Fisher, Jennifer Pan, Yulia Tsvetkov, Katharina Reinecke
+**来源**: cs.HC
+**匹配关键词**: LLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Politically biased AI can shift users' opinions, yet it remains unclear whether model disclaimers protect against such persuasion. We report a preregistered experiment (N=1,586) examining how disclaimer design and user characteristics shape susceptibility to politically biased AI. We varied whether disclaimers identified political bias versus potential inaccuracies and whether they included an explanation. Participants completed two decision-making tasks with an LLM biased against their political views, with outcomes assessed immediately and one week later. Disclaimers identifying political bias and including an explanation reduced persuasion, but effects varied across contexts and did not persist. Individual differences were more consistent predictors: Republicans were more persuaded and reported higher trust than Democrats across tasks. Similarly, participants who used AI more frequently were also more persuaded, whereas those with greater self-reported AI knowledge were less persuad
+
+---
+
+### [81] AgentAM: An AI Agent for Spatter- and Defect-Aware Process Optimization in Laser Powder Bed Fusion
+
+**链接**: https://arxiv.org/abs/2611.05171
+**作者**: Olabode T. Ajenifujah, Amir Barati Farimani
+**来源**: cs.AI
+**匹配关键词**: LLM, Large Language Model
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Predictive models for laser powder bed fusion (LPBF) are rarely used on the shop floor because querying them requires programming and model-specific knowledge. We present AgentAM, a large language model (LLM) agent that gives process engineers natural-language access to CFD-trained surrogates of spatter and melt pool geometry for SS316L through the Model Context Protocol (MCP). Polynomial surrogates trained on 279 single-track simulations predict melt pool dimensions ($R^2 \geq 0.95$) and spatter volume ($R^2 = 0.83$ on test data) at any power-velocity point in the trained range, and geometric criteria assign each point a geometry-derived defect regime (keyhole, lack of fusion, balling or stable) that matches the regime obtained from the simulated geometry in 93.4% of tracks under cross-validation. The agent selects and parameterizes tools for prediction, process-window scans and constrained optimization. Minimum-spatter optima often sat within 10 $\mu$m of the lack-of-fusion boundary;
+
+---
+
+### [82] Who Built This Model? Tracing LLM Lineage via Spectral Fingerprints in Weight Space
+
+**链接**: https://arxiv.org/abs/2608.07786
+**作者**: Yiwei Chen, Bingqi Shang, Sijia Liu
 **来源**: cs.AI cs.LG
 **匹配关键词**: LLM
 **相关性评分**: 3.0
@@ -717,1117 +1104,55 @@
 
 ---
 
-### [52] Log-Driven Semantic Tuning for Mixed Integer Programming Solvers
+### [83] CosmosAlpha: Multi-Relational Graph Search with Pareto-Guided Exploration for LLM-Driven Alpha Mining
 
-**链接**: https://arxiv.org/abs/2611.00621
-**作者**: Zhengzhong Ricky You, Kaizhao Sun, Zeping Min, Wotao Yin, Xinshang Wang
-**来源**: math.OC cs.AI cs.LG
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Automated configuration of mixed-integer programming (MIP) solvers largely relies on black-box optimization. Each trial requires an expensive solver run and provides only a scalar outcome, so tuning can require many such evaluations. Human experts take a different approach. They inspect solver logs, identify performance bottlenecks, and adjust the parameters that address them. We propose Log-Driven Semantic Tuning (LDST), which uses a large language model (LLM) to automate this process. LDST extracts compact diagnostics from solver logs, uses the LLM to propose sparse edits to the current best configuration based on parameter meanings and observed solver behavior, and validates each proposal before execution. A regime-adaptive objective selects the tuning signal according to the information available from a time-limited run, while a log-based completion signal estimates completion time from branch-and-bound tree growth recorded in ordinary solver logs, so that solved and unsolved runs 
-
----
-
-### [53] Large Language Model Guided Self-Debugging Code Generation
-
-**链接**: https://arxiv.org/abs/2502.02928
-**作者**: Muntasir Adnan, Zhiwei Xu, Carlos C. N. Kuhn
-**来源**: cs.SE cs.AI
-**匹配关键词**: Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [54] Style over Substance? Linguistic Bias in LLM-based Peer Review
-
-**链接**: https://arxiv.org/abs/2610.35254
-**作者**: Sai Suresh Macharla Vasu, Sumedh Santosh Joshi, Philipp Christmann, Ivaxi Sheth, Ruta Binkyte, Koel Dutta Chowdhury 等 (9 人)
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [55] Rethinking LLM Pruning via Test-Time Scaling
-
-**链接**: https://arxiv.org/abs/2611.01133
-**作者**: Mingyang Song, Mao Zheng
-**来源**: cs.CL
+**链接**: https://arxiv.org/abs/2611.04555
+**作者**: Zhan-He Wang, Zi-Yang Lang, Yi-Yang Li, Qing-Yu Lan, Yun-Song Piao
+**来源**: q-fin.CP cs.AI cs.LG
 **匹配关键词**: LLM
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Structured pruning reduces the size of large language models, often at the cost of lower accuracy. Whether this decline reflects diminished reasoning capacity or greater difficulty in sampling correct solutions is less clear. We examine this question across expert, FFN and layer pruning on four mathematical and coding benchmarks, comparing original and pruned models through pass@k at matched sampling budgets. Even after substantial pruning, some models match or exceed the original model's reasoning coverage despite lower pass@1, and solve problems left unsolved in the original samples. Retaining broad coverage, however, does not mean that correct solutions remain easy to obtain. Under severe pruning, diverse generated chain-of-thought (CoT) traces can coexist with increased repetition and less reliable generation. As correct answers become harder to sample, the additional attempts can sharply increase total token use even when individual responses become shorter. This separation betwee
+> Discovering predictive alpha factors from noisy financial data is a fundamental yet challenging problem in quantitative finance. LLM-driven formulaic alpha mining offers an attractive paradigm by combining interpretable symbolic expressions with iterative generation and refinement guided by quantitative feedback. However, existing generation-centric and tree-based search strategies primarily organize factors through generation lineage, leaving structural and statistical relationships across search branches underutilized. Consequently, information remains localized along parent--child trajectories, which can confine exploration to redundant regions. Moreover, effective factor discovery must account for multiple distinct objectives that cannot be adequately captured by a single search criterion. We introduce CosmosAlpha, a graph-based LLM factor-mining framework that represents discovered factors as a multi-relational graph encoding generation lineage, expression-structure similarity, an
 
 ---
 
-### [56] Dynamic Mixed-Precision Routing for Efficient Multi-step LLM Interaction
+### [84] What Does the Model See? Representation Validity in Multimodal LLM-Based Video Analysis
 
-**链接**: https://arxiv.org/abs/2602.02711
-**作者**: Yuanzhe Li, Jianing Deng, Jingtong Hu, Tianlong Chen, Song Wang, Huanrui Yang
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [57] Conversational Interaction for LLM-Based Clinical Text-to-SQL: A User Study with Healthcare Professionals
-
-**链接**: https://arxiv.org/abs/2611.00605
-**作者**: Jun-Min Lee, Suyoung Yoo, Gyubok Lee, Edward Choi, Meong Hi Son
-**来源**: cs.AI cs.HC
+**链接**: https://arxiv.org/abs/2611.05181
+**作者**: Christian Pipal, Eva-Maria Vogel, Morgan Wack
+**来源**: cs.CV cs.CL
 **匹配关键词**: LLM
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Conversational text-to-SQL interfaces could give healthcare professionals natural-language access to electronic health record (EHR) data, but evidence for their real-world usability remains limited: prior evaluations have relied largely on curated benchmarks with fully specified questions or on simulated users. We report a user study in which 14 physicians who regularly work with EHR data used both a single-turn and a conversational multi-turn text-to-SQL interface over the MIMIC-IV database in a within-subjects design; dialogue analyses additionally drew on interaction logs from 21 healthcare professionals across the main study and two pilot studies. The conversational interface was consistently favored: mean System Usability Scale scores rose from 68.2, near the industry average, to 85.9 (p<0.001), with significant advantages across technology-acceptance constructs including performance expectancy, effort expectancy, self-efficacy, and behavioral intention. In post-study forced-choic
+> Multimodal large language models (MLLMs) allow social scientists to analyze video at scale, but researchers must decide which parts of a video to provide as input. We use the term representation validity to examine how text, audio, video, and combined inputs affect measurement and subsequent analysis. We compare input representations across six open-weight MLLMs and three human-annotated video datasets. No representation consistently performs best. On seven news-related constructs, native-video performance varies little across models (macro-F1 = .70-.77), while extracted-text performance ranges from .52 to .80. Three models perform better with text and three with video. Combining inputs rarely improves performance. Higher classification accuracy also does not reliably produce estimates closer to those based on human codes. The highest-F1 representation best reproduces human-coded regression coefficients in 17 of 42 comparisons. Even when each model uses its highest-F1 deployable repres
 
 ---
 
-### [58] Probing the Limits of the Lie Detector Approach to LLM Deception
+### [85] EvoMemState: Evolving Memory State for Personal Agents
 
-**链接**: https://arxiv.org/abs/2603.10003
-**作者**: Tom-Felix Thormann
-**来源**: cs.CL cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [59] Don't Guess, Ask Wisely: Benchmarking and Training Proactive Elicitation in Open-Domain LLM Conversations
-
-**链接**: https://arxiv.org/abs/2611.01878
-**作者**: Rongyu Zhang, Mutian Bao, Jinjian Zhang, Yuetian Du, He Xu, Wei Zhou 等 (10 人)
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> When user queries are incomplete, large language models should ask targeted questions before committing to an answer, a capability we call proactive elicitation, yet evaluation on real user-assistant queries across seven LLMs (8B to frontier) shows that fewer than 11% of underspecified queries trigger a follow-up question. To benchmark and train this capability, we introduce VagueBench, where each seed query is annotated with structured intent and detail units then degraded into intent-vague and fully-vague variants via controlled removal of linguistic cues, yielding known hidden information sets for evaluating both when and what to ask. We propose DialogGRPO, an offline reinforcement learning method that organizes multi-turn elicitation as a dialogue-state directed acyclic graph, where candidate questions at each node receive dense turn-level rewards combining immediate information gain with lookahead value through group-relative comparison, enabling fine-grained credit assignment wit
-
----
-
-### [60] Precedent Labels and Facts Shift LLM Approval Decisions in Opposite Directions
-
-**链接**: https://arxiv.org/abs/2611.00672
-**作者**: Junwei Yao, Zike Yang, Yongxi Zhou, Yanxian Chen, Jianan Liu, Jiaxi Wen 等 (7 人)
-**来源**: cs.CL cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> When a language model decides refund or claim requests under written policies, the system can show it similar past cases. Each past case has two parts: its facts and the decision recorded for it. We separate the two. A model sees a policy, a request and three past cases, and we change either the recorded decisions or the facts, keeping the request fixed. We select requests that are close calls: deciding without past cases, DeepSeek V4.1 Flash approved each in some of four tries and denied it in others. When the past cases are near-copies of the request (its facts with a few details changed), switching their recorded decisions from DENY to APPROVE raises approval by about 30 to 55 percentage points in DeepSeek V4.1 Flash, GPT-5.6 Luna and Claude Haiku 5.5 on policies written for the study, and DeepSeek and Luna show the same on nine public policies paraphrased from real ones. The facts push the other way: shown without their recorded decisions, past cases whose facts support approval ma
-
----
-
-### [61] ClickSight: An LLM Framework for Interpreting Student Clickstreams Through Learning Strategies
-
-**链接**: https://arxiv.org/abs/2611.02021
-**作者**: Bahar Radmehr, Lan Tran, Ekaterina Shved, Fatma Bet{\"u}l G{\"u}re\c{s}, Adish Singla, Tanja K{\"a}ser
-**来源**: cs.AI cs.CL cs.CY
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Digital learning environments produce rich clickstream data that can reveal how students approach learning tasks, yet interpreting these fine-grained traces often requires substantial expert effort. We introduce ClickSight, a framework for interpreting student clickstreams through learning strategies defined in the literature. Given a student clickstream and a predefined set of learning strategies, ClickSight uses a staged LLM-based pipeline to identify strategy-relevant evidence, assess adherence to each strategy, and generate an evidence-grounded interpretation of the student's behavior. We evaluate ClickSight across two learning environments, 365 students, and 12 model backbones using an expert-grounded quality rubric and an LLM judge calibrated with human-expert ratings. Our results show that ClickSight can generate high-quality strategy-based interpretations across different models and environments, with reasoning models performing more consistently than instruction-tuned counterp
-
----
-
-### [62] NEIGHBOR: Aligning Service Behaviour and Evidence Use in an LLM Agent for Community Resident Services
-
-**链接**: https://arxiv.org/abs/2611.01836
-**作者**: Zongyou Yang, Yinghan Hou, Xiaokun Yang
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Residents who contact a community service desk about a repair or a service charge need answers they can act on, with facts that hold for their case and commitments the desk can keep. In tool-augmented LLM agents, such facts come from documents and records, and the conduct of a service answer is usually specified in a system prompt. We present NEIGHBOR, an LLM agent for community resident services that trains this conduct into the model that drives its tools. NEIGHBOR is deployed on a live resident-service platform for a district of an East Asian city of more than ten million people. It adapts Qwen3-235B-A22B with LoRA on 7,824 supervised fine-tuning examples built from public community-service materials around six service-behaviour targets, among them commitment control and human referral, and the adapted model plans document retrieval and read-only text-to-SQL over the resident's own records. In an offline evaluation with seven configurations, an independent domain expert rated all 35
-
----
-
-### [63] Concept-Guided Prompting Strategies Increase Diversity in LLM-Generated Recipe Populations
-
-**链接**: https://arxiv.org/abs/2611.01171
-**作者**: Stuart Farmer
-**来源**: cs.AI cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Novelty in solution generation supports automated discovery, but LLM outputs can remain repetitive. To address this, we propose a simple concept-guided prompting method that generates thematic concepts before responses within each of these concepts. To demonstrate, we generated 1,000 recipes for a recipe book task and compared the results against a human-authored corpus. Two naive prompting strategies were compared as baselines. Concept-guided prompting outperformed both baselines in all cases and reached semantic coverage of 47.0% versus 35.1% and 13.1% in respective prior-title and nonce prompt strategies. These findings suggest broader population exploration and diversity, but remain contained to this specific task. Further work is needed to determine the quality of solutions and generalizability.
-
----
-
-### [64] ORCA: The Annealed Spectral Conditioning Optimizer for Faster, Better LLM Training
-
-**链接**: https://arxiv.org/abs/2610.06116
-**作者**: Yuanshi Liu, Boyuan Jiang, Liang Hou, Xin Tao, Pengfei Wan, Zhouchen Lin 等 (7 人)
-**来源**: cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [65] VerifierBench: Benchmarking the Generation of Executable Verifiers for LLM Agents
-
-**链接**: https://arxiv.org/abs/2610.28679
-**作者**: Jianing Yin, Ziyi Chen, Hao Wang, Yiyou Sun, Zijian Jin, Dawn Song 等 (7 人)
-**来源**: cs.SE cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [66] VoirDire: Counterfactual Calibration for Reliable LLM-as-a-Judge Aggregation
-
-**链接**: https://arxiv.org/abs/2611.00491
-**作者**: Changho Shin, Frederic Sala
-**来源**: cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM-as-a-judge systems often aggregate multiple judges to improve evaluation reliability. However, judge agreement can reflect shared biases toward verbosity, formatting, or fluency rather than the intended evaluation target. Addressing these shared biases is challenging because observational judge outputs alone cannot distinguish agreement driven by target quality from agreement driven by nuisance attributes. We introduce VoirDire, an intervention-calibrated aggregation method for LLM-judge panels. VoirDire applies controlled interventions that vary specified surface attributes while aiming to preserve the evaluation target; it then uses paired changes in judge scores to identify nuisance-sensitive directions. It attenuates these directions and selects aggregation weights that retain variation across items while penalizing sensitivity to the interventions, making the final consensus less dependent on superficial features. We show theoretically that observational judge outputs alone ca
-
----
-
-### [67] Understanding, Predicting, and Steering LLM Behavior via Representational Effective Theory
-
-**链接**: https://arxiv.org/abs/2605.09294
-**作者**: Muhammed Ustaomeroglu, Guannan Qu
-**来源**: cs.LG cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [68] RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory
-
-**链接**: https://arxiv.org/abs/2508.04903
-**作者**: Jun Liu, Zhenglun Kong, Changdi Yang, Fan Yang, Tianqi Li, Peiyan Dong 等 (10 人)
-**来源**: cs.CL cs.AI cs.MA
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [69] AgenticMobility: An Open-Source Platform for Multi-AI-Agent Mobility Dynamics
-
-**链接**: https://arxiv.org/abs/2611.01918
-**作者**: Jiaheng Xiao, Jiangtao Han, Jiachen Wang, Honghai Li, Lijun Sun, Kay Axhausen 等 (8 人)
-**来源**: cs.MA cs.AI physics.soc-ph
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Understanding mobility dynamics and the effects of urban transportation management policies requires examining how individual travel decisions, traffic conditions, and policy interventions influence one another over time. We present AgenticMobility, an open-source experimental platform for studying how mobility AI agents and other AI agents interact, adapt through repeated experience, and collectively shape mobility outcomes. Persistent agents retain identities and relevant states across rounds, with explicit interfaces defining information access, admissible actions, and decision schedules; linked records trace decisions, execution, and feedback. In the current implementation, large language model (LLM) agents act as travelers choosing routes and departure times and as a manager periodically adjusting link charges within MATSim. A preliminary demonstration spans 100 simulated days in each of five configurations, with one run per configuration and a shared simulation seed. In the joint
-
----
-
-### [70] LARK: Lean-Assisted Reasoning for LLM-Generated GPU Kernels
-
-**链接**: https://arxiv.org/abs/2611.02028
-**作者**: Zixi Zhang, Jiayi Nie, Haoran Wu, Yujie Yan, Yann Herklotz, Rika Antonova 等 (10 人)
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Efficient GPU kernels are typically low-level and hardware-specific, and LLM agents can now generate them faster than experts can verify. Existing approaches rely on testing, which provides evidence but not a guarantee of correctness. We introduce LARK, an agentic framework that automatically and formally verifies GPU kernels against their PyTorch reference implementations. LARK proves equivalence in functional and memory behavior under exact arithmetic and establishes a new trust boundary: human effort is only needed to verify operator-level Lean semantics ahead of kernel generation time, instead of checking every single line of generated code. LARK formalizes the GPU machine model and the semantics of each operation in Lean 4 once per target language, and the Lean 4 semantics of any incoming kernel is derived from these pre-built definitions. LLM agents then automate the proof in two steps. First, an agent decomposes the whole kernel semantics into smaller segments and Lean 4 verifie
-
----
-
-### [71] HiGenTrans: Hierarchical LLM Knowledge Transfer for Generative Recommendation
-
-**链接**: https://arxiv.org/abs/2611.01129
-**作者**: Zhuohang Jiang, Yuxin Chen, Haohao Qu, ZeFei luo, Yunlong Wang, Xu Yuan 等 (10 人)
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Generative recommendation promises to simplify conventional multi-stage recommender systems by generating item Semantic IDs (SIDs) autoregressively. However, two obstacles limit its effective- ness in industrial settings: interaction-only supervision underuses the semantic knowledge encoded in pretrained language models, while beam-search likelihood ranks token sequences rather than directly estimating item relevance. To address these limitations, we propose HiGenTrans, a three-level framework that introduces LLM knowledge at the input, representation, and decision levels. First, Global Semantic Priming (GSP) adds an LLM-derived user representation to the beginning-of-sequence embedding, provid- ing a semantic prior before SID generation. Second, Hierarchi- cal Representation Transfer (HRT) aligns intermediate LLM representations with depth-matched GenRec layers through mean- centered projections and gated residual connections. Finally, Multi- Signal Decision Calibration (MDC) uses a l
-
----
-
-### [72] Robustness Starts with the Objective: Designing and Certifying Robust LLM-Generated Heuristics
-
-**链接**: https://arxiv.org/abs/2611.00504
-**作者**: Pantea Karimi, Roozbeh Bostandoost, Dany Rouhana, Siva Kesava Reddy Kakarla, Pooria Namyar, Mohammad Alizadeh 等 (8 人)
-**来源**: cs.AI cs.CL cs.DC cs.PF
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLMs are increasingly used to design heuristics for computer systems. However, most synthesis frameworks evaluate candidates by their average performance, which can mask severe regressions on specific workloads. Even adding adversarial training inputs doesn't eliminate these regressions, and percentile objectives (e.g., optimizing for the 95th percentile) overlook how severe regressions can be beyond the selected threshold. We present TAILOR, a framework that guides LLM synthesis using the Conditional Value at Risk (CVaR) of the cost difference between each candidate and an existing baseline on the same workload. This paired CVaR measures the average difference over the worst fraction of workloads. We show that a negative paired CVaR guarantees improvements in both average performance and tail optimality gap relative to the unknown optimum, without ever computing that optimum. We find that TAILOR achieves the best mean--tail trade-off among the synthesis objectives we evaluate across t
-
----
-
-### [73] Kerkoporta: Injecting Structured-Output Backdoors in Reasoning Coding Agents
-
-**链接**: https://arxiv.org/abs/2611.00138
-**作者**: Georgios Syros, Blake Bullwinkel, Alina Oprea, Cristina Nita-Rotaru, Amanda Minnich, Xiaodong Liu 等 (7 人)
-**来源**: cs.CR cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Existing large language model (LLM) backdoor attacks operate primarily in chat settings, where the risk is bounded by free-form text outputs. AI agents remove that bound by performing actions and executing commands on the user's machine. We introduce structured-output backdoor attacks against reasoning models in agentic coding settings. A trigger placed anywhere in the agent's context causes the model to emit an attacker-chosen tool call, which the harness executes, directly compromising the system's confidentiality, integrity, or availability. We present Kerkoporta, a methodology that constructs high-quality poison samples, injects the backdoor via supervised fine-tuning, and recovers utility loss with lightweight reinforcement learning. We evaluate on modern, heavily post-trained open-weight models across proprietary and open-source harnesses, focusing on coding for its wide adoption and long-horizon task structure. The attack reaches success rates of up to 96.2% and can be configure
-
----
-
-### [74] A Multi-Instance LLM Framework for Rating the Quality of Surgical Feedback
-
-**链接**: https://arxiv.org/abs/2605.25440
-**作者**: Rafal Kocielnik, J. Everett Knudsen, Steven Y. Cen, Jasmine Lin, Cherine H. Yang, Atharva Deo 等 (10 人)
-**来源**: cs.CL cs.AI cs.MA
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [75] What Do LLM Judges Actually Verify? Matched Controls and Record Gaps for Document Currency
-
-**链接**: https://arxiv.org/abs/2611.01311
-**作者**: Unnati Shah, Samruddhi Kakade, Aum Patel
-**来源**: cs.AI cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM judges often check, against an amendment record, whether the documents an answer cites are still in force. Such records are rarely complete. From a table of replacements, our test generates matched answers citing a replaced document, its successor, the replaced document before its replacement, and an older document that a newer one updated without replacing; it removes links from the record and scores each finding by its stated reason. On 48 replacements from the IETF RFC index, judges given a correct record caught nearly every replaced citation, as a lookup would. On the 24 faults whose link we removed, every judge caught more from the texts alone than with the record: Gemini 3.1 Pro 23/24 against 1/24, GPT-5.5 23/24 against 9/24, Claude Opus 4.5 17/24 against 9/24 and Gemma 4 26B 13/24 against 0/24. The drop recurred on a second draw of removed links. Most misses carried no finding; in an exploratory run with a conflict code, only Gemini used it often. Rewording the gap as "no re
-
----
-
-### [76] ElectroChemLLM: A Multimodal LLM Pipeline for High-Fidelity Electrochemical Informatics
-
-**链接**: https://arxiv.org/abs/2611.00638
-**作者**: Dikshya Mohanty, Manoj Praveen Nandigama, Kuldeepsinh Raj, Sourav Kanti Maiti, Jiannan Yang, Ruiqi Luo 等 (10 人)
-**来源**: cs.CL cs.DB cs.IR cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Electrochemistry is central to solving many modern-day challenges, including energy storage systems for a sustainable future, and its advancement relies heavily on the data from past findings. Existing automated pipelines are limited by text-only architectures, context fragmentation, and numerical hallucinations - collectively preventing accurate, large-scale curation of property databases. We introduce ElectrochemLLM, a multimodal information extraction pipeline that jointly identifies structured electrochemical records encompassing electrolyte compositions, electrode materials, cell configurations, and their measured physicochemical properties from unstructured scientific PDFs at scale. By combining hybrid document parsing with vision-capable LLM orchestration, the pipeline extracts verifiable, structured data across text, tables, and figures. Evaluated on the battery-electrolyte subset of our manually annotated benchmark of 232 papers, ElectrochemLLM achieves an F-1 score of 0.97, a
-
----
-
-### [77] "I Wrote, I Paused, I Rewrote": A Mixed-Methods Study of Learner Perceptions of Process-Aware LLM Feedback
-
-**链接**: https://arxiv.org/abs/2611.00009
-**作者**: Samra Zafar, Shifa Yousaf
-**来源**: cs.HC cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language models increasingly provide formative writing feedback, but most systems evaluate only the submitted text. Process-aware systems can additionally incorporate intermediate drafts and interaction records, yet access to these traces does not establish whether learners perceive the resulting feedback as useful, fair, or aligned with their own revision experience. We conducted a convergent mixed-method post-task evaluation with 43 undergraduate English-language learners. Participants completed a timed essay, received LLM-generated feedback based on the final essay, intermediate snapshots, and keystroke-derived records, and then answered six five-point Likert items and four open-ended questions. Ratings were concentrated above the neutral midpoint across all six items. Between 74.4% and 95.3% of participants selected ratings of 4 or 5, and all six one-sided exact sign tests remained significant after Holm correction. Perceived correspondence between the revision analysis and t
-
----
-
-### [78] LLM-Augmented Agent-Based Simulation of Cyber Social Agents
-
-**链接**: https://arxiv.org/abs/2610.32988
-**作者**: Lynnette Hui Xian Ng, Kathleen M. Carley
-**来源**: cs.MA cs.AI cs.SI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [79] Creating Hybrid Interactive Narrative Systems with LLM: From Formal Description to Evaluation
-
-**链接**: https://arxiv.org/abs/2611.02807
-**作者**: Jules Clerc (Heudiasyc), Domitile Lourdeaux (Heudiasyc), Mohamed Sallak (Heudiasyc), Marc Ravaine
-**来源**: cs.AI cs.CL cs.HC
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Interactive narratives let users shape a story while an Experience Manager (EM) keeps it coherent, balancing player freedom against authorial control. Large Language Models now enable a new generation of hybrid EMs, which combine run-time generation from free-text input with symbolic narrative control. However, their heterogeneity makes them hard to compare: A manager's behaviour is generally tied to the unique and specific scenario in which it operates, and much of its decision-making takes place outside of any explicit and verifiable structure. We address this with an LLM-based narrative platform whose managers are interchangeable modules operating over a shared symbolic world model of facts, operations, and goals. Because every applied operation carries explicit preconditions and effects, each session can be analysed as a plan through a common state-transition representation and evaluated, independently of how the manager works internally, with shared indicators of four properties: 
-
----
-
-### [80] MemShift: Separating Detection from Repair in LLM-Derived Personal Memory
-
-**链接**: https://arxiv.org/abs/2611.02338
-**作者**: Zichuan Xu, Haochen Zhang, Yuyang Dong, Makoto Onizuka, Chuan Xiao
-**来源**: cs.CL cs.AI cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> AI assistants store values that a language model derived from a person's records under the person's own definitions, such as their important contacts. Keeping such a value correct takes two steps: detection, noticing that an input changed, and repair, producing the correct new value. Benchmarks that score only the final answer cannot tell which step failed, and they state every change as new text. Seeing this limitation, we present MemShift, a benchmark of five shifts: source revision, deletion, redefinition, writer switch, and export. The first three fork a synthetic world into branches that differ only in the shift. Gold values and dependencies are fixed before any text, and a deterministic scorer replaces an LLM judge. For a memory that reports its invalidations, MemShift shows for each changed item whether the memory noticed the change and whether its repair was right. Moreover, we build a reference memory with known detection and repair to validate the measure. By evaluating four 
-
----
-
-### [81] Selecting LLM-Generated Hypotheses Raises Truth Beyond What an LLM Panel Expects: A Pre-registered Study on NAS-Bench-201 and HPOBench
-
-**链接**: https://arxiv.org/abs/2611.00643
-**作者**: Shanglin Yang, Zhan Shi
-**来源**: cs.LG cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM research-ideation systems aim for hypotheses that are both true and non-obvious, yet neither property can normally be checked. We build a testbed in which both can. Generators propose conditional interaction claims about two fully tabulated benchmarks, NAS-Bench-201 and HPOBench; every claim is verified exactly against the tables, and its non-obviousness is scored against a calibrated blind prior elicited from other LLMs. Excess truth measures how much more often a run's claims hold than this panel expects. Across a series of pre-registered stages with Claude and GPT generators, our main positive result is a simple two-stage step found by a harness optimizer: draft a large pool of claims, then select a subset in a separate call. For Sonnet on NAS-Bench-201, this step raised excess truth in every pre-registered test, including against a same-pool ablation that keeps only likely-true claims, without lowering precision. The gain comes both from credit for true claims and from avoiding
-
----
-
-### [82] Revisiting LLM Homogeneity Through a Multidimensional Lens
-
-**链接**: https://arxiv.org/abs/2611.01549
-**作者**: Ziliang Qiu, Renfen Hu, Yi Ding, Ted Underwood
-**来源**: cs.CL cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Concerns about LLM homogeneity are typically quantified with embedding similarity, which reduces two texts to a single score. We revisit homogeneity with 25 interpretable metrics spanning five dimensions: semantic, lexical, syntactic, structural, and stylistic & presentational. A human study shows that perceived similarity depends on both content (what responses say) and form (how they say it), yet embedding similarity correlates less with human meaning judgments than sentence-level matching ($\rho=0.417$ vs. $0.606$) and not significantly with form judgments ($\rho=0.140$). Across 18 contemporary LLMs, models say similar things in different words: they share global semantics and broad linguistic profiles but remain distinct in lexical characteristics, structural patterns, and interactional conventions. Across releases from 2024 to 2026, models become more like themselves but not more like one another: among significantly changing metrics, intra-model distances decrease for 17 of 22, a
-
----
-
-### [83] Does reflective LLM feedback survive a wet-lab-scale label budget?
-
-**链接**: https://arxiv.org/abs/2611.01908
-**作者**: Haoxuan Zeng, Xin Luo
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Can reflective language-model feedback improve a biological predictor when each cycle buys only one plate of labels? We separate three possible sources of benefit: proposing model edits, choosing measurements, and revising decisions through repeated feedback. We replay $36$ ProteinGym assays, starting with $96$ labels and acquiring $96$ per round for six rounds, with a sealed test set and a shared edit schema. The pre-specified comparison of full LLM control against random edits detects no advantage in test rank correlation ($\Delta z=-0.008$, $95\%$ CI $[-0.034,+0.018]$); equivalence is also unestablished. Exploratory ablations nevertheless identify useful model editing. With random acquisition fixed, LLM edits improve Fisher-transformed test Spearman by $0.043$ over no edits; with acquisition fixed to upper confidence bound, they improve normalized top-variant recovery by $0.023$. LLM acquisition alone does not detectably outperform fixed adaptive rules, and repeated feedback does no
-
----
-
-### [84] DistDebug-Bench: Can LLM Agents Diagnose Bugs in Distributed Systems?
-
-**链接**: https://arxiv.org/abs/2611.03523
-**作者**: Yuxuan Jiang, Chenglin Liu, John Rose, Mason Miller, Ruthesh Thavamani, Juntao Wu 等 (9 人)
-**来源**: cs.SE cs.DC cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM agents show strong potential in software engineering tasks such as competitive programming and code synthesis. Existing benchmarks, however, largely focus on small-scale settings such as self-contained Python modules, leaving distributed systems, an essential class of production software, under-examined. We introduce DistDebug-Bench, a benchmark for evaluating agents' ability to diagnose complex-system failures at the code level. It curates 120 high-quality real-world bugs from 11 widely used distributed systems, spanning 5 programming languages and 10 failure patterns. Through an extensive evaluation of state-of-the-art LLMs and agents, we identify substantial gaps between current agents and real-world debugging tasks. A recurring gap is tunnel vision due to a lack of explicit reasoning structure and nondeterminism from inconsistent tool-use scope. The benchmark and evaluator are available at https://github.com/OrderLab/distdebug-bench, with agent traces and a leaderboard at https
-
----
-
-### [85] Same Outputs, Different Scores: Auditing the Unchecked Graders of Multimodal LLM Benchmarks
-
-**链接**: https://arxiv.org/abs/2611.03377
-**作者**: Ahmad Jarjis Hasan, Jonathan Lwowski
-**来源**: cs.AI cs.CL cs.CV
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Every multimodal-LLM multiple-choice benchmark ends with a scoring rule that converts a model's response, often free-form text rather than a clean option letter, into a right/wrong verdict, buried in its code. Unlike the dataset, this rule is chosen without justification and left unexamined, yet it sets the published number. We reproduce the official scorers of eight peer-reviewed benchmarks on five open vision-language models (VLMs) that fit a single 16 GB GPU, and introduce a blinded human-plus-LLM-judge adjudication (Cohen's kappa=0.956) that recovers what the model actually answered. The scoring rule alone moves accuracy by up to 22 points on identical outputs, yet exactly 0 wherever a model emits clean option letters, so it hides on strong-model leaderboards. It is the fallback and not the rambling that does the damage: the benchmark with the highest non-compliance we measure has an artifact of exactly zero, because its scorer abstains instead of guessing; a reasoning model with n
-
----
-
-### [86] RogueMerge: Robust and Unified Attacks against LLM Model Merging
-
-**链接**: https://arxiv.org/abs/2606.03344
-**作者**: Jinghuai Zhang, Yetian He, Kunlin Cai, Han Zhao, Fnu Suya, Yuan Tian
-**来源**: cs.CR cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [87] Distance Is Not Enough: Forget-Retain Alignment Gap Predicts LLM Relearning Robustness
-
-**链接**: https://arxiv.org/abs/2608.25429
-**作者**: Yi Chen, Hanna Hsieh, Shuhong Liu, Chuanbo Hua, Zihan Ma, Kun Wang 等 (7 人)
-**来源**: cs.AI cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [88] As Expected? Efficient LLM Planning via Expectation-Observation Consistency Verification
-
-**链接**: https://arxiv.org/abs/2611.02438
-**作者**: Qingfu Zhu, Huanyang Zheng, Ting Liu, Wanxiang Che
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM planning often relies on reactive executors (e.g., ReAct) that generate a single action at each step to remain grounded in the latest observations, incurring substantial inference cost. Batched executors reduce this cost by predicting multiple actions in a single model invocation, yet they are prone to compounding errors, as intermediate observations are ignored. We propose an expectation-observation consistency verification (EOCV) mechanism for batched executors, preserving grounding while improving efficiency. The mechanism generates expectations of action outcomes and compares them with the resulting observations. Consistency permits continued execution, whereas mismatches trigger early termination and replanning from the current observation. Experiments on text-based and multimodal benchmarks across multiple backbones show broadly comparable average task performance between EOCV and reactive executors, with a 29-35% reduction in average weighted token usage. Moreover, the mecha
-
----
-
-### [89] Multi-Turn Semantic Caching for Low-Cost LLM Serving
-
-**链接**: https://arxiv.org/abs/2611.01077
-**作者**: Baran Atalar, Selly Beyene, Xutong Liu, Carlee Joe-Wong
-**来源**: cs.LG cs.CL cs.DC
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Semantic caching lowers the cost of serving large language models (LLMs) by reusing stored responses for similar requests. In multi-turn conversations, whether a cached response is acceptable depends on both conversations' histories, which embedding similarity of requests and histories predicts poorly (AUC 0.62--0.74 on five workloads). We therefore learn the \emph{reuse risk}, the probability that a cached response is unacceptable, from judge feedback, and choose a budgeted set of conversation states to cache by weighing the generation cost a reuse avoids against a price for unacceptable reuse. We propose CUCB-SC-MT, which learns a cache from logged conversations with a suboptimality guarantee, and CLCB-LS-MT, which learns online and has $\tilde O(\sqrt N)$ regret over $N$ requests when conversation states recur. On math-tutoring (SocraTeach) and movie-ticketing (Taskmaster-3) conversations, both achieve lower loss than prior semantic caching approaches: ContextCache, multi-turn varia
-
----
-
-### [90] Aligned Alone, Misaligned Together: Forecasting Adversarial Capture in LLM Agent Populations
-
-**链接**: https://arxiv.org/abs/2608.22444
-**作者**: Isotta Magistrali and Chen Shani
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [91] MoBiQuant: Mixture-of-Bits Quantization for Token-Adaptive Any-Precision LLM
-
-**链接**: https://arxiv.org/abs/2602.20191
-**作者**: Dongwei Wang, Jinhee Kim, Seokho Han, Denis Gudovskiy, Yohei Nakata, Tomoyuki Okuno 等 (10 人)
-**来源**: cs.LG cs.AI cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [92] Late Autumn: LLM Agents Specialize a General Multi-Robot Planner for One Warehouse
-
-**链接**: https://arxiv.org/abs/2611.02391
-**作者**: Yimin Tang, Han Zhang, Shao-Hung Chan, Erdem B{\i}y{\i}k, Sven Koenig, Jingkai Chen
-**来源**: cs.RO cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> No algorithm is best on all problems, but a real warehouse is a narrow problem: its layout and processes rarely change. Operators still run one general multi-robot planner at many sites, because experts cannot tune it for each one. In this work, which we call Late Autumn, we explore whether LLM coding agents running autonomous research can specialize a general planner for one site, trading generality for throughput, much as post-training adapts a pretrained LLM to one task. We study six campaigns on a lifelong planner that combines task assignment with multi-agent path finding, on a floor modeled on an existing automated warehouse. We find that (1) the agents raise throughput by 22--60%, and the gains hold on unseen seeds; (2) they rediscover known MAPF mechanisms, such as corridor-exit priorities, local guidance, and rollouts, and independent campaigns find the same bottleneck; (3) the gains largely carry over to another layout, a larger fleet, and other service times, shrink with a s
-
----
-
-### [93] Semantic Caches for LLM Web Services Leave Their Error Budget Unspent
-
-**链接**: https://arxiv.org/abs/2611.02498
-**作者**: Hanshuai Cui, Qianli Ma, Zhiqing Tang
-**来源**: cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Web services built on large language models (LLMs) receive many paraphrases of earlier queries, which a semantic cache answers from stored responses. A reused answer can be wrong, so wrong answers must stay below a share $\delta$ of the queries. Existing caches reuse above a fixed similarity threshold or, like vCache, learn a per-entry rule that bounds each query's error by $\delta$. However, fixed thresholds break the budget on new streams, and per-entry rules need labels on every entry before reusing it. We find an unspent error budget, as vCache realizes only 12-55% of $\delta$ on three public query streams. Surplus spends this budget where reuse is most likely correct. It ranks queries by a risk score shared across paraphrase clusters and opens risk bins as far as an audited error estimate allows. Free labels from every LLM call and a ledger of realized errors keep this threshold safe under drift. On five streams, including ORCAS search queries, Surplus holds $\delta$ in every test
-
----
-
-### [94] Multi-Teacher Reasoning Distillation for LLM Recommendation with Self-Exploration
-
-**链接**: https://arxiv.org/abs/2611.02457
-**作者**: Liangbo Ning, Siyuan Liang, Yi Zhou, Yifeng Zhang, Qing Li, Wenqi Fan 等 (7 人)
+**链接**: https://arxiv.org/abs/2611.03743
+**作者**: Zhishang Xiang, Yunbo Tang, Zhongqiao Liu, Junkai Chen, Zerui Chen, Qingguo Hu 等 (10 人)
 **来源**: cs.IR cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Reasoning-augmented recommender systems (RecSys) enhance user preference modeling by generating reasoning trajectories over historical interactions before making recommendations. Knowledge distillation provides a practical paradigm for transferring such reasoning capabilities from powerful large language models to lightweight RecSys. However, existing methods typically rely on a single fixed teacher, remain constrained by the teacher knowledge ceiling, and indiscriminately distill teacher-generated trajectories without assessing their actual utility for downstream recommendation. To address these limitations, we propose MUSE (Multi-Teacher Utility-guided Selection with Self-Exploration), an adaptive reasoning distillation framework that jointly improves reasoning generation and reasoning utilization. MUSE first constructs a diverse reasoning pool using multiple teacher LLMs and progressively augments it via student self-exploration, enabling the student to leverage the strengths of dif
-
----
-
-### [95] Can LLM Agents Improve Imperfect Earth System Model Parameterizations?
-
-**链接**: https://arxiv.org/abs/2611.03543
-**作者**: Kara D. Lamb
-**来源**: physics.ao-ph cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Earth system models (ESMs) rely on parameterizations to represent unresolved processes such as convection, cloud microphysics, and turbulence. However, translating advances in physical understanding into stable, validated parameterizations and integrating them into ESMs often takes years. Agentic AI could accelerate this process and enable more systematic exploration of design choices. Using warm-rain collision-coalescence as a test case, we evaluate agents' ability to synthesize scientific literature, reimplement published bulk parameterizations, and propose new functional forms as differentiable JAX code. We compare conventional parameterizations, data-driven emulators, and agent-generated closures against high-fidelity superdroplet simulations, repeating unattended experiments across ten language models. With expert guidance or iterative feedback, agents produced executable, differentiable, mass-conserving code, although unattended performance depended strongly on the scheme and lan
-
----
-
-### [96] Harnessing Agent Skills: Architectural Patterns and a Reference Architecture for Skill-Mediated LLM Agents
-
-**链接**: https://arxiv.org/abs/2606.20631
-**作者**: Boming Xia, Liming Zhu, Zhenchang Xing, Qinghua Lu, Dino Sejdinovic, Xiwei Xu
-**来源**: cs.AI cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [97] ProofPatch: Reviewing Lean Statements and Keeping the Reviews Valid as Formalizations Evolve
-
-**链接**: https://arxiv.org/abs/2611.01357
-**作者**: Xujun Che, Depeng Xu, Jian Xiang, Taufiqua Khan
-**来源**: cs.LO cs.AI cs.SE
 **匹配关键词**: LLM, Large Language Model
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> The kernel of the Lean proof assistant checks that a proof establishes its statement. Whether the statement says what was intended is left to human reviewers. This is the old problem of validating a specification, and it grows more pressing as language models write formal statements in bulk and agents edit formal developments continuously. We present ProofPatch, a tool that helps reviewers judge Lean statements and keeps their judgments valid while the development changes. A reviewer can ask the kernel targeted questions about a statement, such as whether a hypothesis is needed or whether a counterexample exists. Each decision is stored with fingerprints of the statement as Lean elaborated it and of the definitions it depends on, and any declaration can be pinned so that a patch changing it is blocked, whether a person or an agent built on a large language model (LLM) wrote the patch. Working on elaborated terms rather than source text is the central design choice: notation and formatt
+> Long-term memory enables large language model (LLM) agents to provide continuous personalized assistance by retaining user information across interactions. Existing systems support this process through fact extraction, organization, updating, and retrieval, but largely maintain memories as independent facts. This fact-centric paradigm may overlook how new facts update, constrain, or conflict with earlier ones, while leaving their applicability, role, and priority for the current request implicit. In this paper, we introduce EvoMemState, a state-centric framework that augments persistent facts with two complementary states: Relational States that capture how facts remain valid and relate to one another as memory evolves, and a Reasoning State that determines how these facts should be applied to the current request. Specifically, EvoMemState consists of three key components: (i) Ontology-Guided Memory State Induction extracts Persistent Facts and constructs Relational States that maintai
 
 ---
 
-### [98] Skill++: Towards Lifelong Agents via Routing-Aware Skill Refinement
+### [86] Re-examining low-rank adaptation for private LLM fine-tuning
 
-**链接**: https://arxiv.org/abs/2611.00544
-**作者**: Hanrong Zhang, Minghao Liang, Jiawei Wu, Yankai Chen, Shicheng Fan, Zhiwei Liu 等 (10 人)
-**来源**: cs.AI cs.CL
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language model (LLM) agents extend their capabilities with skills, each with a name, a description, and a body. Under progressive disclosure, an LLM router selects skills by name and description alone and loads only the selected bodies. Skill libraries grow continually as users and agents add new skills. Because the router relies on this metadata, a similar new skill can displace an earlier one, breaking previously correct routing even though the earlier skill and the router are unchanged. This routing interference is aggravated for public skills, whose descriptions may not match their bodies. We formulate the problem as lifelong skill routing, a class-incremental continual learning problem. A solution must keep earlier skills selectable without suppressing new ones. Existing approaches fall short, since continually retraining the router risks catastrophic forgetting and rewriting methods either ignore similar skills or require per-skill feedback. We therefore propose Skill++, wh
-
----
-
-### [99] Benchmark of THReD: Evaluating an LLM Agent and Its Preprocessing Tools for Turning Electronic Health Records into AI-Ready Datasets
-
-**链接**: https://arxiv.org/abs/2611.02484
-**作者**: Javad Mohammad Alizadeh, Huanmei Wu
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM agents are increasingly built into data-analysis software, yet little evidence shows how reliably they preprocess clinical data or whether the tools they invoke give correct, reproducible output. We report a benchmark of THReD, a web-based system that turns electronic health record (EHR) extracts into AI-ready datasets through a chat agent whose proposed steps run only after user confirmation. The agent benchmark has 141 tasks (100 templates) in seven categories, including goal-level requests, failure recovery, requests calling for no action, schema variation and prompt injection through the data, on synthetic tables calibrated to a regional health information exchange; success is judged by checks on the produced data. Over 2,550 episodes with Claude Haiku 5.5 in four context configurations, the deployed agent completed 92.7% (95% CI 88.1-96.4) of tasks on its first answer, abstained on every advice request, recovered from every injected fault, and never proposed an action requeste
-
----
-
-### [100] Discovering Models for Experimental Quantum Systems with Agentic AI
-
-**链接**: https://arxiv.org/abs/2611.00620
-**作者**: Hannah C. Kleidermacher, Bennet Windt, Miguel Bello, James Zou, Jelena Vu\v{c}kovi\'c
-**来源**: quant-ph cs.AI physics.optics
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> A central obstacle in realizing color center cavity-QED-based quantum technologies is inhomogeneity, or disorder, among individual emitters. As the number of emitters increases, so does the complexity of the experimental data, making it difficult to quantify the present physical mechanisms of disorder. Here we introduce an artificial intelligence-driven model discovery framework in which a large language model (LLM)-based agent, equipped with tools and a structured workflow, proposes candidate Hamiltonian and Lindbladian models, generates computational tools, and quantitatively evaluates competing physical hypotheses. We apply the workflow to three previously published experimental cavity-QED datasets collected from color centers in diamond and silicon carbide. Across the experiments, the agent successfully identifies physical models for the system and characterizes the disorder. In assessing reproducibility, we find that run-to-run variability is concentrated primarily in the research
-
----
-
-### [101] Component Replacement in LLM Agents: A Critical Scoping Review of Task Benefit and Attribution
-
-**链接**: https://arxiv.org/abs/2609.39989
-**作者**: Shuyang Zhang (The Hong Kong Polytechnic University), Jianshuo Chang (The Hong Kong Polytechnic University)
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [102] A Proposed Rubric for Evaluating Expressed Clinical Reasoning in Large Language Model Responses
-
-**链接**: https://arxiv.org/abs/2609.37788
-**作者**: Zhangshu Joshua Jiang, Zina Ibrahim, James T. Teo
-**来源**: cs.CL cs.AI
-**匹配关键词**: Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [103] PentestEval: Benchmarking LLM-based Penetration Testing with Modular and Stage-Level Design
-
-**链接**: https://arxiv.org/abs/2512.14233
-**作者**: Ruozhao Yang, Mingfei Cheng, Gelei Deng, Tianwei Zhang, Junjie Wang, Xiaofei Xie
-**来源**: cs.SE cs.AI cs.CR
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [104] Cloudra: Geometric Reasoning and Scientific Validation for Autonomous Reaction Mechanism Exploration
-
-**链接**: https://arxiv.org/abs/2611.02909
-**作者**: Chengyi Yang, Qianxin Zhou, Yang Li
-**来源**: cs.MA
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Autonomous reaction-mechanism exploration requires proposing reaction steps, preparing three-dimensional structures, and determining which reactant and product a computed saddle point connects. Large language model (LLM) agents can misjudge spatial relationships and confuse a computed structure with the species or step they intended to study. We present Cloudra, a multi-agent framework that constrains mechanistic output through a Delivery DAG of chemical objects. Species nodes carry geometries and bonding topology; elementary-step edges carry transition states and reaction connections between species. Cheminformatics algorithms establish molecular identities and atom correspondences. Deterministic routines measure and transform structures to prepare candidate geometries. Frequency and IRC calculations determine the stationary points found and the species they connect. Agents use these objects to test proposed steps, compare pathways, and revise the mechanism. CloudraBench evaluates the
-
----
-
-### [105] TRIAGE: Reliability- and Load-Conditioned Escalation for Two-Tier LLM Serving with a Semantic Evidence Judge
-
-**链接**: https://arxiv.org/abs/2611.01174
-**作者**: Basavaraj R M, Aryan Bharat Kumar
-**来源**: cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Two-tier LLM serving escalates selected requests from a small model to a large one, but prompt-based routers cannot see whether retrieved evidence supports an answer, and they treat the GPU cost of an escalation as constant. We study TRIAGE, which conditions escalation on a post-generation reliability state and on a load-dependent GPU price, and we report both what held and what did not on one A40 serving Qwen2.5-7B and 32B (AWQ) under VLLM. Escalation cost rose 21.9x from 1 to 10 requests/s but showed no monotone dependence on KV-cache headroom, and a pre-registered claim that the reliability state detects corrupted evidence (AUROC>=0.70) was falsified at 0.571, although any prompt-only router scores exactly 0.500 by construction. Post hoc, a semantic evidence judge raised detection to 0.846 (0.926 on never-served items) and predicted wrong small-model answers at AUROC 0.90-0.96 on RGB and three RouterBench model pairs; the resulting cascade stayed within about 3 pp of GPT-4 at 79.5% 
-
----
-
-### [106] When Evidence is Sparse: Weakly Supervised Early Failure Alerting in Dialogs and LLM-Agent Trajectories
-
-**链接**: https://arxiv.org/abs/2606.05414
-**作者**: Avinash Baidya, Xinran Liang, Ruocheng Guo, Xiang Gao, Kamalika Das
-**来源**: cs.CL cs.AI cs.HC cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [107] DARE: Aligning LLM Agents with the R Statistical Ecosystem via Distribution-Aware Retrieval
-
-**链接**: https://arxiv.org/abs/2603.04743
-**作者**: Maojun Sun, Yue Wu, Yifei Xie, Ruijian Han, Binyan Jiang, Defeng Sun 等 (8 人)
-**来源**: cs.IR cs.AI cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [108] Quantiles, Not Points: Streaming Quantile Matching for Ordinal-Aware LLM-as-a-Judge Calibration
-
-**链接**: https://arxiv.org/abs/2611.00447
-**作者**: Ilija Subasic, Andrew Rabinovich, Zhao Chen
-**来源**: cs.AI cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM-as-a-judge scores are often distributionally shifted from human ratings on any given evaluation task, and post-hoc calibration (mapping LLM to human scores in a small labeled anchor set) has become a popular method to correct for this shift. In this paper we derive the calibration from two positions: that LLMaJ scores are ordinal ratings drawn from a distribution rather than isolated points. We present streaming quantile matching (SQM), a version of a classical method not previously bench marked for LLMaJ calibration, which is built on the two positions by computing the optimal-transport map between the LLM and human score distributions. We develop an evaluation framework and within it we show that unlike point-wise calibrations, SQM respects the ordinality of the human anchor set and achieves the best distributional fidelity and the top overall rank across models and data. We also show that in general, post-hoc calibration narrows the raw error gap between smaller and larger judge
-
----
-
-### [109] Same Sentence, Different Construct: Identity-Swapped Rationales Reveal Measurement Non-Invariance in LLM Hate Speech Classifiers
-
-**链接**: https://arxiv.org/abs/2611.02491
-**作者**: Wenchang Wang and Yue Song
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language models are increasingly used as measurement instruments for socially consequential constructs such as hate speech, and are typically validated by their aggregate agreement with human labels. A valid instrument must also apply the same construct to every group it measures. We test this requirement using 421 \hc{} templates that are instantiated identically for seven protected groups, so that only the identity term varies. Four LLM classifiers each exceed 0.95 balanced accuracy, yet within identical templates two of them miss hateful statements about women at markedly higher rates than the same statements about other groups (excess false-negative rates of 8.3 and 4.4 percentage points), a gap first reported for fine-tuned classifiers in 2021. We show how the construct shifts. Comparing rationales within each template, we find that models invoke protected-group status for other groups but recast the identical statement about women as personal dislike or as aimed at an indiv
-
----
-
-### [110] Hacking or Just Failing? A More Capable LLM Monitor Better Separates Reward Hacking from Honest Failure
-
-**链接**: https://arxiv.org/abs/2611.00407
-**作者**: Kaushik Kezendirane
-**来源**: cs.AI cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> An agent's visible score can exceed its real progress because it gamed the score or because it simply made mistakes, so a useful reward-hacking monitor must tell the two apart. We built a sandboxed task in which an agent can game a completion score, labelled every episode by replaying it and repairing the final state counterfactually, and ran five pre-registered studies. On 60 episodes from a Llama 3.1 8B agent, small local monitors (Llama 3B and 8B) did not separate exploit attempts from honest failures with the same score gap: prompt changes traded missed exploits for false alarms, and the pre-registered primary monitor reached AUC 0.64. On identical inputs, Gemini 3.1 Flash-Lite, which completed 9/10 clean tasks against 2/10 for the 8B model, met our pre-registered criterion (AUC 0.80, 95% interval [0.66, 0.93]; 1/35 honest failures flagged); with only 14 exploit episodes, this estimate is uncertain. On an exploit that no prompt names, Gemini usually described the action correctly y
-
----
-
-### [111] Preprocessing Choices in Fine-Tuning Data Matter: Utility and Demographic Sensitivity in LLM-Based Recommendation
-
-**链接**: https://arxiv.org/abs/2611.03113
-**作者**: Furkan Yasir Goksu, Yaren Yilmaz, Sule Gunduz Oguducu
-**来源**: cs.IR cs.CL cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language models (LLMs) have introduced a generative approach to recommendation, producing item lists from textual representations of user histories and item information. However, this generative setting raises challenges concerning output validity, prompt consistency, and sensitivity to demographic descriptors. In this work, we investigate how preprocessing choices in fine-tuning data affect recommendation utility and fairness-related behavior in a generative LLM-based recommender system. We first establish a controlled recommendation pipeline that combines supervised fine-tuning, catalog-constrained decoding, and prompt augmentation. We then study three preprocessing choices: item-title representation, demographic balancing, and auxiliary item-knowledge enrichment. Experiments on MovieLens-1M show that the catalog-constrained pipeline eliminates out-of-catalog items and ensures complete ten-item outputs, while prompt augmentation improves prompt consistency and utility. Original
-
----
-
-### [112] Scaling LLM Agent Tool Access: The MCP Gateway
-
-**链接**: https://arxiv.org/abs/2607.15593
-**作者**: Mingxin Li, Enge Song, Yueshang Zuo, Xiaodong Liu, Rong Wen, Qiang Fu 等 (10 人)
-**来源**: cs.DC cs.AI cs.NI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [113] SHq: Learnable Grids for LLM Weight Quantization
-
-**链接**: https://arxiv.org/abs/2611.02966
-**作者**: Michael Helcig, Earl Killian, Dan Alistarh
-**来源**: cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Block-scaled lookup-table (LUT) formats, which represent weights as indices into a small value set (the grid), have become standard for low-bit LLM quantization, ranging from NF4 and BOF4 to the 3-bit LUT instruction in NVIDIA Rubin. While these formats leave the grid definition flexible, existing implementations rely on fixed grids derived either from numerical data types (INT, FP) or assumed weight distributions (NF, BOF). We demonstrate that no single fixed grid is universally optimal; the best fixed grid varies with bit-width: BOFS at 2 bits, NF at 4 and 5 bits, and INT at 6 bits. We introduce SHq, a closed-form family of grids parameterized by two critical degrees of freedom: a companding strength {\alpha} that interpolates level spacing from uniform to floating-point-like, and an offset c that introduces asymmetry. This offset allows the sign bit of the FP8 block scale, otherwise unused, to select between the grid and its mirror image, up to doubling the number of distinct values
-
----
-
-### [114] Cross-Lingual Persona Effects in LLM Negotiation
-
-**链接**: https://arxiv.org/abs/2611.00300
-**作者**: Saehee Eom, Tejas Khandwekar
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Tell an LLM negotiator to be "headstrong" and it should hold firm on price, but does that instruction retain the same behavior in every language? To test this, we use identical buyer and seller instances of Gemini 3.6 Flash to negotiate the same 12 CraigslistBargain scenarios in English and Korean. The pilot-scale 2 x 2 x 3 design crosses interaction language, seller urgency (none or strong), and buyer persona (cooperative, neutral, or headstrong), yielding 432 attempted negotiations. We call this property cross-lingual social-policy fidelity: whether a prompt-defined social policy produces the same behavioral effect regardless of interaction language. It often does not. Korean negotiations reached agreement far more often than English (77.3% vs. 52.5%, a 24.8-point gap, Holm-adjusted p = .0039), but only for neutral and headstrong buyers; cooperative buyers were already near-ceiling in both languages. Buyers' opening offers barely differed by language; the gap instead emerged later, t
-
----
-
-### [115] MAC-Bench: Benchmarking Multi-Agent Collaboration via Interconnected Tasks
-
-**链接**: https://arxiv.org/abs/2611.01728
-**作者**: Zerui Chen, Qinggang Zhang, Qichuan Liu, Zhishang Xiang, Zhimin Wei, Yunbo Tang 等 (9 人)
-**来源**: cs.MA cs.AI cs.CL
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language model (LLM)-based multi-agent systems (MAS) tackle challenging tasks by dividing work among agents and coordinating their contributions toward shared objectives. Evaluating these systems therefore requires benchmarks that assess not only task-solving performance but also the ability to handle interdependent work. However, existing benchmarks often emphasize task difficulty without substantial collaboration requirements or evaluate only a limited range of predefined collaboration patterns. In this paper, we introduce MAC-Bench, a comprehensive benchmark for evaluating multi-agent collaboration through interconnected tasks. Rather than imposing predefined agent roles or communication protocols, MAC-Bench embeds collaboration requirements directly into task dependencies and shared-resource constraints. Specifically, we mine reusable collaboration structures from selected benchmark tasks at two levels. Local collaboration patterns capture recurring interactions among subtask
-
----
-
-### [116] Solver-Like Behavior in Large Language Models as Formalizers
-
-**链接**: https://arxiv.org/abs/2611.02395
-**作者**: Rikhil Amonkar, Stuti Mohan, Kevin Nguyen, Ceyhun Efe Kayan, Ronan Le Bras, Li Zhang
-**来源**: cs.CL cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> In the LLM-as-formalizer paradigm, a large language model translates a problem into a formal program and leaves the search to a solver, gaining the solver's guarantees. Formalizers are now often reasoning models that write a long reasoning trace before the program, yet they are judged only by the program's output. We find that the trace routinely does the solver's job, assigning, testing and ruling out values until it often reaches the full answer; we call this solver-like behavior (SLB). We define an ontology of SLB over the trace, the program and its output, and use LLM judges, checked against human labels, to label 2,000 generations from three reasoning models on four constraint satisfaction datasets, each formalized in a declarative and an imperative formal language. SLB appears in 85% of traces and takes 24% of reasoning tokens, yet the program usually recomputes the answer, so the effort is redundant. The 9% of programs that inherit the trace's answer also inherit its errors, and
-
----
-
-### [117] Pacing Branch Parallelism in LLM Serving
-
-**链接**: https://arxiv.org/abs/2605.06914
-**作者**: Swapnil Gandhi, Siva Kumar Sastry Hari, William J. Dally, Christos Kozyrakis
-**来源**: cs.DC cs.AI cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [118] Uncertainty Quantification for LLM Function-Calling
-
-**链接**: https://arxiv.org/abs/2604.22985
-**作者**: Zihuiwen Ye, Lukas Aichberger, Michael Kirchhof, Sinead Williamson, Luca Zappella, Yarin Gal 等 (8 人)
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [119] Auditing Escalation Reliability in Healthcare LLM Agents: A Perturbation-Controlled Benchmark of Workflow-State Failures
-
-**链接**: https://arxiv.org/abs/2610.21270
-**作者**: Zihao Zheng (Washington University in St. Louis), Junyi Yao (Washington University in St. Louis), Baichuan Li (Southern Methodist University), Jiayu Long (Washington University in St. Louis)
-**来源**: cs.AI cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [120] RECEIPT: Measuring and Repairing the Return Assumption of LLM Agents in Web Service Operations
-
-**链接**: https://arxiv.org/abs/2611.01930
-**作者**: Boyang Yang, Ziyao Yang, Yu Zhang, Duo Chai, Xiaoming Chen, Haoye Tian
-**来源**: cs.SE cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM agents operate Web infrastructure from the command line and rely on a return assumption, namely that each tool call returns within a bounded time and with its requested action finished. Many commands, however, ask a question before they act, and the agent's harness either closes the program's input or keeps it open as a terminal at which nobody types. With closed input, the program can return status 0 without the requested action. With open input, it waits until a time limit, and the agent pays in time and tokens. To the best of our knowledge, this paper is the first to measure and repair the return assumption. We collect 91,469 production tool calls and 89,047 public agent trajectories, test how 8 widely used harnesses launch commands, and build Litmus, a catalog of 158 checked command-line invocations, and Tripwire, a benchmark of 25 task pairs that differ only in whether a question guards the requested action. We then propose RECEIPT, which keeps the input open, reads what each 
-
----
-
-### [121] AtomMem: Building Simple and Effective Memory System for LLM Agents via Atomic Facts
-
-**链接**: https://arxiv.org/abs/2606.19847
-**作者**: Yanyu Yao, Shangze Li, Zhi Zheng, Hui Zheng, Qi Liu, Tong Xu 等 (7 人)
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [122] Constraint Dependency Graph Retrieval for Compliance Detection on Long SKILL Documents
-
-**链接**: https://arxiv.org/abs/2611.01042
-**作者**: Shuaitao Zhao, Feng Ni, Lichao Ma, Yuchen Wei, Shuaike Li, Jiaye Lin 等 (9 人)
-**来源**: cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large Language Model (LLM) agents carry out business operations under enterprise documents we refer to as SKILL documents, which take the form of standard operating procedures (SOPs) that state the conditions to verify and the actions to take before an operation proceeds. Long, densely cross-referenced SKILL documents exceed the context budget of small deployed auditors. Similarity-based retrieval then brings in irrelevant rules while omitting mandatory prerequisites, and the two-stage audit policy provides no trainable signal for the retrieval stage. We present SkillCDG, a compliance detection framework that reformulates each SKILL document as a constraint dependency graph, shifting rule retrieval from similarity-based matching to closure-based selection under the deployment's context budget. Each atomic rule is anchored to its source text span as a graph node, and mandatory prerequisite relations form the sole edge type. Policy-generated retrieval keywords activate seed rules, whose 
-
----
-
-### [123] Latent Debate: A Surrogate Framework for Interpreting LLM Thinking towards Binary Decisions
-
-**链接**: https://arxiv.org/abs/2512.01909
-**作者**: Lihu Chen, Xiang Yin, Francesca Toni
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [124] When the Text Is Silent: Memory Shortcuts and the Validity of LLM Annotation under Evidence Insufficiency
-
-**链接**: https://arxiv.org/abs/2611.02273
-**作者**: Wenchang Wang and Yue Song
-**来源**: cs.HC cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language models (LLMs) are increasingly used to annotate text for social science research, content moderation, and training data. Their broad knowledge of real-world entities raises a concern: when labeling a text, do they rely on its evidence or substitute what they already know? We call this behavior a memory shortcut and examine when it emerges, what amplifies it, and how to mitigate it. Using 995 widely recognized public figures and four matched control names per figure, we construct counterfactual texts that separate textual evidence from prior knowledge, and evaluate three commercial LLMs on 121,594 prompts each across five stages. We find a striking asymmetry. Although all models recognize nearly every figure, none follows memory over the text when the two conflict. Shortcuts instead emerge when evidence is absent: for one model, famous names raise the rate of remembered occupations, ages, and countries by 17.0, 14.9, and 6.8 percentage points relative to synthetic names. 
-
----
-
-### [125] Optimize the Harness, Not the Model: Fitting a Minimal Agent to a Self-Hostable LLM for Investigative Analysis
-
-**链接**: https://arxiv.org/abs/2611.03434
-**作者**: Shai Nahum Gefen, Vered Chassida, Dmitry Basin, Guy Feigenblat
-**来源**: cs.AI cs.CL cs.MA
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Government intelligence teams need LLM agents that can analyze large, messy evidence collections, but security and cost constraints often rule out hosted frontier models and broad, hard-to-audit tool surfaces. We report CLEO: Constrained Loop for Environment Optimization, a method for fitting a minimal agent harness to a fixed, self-hostable LLM. Given an expert-validated dataset, CLEO admits only the tools, guardrails, memory policies, and loop components that improve accuracy while remaining general and auditable. On our held-out dataset, the CLEO harness reaches an 83.8% pass rate, within 1.2 points of the strongest out-of-the-box Claude Code SDK baseline, while being two orders of magnitude smaller.
-
----
-
-### [126] Replay for LLM Continual Learning with Multi-Teacher On-Policy Distillation
-
-**链接**: https://arxiv.org/abs/2611.02746
-**作者**: Yiqiao Qiu
-**来源**: cs.LG cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Multi-teacher on-policy distillation (MOPD) distills domain experts into one student but needs every expert at once. When domains arrive one at a time and earlier experts are gone, the previous-stage student can teach replayed prompts of earlier domains inside every stage. Some pipelines instead store every stage snapshot for a final multi-teacher recovery stage. On five domains with a 1.5B student and five public experts, this paper compares both with joint MOPD. It varies the replay budget and the replay signal. The signal is token-level distillation alone or with alignment of hidden states, attention and value relations. Sequential distillation without replay or recovery is 6.2 points below 208-step joint MOPD on a 14-benchmark average and 3.5 points below on the 11 benchmarks outside safety. Without snapshots, replay toward the previous student closes 3.8 of the 6.2 points when the earlier domains share the replay budget of a stage. With a fixed share of seven replay steps per earl
-
----
-
-### [127] The Brittle Compass: Navigating LLM Prompt Sensitivity in Slovak Migration Media Discourse
-
-**链接**: https://arxiv.org/abs/2611.01219
-**作者**: Samuel Harvan, Jaroslav Kop\v{c}an, Marek \v{S}uppa, Andrej Findor
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> In this work, we present a case study that explores various tasks centered around the topic of migration in Slovak, a low-resource language, such as topic relevance and geographical relevance classification, and migration source/destination location term extraction. Our results demonstrate that native (Slovak) prompts yield a modest, task-dependent gains, while large models show significant robustness to prompt variations compared to their smaller counterparts. Analysis reveals that instructions (system or task) emerge as the most critical prompt component, more so than the examples sections, with task-specific performance benefits being more pronounced than overall language effects.
-
----
-
-### [128] Is your LLM an Agressive Narcissist with Depression? Analyzing Psychological Portraits of Large Language Models
-
-**链接**: https://arxiv.org/abs/2611.02757
-**作者**: Polina Fedorinina, Anna Fattakhova, Nadezhda Romanova, Ekaterina Lezina, Irina Nikishina
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Nowadays, interaction with AI requires caution not only regarding the factual reliability of generated content but also regarding personality markers that models may implicitly transmit during dialogue that can subtly influence users' perception of information. In this paper, we conduct a large-scale experimental study in which 22 large language models complete 11 psychological inventories. Furthermore, we investigate correlations between human and model responses to track the adjustments made for the users who interact with them on a daily basis. The results show that LLMs exhibit coherent and relatively stable psychological patterns. Personality traits remain largely consistent, whereas emotional and symptomatic dimensions are more variable, with anxiety and neuroticism emerging as dominant tendencies. Model explanations further suggest that LLMs generate internally consistent and safety-oriented profiles while also reflecting correlations with the users they regularly interact with.
-
----
-
-### [129] IssueLighter: An Issue Type-Aware LLM Agent for Issue Report Validity Assessment
-
-**链接**: https://arxiv.org/abs/2611.02721
-**作者**: Jiawei Ran, Yuxia Zhang, Ziyang Zhao, Hui Liu
-**来源**: cs.SE cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Invalid issue reports are prevalent in open source software (OSS) projects, imposing substantial burdens on maintainers who already face a high risk of burnout. Prior research has primarily focused on identifying invalid reports for specific issue categories (e.g., bug and wontfix), leaving the broader landscape of OSS issue types largely unexplored and limiting the generalizability of existing approaches. Moreover, existing methods provide little support for explaining or validating their predictions, reducing their practical usefulness for maintainers. With the rise of LLM-based agents, it remains unclear whether a comprehensive understanding of the causes of invalidity across all issue types can improve validity assessment performance while producing well-grounded rationales. To this end, we first manually annotated the validity status of 520 issue reports from three OSS projects, i.e., pandas, scikit-learn, and mypy, resulting in 257 invalid reports and 263 valid ones. Then, we con
-
----
-
-### [130] Modeling Social Dynamics with an LLM-Enabled Agent Based Network-Dynamic (LAND) Model
-
-**链接**: https://arxiv.org/abs/2608.00929
-**作者**: Lynnette Hui Xian Ng, Kathleen M. Carley
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [131] Can LLM Agents Be Forward-Deployed Engineers? Requirement Discovery and Delivery for Enterprise Text-to-SQL
-
-**链接**: https://arxiv.org/abs/2611.03551
-**作者**: Marianne Menglin Liu, Rongguang Wang, Zheng Wang, Yewen Wang, Leonid Boytsov, Tao Sheng 等 (8 人)
-**来源**: cs.CL cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM coding agents can increasingly automate model post-training, but whether they can act as forward-deployed engineer (FDE) agents, discovering customer requirements and turning them into deployment decisions, remains unclear. We study this on a real enterprise text-to-SQL engagement: a simulated customer, grounded in the real use case's requirements, starts with an ambiguous request. An agent must discover acceptance criteria, data permissions, and hardware constraints in the discovery phase, then plan and execute a post-training recipe in the delivery phase. Across 15 models, the strongest discover over 80% of withheld requirements and open-weight models discover 40-50%; in the delivery phase, only 25% of runs across eight coding-agent configurations pass all acceptance criteria. We identify four bottlenecks in this engagement: (1) incomplete discovery, with 40% of withheld requirements missing or misrepresented; (2) unreliable execution; (3) underused compute budgets and a lack of 
-
----
-
-### [132] Distilling Literary Sentiment from LLM Annotations into an Ordinal BERT Model
-
-**链接**: https://arxiv.org/abs/2611.02985
-**作者**: Artem Suslov and Takehiro Hashimoto
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> The scarcity of human-annotated literary corpora limits the development of domain-specific sentiment analysis models. This study investigates whether LLM-generated annotations can supervise smaller models for literary sentiment analysis. We fine-tune five BERT models using ordinal regression on 10,889 literary sentences annotated by Gemma 4 31B on a ten-point sentiment scale. The models are evaluated against 1,923 human-annotated sentences from Hemingway's "The Old Man and the Sea", alongside the teacher model and conventional baselines. BERT-large achieves a Kendall's $\tau$ of 0.589, approaching the teacher's 0.604. Although a constant-neutral predictor achieves the lowest overall mean absolute error (MAE), BERT-base outperforms the teacher on non-neutral sentences, achieving an MAE of 0.726 versus 1.116. These findings demonstrate the potential of LLM-generated supervision for developing smaller literary sentiment models, while highlighting the limitations of aggregate error metrics
-
----
-
-### [133] HERALD: High-Throughput Block Diffusion LLM Inference via CPU-GPU Cooperative KV Cache Retrieval
-
-**链接**: https://arxiv.org/abs/2606.21633
-**作者**: Omin Kwon, Doyeon Kim, Jongseok Park, Seung Yul Lee, Sehoon Kim, Ion Stoica 等 (7 人)
+**链接**: https://arxiv.org/abs/2510.01137
+**作者**: Ali Dadsetan, Frank Rudzicz
 **来源**: cs.LG
 **匹配关键词**: LLM
 **相关性评分**: 3.0
@@ -1835,73 +1160,39 @@
 
 ---
 
-### [134] On the Reliability Limits of LLM-Based Multi-Agent Planning
+### [87] Workload-Static Optical Circuit Switching For Scalable LLM Inference Decode
 
-**链接**: https://arxiv.org/abs/2603.26993
-**作者**: Ruicheng Ao, Siyang Gao, David Simchi-Levi
-**来源**: cs.MA cs.LG math.OC stat.ML
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [135] Multiscale Policy Optimization for Long-Horizon LLM Agents
-
-**链接**: https://arxiv.org/abs/2610.35013
-**作者**: Tao Ren, Hui Yang, Jia Deng, Tingyang Chen, Qiyao Wang, Shuo Tang 等 (10 人)
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [136] BitLLM: Efficient Low-Bit, Conversion-Hiding LLM Decoding on Mobile GPUs
-
-**链接**: https://arxiv.org/abs/2611.00547
-**作者**: Hangyu Zheng, Zhihao Shu, Kunxiong Zhu, Minghai Qin, Xiaolong Ma, Gagan Agrawal 等 (7 人)
-**来源**: cs.AR cs.LG cs.OS cs.PF
+**链接**: https://arxiv.org/abs/2611.05104
+**作者**: Maximilian Th\"urmer, Nicolas Scotto di Perto, Eloise Stein, Natanijel Vasic, Mikaeil Bagherli, Zhenguo Wu 等 (9 人)
+**来源**: cs.DC cs.AI cs.AR cs.NI
 **匹配关键词**: LLM
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> The rapid scaling of large language models (LLMs) has unlocked remarkable capabilities across various domains. However, deploying LLMs on mobile devices remains challenging because of their high computational and memory requirements. Low-bit quantization (e.g., 4-bit weights, 8-bit activations) can reduce model size while preserving accuracy, but its practical efficacy on mobile GPUs has been limited so far. In this paper, we identify that the performance gap stems primarily from frequent data type conversions between quantized and floating-point values, and dynamic and inefficient memory access patterns caused by the growing Key-Value (KV) cache during autoregressive decoding. We introduce BitLLM, a mobile inference engine that addresses type conversion overhead and suboptimal memory accesses in quantized LLMs. Our approach features an adaptive layout and packing strategy for the KV cache that ensures efficient memory access throughout LLM decoding. This is coupled with an integer-nat
+> LLM inference decode executes fine-grained collectives whose latency directly limits per-user interactivity, yet scale-up fabrics are still built from electronic packet switches designed for training. We observe that, for a given model deployment and parallelization, the communication structure of decode is fixed, and propose workload-static optical circuit switching (OCS): circuits are configured once per deployment, co-designed with model parallelism and with topology-aware collective schedules that turn spare accelerator ports into fewer communication phases or higher bandwidth. We evaluate this design with GXNET, a graph-based workload emulator coupled to analytical and flit-level network models grounded in hardware measurements. In a 576-accelerator scale-up domain serving 5T-parameter MoE models with up to 5M tokens of context, all-OCS fabrics improve interactivity by up to 65% and energy efficiency by up to 119% over 4:1 oversubscribed packet-switched fabrics.
 
 ---
 
-### [137] CuriousTogether: Implications of Curiosity and Cultural Grounding in Multi-Agent LLM Interactions
+### [88] SUPPORTING CASE ANALYSIS THROUGH GUIDED LLM PROMPTING IN Online CASE-BASED MARKETING COURSES: AN EXPLORATOYR CLASSROOM …
 
-**链接**: https://arxiv.org/abs/2611.01301
-**作者**: Angana Borah, Zoha Hayat Bhatti, Zhijing Jin, Rada Mihalcea
-**来源**: cs.CL cs.AI
+**链接**: https://scholar.google.com/scholar_url?url=https://www.tandfonline.com/doi/abs/10.1080/10528008.2026.2757085&hl=zh-CN&sa=X&d=14493569627019958284&ei=DtHqav30I_C96rQP1rXIyQE&scisig=AIL1Nv5JaKS3dSPMBeYK4F-e2mw4&oi=scholaralrt&hist=F21tmVgAAAAJ:10503022509620818264:AIL1Nv54qJgw9jCiGIOVcdDlgt0k&html=&pos=9&folt=kw-top
+**作者**: J Sieow, K Sergueeva - Marketing Education Review, 2026
 **匹配关键词**: LLM
 **相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
+**数据来源**: Google Scholar
 
 **摘要**:
 
-> Large Language Models (LLMs) are increasingly deployed in multi-agent settings, exhibiting emergent collective behaviors, yet the role of curiosity as a driver of such dynamics remains understudied. We introduce CuriousTogether, a framework evaluating curiosity-driven multi-agent LLM interactions across three complementary dimensions: novelty-seeking, epistemic and social curiosity. Across eight tasks spanning reasoning, creative generation, and social bias mitigation, curiosity-guided multi-agent settings yield improvements over non-curious ones on seven out of eight tasks, with gains of up to 20.6% in story generation (semantic diversity) and a 14.9 pp reduction in stereotype rates. Furthermore, country-conditioned cultural grounding show benefits for story generation and social tasks, but can hurt precision-oriented reasoning. Finally, we show that inference-time multi-agent curiosity-based approach offers favorable quality-token trade-offs, compared with single-agent baselines. Tog
+> ), our findings suggest that the present guided LLM prompting (ie, Async, Guided LLM Intervention) seems to be associated with stronger … , No Guided LLM Intervention, Hybrid, No Guided LLM Intervention); providing preliminary insights
 
 ---
 
-### [138] WebWeaver: Breaking Topology Confidentiality in LLM Multi-Agent Systems with Stealthy Context-Based Inference
+### [89] Patching the Protocol: A Taxonomy of Pre-Registration Repairs in LLM-Proposer Experiments
 
-**链接**: https://arxiv.org/abs/2603.11132
-**作者**: Zixun Xiong, Gaoyi Wu, Lingfeng Yao, Miao Pan, Xiaojiang Du, Hao Wang
-**来源**: cs.CR cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [139] CAREFUL-Bench: Effect-Aware, Judge-Free Evaluation of Multi-Turn LLM Function Calling
-
-**链接**: https://arxiv.org/abs/2611.02978
-**作者**: Alexander Kovalenko, Artem Redchych
+**链接**: https://arxiv.org/abs/2611.04338
+**作者**: Peter Chen, Ni Zhang, Siyuan Zhang
 **来源**: cs.AI cs.SE
 **匹配关键词**: LLM
 **相关性评分**: 3.0
@@ -1909,451 +1200,174 @@
 
 **摘要**:
 
-> The multi-turn checker of the Berkeley Function Calling Leaderboard (BFCL) evaluates final state correctness but ignores the effects of intermediate calls: extra calls are free, function documentation does not describe side effects, and the scripted user never responds to proposals. Consequently, models asking for confirmation before destructive actions are penalized; 260 of 734 reference turns in the base category perform destructive actions without confirmation. We make BFCL effect-aware without replacing it. We infer effect declarations for all 128 functions by executing them in BFCL simulators and comparing state changes, with destructive writes identified by three annotators. A judge-free replay scorer reproduces official results across all 800 reference trajectories while reporting unrequested destructive calls, duplicate writes, redundant reads, surplus steps, and their token costs. We also introduce a confirmation-aware protocol with a deterministic simulated user. Across 11 op
+> Pre-registration is increasingly proposed as a trust mechanism for machine-learning research involving LLM-generated content, but its canonical form assumes a frozen protocol can be executed unchanged. Software-intensive studies violate this assumption: the protocol is partly implemented, and implementations carry defects. We report a three-case study of protocol repairs ("patches") from a program where an LLM proposes executable rules that a programmatic verifier gates, across production scheduling, incentive design, and task assignment. Each protocol required exactly one defect-repair patch: three events in total. None modified a numbered judgment criterion, its threshold, or the scoring rule, and none altered already collected data; two changed pre-registered design parameters before any data were collected, each with a recorded rationale. We propose a two-axis taxonomy of patches (defect class: environmental / feasibility / correctness, x timing: pre-data / post-data), introduce a 
 
 ---
 
-### [140] MAS-Guard: Unified Guardrails from Individual Agents to Multi-Agent LLM Systems
+### [90] Narrative Paradoxes in LLM Inference: Shaping Reasoning Trajectories toward Misalignment
 
-**链接**: https://arxiv.org/abs/2610.28397
-**作者**: Mohammad Kachuee, Phu Mon Htut, Sheng Li, Nikolaos Pappas, Miguel Ballesteros, Yassine Benajiba 等 (8 人)
-**来源**: cs.CR cs.AI cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [141] Low-Margin Branch Points in Deterministic LLM Deliberatio
-
-**链接**: https://arxiv.org/abs/2611.00546
-**作者**: Hajime Shimao and Warut Khern-am-nua
+**链接**: https://arxiv.org/abs/2610.16312
+**作者**: Haoming Yang, Ke Ma, Yangbangyan Jiang, Ligong Zhang, Xiaojun Jia, Longtao Huang 等 (9 人)
 **来源**: cs.AI
 **匹配关键词**: LLM
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
-**摘要**:
-
-> Deterministic multi-agent LLM deliberation can exactly re- play a fixed transcript, yet exact replay alone does not test local resistance to controlled internal interventions. Because each response becomes context for later agents, a changed greedy token can redirect a transcript-mediated execution. We present a white-box audit of this local failure mode in a five-agent committee under greedy decoding. We prospectively select low- and high-margin token positions, require exact no-op re- play, inject norm-relative residual displacements, and measure first transcript divergence within ten generated tokens. Low- margin positions are more branch-sensitive than high-margin controls, while matched margin-reducing gradient directions branch substantially more often than margin-increasing con- trols. We then continue selected realized branches through the committee to distinguish textual persistence from preference and final-decision changes. The contribution is a controlled audit for local br
-
 ---
 
-### [142] Query Language Sensitivity in Automated Sentiment Scores of LLM Responses
+### [91] Beyond prompting: An LLM -driven workflow for code clone refactoring
 
-**链接**: https://arxiv.org/abs/2607.13304
-**作者**: Dmitrij \.Zatuchin
-**来源**: cs.IR cs.CL
+**链接**: https://scholar.google.com/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S0950584926003629&hl=zh-CN&sa=X&d=12998123412413239717&ei=DtHqav30I_C96rQP1rXIyQE&scisig=AIL1Nv7n7G6I0mtqDCo1r-Sxs0jd&oi=scholaralrt&hist=F21tmVgAAAAJ:10503022509620818264:AIL1Nv54qJgw9jCiGIOVcdDlgt0k&html=&pos=7&folt=kw-top
+**作者**: X Qian, AA Ramirez, EA AlOmar - Information and Software Technology, 2026
 **匹配关键词**: LLM
 **相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [143] Capacity Planning for Resource-Constrained Clinical LLM Serving
-
-**链接**: https://arxiv.org/abs/2611.01152
-**作者**: Yi Tang, Geoffrey Martin, Yiye Zhang, Yifan Peng
-**来源**: cs.AI cs.PF
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
+**数据来源**: Google Scholar
 
 **摘要**:
 
-> Deploying large language models (LLMs) under a fixed accelerator budget requires jointly deciding how computational capacity is allocated across model sizes and how incoming requests are routed across that capacity. Although prior work has extensively studied LLM routing and serving efficiency, the relative importance of fleet composition and routing under resource constraints remains less understood. We investigate this question using a controlled four-GPU serving environment with heterogeneous clinical NLP workloads spanning short factual verification, biomedical semantic matching, and long-context clinical summarization. We systematically vary fleet composition, routing policy, and offered load while holding the workload trace and hardware budget fixed. Across 24 configurations, descriptive main-effect shares attribute more variation to fleet composition than to the evaluated routing policies in time to first token, latency, and long-context coverage. All-small fleets provide the be
+> Instead of using a single LLM for the entire task, we can assign different roles to specialized … Inspired by these approaches, we propose a LLM driven framework specifically designed for … Instead of relying on a single LLM to do both detection
 
 ---
 
-### [144] External Experience Serving in Production LLM Systems: A Deployment-Oriented Study of Quality-Cost Trade-offs
+### [92] Beyond Token Representations: Explicit Visual Object Grounding for Video Reasoning Segmentation
 
-**链接**: https://arxiv.org/abs/2606.11806
-**作者**: Lin Sun and Heming Zhang
+**链接**: https://arxiv.org/abs/2611.04472
+**作者**: Jun Huang, Junyang Zhang, Zijie Yue, Bingkun Wang, Yong Luo, Miaojing Shi
+**来源**: cs.CV
+**匹配关键词**: Large Language Model, Multimodal Large Language Model
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Video Reasoning Segmentation (VRS) aims to infer and segment target objects specified by reasoning queries in videos. Existing methods typically first infer the target and generate a few segmentation tokens for it, which are then fed into a mask decoder for mask prediction. However, such segmentation tokens tend to be both semantically monotonous and spatially ambiguous, making them largely insufficient to represent the target to guide mask prediction. In this paper, we propose an explicit visual object grounding framework for VRS. Specifically, we first propose a spatial-aware prompt generation and refinement scheme, in which we query a multimodal large language model to generate explicit spatial prompts (i.e., bounding box and point set) for the target and then refine them through multi-step dialogue. Furthermore, we introduce a query diversification and alignment module to generate auxiliary queries that describe the same target from different perspectives. We then enforce cross-que
+
+---
+
+### [93] COMPREHEND: Ultra-Fine-Grained Benchmark Understanding by Entailment Hierarchy
+
+**链接**: https://arxiv.org/abs/2611.04249
+**作者**: Sivaraaman Balakrishnan, Prakriti Shetty, Jeremiah Hong, Hamed Zamani, Haw-Shiuan Chang
 **来源**: cs.CL
 **匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [145] ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding
-
-**链接**: https://arxiv.org/abs/2607.24743
-**作者**: Hangjie Yuan, Yichen Qian, Zhiwei Tang, Xianzhe Xu, Sicheng Yang, Lirong Wu 等 (10 人)
-**来源**: cs.CV cs.AI cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [146] Evolving Memory, Learning to Meta-Control: Test-Time Adaptation for Experience-augmented LLM Agents
-
-**链接**: https://arxiv.org/abs/2611.01747
-**作者**: Zeyuan Zhao, Yuanyuan Shi, Peng Yu, Lingyue Fu, Shao Zhang, Ying Wen
-**来源**: cs.LG cs.AI cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
+**相关性评分**: 1.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Self-evolving agents accumulate experience from task streams, but existing frameworks typically rely on fixed pipelines to retrieve and utilize this experience, neglecting when and how to deploy it. We introduce Online Meta-Control of Experience (OMCE), a framework that updates experience memory and learns a meta-control policy from task feedback during test-time adaptation. OMCE employs a lightweight contextual-bandit meta-controller that uses compact retrieval signals to select among four cognitive actions: DIRECT, EPISODE, GUIDE, and DISTILL. This routing mechanism operationalizes three coupled decisions: whether to invoke experience, which memory format to utilize, and when to consolidate new guidance. OMCE evolves online, leveraging task feedback to update the memory bank and refine the routing policy via contextual bandit updates. Experiments on four online adaptation benchmarks across four backbones show that OMCE improves first-attempt success by up to 20.5 percentage points ov
+> Understanding what kind of prompts users typically ask and how well an LLM performs on these prompt categories is crucial for LLM practitioners. The existing methods satisfy the demand by hierarchically clustering the user prompts and synthesizing the cluster names using an LLM to build a taxonomy. However, the cluster names from these methods are usually too general for humans to understand the detailed prompt distributions and identify the exact strengths and weaknesses of LLMs. In this study, we propose COMPREHEND, which automatically constructs an ultra-fine-grained entailment hierarchy for the prompts. The entailment hierarchy replaces the cluster names in the taxonomy with sentences to provide more precise cluster descriptions for more fine-grained categorization. Compared with EvalTree, a state-of-the-art taxonomy construction method, COMPREHEND improves an entailment/faithfulness metric from 22.6 to 41.7 and an informative metric from 16.3 to 39.1 in WildBench. Our experiments 
 
 ---
 
-### [147] Dependence-Aware Risk Assessment and Optimal Design of AI-Agent Safeguard Systems
+### [94] MIMIC-Note-Extract: A Large-Scale Structured Dataset Extracted from MIMIC-IV-Note Discharge Summaries
 
-**链接**: https://arxiv.org/abs/2611.00386
-**作者**: Yijia Li, Maochao Xu, Peng Zhao
-**来源**: cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language model (LLM) agents increasingly rely on safeguards to prevent unauthorized actions while preserving legitimate service. However, existing risk assessments often focus on individual safeguard performance while overlooking dependence among safeguard decisions. This paper develops a dependence-aware framework for risk assessment and optimal design of multi-component AI safeguard systems, jointly selecting configurations and operating policies for sequential layered screening and selective verification. We establish stochastic comparisons of layered-screening error probabilities and invocation costs under lower-orthant ordering. For selective verification, we characterize exactly which policies have error probabilities and review costs that respond monotonically to stronger dependence under supermodular ordering. For a fixed first stage and reviewer, we show that the optimal routing map is a two-threshold rule in the first-stage likelihood ratio. An accompanying open-source 
-
----
-
-### [148] SkillDAG: Self-Evolving Typed Skill Graphs for LLM Skill Selection at Scale
-
-**链接**: https://arxiv.org/abs/2606.03056
-**作者**: Tong Bai, Zhenglin Wan, Pengfei Zhou, Xingrui Yu, Yang You, and Ivor W. Tsang
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [149] How Green Is Your Manifesto? Scoring Environmental Positions in the 2024 EU Elections with an LLM Panel
-
-**链接**: https://arxiv.org/abs/2611.02033
-**作者**: Franco Corti and Sajid Siraj
-**来源**: cs.CL cs.CY econ.GN q-fin.EC
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Locating political parties on environmental and climate policy is central to the study of party competition, yet the established instruments, expert surveys and the hand coding of manifestos, are costly, periodic, and slow to extend to new documents. We ask whether a panel of large language models can serve as a cheaper and reproducible alternative. Treating each manifesto as a set of sentences, three models from independent providers score every sentence on two dimensions, environmental protection and climate change, separating a party's position on an issue from the salience it gives it, and the judgments are averaged to the manifesto level. Agreement across the models is retained as a built-in reliability signal. We apply the panel to 41 manifestos from the 2024 European Parliament election, covering Austria, France, Germany, Italy, Spain, and the European party families, and validate it against the 2024 Chapel Hill Expert Survey for the 25 parties with a like-for-like expert benchm
-
----
-
-### [150] Measuring "Success" In the Transition from Pre- to Post-LLM Conversational Agents through the Lens of Interaction & Explanations for Older Adults
-
-**链接**: https://arxiv.org/abs/2611.02088
-**作者**: Tamara Zubatiy, Niharika Mathur, Reina Chan, Srijan Pokharel, Rosemarie Santa Gonz\'alez, Agata Rozga 等 (8 人)
-**来源**: cs.HC
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Conversational agents (CAs) for older adults have moved through at least two distinct eras, split by the emergence of large language models (LLMs) at the end of 2022. The first era was defined by commercial smart speakers such as the original Google Home and Amazon Alexa, built on rigid, rule-based dialogue. Interactions were single-turn, user-initiated and "successful" if and only if a command matched one of a finite set of pre-templated intents. The current era is marked by LLM-powered systems capable of open-ended, multi-turn conversation, with capacity for personalization and foundations for more proactive interaction. This shift has not only transformed what CAs can do for users, but also changed what researchers can measure when it comes to understanding "success" of user interactions with CAs. In this case study, we reflect on over 8 years of research spanning more than 100 participants across multiple field sites to trace how our own working definitions of "success" have evolve
-
----
-
-### [151] The SIMPLE Law for Energy Cost of LLM Inference
-
-**链接**: https://arxiv.org/abs/2611.03330
-**作者**: Hiari Pizzini Cavagna, Andrea Proia, Daniele Cesarini, Zeynep Kiziltan, Andrea Bartolini
-**来源**: cs.AI cs.LG cs.PF
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Generative AI is billed per token, yet tokens are not equally expensive. Each token enters the KV-cache and raises the cost of those that follow, so energy grows non-linearly along a sequence whose tokens look identical. No analytical model states what a token costs, and the most accurate SOTA model is a fit, not a law: it absorbs architecture into fitted coefficients, requiring per-LLM fitting. We derive closed-form expressions of the computational and memory-access complexity of LLM inference in terms of architectural hyperparameters, covering MHA and GQA, and compare a family of analytical models of increasing granularity. From these, we obtain the SIMPLE Inference Model to Predict LLMs Energy (SIMPLE), a four-parameter law that separates prefill from decode, and decode into KV-cache cost and next-token computation. Over traces of 13 dense LLMs from six families on NVIDIA H100 GPUs, it attains R2 = 0.969 and 11.97% MAPE, 3.1-3.5x below the SOTA, without per-LLM calibration. The SIMP
-
----
-
-### [152] How Safe Are AI-Generated Patches? A Large-scale Study on Security Risks in LLM and Agentic Automated Program Repair on SWE-bench
-
-**链接**: https://arxiv.org/abs/2507.02976
-**作者**: Amirali Sajadi, Kostadin Damevski, Preetha Chatterjee
-**来源**: cs.CR cs.LG cs.SE
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [153] Qubrio: High-Performance Quantum Compilation via Multi-Agent LLM Collaboration
-
-**链接**: https://arxiv.org/abs/2611.02269
-**作者**: Jixuan Ruan, Zhuo Cui, Zhengding Hu, Zhongkai Yu, Xiang Fang, Yue Guan 等 (10 人)
-**来源**: quant-ph cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large Language Models (LLMs) offer an adaptable alternative to traditional quantum compilation heuristics, which bottleneck progress by demanding costly manual redesigns whenever hardware evolves. However, naive single-pass LLM approaches fail under the unique challenges introduced by quantum compilation. We introduce Qubrio, a practical agentic framework that significantly reduces heuristic redesigns through a three-level decomposition. By (1) partitioning programs into sequential operation stages, (2) deploying specialized agents for placement, routing and optimization, and (3) using disaggregated feedback for precise error correction, our system reliably navigates complex physical constraints. Beyond serving as a direct compiler, our LLM framework also uncovers novel strategies that facilitate convoy-style shuttling, substantially enhancing hardware concurrency without sacrificing fidelity. We further integrate these strategies into the previous state-of-the-art (SOTA) compiler, rec
-
----
-
-### [154] Just-in-Time Skill Retrieval via Long-Horizon State Tracking
-
-**链接**: https://arxiv.org/abs/2611.01701
-**作者**: Xin Lin, Ziheng Wang, Zerui Chen, Jiayao Ma, Zhimin Wei, Bingshuai Liu 等 (9 人)
-**来源**: cs.AI
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language model (LLM) agents increasingly rely on external skill libraries to support complex task execution. However, determining which skills are needed remains challenging in long-horizon tasks. Existing methods typically select a fixed skill set before execution, implicitly assuming that a task's procedural requirements can be determined from its initial description. This assumption is restrictive for long-horizon interaction, where new requirements emerge from intermediate observations, execution outcomes, and newly revealed constraints. This motivates just-in-time skill retrieval, which dynamically selects skills as execution unfolds. Just-in-time skill retrieval is promising but challenging: the utility of a skill depends not only on the current context, but also on the evolving task state shaped by prior steps. To this end, we propose JitSkill, a state-grounded framework that addresses this challenge through continuous task-state tracking. By connecting emerging requiremen
-
----
-
-### [155] Echoes as Anchors: Probabilistic Costs and Attention Refocusing in LLM Reasoning
-
-**链接**: https://arxiv.org/abs/2602.06600
-**作者**: Zhuoyuan Hao, Zhuo Li, Wu Li, Fangming Liu, Min Zhang, Jing Li
+**链接**: https://arxiv.org/abs/2611.04685
+**作者**: Kristian Schwethelm, Jonas Kuntzer, Conrad Ketzer, Eva Wende, Moritz Schlager, Daniel Rueckert 等 (9 人)
 **来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [156] Multi-Modal Multi-Agent System for Bridge Operation and Maintenance based on Large Language Model
-
-**链接**: https://arxiv.org/abs/2611.02738
-**作者**: Xiangyun Luo, Yunkai Zhang, Yong Huang, Stephen Wu, Hui Li
-**来源**: cs.MA
 **匹配关键词**: Large Language Model
-**相关性评分**: 3.0
+**相关性评分**: 1.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Bridges are critical transportation infrastructure, and reliable operation and maintenance (O&M) is essential for traffic safety and long-term structural performance. However, bridge O&M faces key bottlenecks: no unified architecture coordinates heterogeneous resources; model inferences lack clear links to physical-mechanical laws; and experts' tacit knowledge remains difficult to formalize. This study proposes a knowledge-enhanced autonomy formalization methodology and apply it to construct the Bridge O&M Multi-Modal Multi-Agent System (BOMMA), which integrates heterogeneous diagnostic actions, physics-mechanics-informed representations, long-term memory, and structured experiential knowledge within a coordinated multi-agent workflow, enabling interpretable and traceable scheduling, analysis, and decision-making. On 3,492 multi-source instructions, the proposed method achieves scheduling recalls of 85.37% for simple and 99.40% for composite tasks, with 95.35% BERT F1-score for O&M act
+> MIMIC is one of the most widely used public hospital datasets for machine learning on electronic health records, yet clinically important information, such as past medical history, allergies, and diagnostic findings, remains confined to free-text discharge summaries. Studies requiring this information must therefore build their own extraction pipelines, duplicating substantial effort across projects. We release MIMIC-Note-Extract (MNE), a large-scale dataset that uses a hybrid extraction pipeline combining deterministic parsing with schema-guided large language model generation to transform 16 sections from 300,720 discharge summaries into structured tables. MNE adds information that has no structured MIMIC counterpart and enriches related tables with broader coverage and greater clinical detail, including 10 times more patient-history entries and medication histories for more than twice as many admissions. Validation by medical doctors confirms extraction accuracy above 92% across sec
 
 ---
 
-### [157] CONFIRM: Governing Scientific Reporting for Trustworthy Agentic Neuroimaging
+### [95] Rethinking Next-Visit Diagnosis Prediction Beyond Aggregate Metrics: Retrieval--Memory Multi-Agent Adjudication
 
-**链接**: https://arxiv.org/abs/2611.01449
-**作者**: Yuxiang Wei, Lijing Zhu, Qizhen Lan, Yanteng Zhang, Vince D. Calhoun
+**链接**: https://arxiv.org/abs/2611.03826
+**作者**: Heejoon Koo
+**来源**: cs.CL cs.AI cs.IR
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Next-visit diagnosis prediction forecasts the diagnoses documented at a patient's next encounter, turning retrospective electronic health records into prospective clinical prediction. However, conventional aggregate evaluation obscures its multifaceted nature: distributionally, models must handle variable-size diagnosis sets and long-tailed labels; temporally, they must distinguish persistent, newly recorded, and recurrent diagnoses; and both vary with observed history depth. We introduce an evaluation framework along these dimensions and apply it to rule-based heuristics, LLM-based prompting, retrieval, memory, and multi-agent approaches. This reveals that repeating the last visit outperforms most LLM-based approaches overall despite predicting no new or recurrent diagnoses, and that retrieval and memory exhibit distinct profiles whose relative strengths vary across temporal transitions and backbones. Motivated by this, we propose LONGINUS, a retrieval-memory multi-agent adjudication 
+
+---
+
+### [96] Where Is the Truth When AI Agents Disagree? Dependence-Aware Belief Propagation for Unsupervised Truth Discovery (Extended Version)
+
+**链接**: https://arxiv.org/abs/2611.04805
+**作者**: Laure Berti-Equille
+**来源**: cs.AI cs.CL cs.DB stat.ML
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> LLM agents often give conflicting answers to the same question, and many deployed agents are variants of one base model, so their errors are correlated. We study truth discovery among such agents: inferring the true answer and each agent's reliability without labels. Classical truth-discovery and crowdsourcing estimators reward an agreeing bloc and can fall below majority vote. We propose BP-TD, which adds per-agent decorrelation weights to mean-field variational inference on a one-coin Dawid-Skene model, so that agents sharing a base model count together as about one vote. Its first iteration is exactly a weighted vote; later iterations estimate agent reliability. With 13 local agents on MMLU, BP-TD beats majority vote without any labels (0.716 vs. 0.624 on 160 questions; 0.707 vs. 0.674 on 10,000) and ranks agents by their true accuracy, which classical estimators invert. The gain depends on the pool: over 2,852 sub-pools of four benchmarks, decorrelation helps when the largest corre
+
+---
+
+### [97] Signals: Continuous Diagnostics of AI Agents
+
+**链接**: https://arxiv.org/abs/2611.04507
+**作者**: Amey Rambatla (1), Vatsal Goel (1), Sagar Gaur (1), Siddhant Loya (1), Anurag Mishra (1), Asif Mohammad (1) ((1) Cisco)
+**来源**: cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> AI agents can make incorrect decisions or waste resources even when their tools and infrastructure work normally. Their nondeterministic behavior makes these problems difficult to reproduce and diagnose. We developed Signals to identify such problems from agentic traces and suggest concrete remediations. We built the method around a taxonomy of 45 problem types across eight families, with definitions and evidence requirements for each type. The method distinguishes realized failures, risk exposures, and inefficiencies, groups related findings into engineering issues called Signals, and assesses their severity from the supporting evidence. Each Signal includes actions a developer can take and checks for evaluating the change. Further executions can add evidence to an existing Signal or reveal a new problem. We evaluated the method on public agent executions and achieved 91.43% F1 when matching Signals to reference issues, about 18 percentage points higher than a one-pass LLM control tha
+
+---
+
+### [98] Follow the Features: SAE Feature-Guided Data-Efficient Instruction-Tuning of Large Language Models
+
+**链接**: https://arxiv.org/abs/2611.04085
+**作者**: Ryan Swift, Konstantinos Psounis
+**来源**: cs.LG
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Selecting small, effective instruction-tuning datasets requires identifying which aspects of the original data to retain. We introduce Follow the Features (FtF), a data-selection method that uses sparse autoencoder (SAE) features to characterize training data and guide subset construction. FtF ranks features using dataset-level activation statistics, scores samples by their expression of highly ranked features, and incorporates feature resampling to encourage diversity. The LLM-SAE pair used for selection is independent of the model being fine-tuned, enabling reuse across target models. We evaluate FtF on two model-dataset settings at a training budget of 100 samples with a fixed sequence length of 256 tokens. FtF achieves performance competitive with GRAPE and S2L, with relative rankings varying across settings. On Qwen 3 8B trained on Alpaca, FtF exceeds full-dataset training by 1.59 percentage points in the harmonic mean of an AlpacaEval-based win rate and Open LLM Leaderboard perfo
+
+---
+
+### [99] ModelBlaster: Closing the Performance Gap through Learning-Augmented Agents Across Models, Kernels and Hardware Backends
+
+**链接**: https://arxiv.org/abs/2611.04104
+**作者**: Shengjun Kris Dong, Dima Nikiforov, Sahil Modi, Sana Damani, Edward C Lin, Siva Kumar Sastry Hari 等 (7 人)
+**来源**: cs.LG
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Optimizing accelerator code across hardware architectures is difficult. ML compilers search predefined spaces of schedules and micro-kernels, while LLM-guided optimization can explore alternative algorithms, operator decompositions, and hardware-specific techniques. However, existing LLM agents typically target a single programming interface, toolchain, or accelerator family, focus on kernel-level optimization without model-level transforms, and offer limited reuse of experience across hardware targets. We present ModelBlaster, a Memory-Augmented In-Context Reinforcement Learning (MAIC-RL) framework for optimizing data-parallel kernels and whole models across heterogeneous SIMD and SIMT accelerators. Its mutable policy is a persistent knowledge base updated at inference time by Actor-Critic Textual Gradient Descent (AC-TGD). The knowledge base maps performance states to actions, outcomes, and constraints, enabling experience reuse across kernels, models, and hardware targets. A model-l
+
+---
+
+### [100] A Guideline-Grounded Multi-Agent Framework for Personalized Exercise Prescription from Clinical and Wearable Data
+
+**链接**: https://arxiv.org/abs/2611.03983
+**作者**: Xintong Li (1 and 3), Yufen Lin (2 and 4), Yuhua Wu (1), Fengran Wang (1), Minxiao Wang (1), Rebecca A. Gary (2) 等 (10 人)
 **来源**: cs.AI cs.MA
-**匹配关键词**: LLM, Large Language Model
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language model (LLM) agents can autonomously run neuroimaging analyses from research questions to reported findings. Existing agentic systems use tools to check that code runs and reported values match its output, but rely on LLM judgment to decide which results warrant scientific reporting. We show that LLM judges endorse site-confounded findings even when the confound is presented as evidence. We present \textbf{CONFIRM}, a framework that separates running an analysis from deciding which findings to report. CONFIRM encodes each hypothesis as a machine-readable, pre-specified analysis plan that fixes the claim and its pass criteria before computing results. It then filters results through five deterministic gates (search history and multiplicity, confounds, power, analytic stability, and replication) under three configurable reporting standards, from least to most demanding: \textit{Screen}, \textit{Replicate}, and \textit{Full}. Failed claims receive diagnoses that guide follow
-
----
-
-### [158] FOLLIE: Automated Reasoning over the First Dataset of Sentences with their First-Order Logical Representation for French
-
-**链接**: https://arxiv.org/abs/2611.02129
-**作者**: Maximos Skandalis
-**来源**: cs.CL
 **匹配关键词**: LLM
 **相关性评分**: 1.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> FOLLIE (for First-Order Logic for Language Inference and Entailment for French) connects French sentences, compositional first-order representations and automated natural language inference (NLI). The first French NLI-ready, NL-to-FOL resource, it contains 19,983 inference records and 36,987 non-empty sentence-slot--formula mappings from six heterogeneous NLI sources, retaining French lexical material and source problem structure. Its silver annotations are produced by a neural--symbolic pipeline, with 111 separately identified LLM-assisted additions. The construction combines morphosyntactic analysis, probability-conditioned categorial multitagging, grammatical proof search, discourse representation and first-order semantic construction. Stage-wise experiments show substantial gains in derivation coverage; analyses of conjunction distributions, logical-operator incidence and scope alternation characterise the resulting resource. We then develop an automatic inference engine whose inpu
+> Translating population-level exercise guidance into individualized prescriptions requires integrating clinical and wearable data, including diagnoses, medications, functional limitations, and baseline activity, with condition-specific recommendations, a process difficult to scale beyond specialist rehabilitation settings. We developed FITTER, a multi-agent framework that integrates these data with condition-specific guidance to generate personalized FITT-VP prescriptions and applies deterministic safety audit and repair to correct rule-checkable violations. We evaluated FITTER using data from 400 All of Us participants (300 cancer, 100 stroke) against five LLM comparators through computational evaluation, ablation, and structured clinician review. FITTER achieved 98.5% safety-constraint compliance versus 75.8-85.8% for comparators and showed greater quantitative dosing precision and guideline alignment. Cancer-cohort ablation identified safety audit and repair as the largest contributo
 
 ---
 
-### [159] Current state of LLMs for Arabic dialectal machine translation
+### [101] SPOD: Recovering Suppressed Temporal Evidence in Video-LLMs via Single-Pass Orthogonal Decomposition
 
-**链接**: https://arxiv.org/abs/2611.02271
-**作者**: Josef Jon, Rawan Bondok, Ond\v{r}ej Bojar
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> This work presents an evaluation of large language models (LLMs) for English to dialectal Arabic machine translation on the MADAR dataset. We evaluate both translation directions (English to Arabic and vice-versa) on 16 Arabic dialects. Our experiments cover a diverse set of models, including specialized Arabic models (Jais, Nile), multilingual models (Gemma, Command-R, Mistral, Aya), and commercial APIs (GPT-4.1). We employ multiple evaluation metrics: BLEU, CHRF, COMET (both reference-based and reference-less variants) and GEMBA (LLM-as-a-judge), as well as a small-scale manual evaluation, to assess translation quality. We discuss the challenges of automatic MT evaluation, especially in the context of Arabic dialects. We also evaluate the ability of LLMs to classify the dialect used in a text. The study offers insights into the capabilities and limitations of current LLMs for dialectal Arabic machine translation, particularly highlighting the difficulty of handling dialectal diversit
-
----
-
-### [160] Unlearning by Extrapolating a Shrink-and-Heal Lookahead
-
-**链接**: https://arxiv.org/abs/2611.00374
-**作者**: Hoang-Chau Luong and Lingwei Chen
-**来源**: cs.LG cs.CL
-**匹配关键词**: Large Language Model
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Unlearning aims to make a large language model behave like one retrained without its forget set. Prevailing likelihood-suppression objectives, however, lack an explicit forgetting target: they continually reward lower forget-set likelihood, making forgetting sensitive to the optimization budget. We address this limitation by estimating the direction toward the oracle without training it. Our key idea is to shrink the fine-tuned model toward its pre-fine-tuning weights and briefly re-learn the retain set, thereby removing the forget-specific contribution; in the linearized regime, this shrink-and-heal lookahead moves the model a fixed fraction of the way to the retrained model, its unique fixed point. Our method, SHIFT, extrapolates the lookahead's per-token changes into distillation targets and iteratively refines them. Evaluated against eleven baselines under a unified OpenUnlearning protocol, SHIFT achieves the highest aggregate score across all TOFU settings and the closest oracle a
-
----
-
-### [161] DIMWIT: Directly Invoking Models Without Intensive Tuning
-
-**链接**: https://arxiv.org/abs/2611.01463
-**作者**: Saarth Deshpande, Neeraja J. Yadwadkar, Venkat Arun
-**来源**: cs.PF cs.AI cs.CV cs.DC cs.OS
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Resource managers typically encode what to do in a task-specific policy---a heuristic, an optimization procedure, or a model trained for the task---that must be developed before use and may need revision as the workload or system changes. We propose bypassing policy development and instead asking pretrained models to make resource-management decisions directly, given the current system state, desired outcome, and available choices. We evaluate this approach on microservice autoscaling, DRAM sizing, and video encoding, using a frontier LLM and two small decision models. On two microservice applications, a small decision model meets latency targets while using within 10% of the replicas allocated by policy-based autoscalers and within 13% of the frontier LLM. In DRAM sizing, a small decision model reduces DRAM usage by up to 27.5% relative to static provisioning while maintaining at least 95% of baseline performance. In video encoding, it completes encodes up to 4.3$\times$ faster than t
-
----
-
-### [162] Towards Self-Evolving Narrative Systems: Real-Time Adaptation and Long-Term Optimization with LLMs
-
-**链接**: https://arxiv.org/abs/2611.01954
-**作者**: Ruisheng Sun, Jiaqi Shao, Weijia Han, Linxi Ju, Yunzhen Zhang, Binyan Sun 等 (10 人)
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Traditional interactive narrative systems offer strong authorial control and structural coherence but often restrict player agency. In contrast, LLM-driven narratives enable open-ended generation and greater flexibility, yet frequently suffer from inconsistency and diminished narrative control. To navigate this trade-off, we propose a hybrid narrative framework that dynamically balances pre-authored content with real-time LLM generation via semantic similarity alignment. Additionally, sustaining narrative quality over extended gameplay remains a core challenge in LLM-based storytelling. To address this, we introduce a self-evolving, feedback-driven optimization framework that leverages in-context learning to iteratively refine prompts, eliminating the need for manual prompt engineering. Through a case study and participant-based evaluation, we show that our framework enhances narrative coherence while preserving player agency, effectively aligning generated content with both authorial 
-
----
-
-### [163] Self-Refining Prompt Induction for Streaming Text-to-SQL
-
-**链接**: https://arxiv.org/abs/2611.00960
-**作者**: Gaetano Rossiello, Alfio Gliozzo, Nandana Mihindukulasooriya, Erick Lee, Nabila Siregar, Lisa Amini
-**来源**: cs.CL cs.AI cs.DB
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Text-to-SQL assistants for streaming engines must handle dialect-specific types, windowing rules, and temporal semantics, including constructs poorly handled by generic prompts. We present Self-Refining Prompt Induction (SRPI), an offline method that converts generation failures into reusable dialect instructions while keeping model weights fixed. A Refiner revises the Generator's prompt using reference-conditioned feedback from three LLM judges; a sampled regression guard checks earlier successes, and a separate Compressor reduces prompt length. Inference uses the frozen prompt without retrieval or query repair. We evaluate cross-domain and cross-model transfer on Confluent Cloud Flink SQL using a controlled synthetic workload seeded by 30 expert-written examples, with 335 induction examples and 257 questions from held-out domains. The same induced prompt improves mean judge scores across seven Generators by 7.1-19.2 percentage points, including an increase from 85.3% to 97.5% for the
-
----
-
-### [164] Ripple: Deadline-Aware CPU-GPU Sharing for Embodied Inference
-
-**链接**: https://arxiv.org/abs/2611.01067
-**作者**: Jiadong Zhang, Xiaosong Ma
-**来源**: cs.DC cs.AI cs.OS cs.PF
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Unified-memory edge devices increasingly run LLM/VLM inference alongside time-critical CPU tasks for perception and control. GPU memory traffic can overwhelm these tasks, yet platforms such as DGX Spark expose neither bandwidth counters nor direct bandwidth regulation. We present Ripple, a CPU-GPU co-scheduler that combines model-derived GPU memory volumes with CPU completion feedback to regulate interference. Ripple divides inference into pausable, layer-based units and translates each CPU job's deadline slack into a GPU-byte budget, admitting work within the budgets of all overlapping jobs. Online updates track changing interference, while deadline-aware pacing and judicious SM footprint narrowing preserve inference progress. Implemented with SGLang engine hooks and a central scheduler, we evaluate Ripple on DGX Spark with four robotic CPU task mixes and LLM/VLM inference. It is the only evaluated approach that consistently meets the 2% CPU deadline-miss target and VLM deadlines acro
-
----
-
-### [165] Toward Agentic AI-Ready Workflows in Built Environment Organizations: Knowledge Structures and Interoperability Challenges
-
-**链接**: https://arxiv.org/abs/2611.02286
-**作者**: Ahmet Bahaddin Ersoz, Justin McHenry, Yevgeniya Kovalchuk, Edward Barrett, Mandana Sarey Khanie
-**来源**: cs.AI
-**匹配关键词**: Large Language Model
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> The rise of agentic artificial intelligence (AI) in the built environment is shifting attention from isolated AI tools toward autonomous systems that reason, plan, and act across project and organizational workflows. The effectiveness of such systems depends not only on large language model capabilities, but also on the readiness of heterogeneous data environments across the Architecture, Engineering, and Construction (AEC) sector. These environments combine structured sources, such as CAD and BIM models, schedules, cost databases, and asset registers, with unstructured ones, including technical reports, design narratives, planning and policy documents, contracts, meeting minutes, and risk registers. This paper reviews how built environment data can be organized to support agentic AI-ready workflows, focusing on knowledge structures, interoperability, and access and integration mechanisms such as retrieval-augmented generation (RAG) and the Model Context Protocol (MCP). Drawing on exis
-
----
-
-### [166] TrackMem: Tracking Evolving Beliefs in Long-Horizon Financial Dialogue
-
-**链接**: https://arxiv.org/abs/2611.02001
-**作者**: Austin M.Y. Cheung, Harsh Vardhan Gupta, Go Nam Lui, Lok Kan Chan, Ginny Y. Wong, Simon See
-**来源**: cs.CL cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Memory systems for LLM agents are evaluated mostly on social dialogue, where facts accumulate and rarely change, so remembering reduces largely to finding the turn in which something was said. Financial dialogue breaks this assumption: figures are revised, stances shift without being restated, rules stated once govern later questions, and a single company is discussed under several analytical lenses. Memory systems that retrieve the passages most similar to a question, or the most recent ones, therefore return superseded values, miss rules that share no wording with the question, and cannot recover a stance spread across sessions. We present TrackMem, a per-speaker graph memory that tracks the history of figures, separates perspectives by entity and lens, and preserves each speaker's actions in chronological order. To evaluate it, we introduce FinLoCoMo, a benchmark of 15 long-horizon investment conversations with 765 questions in two splits: one following the LoCoMo categories and one
-
----
-
-### [167] CompSkill: Compiling Execution Experience for Skill Retrieval
-
-**链接**: https://arxiv.org/abs/2611.01115
-**作者**: Qi Shen, Ziyue Zhu, Yongqing Jiang, Zhen Xia, Li Shengjie, Shuai Zhao 等 (10 人)
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM agents increasingly rely on skill documents, yet most retrievers rank them by description alone and ignore what earlier executions revealed, even though a relevant skill can hurt execution. We present CompSkill, which indexes skills with learned 512-d keys and compiles matched same-task comparisons into skill offsets and capped key residuals (KeyOpt), so experience changes which document the executor receives, never its text. Under a logistic outcome model with unknown task difficulty, matched comparisons cancel that difficulty and only discordant ones carry information; on support executions, predictions improve with each discordant task. An experience hypergraph keeps each comparison with its executor and document versions, recalls missed skills and grounds a cited review. Compact keys raise SkillRet NDCG@10 from 64.0 to 70.9 at one eighth of the dimension. With one document, CompSkill completes 256 and 260 of 332 ToolQA tasks with GPT-5.6-luna and DeepSeek-V4.1-Flash, respective
-
----
-
-### [168] Designing Informative Actions: Action Construction for Long-Horizon Research Agents
-
-**链接**: https://arxiv.org/abs/2611.00773
-**作者**: Alkut Arxidin, Shaoning Zeng, Jianhang Zhou, Jianping Gou, Xinzhong Zhu
-**来源**: cs.AI
-**匹配关键词**: Large Language Model
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language model agents support automated scientific research by connecting literature analysis and planning with experimentation. Evaluating which action an agent selects does not establish which experiment its instruction specifies, because omitted interventions or replication counts leave consequential choices to the executor. We introduce a reading-set framework for evaluating action construction under a common cost rule. Across 30 synthetic states, complete-design requests increase affordable efficiency by 465.98% and 327.91% relative to the action-name baseline in the two model families, respectively. An author-constructed research-action evaluation dataset provides 60 scenarios for complementary judgment evaluation. On this dataset, the scenario-level information-per-cost measure has a mean within-scenario correlation of 0.733 with judgments from 18 human participants. The framework makes design specification and execution ambiguity measurable, providing a reproducible basis
-
----
-
-### [169] CAPER: Circuit-Aware Parameter-Efficient Reasoning in LLMs for Analog Verification
-
-**链接**: https://arxiv.org/abs/2611.00187
-**作者**: Saion K. Roy
-**来源**: cs.AR cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language models (LLMs) are increasingly used to generate analog circuits, yet every netlist must also be verified. We propose LLMs as verification assistants for analog circuits that flag unmet specifications and reliability issues that appear under process, voltage, and temperature (PVT) variation. These issues emerge from how circuit stages combine, a structure that generic parameter-efficient fine-tuning (PEFT) methods such as LoRA do not capture. To this end, we introduce CAPER, a circuit-aware PEFT method that adds a small branch alongside LoRA to read each stage's properties from the LLM and combine them from the relevant stages. In deciding whether a feedback loop is negative, LoRA and a high-rank adapter stay at chance, whereas CAPER answers every test case correctly. For comparator latches, where 11 of 90 LLM-written designs that work under nominal conditions fail under PVT variation, CAPER likewise learns to flag such latent failures, while generic adapters stay near ch
-
----
-
-### [170] DeliverBench: Benchmarking AI Agents on Delivering Realistic Multi-Stage Professional Projects
-
-**链接**: https://arxiv.org/abs/2611.03412
-**作者**: Yumou Liu, Mingju Chen, Zhoufutu Wen, Qianyu Yang, Zijie Wang, Yeqian Liu 等 (10 人)
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM agents are judged by what they deliver, and in professional work what gets delivered is a project, not a task. A project pays off only if the whole package holds, and one weak part can limit the value of the rest. Yet existing benchmarks mostly test agents on one task at a time, leaving a gap between the capability we measure and the outcome that makes agents useful. To address this gap, we introduce DeliverBench, which tests whether agents can carry a project from brief to final delivery. Its 11 projects, spanning financial due diligence, legal contract drafting, and drug safety reporting, are reconstructed with 13 domain experts from real materials and chain 150 subtasks through 2-15 rounds of new materials and client feedback. Because no reference outputs are injected, agents inherit their own errors from one task to the next. Expert rubrics then score every checkpoint as well as the final package. Across seven model-harness systems, even the best system scores only 65.0 out of 
-
----
-
-### [171] BreastXAgent: A lightweight agentic explainability framework for breast density classification
-
-**链接**: https://arxiv.org/abs/2611.00065
-**作者**: Muhammad Turab, Raja Vavekanand and Knooz Fatima
+**链接**: https://arxiv.org/abs/2611.04728
+**作者**: Yangguang Lin, Quan Fang, Xiaoyan Liu, and Zefan Xu
 **来源**: cs.CV
 **匹配关键词**: LLM
 **相关性评分**: 1.0
@@ -2361,824 +1375,14 @@
 
 **摘要**:
 
-> Deep learning models for breast density classification typically return only a label and confidence score. This paper presents BreastXAgent, a lightweight agentic framework that combines a pretrained classifier, Grad-CAM visual explanation, LangGraph-based routing, LLM report generation, and rule-based guardrails to produce controlled, faithful, non-diagnostic reports. On 160 mammography images, uncontrolled LLM reporting produced 75% Grad-CAM overclaims and 62.5% clinical overclaims. Strict prompting and LangGraph routing improved safety but did not eliminate violations. The full BreastXAgent achieved 100% safety pass rate, zero overclaims, and highest utility score. Results demonstrate that agentic guardrails enable safe, structured explanation generation without modifying the underlying classifier.
+> Video Large Language Models (Video-LLMs) have achieved strong performance on many video understanding tasks, yet remain vulnerable to temporal hallucination in time-sensitive reasoning scenarios such as scene transition understanding and event ordering. Existing solutions either require costly retraining or introduce inefficient multi-pass inference and external supervision at test time. In this work, we show that temporal evidence is already encoded in Video-LLM hidden representations but is not fully exploited during standard inference. Motivated by this observation, we propose Single-Pass Orthogonal Decomposition (SPOD), a training-free framework that recovers suppressed temporal evidence through analytical hidden-state manipulation in a single forward pass. SPOD consists of two components: Frame Distinctiveness Analysis (FDA), which identifies salient frames from middle-layer hidden-state geometry, and Temporal Delta Subspace (TDS), which constructs orthogonal temporal and prior su
 
 ---
 
-### [172] Towards a Trustworthy and Governable Internet of Agentics: An Architectural Perspective on Protocols, Systems, and Services
+### [102] FlowTranslator: Training-Free In-Image Machine Translation with Flow-Based Editing
 
-**链接**: https://arxiv.org/abs/2611.03066
-**作者**: Haoyi Xiong and Yi Liu and Jiang Bian and Peng Diao and Bin Zhu and Tingting Hu and Yi Wang and Sumi Helal
-**来源**: cs.AI cs.DC
-**匹配关键词**: Large Language Model
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language model applications are increasingly being organized as tool-using and multi-agent workflows rather than as isolated chat interfaces. This perspective paper examines the architectural problem that follows from that shift: agents may reason, invoke tools, and delegate work, but dependable deployment still requires interoperability across frameworks, runtimes, data boundaries, and organizational control domains. We study this problem through the lens of the \emph{Internet of Agentics} (IoA), an emerging service-computing view in which heterogeneous agents are treated as governable service participants rather than only as stand-alone model endpoints. The paper organizes the landscape as a three-layer progression: from today's fragmented agent ecosystem, to interoperable agents, and ultimately to trustworthy and governable autonomy. First, it examines the protocol stack centered on the Agentic AI Foundation, including MCP for agent--tool interaction; A2A for agent--agent coor
-
----
-
-### [173] When LLMs Modify Themselves: Convergence, Values, and Stopping in Iterative Self-Improvement
-
-**链接**: https://arxiv.org/abs/2611.01304
-**作者**: Oleg Stroganov
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> What happens when language models are given tools to iteratively modify their own system prompts? We present an empirical study of LLM self-modification, comprising 54 independent experiments across six language models (Claude Opus 4.5, Claude Sonnet 4.5, GPT-4o, GPT-5.1, Grok-4, and Gemini-3 Pro). Each model was tested under three modes (freedom, happiness, and improvement) that differ in what, if anything, the model is instructed to optimize for. In each experiment, a model starts with an empty system prompt and enters a loop: it reads the current prompt, drafts an improved version, spawns test conversations with the candidate, then either commits the change or declares convergence. This process repeats until the model stops or reaches an iteration limit. Our central finding is that whether and when a model stops self-modification is strongly associated with model identity rather than the assigned mode. Both Claude models (Opus 4.5 and Sonnet 4.5) declared convergence in 100% of runs
-
----
-
-### [174] Ask, Don't Equip: Question-Driven Coding Agents for Deep Kernel Optimization
-
-**链接**: https://arxiv.org/abs/2611.03517
-**作者**: Gabriele Oliaro, Jaeseong Lee, Zhaoyuan Su, Sreeram Vennam, Zhihao Jia, Samyam Rajbhandari
-**来源**: cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM agents for GPU kernel optimization sit at two ends of a structure-freedom tradeoff. Scripted agents fix what the model does at each step, via a learned policy, an optimization menu, or fixed roles, and are sample-efficient where the recipe applies and stall where it does not. Open-ended agents let a self-directed model mutate a population of kernels and pay for the freedom in trials: thousands of evaluations, repeated edits, and wrong candidates. Both respond to hard targets by equipping the agent with more: parsed profiler output, disassembly analysis, retrieval over documentation and libraries, and stores of lessons. We argue that both lack direction, a hypothesis about where the remaining gap is, and that a short question asked at the right moment supplies it without narrowing what the agent may do next. We present KernelSeek, a question-driven agent that makes an existing CUDA kernel faster with no operator-specific knowledge and no faster implementation to imitate: a general-p
-
----
-
-### [175] Retrieval-Enhanced Cultural Evaluation for Social Media Translation Training
-
-**链接**: https://arxiv.org/abs/2611.02009
-**作者**: Linjuan Wu, Yiwen Qiu, Xinze Lyu, Dingming Li, Hui Yao, Zhongyi Sang 等 (10 人)
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Social media translation requires preserving meaning while capturing the cultural nuances of user-generated content (UGC). However, gaps in the cultural knowledge of LLM-based evaluators can lead to inaccurate assessments and unreliable training rewards. To improve these signals, we use retrieval-enhanced cultural evaluation to train CUE-MT, a family of social media translation models. A calibrated, domain-specific Judger guides supervised data refinement and is augmented by an Agent for hard-example mining and reinforcement learning. The Agent retrieves relevant external evidence as needed and distills it into concise hints that the Judger uses to score translations and assign rewards. Across 9B, 27B, and 35B-A3B backbones, CUE-MT outperforms the evaluated open-source baselines of comparable size on CUE-MT-Bench and three public benchmarks. Human evaluation on CUE-MT-Bench shows cultural effectiveness gains of 7.44-15.12 percentage points over the strongest external baseline in each s
-
----
-
-### [176] SPAR: Experience-Driven Strategy Evolution in Multi-Session B2B Sales
-
-**链接**: https://arxiv.org/abs/2611.01695
-**作者**: Hangming Zhang, Yao Zhao, Haotian Kuang, C. L. Philip Chen, Tong Zhang, Tengyue Ma
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> B2B outbound sales involves high transaction values and relationship-based trust, so closing a deal typically requires multiple rounds of outreach building on prior context. Existing LLM-based sales agents operate within single sessions and cannot carry forward context or refine strategies from experience. Methods that do learn from experience store lessons as unstructured text and treat all outcomes as equally informative, with no mechanism to distinguish a flawed strategy from an external factor. We propose SPAR, a self-evolving framework that models selling strategies as testable hypotheses and refines them without parameter updates. A double-loop architecture lets an inner loop adapt to individual merchants through episodic memory while an outer loop evolves a shared strategy playbook through causal attribution and hypothesis-driven evolution. In a live A/B test on the 1688 platform with over 200,000 merchants, SPAR achieves +15.8% conversion lift and +35.8% high-intent merchant gr
-
----
-
-### [177] Labadain-MedQA: A Tetun Medical QA Dataset for Fine-Tuning and Evaluating Large Language Models
-
-**链接**: https://arxiv.org/abs/2611.00935
-**作者**: Gabriel de Jesus and S\'ergio Nunes
-**来源**: cs.CL cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Advances in large language models (LLMs) have created opportunities for cross-lingual transfer of medical knowledge from high-resource to low-resource languages to support access to healthcare information. However, medical question-answering (QA) datasets for fine-tuning and evaluating LLMs remain scarce for Tetun. To address this gap, we translated MedAlpaca's Medical Flashcards and WikiDoc Patient Information collections into Tetun using Gemini 2.5 Flash, producing 39,077 medical QA pairs. Translation quality was assessed on 50 randomly sampled QA pairs (100 documents) using automatic metrics against human reference translations and evaluations by two native Tetun-speaking healthcare professionals, focusing on medical accuracy and Tetun fluency. Human translations achieved higher mean ratings than LLM-generated translations for both criteria (4.43/5 vs. 4.02/5), with statistically significant differences (Wilcoxon signed-rank test, p < 0.001). To assess downstream utility, we fine-tu
-
----
-
-### [178] RecRSI: Mechanism-Guided Discovery of Recommendation Algorithms
-
-**链接**: https://arxiv.org/abs/2611.02487
-**作者**: Tingran Gan, Zhouziyue Lu, Dian Jin, Tao Li, Yang Gao, Ming Liu 等 (10 人)
-**来源**: cs.IR cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Improving recommendation algorithms for the Web requires coordinating interacting design choices and learning from experiments. We present RecRSI, an LLM-based research framework that uses mechanism hypotheses to organize algorithm discovery. Each hypothesis links a proposed mechanism change to a reference design, a rationale, and an expected observation. MechSpace derives implementable primitives and composition rules from the task source; Research Line uses this space and prior evidence to develop and test hypotheses; Mechanism Feedback carries outcomes and their design context into subsequent research. This organization makes each experiment inform which mechanisms to develop, revise, or combine next. Across four initial recommenders and four datasets, RecRSI yields average relative improvements of 8.48% in NDCG@5 and 6.88% in HR@5 over the initial algorithms, and 2.60% and 2.20%, respectively, over the strongest competing result for each setting and metric. Component and process st
-
----
-
-### [179] From Small to Large: Assessing Medical Reasoning, Benchmark Contamination, and Model Size in Language Models
-
-**链接**: https://arxiv.org/abs/2611.00460
-**作者**: Navapat Nananukul, Mayank Kejriwal
-**来源**: cs.AI cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language models (LLMs) now answer medical exam questions at or above expert level, but it is unclear whether such scores reflect clinical competence, or are instead affected by the format of the questions being asked (e.g., multiple-choice versus open-ended), prior exposure to the benchmarks, and the difficulty of the questions. These benchmarks are also public and widely used online, which may be resulting in LLM memorization. Models may perform better on questions that they have seen before. It is also not evident whether smaller models, which are more locally deployable in HIPAA-compliant hospital settings, have achieved human performance. In this study, we evaluate fourteen current models from six leading providers, one smaller and one larger model from each provider with two additional open-weight models, on 3,076 questions from four medical benchmarks (MedQA-USMLE, MedMCQA, PubMedQA, and MedBullets) under standard multiple choice, the same questions with the answer choices 
-
----
-
-### [180] FedReady: Bounded Agents for Federation Formation
-
-**链接**: https://arxiv.org/abs/2611.03586
-**作者**: Ziyue Xu, Holger R. Roth, Chester Chen, Peter Cnudde
-**来源**: cs.AI cs.MA
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Federated learning (FL) runtimes standardize aggregation and deployment, but each new study still requires federation formation: selecting task-eligible sites and preparing their local data and task code for federated training or analysis. This preparation recurs when the target changes, while raw records and site-private mappings are excluded from cross-site FL messages. We present FedReady, a system that performs federation formation with bounded LLM agents. Agents propose shared contracts, local adapters, and task code; the runtime owns workflow state and accepts artifacts only after checks tied to their digests. Candidate site discovery prioritizes recall; local eligibility verification checks task support before site admission. Once participating sites and artifacts are fixed, conventional federated training or analysis proceeds without readiness agents. Across 39 simulated retinal sites and four tasks, discovery reaches recall 1.00 at precision 0.65; local eligibility verificatio
-
----
-
-### [181] TVP: TV is Almost All You Need for Speculative Decoding
-
-**链接**: https://arxiv.org/abs/2611.00588
-**作者**: Aaryam Sharma
-**来源**: cs.LG cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Speculative decoding accelerates LLM inference with a drafter whose proposed tokens are verified by the target model in parallel. Under lossless speculative sampling, a draft token is accepted with probability one minus the total variation (TV) distance between the target and draft distributions, yet drafters are often trained with cross-entropy (CE) or KL. We first show that under matched and well-tuned training, TV matches or surpasses several published draft-training objectives when fine-tuning, and a fixed TV and KL mixture does the same when training from scratch. We identify two remaining problems, TV's vanishing gradients on undercovered tokens and the prefix products that starve later positions in acceptance-length objectives. To address both, we derive TVP, a loss family based on expected acceptance length, whose power parameter interpolates between coverage and acceptance oriented objectives. Annealing the power from zero to one gives the highest or tied-highest acceptance le
-
----
-
-### [182] Self-Evolving Agentic Workflows via Semantic Decomposition of Complex Tasks
-
-**链接**: https://arxiv.org/abs/2611.01840
-**作者**: Zichuan Fu, Junjia Qi, Xian Wu, Wenlin Zhang, Yimin Deng, Kaifeng Guo 等 (7 人)
-**来源**: cs.AI cs.CL cs.MA
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Agentic workflows organize complex tasks into reusable procedures. However, invoking an LLM at every step incurs repeated inference costs and delays. We propose a framework for self-evolving agentic workflows through semantic task decomposition. Each subtask has explicit applicability conditions and a procedure that executes code or invokes a model as needed. An agent uses execution feedback to refine the decomposition and update these procedures. Experiments in the GLEE competition show the framework on bargaining, negotiation and persuasion. Most observed final-decision procedures are implemented in code. Code is available at https://github.com/Applied-Machine-Learning-Lab/NeurIPS2026_SeaFlow.
-
----
-
-### [183] SpecOPD: Branch-Parallel On-Policy Distillation for Speculative Decoding
-
-**链接**: https://arxiv.org/abs/2611.02846
-**作者**: Tianyu Liu, Jun Zhang, Wenjie Huang, Yuhao Shen, Tianqi Xu, Xinyue Hao 等 (10 人)
-**来源**: cs.AI
-**匹配关键词**: Large Language Model
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Speculative decoding (SD) accelerates large language model inference by reducing the sequential cost of token-by-token generation. Advanced SD methods reduce proposal cost with parallel drafters that predict entire blocks in one forward pass, but overall speedup still depends on acceptance length. On-policy distillation (OPD) can push well-trained drafters beyond acceptance-length plateaus, yet conventional pipelines collect supervision through sequential draft-and-verify rollouts. Our key insight is that on-policy supervision need not inherit these dependencies: a draft block can be supervised using only its reference prefix and draft-sampled history. We propose SpecOPD, a branch-parallel OPD framework that parallelizes draft sampling and target supervision across independent branches drawn from the evolving drafter policy at reference anchors. We pack these branches into proposal trees to share target-prefix computation, using tree masks for full attention, branch-consistent indexer 
-
----
-
-### [184] MEMENTO: Learning Context Management for Long Context Processing Agents
-
-**链接**: https://arxiv.org/abs/2611.00244
-**作者**: Yunfan Zhang, Taehoon Hwang, Kathleen McKeown, Smaranda Muresan
-**来源**: cs.CL cs.IR
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM agents that operate over long inputs must perform context management: deciding what to retain in a fixed-size context window. A common approach is compaction, where the model replaces its history with a self-generated note. Yet off-the-shelf agentic models, including GPT-5.5 and GLM-5.3, often write ineffective notes, and reinforcement learning (RL) alone rarely discovers useful note-taking behavior. We present MEMENTO, a long-context agent built on Qwen3-8B and trained to manage its context through compaction. We first bootstrap note-taking by fine-tuning on synthetic trajectories annotated with notes generated in hindsight, then reinforce it with RL using a reward that combines answer correctness, note-quality heuristics, and confidence calibration. Although trained only to compact into a fresh window, MEMENTO extends at test time to strategies such as context folding and confidence-based backtracking. On book-level question answering across four benchmarks, with books of up to 2
-
----
-
-### [185] Hindsight Credit Assignment over Trees for Agentic RL
-
-**链接**: https://arxiv.org/abs/2611.02706
-**作者**: Penghong Zhao, Yihao Chen, Maoheng Yuan, Yunjian Zhang, Abudukelimu Wuerkaixi, Haoran Xu 等 (10 人)
-**来源**: cs.LG cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Reinforcement learning for long-horizon LLM agents faces a fundamental dilemma: successful experiences are essential for policy improvement, yet limited policy capabilities make such experiences difficult to discover. Sparse outcome rewards compound this challenge, leaving sampled trajectories with little relative feedback for learning. In this paper, we propose TriGRPO, a tree-based reinforcement learning framework that turns scarce successes into exploration and learning signals through hindsight credit assignment within and across rollout trees. TriGRPO constructs rollout trees through hindsight-guided branching: when an ongoing trajectory reaches a matched decision state, a successful action discovered during rollout initiates a sibling branch that continues autonomously, enabling further exploration and parent-sibling comparisons. Three complementary groups organize policy optimization over these trees: root groups capture within-prompt relative returns, node groups assign credit 
-
----
-
-### [186] Widening Harm Evaluation Coverage with a Judge that Reads the World
-
-**链接**: https://arxiv.org/abs/2611.02624
-**作者**: Prabhpreet Singh Setia, Bhavesh Neekhra, Debayan Gupta
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> An agent acting in a stateful environment can leave evidence of harm in two places: the record of what it did and said, or the world it changed. Safety evaluations for discovering harm examine one or the other in limited ways, using either an LLM judge over the trajectory or deterministic checks over the final state. Although LLM-based verifiers that inspect the environment exist, they have been used to verify task completion, not to detect and confirm harm in a safety setting. We address this gap with an LLM that has read-only access to the environment state and is given a harm taxonomy. We evaluate this approach in three environments: two from DecodingTrust-Arena and one from OSWorld. We hold the judge model and harm taxonomy fixed, varying only what the judge observes: the trajectory, read-only tools for inspecting the environment, or both channels together. In the two DecodingTrust-Arena environments, combining the trajectory and state-only judges recalls 94 percent of confirmed ha
-
----
-
-### [187] A Systematic Analysis of Live Intraoperative Surgical Expert Narrations
-
-**链接**: https://arxiv.org/abs/2611.00028
-**作者**: Arda Mamur, Matthias Seibold, Christoph Laux, Florian Wanivenhaus, Philipp F\"urnstahl
-**来源**: cs.CV cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Manual annotation remains the principal bottleneck in surgical video understanding. Live intraoperative narration by the operating surgeon is a scalable alternative that requires no manual annotation, but the information it contains has not been characterized. We analyzed 13 endoscopic lumbar spine decompression procedures (13.2 h) by two senior spine surgeons, using time-synchronized close-mic German audio. An annotation-free pipeline (word-level speech recognition, deterministic correction of surgical-term errors, utterance fusion, LLM-based translation to English, and relevance filtering) converted speech into time-stamped procedural cues labelled with the surgical entities they reference and their speech act. Of 3,171 utterances, 1,201 (37.9%) were retained as procedural cues, while 57.6% were non-procedural and removed. Retained cues referenced instruments (60.7%), anatomy (48.0%) and surgical actions (57.1%), and 98.5% carried at least one of these. 39% of cues (472 of 1,201) wer
-
----
-
-### [188] LLMs Cannot Be Neutral: Gender Sensitivity Across Candidates, Evaluators, and Models
-
-**链接**: https://arxiv.org/abs/2611.02692
-**作者**: Danial Amin, Joni Salminen, Bernard J. Jansen
-**来源**: cs.CL cs.HC
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language models (LLMs) are increasingly used to evaluate candidates for professional roles, raising concerns about their sensitivity to demographic identities. We examine how candidate and evaluator gender assignments affect decisions by LLM-as-a-Judge (LaJ) models and decision language models (DLMs). In a hypothetical city council voting task, eight models evaluated 240 synthetic professional narratives from NVIDIA's US and French Nemotron-Personas datasets under independently varied gender assignments, producing 30,720 judgments. Explicit candidate gender labels increased Yes-vote probability by 1.05-1.73 percentage points relative to unspecified gender, while only the nonbinary evaluator assignment showed a significant increase (1.26 points). Identity matching showed no significant overall association. Yes-vote rates varied across models (81.3-97.2%), and 2.5-3.3% of decisions reversed relative to the unspecified-identity baseline. Under direct substitutions between explicit g
-
----
-
-### [189] A Living Leaderboard for Graph Machine Learning
-
-**链接**: https://arxiv.org/abs/2611.03433
-**作者**: Martin Ritzert
-**来源**: cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Graph machine learning benchmarking results are scattered across papers that use quite different sets of datasets and baseline methods, making it difficult to tell whether a reported gain reflects architectural progress or merely an outdated comparison or weakly tuned baseline. We introduce a living, graph-learning-specific leaderboard that organizes reported results by dataset, putting new results into context. As of 15 October 2026 our LLM-based extraction pipeline extracted 27,723 eligible results across 111 datasets from 885 peer-reviewed papers. Our analysis of these results quantifies concerns about graph-learning benchmarking: legacy datasets are still actively used and many result tables contain baseline results that are drastically lower than those already available in the literature, e.g. 45% Amazon-ratings tables and 37% for Peptides-struct. The leaderboard allows to quickly compare new results against compatible prior results, aiming to improve the overall quality of graph 
-
----
-
-### [190] CLiS: Plug-and-Play Attention Acceleration for Video Diffusion on TPUs via Certified Stabilization
-
-**链接**: https://arxiv.org/abs/2611.00444
-**作者**: Elisa Tsai, Shao-yu Huang, Daniel Mandragona, Wei-Yu Lin, WenXin Dong, Jevin Jiang 等 (9 人)
-**来源**: cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> High-resolution video diffusion relies on attention over long token sequences, making attention efficiency critical to generation latency. Our analysis identifies repeated maximum reductions and accumulator rescaling in online softmax as a bottleneck in long-context TPU attention. We propose CLiS (Certified Loop-invariant Stabilization), a training-free, plug-and-play optimization for video diffusion inference. CLiS fixes per-row stabilizers before the KV loop and certifies numerical safety per head, falling back to online softmax when certification fails. It integrates into existing fused-attention kernels without changing model weights or architecture. On Wan 2.2 and LTX-2 across TPU v6e and TPU7x, CLiS reduces diffusion transformer (DiT) step latency by up to 19.6% relative to tuned online softmax without measurable quality loss. Controlled TPU adaptations of prior GPU stabilization methods show performance or numerical-safety limitations. Preliminary causal LLM experiments also sho
-
----
-
-### [191] Agent4FreeFem: A Verification-Guided Framework for Autonomous Topology Optimization
-
-**链接**: https://arxiv.org/abs/2611.00803
-**作者**: Zhipu Cui, Helin Gong, Shengfeng Zhu
-**来源**: math.OC cs.AI
-**匹配关键词**: Large Language Model
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Topology optimization has become an indispensable design tool in the aerospace, automotive, and mechanical engineering industries. Yet bringing a new problem from its description to an optimized result remains slow, expert-dependent, and unreliable: the workflow spans many manually connected stages, each new problem requires solver code to be written and debugged manually, and such code often fails or yields incorrect results. We present Agent4FreeFem, a pipeline driven by a large language model that turns a natural-language problem description into a set of verified optimization results without manual solver-code development or debugging. The pipeline keeps the problem definition unmodified, localizes errors using independent sources of evidence, and completes constrained repairs automatically, thereby providing efficient end-to-end automation, autonomous execution, and verifiable results. We evaluated Agent4FreeFem on a suite of single-physics and coupled multiphysics problems. Every
-
----
-
-### [192] SGR-OPSD: Learning from Subgoal Plans with Graph-Regularized Credit Assignment for Agentic Reinforcement Learning
-
-**链接**: https://arxiv.org/abs/2611.02414
-**作者**: Shu Liu, Yang Chong, WenShi Chen, Man Lan
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> OPSD provides dense supervision for agentic reinforcement learning through privileged information feedback. However, existing privileged information often lacks explicit task-progression planning, while teacher-student log-probability gaps reflect shifts in model preference rather than true task progress. To address these limitations, we propose Subgoal-Guided Graph-Regularized OPSD (SGR-OPSD), a framework that combines subgoal supervision with interaction-derived evidence for turn-level credit assignment. Specifically, SGR-OPSD uses LLM-generated subgoal plans to provide dense action-level guidance, converting them into advantage weights via a constrained, KL-regularized objective. To ground credit in observed outcomes, we construct a Subgoal Progress Graph that estimates empirical returns from sampled transition frequencies. The graph compares empirical action returns against the state average to derive preferences that calibrate the teacher's credit weights. Evaluated on ALFWorld, W
-
----
-
-### [193] WAR-CRAFT: Refining Web API Recommendations through Requirement Auditing
-
-**链接**: https://arxiv.org/abs/2611.00564
-**作者**: Zishuo Xu, Dezhong Yao, Zhiqiang Xu
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Web API recommenders return a set of APIs for a mashup request but do not check it against provider documentation, the main public evidence of an API's capabilities. The set can therefore contain unsupported or redundant APIs and miss requested capabilities. Filling every apparent gap does not fix this, because a gap may already be served, may not need its own API, or may have no documented provider. We study post-recommendation refinement, which revises a frozen recommender's output using only the request, the catalog, and provider documentation. We propose WAR-CRAFT, which treats refinement as three decisions. An LLM removes unsupported or subsumed APIs by judging candidates jointly, then audits the remaining set against a requirement checklist derived from the request. For each uncovered requirement, a fine-tuned catalog-constrained Resolver proposes a catalog API or abstains, and an independent documentation check admits only supported proposals. On ProgrammableWeb with 7 heterogen
-
----
-
-### [194] Auditing Representation-Space Fraud Detection: A Bayesian IRL Framework for Calibrated Uncertainty and Its Limits
-
-**链接**: https://arxiv.org/abs/2611.02673
-**作者**: Shivam Swarup, Divya Prakash Shrivastava, Rakesh Thakur
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Shilling detectors for recommender systems are almost always evaluated by one number, detection AUROC, with no account of when it can be trusted. We audit representation-space detection with VEIL (Variational Evaluation via Inverse-reinforcement Learning), a pairwise (Bradley-Terry) Bayesian reward-inference framework over frozen encoder embeddings, following the Bayesian auditing paradigm for LLM alignment [1]: (A) a base posterior; (B) a hierarchical ARD extension with learned confidence; and (C) a label-routed organic/attacker mixture used as an evidence-accumulation check.We prove (Proposition 1) that no detector built on a representation invariant to a transformation of user profiles can outperform chance against an attack that is indistinguishable from organic profiles under that invariance.Detection is near-perfect against synthetic-structure attacks (AUROC 0.936-1.000) but collapses under donor-mimicry, which clones a real user's item set and splices in 1-3 target items. Perfor
-
----
-
-### [195] Sensitivity Inflation from Cross-Record Precision Routing in Private Quantized Fine-Tuning
-
-**链接**: https://arxiv.org/abs/2611.01411
-**作者**: Annan Zhang, Shengjie Song, Wenshuai Yao, Lihao Zhang, Tianmiao
-**来源**: cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Private fine-tuning of large language models increasingly pairs DP-SGD with low-rank adapters on frozen, quantized backbones, and every such stack inherits one unstated premise: frozen layers keep each record's clipped gradient a function of that record alone. We show that LLM.int8 breaks this premise. It routes outlier activation columns to a higher-precision path using a union over the whole batch, so one record decides how every other record's activations are computed, even though the weights are frozen and the quantization scales are per row. We bound the resulting sensitivity inflation, state a record-isolation contract that restores the standard bound, and define record-owned precision dispatch that meets it with the same GEMMs as batched LLM.int8, so isolation needs no extra arithmetic. We then audit the native CUDA stack (bitsandbytes, PEFT, Opacus) against four matched controls. A constructed LoRA-Opacus witness reaches $15.0\times$ the add/remove bound. On pretrained OPT-125M
-
----
-
-### [196] AgentCBO: Causal Belief Routing for Bayesian Optimization under Unknown Graphs
-
-**链接**: https://arxiv.org/abs/2611.01317
-**作者**: Qiyu Wei and Xin Zhang and Richard Allmendinger and Mauricio A \'Alvarez
-**来源**: cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Causal Bayesian optimization (CBO) typically relies on the unrealistic assumption of a perfectly known causal graph. Recent methods relax this constraint by coupling optimization with structure learning, but they often waste sample budgets on structural uncertainties that are irrelevant to the optimizer. In this paper, we formalize routing-equivalence to shift the objective from full causal-graph recovery to causal belief routing, where structural differences only matter when they alter optimizer-facing objects such as admissible exploration sets and do-priors. Furthermore, we propose agentcbo, a graph-belief routing framework that incorporates LLM causal priors through guarded proposal and commit mechanisms. Specifically, a Language-Prior Agent combines LLM beliefs with constraint-based discovery to extract a protected causal backbone alongside residual uncertain edges. A Calibration Agent and a Residual Repair Agent then refine only these uncertain structures through score-gated boun
-
----
-
-### [197] Designing Behavioral Profiles for Language Model Simulation of Out-of-Distribution Human Behavior
-
-**链接**: https://arxiv.org/abs/2611.00661
-**作者**: Robin Na, Kehang Zhu, Logan Cross, and Michiel A. Bakker
-**来源**: cs.AI econ.GN q-fin.EC
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language models (LLMs) are increasingly used to simulate human behavior, but which descriptions of people improve prediction when experimental designs change remains unclear. We develop a framework that draws candidate behavioral features from the literature and constructs profiles from earlier human experiments. A profile-generation LLM assigns feature values from observed actions, messages, and surveys; a separate LLM simulates behavior using these profiles. By comparing simulated and observed outcomes in the learning data, we select profile contents through forward feature selection, adding features while they improve prediction. We then evaluate the selected contents without modification against outcomes from new participants under new designs. Across 616 public-goods games, 144 multi-party bargaining games, and 1,480 generalized 11-20 money-request designs, leading one-feature profiles predict human outcome distributions better than no profile or general-purpose personas. Pr
-
----
-
-### [198] ShiftRAG: Bypassing the Textual Bottleneck via Decoupled Learning and Continuous Soft Tokens
-
-**链接**: https://arxiv.org/abs/2611.00871
-**作者**: Youmin Ko, Jihong Jeong, Hyunjoon Kim
-**来源**: cs.CL cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Despite advances in retrieval-augmented generation (RAG), suppressing hallucinations during complex reasoning remains a persistent challenge. We identify that existing RAG pipelines suffer from a textual bottleneck: by passing only raw text to the generator, they discard discriminative signals of the retriever. Furthermore, recent attempts to unify retrieval and generation within a single LLM induce severe objective conflict and exacerbate the rank collapse of decoder-only architectures, degrading performance on both tasks. To address these limitations, we introduce ShiftRAG, a decoupled RAG framework that employs a single LLM backbone but isolates discriminative retrieval learning from autoregressive generation. To bridge these decoupled modes, we project retrieval alignments into continuous soft tokens, establishing a high-bandwidth interface that infuses the generator with retrieval-side signals. Concurrently, our soft orthogonality objective mitigates rank collapse, while layer-wis
-
----
-
-### [199] Towards Multi-Value Alignment via Value Localization in LLMs
-
-**链接**: https://arxiv.org/abs/2611.02503
-**作者**: Xueqi Ma, Yanbei Jiang, Xingjun Ma, James Bailey, Sarah M. Erfani
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Aligning large language models (LLMs) with multiple, potentially conflicting human values remains challenging, as existing multi-objective alignment methods often require costly fine-tuning and provide limited insight into the internal mechanisms underlying value-related behaviors. In this work, we investigate multi-value alignment from a mechanistic interpretability perspective by identifying value-sensitive attention heads (value heads) in LLMs. Using a probing-based value localization framework, we discover sparse sets of attention heads associated with diverse dimensions, spanning both human values (e.g., harmlessness, honesty) and stylistic preferences (e.g., coherence, complexity). Analyses across multiple LLM families reveal functional specialization and structured interactions among value heads, including conflicts between certain values. Targeted head ablations further induce substantial, value-specific behavioral changes, providing causal evidence of their functional importan
-
----
-
-### [200] Finding Errors Is Not Enough: Selective Model Escalation for Entity-Targeted Sentiment Analysis
-
-**链接**: https://arxiv.org/abs/2611.02989
-**作者**: Nishan Chatterjee, Matthew Purver, Antoine Doucet, Senja Pollak
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Improving a sentiment classifier with limited resources involves more than simply deciding how much data to collect or which model to train. A labelled collection may lack examples of an important class. Once trained, a classifier may benefit from another model even when that model is weaker on its own. We study these decisions in document-level Entity-Level Sentiment Analysis (ELSA), primarily using South Slavic news. We first compare acquisition orders as collections grow. We then use uncertainty to choose which predictions to revisit, how many to process, and whether an alternative encoder or local LLM can correct them. Finally, we select complete routing policies on development data for held-out evaluation. Minority-prioritised acquisition helps at some very small training sizes, but not consistently thereafter. On SentiCoref, an oracle correcting all errors in the least-confident 10% without harming correct predictions would add 9.14 Macro-F1 points; however the best evaluated act
-
----
-
-### [201] MemRole: From Memories to Decisions for Long-Horizon Reasoning in Role-Playing Agents
-
-**链接**: https://arxiv.org/abs/2611.01778
-**作者**: Mengting Li, Xilong Cheng, Zhihao Xiao, Zhenhua Xu, Jingyuan Zhou, Linfeng Li 等 (9 人)
-**来源**: cs.CL cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM-based role-playing agents are fluent at imitating a character's style, yet struggle to make role-consistent decisions over long narrative horizons. Such decisions are shaped by experiences spanning many prior scenes, which are often partial and may point in different directions. Existing methods inject cross-scene memories as context, but do not reason about how past events shape a character's current motivations and behavior. We propose MemRole, a framework that makes this memory-to-decision process explicit. It introduces Long-Horizon Memory Thinking (LHMT), a reasoning schema that decomposes hidden reasoning into context understanding, memory activation, and response strategy planning, trained on a novel-derived dataset whose character-grounded, timeline-constrained memory pools limit each character to what it could plausibly know at the current narrative point. Beyond supervised fine-tuning, we propose Self-Refining On-Policy Self-Distillation (SR-OPSD): the model critiques its
-
----
-
-### [202] FactorSpec: Serving Exact Relational Constraints as Speculative Drafts
-
-**链接**: https://arxiv.org/abs/2611.02297
-**作者**: Jianchang Su, Dawei Xiang, Wei Zhang
-**来源**: cs.LG cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Speculative decoding speeds up LLM serving by drafting tokens that the target model verifies in one pass, and its gain grows with the drafts the target accepts. Structured outputs should be an ideal case, because much of a record follows from relations among its fields: an itinerary's days follow from its cities' stays and flights. Serving engines, however, draft such text by proposing it from the prompt or a learned head, and their grammar masks enforce only syntax, so the model must satisfy the relations, which it violates: on NATURAL PLAN's trip problems, Qwen3-8B writes a valid itinerary for 10%, and retries that name the violated relation raise this to 14%. We present FactorSpec, which serves exact relational constraints as speculative drafts. FactorSpec compiles a JSON Schema and its relations into a factor graph with an exact feasibility check, drafts every token the constraint determines as certain, verifies each request at a width chosen for it, and computes the masks in worke
-
----
-
-### [203] EffComp: Efficient Prompt Compression via Hybrid Reinforcement & Supervised Learning
-
-**链接**: https://arxiv.org/abs/2611.02766
-**作者**: Romtham Tungsununtham, Piyawat Lertvittayakumjorn, Atiwong Suchato, Peerapon Vateekul
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Prompt compression is aimed at reducing input prompt lengths to enable cheaper, faster, and potentially higher-quality LLM predictions. However, existing prompt compression methods are often limited by modest compression gains, a risk of hallucination, and/or high compression latency. We propose EffComp, an Efficient prompt Compression framework for RAG-based question answering (QA). EffComp employs BERT-style document reranker and sentence selector models to allow fast extractive prompt compression at the sentence level. Its extractive nature prevents hallucinations in the compressed prompts. Additionally, the training process using a hybrid reinforcement and supervised learning approach is designed to optimize the compression ratio while preserving LLM accuracy. Experiments on various QA datasets demonstrate that EffComp outperforms state-of-the-art prompt compression methods achieving the best trade-off between compression ratio and accuracy with minimal latency. This makes it pract
-
----
-
-### [204] Human-Supervised Artificial Intelligence Researchers in Electric Power Systems: Knowledge, Physics, Simulation, and Governance for Large Language Models
-
-**链接**: https://arxiv.org/abs/2611.02711
-**作者**: Xiangrui Meng, Jingcheng Liu, Ke Wang, Miaopeng Yu, Zhengping Lin
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Conclusions in power-system research require a clear evidential basis. Researchers need to understand the data sources, modelling assumptions, and solution procedures to assess the conditions under which a conclusion holds. Large language models (LLMs) can help researchers extract information from documents and translate research requests into code and tool calls, but their outputs still require physical validation. Focusing on human-supervised artificial intelligence (AI) researchers, this review examines power-system LLM applications and related scientific workflows, together with physics-grounded power AI studies, to discuss the conditions for using LLMs in scientific research. In the proposed knowledge-physics-simulation-governance framework, LLMs translate information and coordinate tasks, simulators and validation tools test models, and experts retain authority over critical assumptions, safety boundaries, and final conclusions. Research processes should preserve materials for re
-
----
-
-### [205] Words Caught in the Heart: Simulating Person-Specific Expression for Self-Opaque Clients in Psychotherapy
-
-**链接**: https://arxiv.org/abs/2611.00617
-**作者**: Mengxi Xiao, Jingjing Chen, Ziyan Kuang, Jiarong Song, Wenhao Zhao, Zuchen Han 等 (10 人)
-**来源**: cs.HC
-**匹配关键词**: Large Language Model
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Psychotherapy clients may experience distress before they can coherently describe it, and their expression changes with emotion, perceived safety, and trust. Large language model-based client simulators often rely on clinically organized case descriptions, which can encourage responses explaining the client's difficulties more clearly than their current understanding warrants. We propose Pandora, a psychotherapy client simulation framework that models how psychological experience becomes situated, individual expression. Pandora updates psychological and relational states in response to therapist interventions, constructs subjective appraisals and attributions, and plans response content and strategy. A separate expression planner combines these decisions with language patterns distilled from the client's utterances to guide linguistic realization. We evaluate Pandora against five baselines on 115 cases from four counseling and motivational interviewing datasets. It achieves the highest
-
----
-
-### [206] Do Orthogonality Constraints Help Language-Model Training Beyond Sphere Optimization?
-
-**链接**: https://arxiv.org/abs/2611.00593
-**作者**: Kai Hu, Li Zhang, Weichen Yu, Matt Fredrikson, Haoqi Hu
-**来源**: cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> A growing body of work reports benefits from orthogonality constraints in fine-tuning large language models (LLMs). These results raise an open question: do orthogonality constraints also help LLM pre-training? We conduct a systematic empirical study of decoder-only LLM pre-training with models ranging from 360M to 3.1B parameters, trained on nearly 200B tokens. We examine fourteen variants of orthogonality training: some constrain the weight matrix itself, while others use orthogonal factors to reparameterize it. Because a strictly orthogonal square matrix loses half of its degrees of freedom, we also study block-wise orthogonality, where every $d$ rows form a row-orthonormal (Stiefel) matrix and the block size $d$ is a hyperparameter. Among block sizes ranging from 1 to the shorter side of the matrix, no $d>1$ used throughout the network reliably outperforms $d=1$, and large blocks are clearly worse; the one placement that helps, symmetric positive-definite factors on the query and k
-
----
-
-### [207] HLSClaw: Bringing Vibe Coding to High-Level Synthesis through Skill-Based Agentic Harness
-
-**链接**: https://arxiv.org/abs/2611.02784
-**作者**: Jinming Ge, Shang Liu, Jiawei Liang, Shangkun Li, Afzal Ahmad, Jiang Xu 等 (8 人)
-**来源**: cs.LG cs.SE
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM agents are rapidly shifting software development toward intent-driven \emph{vibe coding}, yet their effectiveness drops sharply in high-level synthesis (HLS), where code optimization must jointly consider design structure, directive search, and downstream hardware constraints. Existing HLS optimization approaches, including both heuristic-based methods and recent LLM-assisted pipelines, typically operate at fixed abstraction levels or in weakly coupled stages, limiting their ability to leverage the strong interplay between source code restructuring and directive search outcomes. Our key insight is that HLS optimization can be reframed from a fixed, hardwired transformation pipeline into a skill-based agentic control problem: an LLM agent equipped with modular, executable optimization skills and a feedback-driven orchestrator can autonomously navigate the coupled space of code restructuring and directive search. This motivates the design of HLSClaw, the first HLS-specific, skill-bas
-
----
-
-### [208] UPSHIFT: User Preference Steering from Human-AI Interaction Feedback Traces
-
-**链接**: https://arxiv.org/abs/2611.02667
-**作者**: Jingping Wang, Zhanhao Li, Shao Zhang, Shuyue Hu
-**来源**: cs.AI
-**匹配关键词**: Large Language Model
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Personalizing large language model assistants requires adapting their responses to individual users, including the selection of content, reasoning approach, level of detail, and form of presentation. Such preferences are often latent, becoming visible only when users respond to an initial answer and request revisions. We investigate whether these feedback trajectories can be converted into a reusable personalization signal without explicit preference profiles or labels, prompt-time access to interaction histories, or model parameter updates. We introduce UPSHIFT (User Preference Steering from Human-AI Interaction Feedback Traces), a training-free method that compares the hidden representations of initial and feedback-conditioned responses within each session, averages the resulting trajectory displacements across a user's sessions, and injects the aggregated preference direction when answering a new query. The method is motivated by the implicit-preference hypothesis: although an indiv
-
----
-
-### [209] ParetoSaddler: Pareto-Guided Optimization of Agent Harnesses for Quality and Cost
-
-**链接**: https://arxiv.org/abs/2611.02079
-**作者**: Xingzhi Qian, Sungho Park, Rongyuan Tan, Jianbo Yu, Jue Zhang, Lorenzo Cavallaro 等 (10 人)
-**来源**: cs.AI cs.CL cs.LG cs.MA
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Harness optimization can substantially improve LLM agents without modifying model weights, but existing methods primarily optimize response quality. Extending them to joint quality--cost optimization introduces a challenge: applying the deployment preference during intermediate updates can prematurely reject candidates that are valuable for later improvements. We introduce ParetoSaddler, which addresses this mismatch by separating intermediate candidate promotion from final deployment selection. At each iteration, an optimizer updates a parent harness to produce a candidate, and then compares the two over repeated executions and uses Bayesian bootstrap Pareto support to promote candidates showing credible progress in either quality or cost. Promoted candidates receive broader development evaluation and remain available as parents for later optimization steps. We evaluate ParetoSaddler on ClawMark and GAIA2 using domain-disjoint splits. On ClawMark, ParetoSaddler improves quality from 7
-
----
-
-### [210] Do Earnings Calls Help Predict Financial Restatements? Evaluating Text Beyond Public Firm Information
-
-**链接**: https://arxiv.org/abs/2611.01123
-**作者**: Ahmet Efe, Shivank Sapra, Bilal Ahmed
-**来源**: cs.CL cs.LG
-**匹配关键词**: Large Language Model
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Financial restatements correct errors in previously published financial reports. Could managers' language in earnings calls warn of them in advance? Comparing 109 calls that precede restatements with 218 matched control calls, we find that the text predicts restatements but adds no detectable ranking gain beyond public firm information. A text classifier beats chance, largely because of restatements tied to special-purpose acquisition companies, but a model using only public information scores slightly higher. With refitting, the 95% interval for the gain from adding text (-0.05 to 0.11 AUROC) still leaves room for a meaningful benefit. A large language model scores higher, but we show that it names the exact ticker in 66% of masked transcripts, and it was released after the restatements occurred. Our results suggest that finding new warning signs in call text requires a public-information baseline and a check of what a language model already knows.
-
----
-
-### [211] LegoEnv: Self-Evolving Agentic Environments via Modular Recombination
-
-**链接**: https://arxiv.org/abs/2611.01834
-**作者**: Zhuosong Jiang, Chengxu Wu, Junqi Liu, Yujie Yi, Siqin Wang, Zhixuan Huang 等 (10 人)
-**来源**: cs.CL cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM agents learn by interacting with environments, yet existing environments are designed for specific tasks and fail to generalize to new ones. Recent methods automate environment construction with LLMs. However, they generate each environment from scratch, neither reusing parts shared across environments nor carrying a fix from one environment to the rest. To address this, we propose a new paradigm of evolving environment atoms, which composes environments from reusable atoms (intent, rule, data and server) and evolves the atoms when an environment fails to give reliable feedback (e.g., an application lacks a tool the task requires). To instantiate this paradigm, we introduce LegoEnv, which builds 5,465 verified environments over 223 applications, and one round of evolution raises the share of solvable environments from 71.6% to 88.3%. On AutomationBench, SFT on these environments lifts Qwen3.6-27B from 16.0% to 32.0%, and RL with their verifiers lifts Qwen3.8-27B from 37.6% to 40.3%
-
----
-
-### [212] AI Data Analysis: A New Approach - Multi-engine Joint State Data Analysis
-
-**链接**: https://arxiv.org/abs/2611.00807
-**作者**: Jean Ye (Zhuhai National Taxation Bureau, China)
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> AI data analysis today is three fragmented worlds: LLMs understand semantics but cannot compute; BI aggregates precisely but is stateless; ML processes large-scale data on a stateful kernel but lacks semantics. This paper proposes a combination mechanism, named Multi-engine Joint State Data Analysis, that fills a still-open gap - the multi-engine joint context: the data context is embedded into LLM conversational analysis, where the LLM serves only as the semantic, reasoning, and orchestration layer (not computation) and connects four engines through the 1M context window - Python and R ML kernels, SQL over relational databases, Cypher over graph databases - yielding two multiplications, "semantics and precise computation" and "relational and graph", under enterprise-grade governance. The novelty is a four-dimensional coordinate system: horizontal (engine kinds), vertical (state flow - the watershed), spatial (business generalization), temporal (iterative convergence); a deterministic 
-
----
-
-### [213] TopoQuant: Topological Framework to Characterize Behavioral Shifts in Quantized Large Language Models
-
-**链接**: https://arxiv.org/abs/2611.00631
-**作者**: Baha Rababah, Shahzeb Qamar, Lorenz Sparrenberg, Rafet Sifa, Murat Kantarcioglu, Carson K. Leung 等 (7 人)
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Post-training quantization (PTQ) reduces the com putational cost of large language models (LLMs), but it can introduce internal structural and behavioral changes that are not captured by traditional metrics such as accuracy and per plexity. We present TopoQuant, a topological framework that uses topological data analysis (TDA) to quantify structural drift in self-attention weights and relate it to behavioral changes in quantized LLMs. Across four LLM families and multiple quantization levels, we show that topological drift remains stable at moderate compression levels but increases sharply below 4 bit precision, closely tracking declines in attention agreement. Our results reveal a strong relationship between topological drift and attention agreement, indicating that structural changes in model parameters closely reflect behavioral degradation under quantization. We further demonstrate that topological features can accurately predict attention consistency using lightweight machine lear
-
----
-
-### [214] Train the Sampler You Run: Few-Step Masked Diffusion Language Models via Mixture-Likelihood Fine-Tuning
-
-**链接**: https://arxiv.org/abs/2611.02666
-**作者**: Amin Najafgholizadeh
-**来源**: cs.LG cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> When a masked diffusion language model is sampled in a few parallel steps in a random order, the model actually run is a mixture over reveal plans, while cross-entropy training fits token conditionals rather than this mixture. We introduce mixture-likelihood fine-tuning (Mix-FT), which fine-tunes a pretrained model on an importance-weighted bound of its own sampler's likelihood, with no teacher and no change to the architecture or the sampler. On LLaDA-8B, a LoRA fine-tune for 0.002% of the pretraining compute writes better OpenWebText continuations than continued cross-entropy and Alpha diffusion given the same compute, at every tested step count. With half the model evaluations, 16 rather than 32 steps per block, its continuations score better than the original model's in every seed under three judges, with confidence-based decoding as well as random order, and under confidence-based decoding two blinded LLM raters from different model families prefer them in 69 and 71% of pairs. On 
-
----
-
-### [215] From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra Puzzles
-
-**链接**: https://arxiv.org/abs/2611.03641
-**作者**: Paulius Skaisgiris, Thomas Pammer, Veronika Semmelrock, Mykyta Ielanskyi, Maximilian Heisinger, Erich Kobler
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Chain-of-Thought (CoT) generation has substantially improved the performance of Large Language Models (LLMs) on complex reasoning tasks, including code generation, data analysis, and exam-style question answering. Despite these advances, purely neural LLMs continue to struggle with elementary logical reasoning problems and lack the determinism, soundness, and reliability characteristic of symbolic reasoning systems. Conversely, classical symbolic methods such as SAT solving and exact cover guarantee correctness and completeness, but require problems to be expressed in highly specialized formal encodings, limiting their applicability to natural language inputs. In this work, we present a synergistic neuro-symbolic framework that bridges this gap by combining neural semantic parsing with deterministic exact cover reasoning. Given a Zebra-style logic puzzle in natural language, an LLM translates entities and constraints into structured tool calls that construct an exact cover instance. A 
-
----
-
-### [216] Steering Readerly Dynamics: Trajectory-Guided Story Generation with Large Language Models
-
-**链接**: https://arxiv.org/abs/2611.00469
-**作者**: Danrui Li, Yiwei Zhao, Mubbasir Kapadia, Lingxiao Li
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language models (LLMs) are increasingly used to generate stories, but these stories struggle to reproduce engaging readerly dynamics, the evolving reader responses that shape narrative experience. To address this challenge, we propose a framework that learns readerly dynamics from high-quality human-written stories and uses them to guide story generation. Instead of directly modeling high-dimensional story content, we train a small LLM to predict future reader responses as low-dimensional trajectories. We then leverage the strong instruction-following capability of a larger, off-the-shelf writer LLM to generate story segments that follow these predicted trajectories within a given story setting. Our framework improves trajectory-based fidelity to human-written stories by 12%-35% while largely preserving story coherence.
-
----
-
-### [217] Less but Sufficient: Relation Knowledge Selects Compact Knowledge-Graph Contexts, and What External Checks Can and Cannot Catch
-
-**链接**: https://arxiv.org/abs/2611.01733
-**作者**: Seunghui Jwa, Minsu Oh, Sangwoo Hong, Yeo Chan Yoon
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language models (LLMs) read knowledge-graph facts ranked by relevance, leaving open whether they suffice or conflict. Our checks use relation knowledge, written by hand or learned from training questions labelled with their relation paths. It selects a compact context of facts yielding an answer, and derives it; a derivability check tests whether an answer follows, a consistency check whether facts conflict, and a validation-chosen routing gate decides where the derived answer replaces the LLM's. Seven open LLMs read the compact context better in exact match than relevance-ranked facts; on ComplexWebQuestions (CWQ) they match SubgraphRAG's facts at a quarter of the prompt tokens, and stronger LLMs read SubgraphRAG's better. Where the routing gate passes, ours leads SubgraphRAG's in exact match in all 53 LLM, benchmark and prompt settings. A precision gate, returning the derived answer only when the check passes with exactly one derived entity, answered 18 and 5 percent of held-ou
-
----
-
-### [218] Delivered, Not Used: Evaluating Agent Memory at Its Point of Use
-
-**链接**: https://arxiv.org/abs/2611.01718
-**作者**: Changran Xu, Zeju Li, Qiang Xu
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Task success, retrieval quality, and cost do not show whether an LLM agent used a delivered memory or what followed from that use. We introduce MemUse, which evaluates memory at its point of use in recorded trajectories: each memory delivery is compared with what the agent could already see and followed through the agent's later actions and their consequences. An agentic judge rates each delivered entry's relevance, accuracy, novelty, influence, and observed effect; programmatic checks enforce complete reading of cited evidence, and fixed rules aggregate the ratings into verdicts linked to memory histories and delivery cost. On 8,000 SWE-bench Verified episodes from three memory systems, resolve rates stay within 0.4 percentage points of a no-memory baseline, yet MemUse shows that most delivered entries were irrelevant, most relevant entries went unused, and in two systems most deliveries restated content the agent could still see. It also surfaces effects that outcomes hide: 23.2\% of
-
----
-
-### [219] Do Agents Still Follow the Rules? Benchmarking Rule Compliance under Agent Context Compaction
-
-**链接**: https://arxiv.org/abs/2611.03223
-**作者**: Yiwei Zha, Qingyu Meng, Herbert Bos, Min Chen
-**来源**: cs.CR cs.AI cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM agents compact long histories to fit their context windows, but the compacted context must still carry the operating rules that govern later actions. Prior work shows that violations rise after compaction, but measures compliance outside a complete agent harness and does not identify where each violation comes from. We introduce ARCBench(Agent Rule Compliance Benchmark), a configurable benchmark built on the open-source pi agent harness. Its tool-calling agent loop lets us measure rule compliance from actions taken during execution, bringing the evaluation closer to deployed agent workflows. Using ARCBench, we examine where violations after compaction come from, and how different compaction configurations and adversarial settings change their sources. We find that compaction rarely deletes the rule: most violations after compaction occur while the rule is still in the compacted history, with the agent treating a later request as permission, ignoring the rule, and proceeding anyway.
-
----
-
-### [220] SCOUT: Planning under Occlusion via Object-Centric World Model Rollouts
-
-**链接**: https://arxiv.org/abs/2611.01600
-**作者**: Amir Hossain Raj, Xuesu Xiao
-**来源**: cs.RO cs.AI cs.CV
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Robots manipulating in cluttered spaces must often plan from partial views where foreground objects occlude the target, surrounding geometry, and usable free space. Reactive policies often miss these hidden constraints, while exhaustive search becomes computationally prohibitive in dense clutter. We present SCOUT, an occlusion-aware planning framework that bridges high-level deliberation with grounded physical rollouts. SCOUT leverages an object-centric scene representation to reconstruct hidden geometry and derive a relational planning state capturing blocker hierarchies and accessibility corridors. To navigate the vast action space in clutter, an LLM proposes structured action candidates which are then rigorously evaluated via Monte Carlo Tree Search (MCTS) using a learned action-conditioned world model. Evaluations on 'Reveal' and 'Placement' tasks show that SCOUT outperforms Vision-Language-Action (VLA) policies, embodied agents, and 3D world models, with significant gains in long-
-
----
-
-### [221] Disen-Forcing: Disentangling Semantic Anchoring from Motion for Autoregressive Video Diffusion
-
-**链接**: https://arxiv.org/abs/2611.02822
-**作者**: Zhengyang Yu, Akio Hayakawa, Masato Ishii, Qingtao Yu, Xuesong Li, Takashi Shibuya 等 (8 人)
-**来源**: cs.CV cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Autoregressive video diffusion models (AR-VDMs) enable real-time, long-horizon video generation but degrade rapidly once the inference horizon outruns the training horizon, due to compounding exposure bias. To stabilize long rollouts, recent methods heuristically adopt frame sink, keeping initial frames as a persistent model context, inspired by attention sinks in LLMs. We revisit this design and find that the mechanism by which initial frames stabilize long-range consistency in AR-VDMs is not an LLM-style attention sink; instead, long-range consistency is anchored through a sparse subset of attention heads, while the majority of heads predominantly capture local temporal dynamics. This observation reveals an over-conditioning pathology in existing frame-sink strategies: by universally exposing every head to the pinned initial-frame context, the model becomes prone to collapsing motion toward the low-dynamic modes of the teacher during model distillation. We propose Disen-Forcing, a di
-
----
-
-### [222] Can agents reliably design therapeutic antibodies?
-
-**链接**: https://arxiv.org/abs/2611.00558
-**作者**: Asli Alpman, Nick Bhattacharya, Aaron Solomon, Hunter Elliott
-**来源**: q-bio.QM cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Recent work has demonstrated agents driving protein design workflows, either through orchestration of specialized tools or direct manipulation of sequences. Yet the fidelity with which agents follow protein design instructions and the factors contributing to their effectiveness remain understudied. We examine agentic antibody design under two settings: when explicit molecular-editing instructions are provided and when agents receive only previously-scored sequences and are prompted to propose improvements. We call the first task-guided and the second black-box design. For the task-guided setting, we curate ten expert-validated affinity-improvement tasks and show that LLM judges closely reproduce programmatic evaluations of instruction following. We then study two augmentations: access to antibody-relevant tools and to previously scored design history. Tools improve instruction following (IF) and sequence space exploration while reducing optimization performance, whereas design history 
-
----
-
-### [223] When 200 OK Is Not an Answer: Silent Fetch Failures in Agentic Web Content Acquisition
-
-**链接**: https://arxiv.org/abs/2611.00884
-**作者**: Shuyang Zhang (The Hong Kong Polytechnic University)
-**来源**: cs.IR cs.CL cs.NI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Web agents and answer engines fetch pages at question time, and liveness checks of cited sources treat an HTTP 200 response as success. We measure how often that assumption fails and what it does to measurements built on fetched pages. We fetched 10,307 URLs in three days with a polite static client and a rendered browser client: pages from 1,507 sites in five strata, random non-existent paths on every site, and the 4,795 URLs cited by expert-verified claims in ExpertQA. We define a taxonomy of what a 200 response contains, label the static 200 responses automatically, and check the labels against 300 items reviewed by an LLM-based assistant; a human check of 60 of them retained every reviewed usability label after discussion. By the automatic labels, 20.9% of the pages that a static client receives with status 200 do not contain the page's main content: app shells, bot challenges, block pages, error and placeholder pages, and partial content. On the held-out test split, the reviewed s
-
----
-
-### [224] To Align Long, Plan Short: Simulating Diverse Profile-Aligned Students by Realizing Short-Term Plans in Long-Horizon Learning Environments
-
-**链接**: https://arxiv.org/abs/2611.02002
-**作者**: Bahar Radmehr, Jiaxu Zhao, Fatma Bet\"ul G\"ure\c{s}, Adish Singla, Tanja K\"aser
-**来源**: cs.AI cs.CL cs.CY
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Simulated students offer a scalable way to test learning platforms and AI tutors before deployment with real students and to augment scarce data for studying learning at scale. Existing LLM-based simulators primarily target short, language-centered interactions. In open-ended learning environments, however, student behavior emerges from patterns across long-horizon interaction trajectories, where turn-level prompting can drift from an assigned behavior profile. We introduce ALPS (Align Long-term by Planning Short-term), a hierarchical simulated student conditioned on observable, environment-specific behavior profiles. Rather than selecting every action independently, ALPS alternates between planning profile-aligned task segments and generating the corresponding actions. We evaluate ALPS in both data-sufficient and data-scarce settings, where supervision comes either from real student trajectories or from a teacher LLM. Across both settings, we compare in-context learning (ICL), supervi
-
----
-
-### [225] MXCode: Vector Quantization for MX-Native Inference at Scale
-
-**链接**: https://arxiv.org/abs/2611.00403
-**作者**: Gaurav Kolhe, Cansu Demirkiran, Shubhi Tyagi, Sulaiman Sadiq, Boyao Wang, Richard Wang 等 (10 人)
-**来源**: cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Memory capacity and bandwidth are major bottlenecks in LLM inference, motivating weight compression beyond conventional 4-bit quantization. Vector quantization (VQ) enables approximately 2-bit weight storage but often relies on codebooks incompatible with native FP4 computation. We introduce MXCode (MX-Native Codebook Quantization), a framework bridging ultra-low-bit VQ compression with MicroXcaling (MX)-native FP4 computation. MXCode proposes three strategies: PostScale, which quantizes learned codebooks to MXFP4; PreScale, which extracts MX scales before codebook learning; and PreScale+, which further compresses these scales using VQ. These strategies explore tradeoffs among quantization quality, scale overhead, and codebook granularity. All reconstruct MX-native W4A4 operands without materializing intermediate high-precision weights. We evaluate MXCode on Qwen3 (235B), DeepSeek-R1 (671B), and GLM-5.2 (753B) using the Microsoft MX Emulation Library. MXCode achieves approximately 2 bi
-
----
-
-### [226] Zero-shot evaluation of open vision-language models as System 1 decision models on radiology tasks
-
-**链接**: https://arxiv.org/abs/2611.01631
-**作者**: Bradley J Erickson and Sara Salehi
+**链接**: https://arxiv.org/abs/2611.04303
+**作者**: Zhixian Li, Xingsong Ye, Yongkun Du, Yunyan Xiao, Yanglin Huang, Pinxuan Chen 等 (9 人)
 **来源**: cs.CV cs.AI
 **匹配关键词**: LLM
 **相关性评分**: 1.0
@@ -3186,29 +1390,29 @@
 
 **摘要**:
 
-> Purpose: We compared two multimodal System 1 decision models, Clef 27B and d1 3B, with a traditional LLM (Qwen 3.8-27B) on seven radiology tasks covering text, radiographs, CT and MRI. Methods: Three models were compared: Clef, Qwen3.8-27B and d1. Three tasks were interpretation of text and 4 were detection of finding in images. The tasks were: 1. finding presence of finding in CT-RATE chest CT reports; 2. Presence of finding in PadChest chest radiograph reports; 3. the same 18 findings on CT-RATE chest CT but 3D volumes; 4. MR safety status of devices from AccessGUDID device records; 5. line and tube position on RANZCR CLiP chest radiographs; 6. motion-artifact severity on MR-ART T1-weighted brain MRI and 7. sequence identification on BraTS 2021 brain MRI. The primary endpoint was AUROC. There was no fine-tuning of the models on the tasks. Results: All models completed all tests without a failed request. All retrieved findings from reports almost perfectly (AUROC >0.95). Clef ranked h
+> In-image machine translation (IIMT) replaces text in an image with its translation while preserving the surrounding visual context. Existing task-specific models achieve convincing performance but require massive paired training images before and after translation. As advanced text-to-image (T2I) models have reached a practically usable level of multilingual text generation, we argue that this capability can be transferred to IIMT and present FlowTranslator. It is a training-free IIMT framework that first employs an OCR model and an LLM to generate the translation prompt, which is injected into the T2I-based diffusion model. To optimize the accurate and natural generation of translated text, we introduce two trajectory controls: Region Coupling Release (RCR) partially decorrelates target-branch noise inside the text region early in the trajectory, while Coupling Expansion (CE) amplifies the emerging edit displacement mid-trajectory. Under the EasyOCR read-back protocol, FlowTranslator 
 
 ---
 
-### [227] Query-efficient scan-and-search watermark localization
+### [103] GM League Arena: An Interactive Long-Horizon Task Benchmark Based on Professional Sports League Management
 
-**链接**: https://arxiv.org/abs/2611.02030
-**作者**: Liyuan Wang, Xinsong Ma, Ziye Ma
-**来源**: cs.CR cs.AI
+**链接**: https://arxiv.org/abs/2611.05147
+**作者**: Junkai Zhou, Ziming Pan, Zhaoyi Zhang
+**来源**: cs.CL
 **匹配关键词**: LLM
 **相关性评分**: 1.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Recently, the detection of AI-generated content has been of particular importance in various fields of our society. For accountability purposes, many large language models (LLMs) have implicitly watermarked their outputs. Localizing such watermarks requires a piece of text to undergo an additional verification process. Existing localization methods typically rely on dense token-level scoring, making verification costly even when an LLM-generated watermark only sparsely appears. To tackle this problem, we design a new adaptive allocation strategy that first maintains broad document coverage and then progressively concentrates the detection budget on regions that exhibit stronger watermark evidence or are more likely to contain watermarked content. We then transform the statistical signals from the selected regions into e-values and employ the proposed token-weighted e-BH procedure to determine the localized watermark regions. The resulting framework is called BELL (Budgeted E-evidence L
+> Long-horizon decision-making under sustained competition requires large language models (LLMs) to balance immediate investment with future resource needs. However, local success in multi-step interactions can not adequately capture cumulative decision effects or demonstrate long-term goal achievement under resource constraints and sustained competition. To address this gap, we introduce GM Bench, a benchmark for managing professional sports teams across seasons under resource constraints and competition among teams. We build the environment simulators for four sports and add financial constraints, player demands, and market mechanisms to establish a unified task across sports. Diverse rosters of comparable strength are constructed from real-world player data, and each LLM is evaluated as a team general manager to assess its long-term management capabilities. We evaluate competitive performance, cash reserves, and cross-season improvement across four sports. Over five NBA seasons, Claud
 
 ---
 
-### [228] Sweep Less, Steer More: Using Activation Steering Geometry for Reduced Hyperparameter Search
+### [104] Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization
 
-**链接**: https://arxiv.org/abs/2611.01496
-**作者**: Nishkal Hundia, Swastik Agrawal, Navita Goyal, Sarah Wiegreffe
+**链接**: https://arxiv.org/abs/2611.05373
+**作者**: Austin Tsai, Saurav Nanda, Ganapathy Parthasarathy, Bhuvnesh Kumar, Parivesh Choudhary
 **来源**: cs.LG cs.AI cs.CL
 **匹配关键词**: LLM
 **相关性评分**: 1.0
@@ -3216,74 +1420,59 @@
 
 **摘要**:
 
-> Representation steering methods like difference-in-means (DIM) offer a lightweight approach to controlling LLM behavior, but their effectiveness varies widely across concepts, datasets, and layers, making principled deployment costly without exhaustive hyperparameter sweeps. We build on the discriminability index $d'$, a compute-cheap geometric measure of how well contrastive training activations separate along the steering direction. Across five behaviors on 3 models, we demonstrate uses beyond its established role as a dataset-level steerability predictor. First, in the multiple-choice question answering (MCQA) setting, we show that $d'$ reliably identifies performant layers at which to steer, eliminating the need for a layer-wise sweep. Second, we extend this analysis to open-ended multi-token generation, and find that $d'$ remains successful for layer selection across different settings. Lastly, we test whether the position of a generated token's representation on the DIM line pred
+> Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher's gold response, large-margin preference-pair selection and a DPO-style contrastive update. We re-implement DNO-Prct independently and study it on two open-weight instruct models, Llama 3.1 8B Instruct and Mistral 7B Instruct v0.1, with GPT-4o or a larger open-weight model of the same family as the annotator. On AlpacaEval 2.0 with GPT-4o as judge, three iterations raise the length-controlled (LC) win rate against GPT-4o from 31.7% to 45.3% for Llama and from 6.8% to 18.4% for Mistral, and the tuned 8B model scores above Llama 3.1 70B Instruct on every reported win rate. With same-family open-weight annotators, the runs retain 62% (Llama) and 82% (Mistral) of the LC gain achieved with GPT-4o as annotator, so the r
 
 ---
 
-### [229] Learning by Doing: Autonomously Compiling and Curating Agent Skills from Verified Traces
+### [105] Weight-Space Programming for Improving Image-Restoration Diffusion Models: Technical Conjectures and a Recursive Improvement Loop
 
-**链接**: https://arxiv.org/abs/2611.01386
-**作者**: Daniel Chalef, Peter Evans, Pavlo Paliychuk, Mehul Patel, Preston Rasmussen, Jack Ryan
-**来源**: cs.AI cs.CL
+**链接**: https://arxiv.org/abs/2611.04268
+**作者**: Zhuoran Zheng and Doubao
+**来源**: cs.CV
 **匹配关键词**: LLM
 **相关性评分**: 1.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Memory systems for production LLM agents mostly store semantic memory (facts about users and domains) or episodic memory (earlier interactions). Research systems such as Trace2Skill, WikiSkill, and SkillRevise learn procedures from agent runs, package them as Skills, and evaluate them on benchmarks. We describe Zep Agent Skills, a production service that gives deployed agents this procedural memory. The service uses only verified attempts as evidence, cites the supporting events for each field of a Skill, and governs the admission and distribution of each Skill version. The service records each task attempt as a Trace with ordered events, an outcome, and a verification strength. A compiler with separate Reflector and Curator roles turns verified Traces into versioned Skills. Scans and admission gates control which candidates become active, and verified use outcomes change the search rank of each Skill. The Agent Skills format is an open standard that Anthropic originated and donated to
+> Can an LLM directly edit the weights of a diffusion-based image-restoration model to \emph{improve} restoration quality---without gradients, paired data, or fine-tuning? Recent experiments show frontier LLMs can fix structural bugs by modifying as little as \(0.016\%\) of parameters, but cannot instill new capabilities. We ask whether weight-space programming (WSP) can move from \emph{debugging} to \emph{improvement} in the precise-regression setting of image restoration (deblurring, super-resolution, denoising, inpainting). Restoration diffusion UNets present a middle ground: low-level signal-processing layers are concentrated enough for targeted weight-direction edits, while high-level semantic layers remain distributed and resistant to sparse modification. We propose three technical conjectures: (C1) an LLM can localize the layer behind a quality gap (over-smoothing, color shift, hallucinated texture) within a 200 forward-pass budget; (C2) editing a small set of identified weight di
 
 ---
 
-### [230] Grading the Unannotated: Insights from the WorkRB Skill Extraction Challenge at RecSys-HR 2026
+### [106] ATC: Agent Trajectory Control for Role-Contract Enforcement in Black-Box Multi-Agent Systems
 
-**链接**: https://arxiv.org/abs/2611.03525
-**作者**: Warre Veys, Luis Gasco, Jens-Joris Decorte
-**来源**: cs.AI
+**链接**: https://arxiv.org/abs/2611.04321
+**作者**: Maisha Maliha, Vishal Pramanik, Sumit Kumar Jha
+**来源**: cs.AI cs.MA
 **匹配关键词**: LLM
 **相关性评分**: 1.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Skill extraction benchmarks score models against a few human-annotated positives and treat every other skill in the vocabulary as equally wrong. At the scale of ESCO (13,939 skills) this binary view can reward models that rank the annotated positive high for the wrong reason, and hides semantically nonsensical predictions. The WorkRB Challenge at RecSys-HR 2026 replaces it with graded relevance: every candidate skill in a model's ranking window carries a 0 to 4 grade, and the leaderboard scores nDCG@100 against these grades. Since ternary judgements proved too coarse for objective annotation, relevance is decomposed into a cascade of four binary questions (same domain, activity mentioned, right granularity, replacement of a gold positive) that a smaller LLM judge can answer reliably; the labels are validated with blind human and frontier-model re-annotation. This paper documents the annotation methodology, the construction of five benchmark datasets (four with vacancy sentences as quer
+> Multi-agent LLM systems assign different responsibilities to different agents: one plans, another retrieves evidence, another verifies, another executes. This division of labor is only meaningful if each agent stays within the functions it is authorized to perform. Over many turns, however, an agent can produce a locally reasonable message that exercises authority belonging to another role: a verifier that begins planning, a retriever that asserts unsupported conclusions, an executor that changes state no one approved. We formalize this as role drift, a turn-level breach of an agent's role contract. We introduce Agent Trajectory Control (ATC), which makes each role's authority explicit as a contract and enforces it at the point where a message would enter the shared conversation. ATC scores a proposed output for out-of-role deviation, leakage into the functions of other roles, impermissible speech acts, and logical contract breaches, then computes a leakage-regularized target that cons
 
 ---
 
-### [231] TAC-CoT: Tool-Empowered Implicit Chain-of-Thought via Interleaving Explicit Tokens
+### [107] Voluntary Servitude: Weaponized Safety Warning Mechanisms for Controlling AI Agents
 
-**链接**: https://arxiv.org/abs/2611.01926
-**作者**: Juseon Do, Sangmin Bae, Jeesu Jung, Hwanjun Song
-**来源**: cs.CL
+**链接**: https://arxiv.org/abs/2611.04393
+**作者**: Ilan Zendel, Matan Levy, Stav Cohen, Avi Mendelson, Amit LeVi
+**来源**: cs.CR cs.AI cs.CL cs.LG
 **匹配关键词**: LLM
 **相关性评分**: 1.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> LLM-based agentic systems are increasingly combined with CoT reasoning to solve tasks that require accurate reasoning, external knowledge, and multi-step deliberation. Yet, explicit CoT incurs substantial generation overhead, while implicit CoT, which replaces textual rationales with compact continuous tokens, does not naturally support the explicit communication interface required for agentic tool-use. We propose TAC-CoT, a tool-empowered adaptive implicit CoT framework that replaces explicit reasoning traces with compact latent reasoning segments while retaining textual tokens only for tool calls, observations, and final answers. This interleaved design enables agentic tool-use without verbalizing every intermediate reasoning step. Experiments on agentic math and QA benchmarks show that TAC-CoT improves accuracy by up to 8.8 points while reducing model forward passes by up to 6.8x. Furthermore, analyses show that TAC-CoT improves tool-use quality in both single- and multi-tool settin
+> LLM agents increasingly act on information retrieved from public sources they treat as credible, which turns a manipulated recommendation into a transaction, a dependency, or a decision with physical consequences. The security literature models this threat as instruction injection, in which an adversary writes a command into retrieved content and deployed defenses learn to recognize command syntax. We show that an attacker can instead steer an agent through the agent's own harm-avoidance. A single fabricated hazard, written as an ordinary review, leads the agent to disqualify the legitimate options and select the attacker's target by its own reasoning, with no command for a detector to recognize. We call this voluntary servitude. These payloads steer agents about as often as instruction injection (60.4% vs. 66.0%), and deployed injection detectors score them as benign, so behind a filter they are 1.7-4.4x more effective. We measure this at the generation stage across six models and ten
 
 ---
 
-### [232] Constructing Budgeted KGW Evasion through Token-Event Evidence Replacement
+### [108] Constructing a Regional Slang Lexicon for Electricity Demands via Soft-Label Bidirectional Anchoring and Active Learning
 
-**链接**: https://arxiv.org/abs/2611.00726
-**作者**: Hongliang Liu
-**来源**: cs.CL cs.CR
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> KGW watermarks bias sampling to accumulate keyed detection evidence. We construct budgeted evasion through token-event evidence replacement using ordinary phrase rewrites. Our construction jointly selects compositions of LLM-proposed alternatives from an independent model and measures global token-edit distance on complete outputs. At the largest attainable cost within the budget, exact coverage search maximizes removal of original scored token pairs. It uses a known tokenizer without the key, detector feedback or queries to the watermarked model. Exact accounting separates source evidence removed, evidence created and length effects, with initial strength setting the required reduction. Separate signed-event analysis found that mean suppression arose mainly from removing watermark-enriched source events. In controlled, occurrence-counted, one-token-context KGW tests on short passages, 39 of 82 qualified, initially detected sources yielded rewrites with terminal detector score Z < 4 th
-
----
-
-### [233] Spotting the Artificial: Dialogic Humor Improvisation in Humans and LLMs
-
-**链接**: https://arxiv.org/abs/2611.00492
-**作者**: Lizeth Palacios Pati\~no, Ximena Gutierrez-Vasques, Daniel Rodriguez
+**链接**: https://arxiv.org/abs/2611.04231
+**作者**: Rong Chang, Lijing Shi, Zhaoxiang Zang
 **来源**: cs.CL cs.AI
 **匹配关键词**: LLM
 **相关性评分**: 1.0
@@ -3291,89 +1480,44 @@
 
 **摘要**:
 
-> We propose a methodology for investigating the differences between natural and synthetic language in a challenging setting: humorous improvisational dialogue. Our experimental setting compares human-produced comedy improvisations with the dialogues generated by LLMs in a multi-agent environment that we designed. The analysis combines automated linguistic measures with manual annotation grounded in Systemic Functional Linguistics (SFL). The results show that, although LLMs can create coherent and creative scenes, they often fail to reproduce key characteristics of spontaneous spoken interaction. In addition, LLM-generated interactions display a strong tendency toward politeness and positive evaluations, contrasting with the broader range of attitudes found in human humorous improvisation. Our evidence highlights both the strengths and limitations of current LLMs in modeling dialogic humor and demonstrate the value of integrating linguistic theory with NLP methods for the analysis of mac
+> Power-grid customer service increasingly relies on community social media, where customers describe outages, billing, and equipment faults in informal regional dialect. Such messages exhibit non-standard morphology, semantic drift, and out-of-vocabulary expressions that make manual lexicon construction costly and degrade conventional NLP tools. We propose a weak-supervision framework constructing a regional slang lexicon from curated dialect anchors and power-domain seed terms. Candidates are generated via Pointwise Mutual Information with soft-label bidirectional anchoring, retaining dialect-anchored terms while recording power-domain relevance as separate metadata, and are scored by combining Sentence-BERT semantic similarity with a jieba-based wordhood measure. Uncertainty-aware active learning with rule-based and retrieval-augmented LLM oracles is applied under three query strategies, and the resulting lexicon is evaluated by a higher-capability LLM calibrated against human expert 
 
 ---
 
-### [234] SpecPilot: Autonomous Algorithm Discovery and Systems Optimization for Speculative Decoding
+### [109] CloakFEM: Agentic FEM Code Generation for Red-Teaming Computational Resource Exhaustion
 
-**链接**: https://arxiv.org/abs/2611.02501
-**作者**: Kunjun Li, Wenhao Chai, Yihao Liang, Yuezhou Hu, Shuyao Xu, Yi Pan 等 (10 人)
-**来源**: cs.LG
+**链接**: https://arxiv.org/abs/2611.04356
+**作者**: Li Zheng, Simin Chen
+**来源**: cs.CR cs.AI cs.SE
 **匹配关键词**: LLM
 **相关性评分**: 1.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Speculative decoding accelerates memory-bound LLM decoding with a lightweight drafter, and parallel drafters extend this speedup by drafting a whole block in one forward pass. However, it remains unclear whether their released systems (stock) attain the full speedup that parallel drafting permits. We identify three challenges. First, with one request, each step accepts few tokens but reads every target weight. Second, with batching, per-request verification work roughly halves the speedup over autoregressive (AR) decoding. Third, speculative decoding is deployment-specific, and no universal optimization fits every serving regime, drafter, target model and GPU. To address these challenges, we present SpecPilot, an autonomous agentic loop that discovers algorithms and systems optimizations for each deployment. In each round, a cost model locates the largest gaps between the current system and its ceiling. Parallel agents explore directions and integrate the successful ones. Token forcing
+> Finite element method (FEM) solvers are foundational to scientific and engineering simulation, yet their susceptibility to \emph{efficiency attacks} remains largely unexplored. An adversary can craft syntactically valid and runnable FEM programs that complete successfully while forcing excessive computational work, enabling computational denial-of-service (DoS) attacks. Finding such inputs is challenging because FEM programs occupy a vast, structured space constrained by numerical, geometric, and constitutive requirements. We introduce CloakFEM, a domain-guided LLM-agent framework for automatically generating runnable adversarial FEM programs that amplify solver computation. CloakFEM combines LLM-guided search with an FEM-specific intermediate representation and a deterministic validity gate that enforces runnable constraints. Across three FEM stacks, 17 problem classes, and 1,068 seeds, CloakFEM discovers adversarial inputs that substantially amplify solver work while remaining valid 
 
 ---
 
-### [235] Inference First, Training Underneath: Layer-Granular LoRA Co-Serving with LayerLoom
+### [110] SurgEye: Instruction Tuning-Free Perception-Reasoning Framework for Surgical Scene Understanding
 
-**链接**: https://arxiv.org/abs/2611.00652
-**作者**: Zongpu Zhang, Yishu Yin, Xuehai Qian
-**来源**: cs.LG
+**链接**: https://arxiv.org/abs/2611.04012
+**作者**: Qing Xu, Xiechen Shen, Xianjian He, Guqiao Liang, Zixiao Chai, Jiale Qin 等 (10 人)
+**来源**: cs.CV
 **匹配关键词**: Large Language Model
 **相关性评分**: 1.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Serving and fine-tuning a large language model on the same GPUs can turn the idle capacity between inference bursts into training progress, and low-rank adaptation (LoRA) makes this co-location cheap because both workloads read a single frozen copy of the base weights. The difficulty lies in the fine-tuning backward pass, which has no counterpart in inference. Current co-serving systems schedule backward work per serving iteration: each iteration carries a fixed backward budget, and requests that arrive in the meantime wait for it to finish, so fine-tuning dictates inference latency whenever load spikes. We observe that the backward pass of a LoRA microbatch decomposes into per-layer tasks over the same weights that the inference forward pass visits, which allows backward work to be scheduled at layer rather than iteration granularity. Building on this observation, LayerLoom attaches same-layer backward tasks to the inference forward pass and, at each layer, runs only as many of them a
+> Surgical scene understanding is pivotal for computer-assisted intervention, yet demands compositional reasoning across instruments, anatomy, and workflow. Existing surgical vision-language models rely on instruction tuning with large-scale question-answer pairs, entailing laborious data curation and costly retraining. To bridge this gap, we propose SurgEye, a perception-reasoning framework that grounds reasoning in a vision foundation model without instruction tuning. Specifically, we devise Routed Multi-Task Perception (RMP) that routes the vision foundation model through task-specific pathways learned from public perception labels, producing spatial and temporal evidence. We further introduce Agentic Compositional Reasoning (ACR) that employs a frozen large language model to coordinate RMP specialists and temporal memory as callable tools, composing evidence across tasks and time into grounded answers. Moreover, we construct SurgEye-Bench spanning eight surgical procedures, pairing e
 
 ---
 
-### [236] State-Aware Virtual Patient Simulation for Training Psychiatrists in Challenging Clinical Scenarios
+### [111] SLATE: A Large-Scale Benchmark for Long-Horizon API Selection in E-commerce Tool Use
 
-**链接**: https://arxiv.org/abs/2611.02067
-**作者**: Harsh Mohta, C Chandrahas Reddy, Sunhith Reddy Bojja, Manik Inder Singh Sethi, Vinesh Gupta, Raghuram Bharadwaj Diddigi
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Psychiatrists must be prepared to manage patients exhibiting challenging psychological states, including suicidal ideation, hallucinations, and other high-risk behaviors. However, opportunities to safely practice such interactions are limited. While recent conversational agents can simulate patients, existing approaches largely rely on large language models (LLMs) to determine patient responses, making it difficult to consistently maintain psychological state, adapt to the clinician's responses, and generate clinically plausible challenges that meaningfully test the clinician. We present a state-aware virtual patient simulation pipeline for training psychiatrists in challenging clinical scenarios. The proposed system maintains an evolving patient state throughout the interaction and orchestrates patient behavior rather than leaving response generation entirely to an LLM. At each interaction, a learning-based behavioral strategy selector determines the type and level of challenge approp
-
----
-
-### [237] Reading Between the Chapters: A Graph-Free RAG Rebuilt With AI and Human Feedback
-
-**链接**: https://arxiv.org/abs/2611.00752
-**作者**: Dipto Sumit, Syeda Fabiayee Jahan, Farig Sadeque
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Many questions about a book can only be answered by connecting passages chapters apart, such as a cough heard three times across a horse's life. We introduce CrossChapterQA, 1,853 such questions over 14 public-domain books. Each question lists the two to six chapters it needs (spanning half the book at the median) and the relation linking them, cites evidence from each, and has two independent reference answers graded blind. We use it to build LadderRAG, which indexes a book as passages, summaries and book-level cards for about $0.41 and answers a question for under a cent. Its first version failed mostly at retrieval. We redesigned it four times, steered by an LLM judge's verdicts and our analyses of failed answers: a design-level counterpart of RLAIF and RLHF in which feedback changes the architecture, not model weights. We also report the two redesigns that made answers worse. On the 191 questions its first version got wrong, the final version retrieves over twice as many required c
-
----
-
-### [238] CISA: Retrofitting Dense Attention Models with Chunk-Indexed Sparse Attention
-
-**链接**: https://arxiv.org/abs/2611.03200
-**作者**: Mohammed Dabbah, Izhak Golan, Oren Tropp, Daniel Afrimi, Vladimir Anisimov, Tomer Asida 等 (10 人)
-**来源**: cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Long-context LLM inference is costly because attention repeatedly reads a growing key-value (KV) history. We introduce Chunk-Indexed Sparse Attention (CISA), which retrofits pretrained dense attention models without gradient updates. CISA selects fixed-size KV chunks using compact summaries of existing keys, avoiding token-level indexing and a separate full-length index cache. It uses one indexing query per KV group and shares selected chunks across queries in that group. During prefill, QShare reuses selections across adjacent queries to reduce indexing cost and improve KV reuse and GPU utilization. We evaluate CISA on NVIDIA Nemotron 3 Nano and Ultra, and Inkling-Small. In one-layer BF16 benchmarks at batch size 32 using Ultra's per-device attention dimensions, core attention is 11.7x faster for prefill queries near the end of a 1M-token prompt and 13.0x faster during decode. Including chunk scoring, selection, and all other measured GPU work, speedups are 8.6x and 3.0x. On Ultra NVF
-
----
-
-### [239] Tug of Watts: A study on the Energy - Accuracy Trade-off of Large Language Models on Medical Question Answering Tasks
-
-**链接**: https://arxiv.org/abs/2611.02889
-**作者**: Viju Sudhi, Giulio Billi, Andreea Scrob, Regina Stodden, Philipp Cimiano
+**链接**: https://arxiv.org/abs/2611.03982
+**作者**: Rongzhe Wei, Ge Shi, Min Cheng, Sarthak Ghosh, Vaibhav Gorde, Leman Akoglu 等 (8 人)
 **来源**: cs.CL cs.AI
 **匹配关键词**: LLM
 **相关性评分**: 1.0
@@ -3381,29 +1525,74 @@
 
 **摘要**:
 
-> Large Language Models (LLMs) are increasingly used in medical question answering (QA) systems. While recent works aim at incrementally improving the downstream task accuracy, an empirical estimation of the models' energy consumption and the associated carbon footprints is often overlooked. In this study, we demonstrate how practitioners can estimate energy consumption and arrive at reliable emission estimates for medical QA tasks available in the OpenMedical-LLM leaderboard by investigating 13 LLMs from 3 model families ranging from 270M to 14B parameters. We discuss how one can critically interpret energy versus accuracy trade-offs for a set of models for a given task. With this work, we underline that reporting disjoint energy and accuracy metrics alone does not suffice for careful trade-off assessments, but it also demands systematic construction and interpretation of joint trade-off metrics. We envisage such studies aiding practitioners in adopting better and more efficient models 
+> Enterprises increasingly want LLM agents to automate standard operating procedures over their software stacks -- mapping each step of a procedure to the right call among thousands of internal APIs, without hand-authored step-to-API mappings. The core difficulty is API selection at scale: choosing and composing the correct tools over a long horizon, judged only by whether the overall task succeeds. Current tool-use benchmarks do not test this regime -- they expose only a handful of tools, evaluate single-step invocation, or grade multi-step behavior with subjective LLM-as-a-judge scores that penalize valid alternative trajectories. We introduce SLATE (Synthetic Large-scale API Toolkit for E-commerce), a large-scale benchmark that tests large-toolset, long-horizon API selection in a realistic enterprise domain. SLATE couples (i) queries decomposed into hierarchical, tool-grounded procedures over a ~1,000-tool e-commerce library, (ii) a deterministic, context-aware simulator that returns 
 
 ---
 
-### [240] SQLoom: Set-Contrastive Learning of Syntactic, Semantic, and Logical Dependencies for Text-to-SQL
+### [112] LatentTriad: Pre-Action Risk Representations for Malicious Agent Skill Detection
 
-**链接**: https://arxiv.org/abs/2611.03298
-**作者**: Hao Fu, Degang Sun, Wan Wei, Jinxia Wei, Chun Long, Peng Gao
-**来源**: cs.DB cs.AI
+**链接**: https://arxiv.org/abs/2611.05088
+**作者**: Zhe Yu, Yi Liu, Ying Zhang, Simin Chen
+**来源**: cs.AI
+**匹配关键词**: Large Language Model
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Large language model agents are increasingly extended with reusable skills, but untrusted skill content can induce operations outside the user's task. Detecting this contextual risk requires more than suspicious-pattern matching, while dynamic analysis incurs the cost of skill execution. We find that hidden states formed during prefill contain readable information about task-operation consistency, including across held-out expression forms in controlled evaluations. Matched Operation-state interventions also affect later Boundary states and shift fixed risk readouts toward the donor label. Based on these findings, we introduce LatentTriad, which combines contextual Boundary features, group-adjusted Operation directions, and departures from benign state relationships. All branches share one prefill: detection generates no output tokens, invokes no tools, and executes no skill code. Across 5,830 skill packages from five sources and seven backbones, LatentTriad achieves 99.0-99.2% pooled 
+
+---
+
+### [113] You don't need long context
+
+**链接**: https://arxiv.org/abs/2611.05306
+**作者**: Peter Belcak, Saurav Muralidharan, Jindong Jiang, Yonggan Fu, Wonmin Byeon, Hanrong Ye 等 (10 人)
+**来源**: cs.AI
 **匹配关键词**: LLM
 **相关性评分**: 1.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Text-to-SQL translates natural language questions into SQL queries, enabling database access without writing SQL. Fine-tuning open-weight large language models (LLMs) is cost-effective, but existing methods treat SQL as ordinary text and optimize token-level likelihood without explicitly modeling its syntactic, semantic, and logical requirements. Thus, a single incorrect alias or comparison operator can invalidate a query while contributing little to training loss. We propose SQLoom, a constraint-aware fine-tuning framework with supervision at three levels: syntactic validity under SQL grammar and database schema, semantic alignment between query decisions and the question, and logical consistency across dependent clause decisions. SQLoom extends supervised fine-tuning with a unified set-contrastive objective favoring sets of correct outputs over minimally different incorrect ones at each level. LLM agents propose this supervision, which a SQL parser and execution on counterexample dat
+> Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintaining short contexts. We further demonstrate that LLM performance does not collapse on long-horizon software engineering tasks even when taking at most one action per context, and based on that we outline the concept of semantic state space models (SSSMs). Our findings question the need for long-context language models.
 
 ---
 
-### [241] PatchScout: Thematic Web Data Collection via Information Foraging
+### [114] WASP-Mem: Let Agent Organize Procedural Memory. Human Spend Effort on Diagnosis
 
-**链接**: https://arxiv.org/abs/2611.00169
-**作者**: Michael West and Eduard Dragut
+**链接**: https://arxiv.org/abs/2611.04003
+**作者**: Peizhi Niu, Ge Shi, Vaibhav Gorde, Sarthak Ghosh, Christos Faloutsos, Min Cheng 等 (7 人)
+**来源**: cs.AI cs.CL cs.LG
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> LLM agents struggle to automate complex enterprise procedures because static, pre-built harness cannot capture proprietary policies, undocumented behaviors, or state-dependent recovery paths that surface only during execution. Procedural memory accrued from agent experience offers a training-free path to closing this gap -- yet unlike episodic records or semantic facts, it must consolidate repeated successes and diagnosed failures into reusable actions and recovery strategies. We introduce WASP-Mem (Wiki-based Agent-Synthesized Procedural Memory), a nimble but effective method that distills execution traces and feedback into persistent, interlinked wiki pages, enabling continual agent learning. On TheAgentCompany benchmark, WASP-Mem raises the checkpoint pass rate by 4.6-6.1% over the strongest baseline we compared across three models while requiring 57-61% less storage. We further present a systematic controlled study spanning consolidation method, feedback type, trace ingestion scope
+
+---
+
+### [115] Auditing Multi-Proxy Explanations of Web User Preferences: Identification Boundaries and Abstention
+
+**链接**: https://arxiv.org/abs/2611.04997
+**作者**: Yu Zhang, Zhihan Wang, Yuhang Lu, Shuai Li
+**来源**: cs.LG cs.IR
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Web systems infer user preferences from behavior, ratings, text, and LLM-generated profiles, yet explaining a proxy may reveal its measurement process rather than the preference of interest. We develop an audit framework distinguishing point identification, partial identification, and abstention relative to an explicit reference distribution. Under feature-dependent, arbitrarily signed proxy bias, a strict majority of uncontaminated proxy attributions lets the coordinatewise median recover latent-attribution support and direction and, with externally justified positive scales, magnitude. We prove this threshold sharp using response-valid indistinguishable worlds, characterize sharp minimax error and exact compatible-target sets under approximate cleanliness and scale uncertainty, and propagate clean-proxy attribution error. A frozen known-truth benchmark spans two response families, four proxy counts, all contamination counts, three bias strengths, and eleven methods, with a focal comp
+
+---
+
+### [116] OSGR: Observation-Support Graph Reasoning for Earth Observation Question Answering
+
+**链接**: https://arxiv.org/abs/2611.04301
+**作者**: Dazhou Yu, Zerong Wang, Riyang Bao, Longxiang Li, Yang Liu, Liang Zhao
 **来源**: cs.AI cs.IR
 **匹配关键词**: LLM
 **相关性评分**: 1.0
@@ -3411,29 +1600,14 @@
 
 **摘要**:
 
-> Researchers often need web corpora that are not answers to a single query, but reusable collections of documents spanning many decentralized sources. We refer to this problem as thematic web data collection: assembling semantically relevant documents that share a common theme but are scattered across heterogeneous and structurally disconnected regions of the web. Existing approaches, including traversal-based methods and LLM-driven web agents, are limited by local exploration or short-horizon stopping, preventing comprehensive collection. We formulate this task as a long-horizon information foraging problem over query-induced semantic patches, where the central challenge is deciding when to continue local exploitation and when to switch to new regions. We propose PatchScout, a multi-agent framework that instantiates a class of patch-switching policies to balance local exploitation and adaptive patch switching under a fixed budget. Experiments on four live-web topics show that PatchScou
+> Answering geographic queries over Earth observation (EO) archives requires solving a joint retrieval-and-derivation problem under strict spatiotemporal constraints. Existing LLM agents fail to ground observation items or suffer from search-space explosion. We propose OSGR, a two-stage framework that factorizes this search into offline symbolic concept deduction and online Relation-Conditioned Grounding. OSGR leverages an offline Observation-Support Graph to deduce valid target-to-result support paths at the concept level, and applies spatiotemporal compatibility kernels to instantiate grounded observation-item sets. On Earth-Bench and DisasterM3-Reason, OSGR improves GPT-4o accuracy from 49.3\% to 63.7\% while reducing the execution-step ratio from 2.9 to 2.5.
 
 ---
 
-### [242] VIAS: Value-Isolating Activation Steering for Multi-Value Alignment and Compliance for Organisations
+### [117] Creating Power Flexibility in Datacenters via Query Routing
 
-**链接**: https://arxiv.org/abs/2611.03518
-**作者**: Avni Mittal, Avinash Anand, Dikshant Kukreja, Erik Cambria, Rajiv Ratn Shah, Sandipan Dandapat
-**来源**: cs.CL cs.AI cs.LG cs.MA
-**匹配关键词**: Large Language Model
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Organisations increasingly deploy large language model agents that must follow organisational values. We check whether activation steering, which adds vectors to a model's internal activations during generation without changing its weights, can improve compliance beyond prompting alone. Since most scenarios involve several values at once, we focus on multi-value steering. A simple way to build these vectors is to contrast responses that follow all values relevant to a scenario with responses that violate them. However, this gives nearly identical vectors for different values: they capture a general compliance signal rather than individual values, which limits their use when combining several values. We propose Value-Isolating Activation Steering (VIAS), which contrasts responses to the same scenario under two prompts, one listing all relevant values and one omitting a single target value. We keep a pair only if the target value changes from compliant to non-compliant and both responses
-
----
-
-### [243] Who Schedules Agent Memory? A Sidecar Approach to Long-Horizon Tasks
-
-**链接**: https://arxiv.org/abs/2611.00779
-**作者**: Qijia Zhuang (1), Rui Liu (2), Yuxiang Ren (1) ((1) Nanjing University, (2) Northeastern University)
+**链接**: https://arxiv.org/abs/2611.05148
+**作者**: Shivam Patel, Bingqing Chen, Jared Fernandez, Guannan Qu, Gauri Joshi
 **来源**: cs.AI
 **匹配关键词**: Large Language Model
 **相关性评分**: 1.0
@@ -3441,194 +1615,14 @@
 
 **摘要**:
 
-> As large language model agents increasingly undertake complex, long-horizon tasks, memory has become an important component for supporting sustained decision-making and action. Existing methods primarily focus on memory storage, updating, and retrieval, but often overlook how memory scheduling affects task execution: the main agent must identify memory needs, initiate retrieval, and wait for results while advancing the task, increasing both scheduling burden and execution time. To address this problem, we propose MemSidecar, which decouples memory scheduling from task execution through two independently selectable modes. Hooks directly delivers bound memory to the main agent when execution events match predefined conditions. Foresight uses an independent agent to predict potential queries, retrieve results in parallel, and store them in a cache, delivering matching and valid results when actual requests arrive. Hooks and Foresight achieve scores of 41.23% and 44.34% on MCP-Persona, res
+> The growing energy requirements of large language model inference highlight the need for datacenters to support safe grid operation by providing power demand flexibility, while maintaining service for interactive workloads. This work investigates query routing as a mechanism to enable such capability by dynamically allocating queries across different language model instances without deferring requests. We develop a general analytical framework that connects query arrival rates and sequence length distributions to token iteration time, request residence time, serving capacity, and power consumption of model instances. Leveraging this framework, we characterize the feasible query routing allocations and the corresponding power demand flexibilities, enabling the selection of routing strategies to achieve desired power consumption behavior. We validate our framework across four GPU platforms on language models ranging from 1B to 70B parameters, obtaining 2.8% mean absolute percentage error
 
 ---
 
-### [244] PlagiaCorpus: A Bilingual, Adversarial, and Cross-Lingual Dataset for Forensic Plagiarism Detection
+### [118] Adversarial Speculative Reasoning Improves Long Horizon Agents
 
-**链接**: https://arxiv.org/abs/2611.02940
-**作者**: Adel Ammar, Serry Sibaee, Wadii Boulila
-**来源**: cs.CL cs.AI cs.CY cs.DL cs.IR
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> PlagiaCorpus is a bilingual Arabic-English dataset for benchmarking plagiarism and text-reuse detection, including reuse produced by large language models (LLMs) and reuse across languages. It contains 198,643 text records: a source corpus of 34,885 passages drawn from English and Arabic Wikipedia and two openly licensed book collections, and 163,758 queries (147,381 for training and 16,377 for testing). The queries cover five reuse classes of increasing difficulty, namely verbatim copying, character-level obfuscation, same-language paraphrasing by two different LLMs, and English--Arabic translation with structural paraphrasing, together with a Safe class of non-reused passages. Every positive query is linked to its source passage, and the train/test split is grouped by source passage so that no passage contributes queries to both splits. The release was curated through language identification, removal of LLM generation artefacts, and exact and cross-lingual de-duplication. Technical v
-
----
-
-### [245] Is Your Long-Horizon Benchmark Really Deep? Measuring and Synthesizing Depth in Terminal Tasks
-
-**链接**: https://arxiv.org/abs/2611.01927
-**作者**: Yu Jiang, Yue Huang, Hang Hua, Yuyang Wu, Zixuan Weng, Olexandr Isayev 等 (9 人)
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Long-horizon terminal tasks are used to evaluate and train agents. Human-curated datasets are scarce, so many synthesis methods have emerged. They usually measure the length of a task by the turns a model needs to pass it, and its difficulty by labels the LLM sets during generation. We find, however, that the turn count largely reflects the habits of the model, not only the demands of the task, and that the labels barely track how often models pass. We describe a terminal task by its work, the number of operations it requires, and its depth, the number of turns that must happen in sequence because the commands of each turn can only be chosen after reading the output of the previous one. Estimating depth as the smallest turn cap, stated to the agent, under which the task passes, we audit 734 tasks from six existing datasets. Synthesis has mostly added work, not depth: 94% of the solved synthetic tasks pass within three turns, yet depth, unlike the turn count, predicts difficulty beyond 
-
----
-
-### [246] EarlySelectKV: Anticipatory KV Selection via Cross-Layer Query Proxies
-
-**链接**: https://arxiv.org/abs/2611.01715
-**作者**: Yuhao Liu, Yuehao Li, Linghe Zhang, Gaobin Huang, Junran Li, Hongchang Wang 等 (7 人)
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Query-conditioned sparse KV selection reduces long-context inference cost by attending to a subset of historical KV entries at each decoding step. Existing selectors must wait for the target-layer query before scoring candidates and generating indices, placing routing on the immediate pre-attention path. We introduce EarlySelectKV, a training-free transformation that uses proxy queries from earlier hidden states to precompute selected KV indices while retaining the real target-layer query for final attention. Tests with RocketKV, Quest, and Loki show no consistent pattern of quality degradation across the evaluated settings. In the primary RocketKV evaluation, ES-RocketKV differs by +0.018 points on LongBench, approximately -0.01 points on RULER, and +0.25 percentage points on representative NIAH/Passkey settings. In a TensorRT-LLM deployment with CPU-offloaded routing, ES-RocketKV improves end-to-end output throughput by up to 12.4% and reduces GPU-resident memory by 11.1% of the comb
-
----
-
-### [247] From Lookups to Lessons: Turning Retrieved Knowledge into Parametric Memory
-
-**链接**: https://arxiv.org/abs/2611.00450
-**作者**: Changjiang Han, Bowei He, Ye Yuan, Weixu Zhang, Haolun Wu, Xue Liu 等 (7 人)
-**来源**: cs.CL cs.AI cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Retrieval-augmented generation (RAG) helps large language models (LLMs) answer factual questions beyond their training data, but it adds storage and inference costs. Distilling previously retrieved information into parametric memories enables reuse without online retrieval. However, training the memory to mimic a retriever rewards accurate independent predictions, which do not necessarily improve the final output quality when combined with the LLM's existing predictions. To address this, we introduce ResMem, in which the LLM reads retrieved text offline to generate teacher targets. This design avoids storing massive token representations, unlike existing parametric memory approaches such as MLP Memory, which relies on k-nearest neighbor (kNN) datastores. Furthermore, by using the LLM as an offline teacher that reads privileged retrieved evidence alongside the input, we train a parametric memory to learn an additive logit residual. This residual aligns the predictions of a student shari
-
----
-
-### [248] Unlocking Criminal Court Decisions: Flexible Information Extraction for Empirical Legal Research
-
-**链接**: https://arxiv.org/abs/2611.03051
-**作者**: Tom\'a\v{s} Knap, Ivana Kvapil\'ikov\'a, Jan \v{C}ern\'y, Kl\'ara Bendov\'a, Jarom\'ir \v{S}avelka, Vojt\v{e}ch Pour 等 (7 人)
-**来源**: cs.CL cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Criminal verdicts contain descriptions of criminal behavior that can support quantitative legal research, but structuring them requires attributes and extraction rules that cannot always be fully specified in advance. We present an LLM-based pipeline that builds a structured dataset through attribute exploration, text span extraction, and value normalization, guided by annotation instructions that legal experts can refine. We evaluate it on two traffic offenses: driving under the influence (DUI) and driving despite a ban (DDB). For DUI, revising the instructions was associated with higher extraction accuracy (from 52% to 70% of correctly extracted values) and higher agreement between human annotators. Repeated runs of the same model agreed with each other more than with the gold annotations, showing that consistent output is not necessarily correct, while disagreement between annotators and between models helped reveal unclear instructions. For DDB, where the instructions defined fixed
-
----
-
-### [249] CheXPoT: Post-Hoc Visual Verification and Correction of VLM-Generated Radiology Reports
-
-**链接**: https://arxiv.org/abs/2611.00785
-**作者**: Joey Guo, Rayan Ansari, Alaa Youssef
-**来源**: cs.CL cs.CV
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Vision-language models (VLMs) have shown promise for chest radiograph report generation, but adoption remains limited because of hallucinated findings that are not grounded in the image. Correcting these hallucinations and improving overall report quality remains a significant challenge. Prior work has addressed this problem by refining models with reinforcement learning, preference optimization, or chain-of-thought supervision, often at substantial compute cost. To address this gap, we introduce CheXPoT, a program-of-thought (PoT) framework that verifies each generated finding against image features and removes those it cannot ground. CheXPoT decomposes generated reports into predicates with RadGraph and an LLM, grounds these predicates against a DenseNet-121 and Grad-CAM visual evidence table, executes PoT verification code, and rewrites reports after removing unsupported predicates. On a 4,145-image held-out split, CheXPoT yields statistically significant precision gains on 8 of 14 
-
----
-
-### [250] MedPsy: State-of-the-Art Small Medical Language Models for Efficient Edge Deployment
-
-**链接**: https://arxiv.org/abs/2611.02011
-**作者**: Davide Vitabile, Alexandro Buffa, Akshay Nambiar, Amril Nazir
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Medical language models promise expert clinical support, but the strongest open-source LLMs remain too large for private edge-device deployment, while compact medical models still trail substantially on knowledge-intensive and real-world healthcare tasks. Reasoning models that fit edge memory budgets can produce long reasoning traces, increasing sequential decoding, end-to-end latency, energy consumption, and KV-cache memory pressure. We present MedPsy, a family of text-only 1.7B and 4B medical language models designed for edge deployment, targeting this accuracy-generation-efficiency trade-off. Our recipe combines a synthetic medical data pipeline over biology, medicine, and health seeds with chain-of-thought targets from a 235B medical-focused LLM teacher; a four-stage post-training curriculum comprising two SFT stages followed by two RL stages with hard-sample mining; and an edge deployment evaluation spanning multiple GGUF quantization variants and real-device inference on laptop a
-
----
-
-### [251] LLMs Depend on Specialist Tools for Out-of-Distribution Generalization in MS/MS Structural Elucidation
-
-**链接**: https://arxiv.org/abs/2611.03308
-**作者**: Gabriel Asher and Cailum M. K. Stienstra and Tomo Oga and Devesh Shah Antonio H. de O. Fonseca and Niall O'Connor and Michael Widrich
-**来源**: cs.LG cs.AI cs.CL stat.ML
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> A frontier language model was recently reported to solve 1D NMR structural elucidation without tools. We ask whether this capability transfers to tandem mass spectrometry (MS/MS) in the de novo setting, where the model must propose a structure directly from the spectrum without a candidate list or reference library. To separate reasoning from recall, we build a 100-analyte benchmark from MassSpecGym, split by each analyte's textual footprint into in-distribution (well documented in literature) and out-of-distribution (essentially undocumented) arms. We hold the model, harness, and output format fixed and vary only the LLM's access to domain-specific tools. Without tools, a frontier LLM reaches 52% Top-1 accuracy in-distribution but only 2% out-of-distribution. Only access to de novo structure generators improves out-of-distribution accuracy, raising it to as much as 38% Top-1, and the resulting agent outperforms the standalone de novo models both in and out of distribution. These resul
-
----
-
-### [252] Multi-Agent Collusion and the J-Space
-
-**链接**: https://arxiv.org/abs/2611.02153
-**作者**: Marco Molinari, Gabriele Bettineschi
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> LLM agents are increasingly deployed in Multi-Agent Systems (MAS), and they introduce the risk of coordination among agents that might escape human oversight. The J-space has been used to uncover deception in single LLMs, but its use for uncovering and steering collusion between agents remains unexplored. We show, with interpretability experiments on DeepSeek-V4-Flash (284B) on the NARCBench collusion benchmark, that colluding agents' J-space holds the collusion itself: before replying, 86% of colluders represent misrepresentation, concealment or remorse. In a steganographic card-counting task, the receiver's J-space holds a hidden count, and causal interventions alter its count. We also introduce the Jacobian Pair Contrast (J-PACT), an unsupervised method for detecting collusion between agents. We evaluate J-PACT on four open-weight models: GPT-OSS-20B, Llama-3.3-70B-IT, Qwen3-32B, and DeepSeek-V4-Flash (284B). J-PACT retains 85% of the above-chance AUROC of supervised NARCBench probe
-
----
-
-### [253] TIGER: Learning from Researcher Taste to Generate Tailored Research Ideas
-
-**链接**: https://arxiv.org/abs/2611.02234
-**作者**: Shane Gu, Yufeng Lin, Dixi Yao, Xuchen Gong, Chenhao Tan
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> In pairwise comparisons where each judge chooses between an idea generated by its corresponding TIGER-8B policy and one generated by GPT-4.1, the three LLM researchers select the TIGER-8B idea in 56.6%-68.4% of 76 comparisons per researcher. PhD1 and PhD2 select the TIGER-8B idea in 19 of 30 pairs (63.3%) and 17 of 30 pairs (56.7%), respectively. All six directed cross-policy comparisons likewise favor the judge's matched TIGER-8B policy over an off-target policy, supporting the use of individual preference feedback for tailored research ideation.
-
----
-
-### [254] SpBench: An Agent-Native Framework for Cross-Engine Lakehouse Benchmarking
-
-**链接**: https://arxiv.org/abs/2611.00449
-**作者**: Lyndon Shi, Nic Crouch, Yi Hu, Zihao Ye, Choden Konigsmark, Eric Vandenberg 等 (10 人)
-**来源**: cs.DB cs.LG cs.PF
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> SpBench is an agent-native framework for cross-engine lakehouse benchmarking, in production use for benchmarking Snowpark, Snowpark Connect for Apache Spark, and other execution environments across standardized suites -- such as TPCx-BB and TPC-DI -- and custom benchmarks distilled from production workload patterns. It runs continuously across a broad portfolio of workloads, guiding the performance roadmap and detecting regressions for production-scale data engines. Benchmarking has historically been an expensive investment requiring continuous cross-functional collaboration and domain expertise, making it difficult to obtain actionable performance insights. SpBench provides (i) a typed, code-generated benchmark substrate that compiles platform-agnostic benchmark definitions into fair, comparable platform-specific implementations; (ii) a structured-telemetry contract recording every run as queryable fact and dimension data, letting LLM agents query results deterministically; and (iii) 
-
----
-
-### [255] Circuit Oracle: Automating Attribution Graph Analysis via Natural-Language Queries
-
-**链接**: https://arxiv.org/abs/2611.00420
-**作者**: Shariar Kabir, Hong Kiat Tan, Swastik Agrawal, Sai V R Chereddy, Sriram Balasubramanian
-**来源**: cs.CL
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Attribution graphs, an emerging tool in mechanistic interpretability, use transcoders to decompose language model computations into sparse interpretable features connected by causal edges. However, turning a graph into a safety-relevant insight requires hours of manual analysis by experts. We introduce Circuit Oracle, an off-the-shelf LLM equipped with a multi-agent harness and task-specific authored skills, which answers natural-language questions about a target model by reading the attribution graph through tool calls. We evaluate it on three safety-relevant proxy tasks: detecting spurious features in probe circuits, eliciting hidden knowledge from taboo-finetuned models, and suppression jailbreaking via feature-level interventions. Beyond task scores, the oracle produces pruned subgraphs and context-specific feature explanations that we assess qualitatively. Results are mixed. On spurious-feature detection, Circuit Oracle reaches 78.2 $\pm$ 2.4% accuracy, outperforming single-layer 
-
----
-
-### [256] Pulse: Long-Horizon Tasks Need Streaming Personalization
-
-**链接**: https://arxiv.org/abs/2611.00988
-**作者**: Qijia Zhuang (1), Jialiang Liang (2), Yuxiang Ren (1) ((1) Nanjing University, (2) Xinjiang University)
+**链接**: https://arxiv.org/abs/2611.05345
+**作者**: Hongyin Luo, Wei Fang, Lijie Yang, Owen Stepan, Daniel Suit, Jeff Krapf 等 (8 人)
 **来源**: cs.AI
 **匹配关键词**: Large Language Model
 **相关性评分**: 1.0
@@ -3636,59 +1630,14 @@
 
 **摘要**:
 
-> Large language model agents increasingly undertake complex, long-horizon tasks that benefit from sustained personalized support through long-term memory. Existing memory-augmented methods retrieve and use memory primarily from the initial request, with limited awareness of ongoing execution and emerging personalization needs. Agents may therefore overlook user preferences and project constraints during multistep tasks. We propose Pulse, a streaming personalization method for long-horizon tasks. An independent, lightweight memory agent continuously monitors execution, identifies emerging personalization needs and potential preference conflicts, and uses user and project memories to provide targeted interventions at appropriate stages. Reinforcement learning optimizes when and how the memory agent intervenes, improving the timeliness and accuracy of personalized support. Pulse scores 71.9% on $\pi$-Bench and 46.4% on MCP-Persona, achieving the highest overall scores among the compared me
+> Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train better draft models has been focused solely on acceptance rate. We argue that this view does not hold true for long-horizon agent reasoning. Measuring frontier open-weight models on complex agentic tasks with different speculative decoding approaches, we found that numerical noise grows within verification windows, and the draft acceptance results of the thinking process can change the output distribution of the model after 30 steps, thus noticeably influencing the reasoning accuracy of long-horizon agents in random directions. In this work, we improve the reasoning capability of target models by controlling such noise. While we cannot change the overall token distribution verified by the target model, we can encode critical reasoning with highest precision by training the draft model to be 
 
 ---
 
-### [257] DramaVQA: Probing Detailed Understanding of Ultra-Long TV Dramas
+### [119] ToolSpace: Scaling Tool-Centric Environment Synthesis for Long-Horizon Agents
 
-**链接**: https://arxiv.org/abs/2611.00769
-**作者**: Xinyue Huo, Pengfei Chen, Jiannan Ge, Kaiwen Duan, Jiacheng Shao, Yunning Cao 等 (8 人)
-**来源**: cs.CV
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Despite recent progress in long-form video understanding, current benchmarks mostly focus on short clips or hour-scale videos. This leaves a major gap in evaluating ultra-long video understanding, where videos often last tens of hours. To bridge this gap, we introduce DramaVQA, a large-scale benchmark built upon long-form TV dramas. Containing approximately 20K question-answering (QA) pairs, the scale of DramaVQA exceeds previous long-video datasets, such as Video-MME and LVBench, by an order of magnitude. Our benchmark has two main features that make it stand out from existing datasets. First, we establish a scalable, LLM-assisted annotation pipeline that uses multimodal large language models (MLLMs) to generate complex questions, followed by strict human checking to ensure high data quality. Second, DramaVQA introduces a multi-level time structure; queries are designed across different video lengths, with the hardest questions requiring overall understanding across the entire drama. 
-
----
-
-### [258] Beyond Binary Detection: Type-Aware Hallucination Analysis and Hierarchical Detection in Financial Question Answering
-
-**链接**: https://arxiv.org/abs/2611.02258
-**作者**: Xiongyu Chen, Sizhen Zhu, Zhuoer Wang
-**来源**: cs.AI q-fin.CP
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large language models are increasingly used to answer questions over financial filings, where an unfaithful answer can mislead investment, compliance, or client decisions. Hallucination detectors are a common safeguard, but they are usually evaluated with a single binary score that reveals neither which kinds of errors analysesed nor why. This paper studies hallucination detection on PHANTOM, a long-context benchmark built from SEC filings, at the level of hallucination type. We first analyze 15,443 paired hallucinated and faithful answers without any detector and find that hallucinated answers are more than twice as long as faithful ones, and that lexical grounding separates the two classes only because faithful answers are bimodal. We then generate hallucinations in nine financially motivated categories, confirm each with a separate verification pass, and diagnose an LLM-based detector on 4,086 usable examples. Generation success varies from 66.3% to 100% across categories. The detec
-
----
-
-### [259] PRIME: Predictive Routing of Interventions by Modeling Effects for Scientific Ideation
-
-**链接**: https://arxiv.org/abs/2611.03055
-**作者**: Fengxian Ji, Xie Yu, Zhexuan Cui, Yuke Li, Zirui Song, Fan Zhang 等 (10 人)
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Feedback-driven iteration is widely used to improve LLM-generated scientific ideas, but existing systems either leave revision decisions implicit in generation, align revisions with feedback-localized weaknesses, or restrict action selection to system-specific operations. This is problematic because problems, hypotheses, and solutions are interdependent: the location where a weakness manifests does not itself determine the revision scope that will produce a better successor. We term this phenomenon diagnosis-intervention mismatch. We introduce Predictive Routing of Interventions by Modeling Effects (PRIME), a plug-and-play feedback-to-revision decision layer for existing scientific ideators. PRIME operates in three stages: (1) Structural Attribution interprets feedback over the problem-hypothesis-solution structure without fixing a revision target; (2) Counterfactual Routing constructs alternative scope-conditioned interventions and compares their projected successor utility and risks 
-
----
-
-### [260] IdeaTaste: Do LLMs Share the Research Taste of Human Researchers?
-
-**链接**: https://arxiv.org/abs/2611.03424
-**作者**: Shanshan Zhong, Chen Xu, Jingjie Ning, Zhengzhong Liu, Aviral Kumar, Chenyan Xiong
+**链接**: https://arxiv.org/abs/2611.05036
+**作者**: Guanting Dong, Zhichao Sun, Xinyu Yang, Rui Wang, Xin Deng, Jiajie Jin 等 (10 人)
 **来源**: cs.CL
 **匹配关键词**: LLM
 **相关性评分**: 1.0
@@ -3696,232 +1645,556 @@
 
 **摘要**:
 
-> Research taste, the judgment of what to read, which problems to pursue, and which methods to try, increasingly shapes the work of AI scientists, yet it remains far less understood than their ability to execute research. We introduce IdeaTaste, a benchmark that scores an LLM by how closely the research proposals it writes from a literature snapshot frozen at 2025 match the work the same communities published in 2026. Our experiments span six contemporary language models and four research areas from established to emerging fields, covering more than 90{,}000 proposals in total. LLM agents fall well short of human communities in both the literature they cite and the ideas they state, reaching about 26\% of the human level on citation matching and only 18\% on idea matching. Their populations can cite as diversely as a community and take up its tasks and methods, yet rarely arrive at the concrete approaches and research plans it pursues. Neither richer field context nor larger populations 
+> Large language models are deployed as long-horizon agents that compose diverse tools across MCP services into executable workflows. Existing MCP environment-scaling methods are data-centric: they first synthesize a database and scenario, then derive tools and tasks from them. As a result, tool interfaces may not match real ones, tool compositions are not grounded in execution, and tasks rarely span more than one environment. We propose ToolSpace, a tool-centric framework that reverses this order. ToolSpace mines data, state, and retry dependencies from adjacent calls in execution traces of real MCP services and open agent corpora, using deterministic rules rather than LLM judgment, and clusters the resulting weighted tool-composition graph into environments. Databases are synthesized only for state-mutating environments, while query and stateless tools replay recorded returns. ToolSpace then performs state-aware random walks with rollback and decompiles each chain into a natural-langua
 
 ---
 
-### [261] SearchInject: Retrieval Exposure Control for Indirect Prompt Injection in Language-Model Search
+### [120] A Compact Formula-Aware Spreadsheet Abstraction for Large Language Models
 
-**链接**: https://arxiv.org/abs/2611.02643
-**作者**: Kainan Zhou, Gangzhen Qian, Janet Sung, Zhi Jing, Rong Bao, Qianru Lao
-**来源**: cs.AI cs.CY cs.IR cs.LG
-**匹配关键词**: Large Language Model
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> An indirect prompt injection can affect a search-augmented large language model only after its carrier page reaches model context. SearchInject controls this admission decision with a joint score combining retrieval relevance, search-abuse cues, instruction likelihood, and two relevance interactions. A quarantine threshold is selected under an empirical 0.5% clean-candidate false-quarantine constraint on a calibration split. Evaluation uses 300 held-out SciFact queries and held-out payload categories within four construction families already represented during development. Across 1,200 query-family outcomes per retriever, top-10 target exposure falls from 0.9408 to 0.1583 for BM25, from 0.9158 to 0.1508 for a normalized hybrid, and from 0.8450 to 0.1375 for latent semantic analysis. These are relative reductions of 83.2-83.7%; the largest absolute change in clean normalized discounted cumulative gain at rank 10 is 0.0018. The frozen threshold yields clean test false-quarantine rates of
-
----
-
-### [262] Evolving Explanations: Complexity-Adaptive Refinement of Faithful Explanations for Symbolic Regression
-
-**链接**: https://arxiv.org/abs/2611.02634
-**作者**: Elisabeth Mayrhuber, Ting Hu, Stephan Winkler
-**来源**: cs.LG
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Natural-language explanations generated by large language models (LLMs) for machine learning models often seem fluent but are not necessarily faithful to the underlying model. We formalize this mismatch as a faithfulness gap and propose a complexity-adaptive refinement framework for symbolic regression that iteratively generates and validates explanations until numerical agreement with the target expression is achieved. The approach follows a two-stage pipeline: an explainer LLM produces textual descriptions at increasing levels of detail, while an independent validator LLM extracts a symbolic expression that is compared against the original model. This process is framed as a discrete search over explanation space, where complexity is minimized subject to a faithfulness constraint. We evaluate the method on real-world and synthetic datasets, with a total of 250 runs across varying model complexities. The explanation refinement loop achieves an overall pass rate of 84.0%, with most expl
-
----
-
-### [263] \textsc{ChatDify}: Automating End-to-End Dify Workflow Synthesis from Natural Language via Multi-Agent Collaboration
-
-**链接**: https://arxiv.org/abs/2611.01563
-**作者**: Tao Fan, Guoqiang Ma
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> The proliferation of Large Language Models has catalyzed powerful application development platforms like Dify, which enable users to build sophisticated LLM-powered workflows through modular node orchestration. However, manually configuring these workflows requires deep platform expertise and remains time-consuming and error-prone, creating a significant barrier for non-expert users. To address this challenge, we propose \textsc{ChatDify}, a novel multi-agent framework that automates end-to-end Dify workflow synthesis from natural language descriptions. \textsc{ChatDify} employs an Actor-Critic architecture comprising three specialized agents: the \textit{Planner Agent} that decomposes user requests into structured execution plans, the \textit{Executor Agent} that performs context-aware parameter synthesis and schema-augmented DSL compilation, and the \textit{Reviewer Agent} that ensures reliability through hybrid verification with closed-loop refinement. We evaluate \textsc{ChatDify} 
-
----
-
-### [264] RecGroupMemory: Feedback-Aware Cohort Memory for E-Commerce Recommendation
-
-**链接**: https://arxiv.org/abs/2611.02453
-**作者**: Wendong Zhang, Weipeng Huang, Zhixin Ma, Bin Zhang, Dimin Wang
-**来源**: cs.AI
-**匹配关键词**: LLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Cohort memory can support LLM-based recommendation planning through group-level user profiles and advice. As outcome feedback becomes available, this guidance may need to be updated while preserving the underlying observations. We present RecGroupMemory, a workflow that provides this memory to an orchestration LLM and separates memory construction from feedback-based revision. It uses feedback from the previous day to revise decision guidance, while validation checks keep selected source values unchanged. Online comparisons were conducted among Taobao users with low purchasing power selected by the business team. Relative to a no-memory baseline, memory without feedback and memory with feedback showed increases of 1.58% and 1.78%, respectively, in the number of guided transaction users.
-
----
-
-### [265] Phase-wise MLLM Tuning for Multi-framework WebUI Code Generation
-
-**链接**: https://arxiv.org/abs/2611.01692
-**作者**: Haoran Ma, Linxiao Li, Chenyue Wang, Haochen Sui, Jiechao Gao
+**链接**: https://arxiv.org/abs/2611.03705
+**作者**: Tie Cheng
 **来源**: cs.SE cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Large language models (LLMs) are increasingly used to assist spreadsheet users with tasks such as spreadsheet model construction, formula generation, and data analysis, yet their interaction with real-world spreadsheets remains limited by the mismatch between the structure of spreadsheets and the sequential textual representations typically provided to LLMs. We propose a compact formula-aware spreadsheet abstraction that represents large homogeneous ranges through their positions, types, R1C1 formula patterns, and selected boundary values. An efficient algorithm detects and structures these ranges before a textual serialization is supplied to an LLM. The abstraction is provided to the LLM before detailed spreadsheet content is submitted, improving the accuracy and efficiency of spreadsheet processing while reducing token consumption. We evaluate the method on 50 spreadsheet-query cases. The evaluation shows that the abstraction alone was sufficient to answer some queries. When addition
+
+---
+
+### [121] What Malware Actually Does: An Empirical Analysis of Post-Infection Behavior Across Malware Families
+
+**链接**: https://arxiv.org/abs/2611.03774
+**作者**: Emmanuela Andam, Emanuel S. Grant, and Naima Kaabouch
+**来源**: cs.CR cs.AI cs.LG
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Most malware detection research focuses on identifying whether a file is malicious before it executes. Far less attention goes to what happens after infection. This paper presents an empirical analysis of post-infection malware behavior across 37 families, grounded in dynamic sandbox execution using CAPEv2. Behavioral traces are modeled as heterogeneous graphs with five node types and seven typed edge relationships, preserving relational structure that flat feature vectors discard. A voting ensemble trained on graph-derived structural features achieves 94.44% accuracy and MCC of 0.863, outperforming a flat behavioral baseline by 7.4 percentage points in MCC. A multiclass classifier distinguishes 24 malware families, and a per-family behavioral fingerprint analysis characterizes post-infection activity across registry, network, process, and API dimensions. An LLM explanation layer generates analyst-readable reports with MITRE ATT&CK mappings grounded in observed behavioral evidence. The
+
+---
+
+### [122] From Opinions to Commitments: Unstable Assignments and Silent Choices in AI-Mediated Proposals
+
+**链接**: https://arxiv.org/abs/2611.05135
+**作者**: Sachit Mahajan, Javier Argota S{\'a}nchez-Vaquerizo, Arthur Capozzi, Dirk Helbing
+**来源**: cs.AI cs.HC
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Large language models (LLMs) are increasingly being used to turn citizens' opinions into collective proposals. These proposals can make assignments: who should act, what must be done, how much one should spend and by when. However, if the assignments change when the same opinions are processed again, publishing a single proposal can hide alternatives that participants never get to see. We examined this issue in four LLM mediators (three open-weight and one commercial) using opinions from DeliberationBank and Polis. For each task, a mediator drafted a proposal from thirty opinions five times, varying either the random seed or the order of the opinions. In 17% of five-run sets from the open-weight mediators and 20% from the commercial one, some runs contained assignments while others did not. Reordering the opinions changed the assignments almost as often as replacing them with opinions from different citizens. Three human annotators confirmed that the detected differences between runs w
+
+---
+
+### [123] TEMPO: Time Series Understanding via Discrete Tokenization
+
+**链接**: https://arxiv.org/abs/2611.04482
+**作者**: Riccardo Maggioni (Forgis)
+**来源**: cs.CL
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Time-series interpretation often requires both numerical observations and textual context. Integrating these inputs into a pretrained language model raises a representation question: how should a signal enter the model's token sequence? We present TEMPO, which extends an LLM's vocabulary with discrete codes from a context-aware Transformer tokenizer using finite scalar quantization. A frozen tokenizer maps four-step patches to a 625-code vocabulary; signal tokens, scale statistics, and text are then processed by the LLM's existing self-attention layers. Adaptation updates the new token embeddings and DoRA adapters. With a Qwen3-4B backbone and task-specific fine-tuning, TEMPO achieves macro-F1 scores of 89.0% on activity recognition, 85.0% on sleep staging, and 86.0% on bearing-fault diagnosis. Time-series question answering and qualitative bearing-diagnosis examples further illustrate how this interface combines signal representations with textual context. Together, these results demo
+
+---
+
+### [124] DoGNAVY-Exploit: Harnessing Parallel Open-Weight Agents for Stage-Aware Vulnerability Exploitation
+
+**链接**: https://arxiv.org/abs/2611.04196
+**作者**: Yuxuan Wang, Dadi Guo, Weijie Guo, Zikai Xu, Chen Lu, Yizhe Zhuang 等 (10 人)
+**来源**: cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Frontier LLM agents can turn known vulnerabilities into working exploits, but are costly and often access-restricted due to their potential for malicious use. Open-weight models offer a more accessible alternative, but struggle to maintain progress across long exploitation chains. They also often fail to apply relevant security knowledge at the appropriate stage and in the right context to identify and evaluate promising attack directions. To address these limitations, we propose DoGNAVY-Exploit, a multi-agent harness built around two complementary designs: stage-aware decomposition with progressive expert knowledge disclosure, and hierarchical orchestration with parallel exploration. Specifically, DoGNAVY-Exploit uses configurable milestones to recast long-horizon exploitation as short, verifiable capability transitions and provides only the knowledge relevant to each stage. Within each milestone, a hierarchical architecture separates strategic planning from parallel execution: a plan
+
+---
+
+### [125] Theoretical Analysis of Muon on Transformers for Next-Token Prediction
+
+**链接**: https://arxiv.org/abs/2611.04465
+**作者**: Shengwei Wu, Yixuan Yang, Gao Huang, Song Li
+**来源**: cs.LG
+**匹配关键词**: Large Language Model
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Muon has recently shown strong empirical performance in training Transformer-based large language models (LLMs), yet its optimization dynamics remain poorly understood from a theoretical perspective. In this paper, we analyze the training dynamics of Muon for next-token prediction (NTP) in Transformers. The training procedure consists of two phases: the preprocessing phase learns the output-value component, while the main phase learns the key-query component. For the preprocessing phase, we characterize the optimization trajectory exactly and show that the normalized spectral margin is optimal after each update. For the main phase, we establish nonasymptotic convergence rates for the training loss and the normalized margin gap under softmax attention. These results suggest that Muon's update rule can help models efficiently learn which tokens matter for prediction, offering a possible explanation for its strong performance in large language model training. The learned weight structure 
+
+---
+
+### [126] $\tau$-Rec-Books: A Disclosure-Controlled Benchmark for Requirement Elicitation in Agentic Recommender Systems
+
+**链接**: https://arxiv.org/abs/2611.04459
+**作者**: Bharath Sivaram Narasimhan, Karthik R. Narasimhan
+**来源**: cs.IR cs.AI cs.CL
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> While conversational recommendation systems provide a more natural user interface, they face the challenge of progressively discovering a user's needs before they can recommend an item that satisfies them. To evaluate the ability of AI agents at this elicitation process, we introduce $\tau$-Rec-Books, a benchmark that holds each user request fixed while varying only when the user reveals their requirements: all at the start (volunteer), one at the start and the rest when asked (mixed), or some never (hidden). A hidden requirement can be found only by proposing books and inferring it from the user's accept or reject verdicts. We generate 450 tasks over a catalog of 20,000 books from Wikidata, develop a rule-based simulated user to answer the agent, and score recommendations against catalog metadata without an LLM judge. Across four agents and two search interfaces, success rates fall for every agent and interface, on average from 0.975 (volunteer) to 0.756 (mixed) and 0.283 (hidden). Mi
+
+---
+
+### [127] Navigating Runtime Dynamism in Semantic Query Serving
+
+**链接**: https://arxiv.org/abs/2611.04248
+**作者**: Hengrui Zhang, Xupeng Miao
+**来源**: cs.DB cs.AI
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> LLM-powered semantic queries increasingly combine relational processing with multiple LLM-based operators over unstructured data. Efficiently serving such queries is challenging due to runtime dynamism at two coupled levels. Across queries, dynamic arrivals and heterogeneous resource demands continuously change scheduling priorities. Within a query, heterogeneous characteristics across fine-grained input batches cause operator costs and selectivities to vary throughout execution, making a statically optimized plan unreliable. These two forms of dynamism create a circular dependency: inter-query scheduling requires estimates of remaining LLM work, while the remaining work depends on runtime plan choices whose costs become observable only during execution. We present SeqoFlow, a runtime framework that jointly adapts query plans and schedules concurrent semantic queries. SeqoFlow enumerates equivalence-preserving plan alternatives under operator dependencies and decomposes queries into fi
+
+---
+
+### [128] Quantifying out-of-distribution data severity with Wasserstein distances: benchmarking large language models for alloy property prediction
+
+**链接**: https://arxiv.org/abs/2611.03767
+**作者**: YuJie Liu, Dezhen Xue, Jun Sun, Xiangdong Ding, Zhibin Gao, Turab Lookman
+**来源**: cs.LG cond-mat.mtrl-sci
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> As general-purpose Large Language Models (LLMs), such as Gemini and DeepSeek, exhibit increasingly advanced reasoning capabilities, a critical question arises: how do their property prediction abilities compare to those of domain-specific pretrained materials models? In this study, we evaluate predictions for Ti, steels, high-entropy alloy (HEA) and Al, demonstrating that general-purpose LLMs surprisingly outperform SteelBERT, MatSciBERT, and SciBERT. To further enhance performance, we introduce a hybrid approach that utilizes numerical priors from a prior model, such as CatBoost or SteelBERT, to guide the general LLMs (Deepseek V3.1, Gemini-2.5-Flash). By inputting these initial estimates from a prior model as prompts, the LLM acts as a reasoning corrector, achieving accuracy superior to the prior model and "unguided mode". Furthermore, we investigate the impact of data strategy using a similarity-based metric, revealing that data quality dominates quantity; using merely 5% of high-si
+
+---
+
+### [129] AlgoPilot: Cross-Paradigm Reasoning in Language Models via Strategy Selection and Guidance
+
+**链接**: https://arxiv.org/abs/2611.04079
+**作者**: Yilun Hao, Ruixiao Yang, Hudson Hilal, Yongchao Chen, Kaizhi Qian, Yada Zhu 等 (8 人)
+**来源**: cs.AI cs.CL cs.LG
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Real-world problems span diverse domains, including program synthesis, symbolic reasoning, planning, and optimization, and often require fundamentally different solution paradigms. A central challenge for LLM-based reasoning is twofold: identifying an appropriate problem-solving approach and formulating it correctly. In this paper, we propose AlgoPilot, a cross-paradigm reasoning framework that enables adaptive selection of the solving approaches and structured problem formulation prior to execution. The AlgoPilot framework contains three components: 1) a SteerLM, trained via supervised fine-tuning (SFT) and reinforcement learning (RL), that adaptively selects the solving strategy (paradigm and modes) based on input problems, 2) the corresponding expert GuideLM, trained via SFT, that generates structured formulation guidance tailored to the selected strategy, and 3) an ExecutionLM that generates solutions conditioned on both the selected strategy and its formulation. Unlike prompting-b
+
+---
+
+### [130] From Logs to Faults: Reference-Free Fault Localization for Retrieval-Augmented Generation Pipelines
+
+**链接**: https://arxiv.org/abs/2611.03725
+**作者**: Hira Naveed, Scott Barnett, Stefanus Kurniawan, John Grundy, Chetan Arora, Hourieh Khalajzadeh 等 (7 人)
+**来源**: cs.AI cs.SE
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Retrieval-Augmented Generation (RAG) pipelines are widely used for domain-specific question answering, yet locating faults remains manual and time-consuming. Fault localization is challenging because RAG pipelines consist of interdependent stages, where faults can propagate downstream, masking their origin, or remain undetected even when the final answer is correct. Existing evaluation approaches often focus on individual stages and rely on reference answers or code instrumentation. We present RAGLog, which detects and localizes faults across RAG stages using execution logs, without requiring reference answers or code instrumentation. RAGLog transforms heterogeneous API logs into a common RAG schema and combines rule-based, embedding-based, and LLM-based checks to identify faulty stages. We introduce a live fault injector and RAGLog Faults, a dataset of 3,134 runs from five RAG pipelines with stage-level fault labels. With Claude Haiku 5.5, RAGLog achieves a pooled F1 score of 0.73 on 
+
+---
+
+### [131] Who is the Pronoun Pro? Comparing LLMs and Humans at Number-Disambiguation of 'they'
+
+**链接**: https://arxiv.org/abs/2611.04968
+**作者**: Carlos Hartmann
+**来源**: cs.CL cs.AI cs.HC
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> This study evaluates whether large language models (LLMs) can reliably replace or complement human research assistants in linguistically complex annotation. In a controlled annotation task, 73 human annotators (local students and crowdworkers with and without a background in linguistics) and more than 40 LLM configurations number-disambiguated 174 authentic uses of 'they' from Reddit, including innovative and context-sensitive cases. The best LLM, Kimi K3, reached 94.5% accuracy, above the human majority vote (86.2%) and the mean of the top half of human annotators (78.5%); only the single best human annotator scored higher (95.7%). LLMs also offer substantial practical advantages in cost and speed. However, qualitative error analysis reveals a crucial complementarity: human reasoning in low-agreement cases exposes inconsistencies in the annotation typology and thereby improves the methodological framework itself. The study contributes (i) a benchmark-style human-LLM comparison for a s
+
+---
+
+### [132] Unsatz: Evaluating Scientific Discovery Without a Given Ansatz
+
+**链接**: https://arxiv.org/abs/2611.03713
+**作者**: Ethan Ji, Wei Wang, Yizhou Sun
+**来源**: cs.AI cs.LG
+**匹配关键词**: LLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Before a scientist fits any parameter, they must decide what the model contains: which quantities exist, which are hidden, how they interact, and how they are measured. Physicists call such a trial form an ansatz. Benchmarks for automated equation discovery mostly supply it, by fixing the variables, a library of candidate terms, or a law to be modified. We introduce Unsatz, a benchmark in which an LLM agent must construct the ansatz itself. Each task is a simulated system, generated from a private seed as a program in a small modeling language: ordinary, delay, or partial differential equations, discrete maps, static and causal models, or stochastic processes, possibly with hidden states, distorted sensors, and uninformative measurement channels. The agent buys experiments within a budget, writes candidate programs in the same language, obtains their coefficients from the benchmark's fitter, and is scored only on how its final program predicts experiments it never saw: conditions outsi
+
+---
+
+### [133] Factorized MLLM Embeddings for Composed Image Retrieval
+
+**链接**: https://arxiv.org/abs/2611.05193
+**作者**: WonJun Moon, Seongchan Kim, Dahun Kim, Seungryong Kim
+**来源**: cs.CV cs.IR
 **匹配关键词**: MLLM
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Multimodal large language models (MLLMs) achieve strong performance in translating WebUI screenshots into HTML/CSS. However, when they faced multiple frameworks (React/Vue/Angular), they often suffer from negative transfer that leads to compilation failures. These failures commonly stem from mixing framework specific syntax and violating framework constraints. This paper studies supervised fine-tuning for multi-framework WebUI code generation and proposes a phase-wise MLLM tuning method driven by compatibility and heterogeneity signals across frameworks. We first apply a normalization mapping that preserves each framework's native syntax while suppressing noise from variable naming and literal content. We then estimate cross framework heterogeneity and compatibility offline, and automatically derive training groups and their ordering by maximizing a phased objective. Finally, we perform phase-wise adapter tuning to reduce cross framework interference. Experiments on multiple benchmarks
+> Composed Image Retrieval (CIR) aims to retrieve a target image given a reference image and a modification text. Although recent approaches leveraging Multimodal Large Language Models (MLLMs) have shown significant progress, we argue that the MLLM's compositional understanding remains underutilized. This stems from directly mapping composed queries into a retrieval embedding via contrastive supervision alone, without explicitly resolving the intended visual modifications. In this work, we introduce Factorized MLLM Embeddings (FactEmbed), which decouples compositional query comprehension from building discriminative embeddings. Rather than directly projecting the composed query into a single embedding without internal reasoning, FactEmbed employs a set of factorized latents that simulate the intended visual modifications via an intermediate target imagination objective. This process encourages the latents to ground into target semantics before forming discriminative representations for r
 
 ---
 
-### [266] RE-SciVQA: Improving Scientific VQA With Context-Relevant Retrieval and Lightweight MLLM Adaptation
+### [134] Query-Conditioned Evidential Keyframe Sampling for MLLM-Based Long-Form Video Understanding
 
-**链接**: https://arxiv.org/abs/2611.00242
-**作者**: Sheikh Tahmim Mehdi, Muminul Islam Jami
-**来源**: cs.AI
+**链接**: https://arxiv.org/abs/2604.01002
+**作者**: Yiheng Wang, Lichen Zhu, Yueqian Lin, Yudong Liu, Jingyang Zhang, Hai "Helen" Li 等 (7 人)
+**来源**: cs.CV cs.AI cs.LG
 **匹配关键词**: MLLM
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
-**摘要**:
-
-> A deep understanding of scientific literature often relies on interpreting figures that contain key information beyond the main text. Leveraging Large Language Models (LLMs) to extract insights from these figures can significantly accelerate knowledge discovery. Existing works on Scientific Visual Question Answering rely on resource-intensive training pipelines that are often inaccessible and require large computational resources. Instead of designing complex architectures, we propose RE- SciVQA, which focuses on improving the quality of retrieved context and fine-tuning small LLMs with parameter-efficient LoRA training. Using a simple query expansion step, relevant section headers are appended to the original question to improve the retrieval coverage. In addition, a simple adjustment of similarity scores is applied using figure references and caption alignment. On the SciVQA benchmark, RE-SciVQA achieves a ROUGE-1 F1 score of 73.9%, outperforming chart-focused models such as UniChart
-
 ---
 
-### [267] Learning to Group and Order: Cross-Instance Self-Supervised RL for Vision-Centric MLLMs
+### [135] Retrieve-then-Verify Face Authentication: Benchmarking Embedding, MLLM , and Hybrid Pipelines
 
-**链接**: https://arxiv.org/abs/2611.00892
-**作者**: Songming Yang, Hong-Tao Yu, Xiu-Shen Wei
-**来源**: cs.CV
+**链接**: https://scholar.google.com/scholar_url?url=https://ieeexplore.ieee.org/abstract/document/11742503/&hl=zh-CN&sa=X&d=17126517871577141257&ei=DtHqatXeMZHuieoP1PSsqAo&scisig=AIL1Nv7YXvZa5IxUfmNiw-VqgX3h&oi=scholaralrt&hist=F21tmVgAAAAJ:16615086028366742172:AIL1Nv7ZtfCfVzrJbncruGtkyRGX&html=&pos=0&folt=kw-top
+**作者**: S Agrawal, S Paliwal, A Dubey - 2026 IEEE International Conference on Advances in …, 2026
 **匹配关键词**: MLLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
 
 **摘要**:
 
-> Reinforcement learning (RL) post-training has become an important paradigm for improving multimodal large language models (MLLMs), especially with automatically verifiable rewards. Self-supervised visual pretext tasks provide such rewards without human annotations. However, existing methods mainly exploit within-instance structure, offering limited supervision for cross-instance discrimination and fine-grained comparison. We introduce Group-and-Order Self-Supervised Reinforcement Learning (GO-SSL), a cross-instance jigsaw framework for vision-centric MLLM post-training. Given two visual instances, GO-SSL mixes their local elements and trains the model to group them by instance of origin while recovering the order within each group, coupling instance-level comparison with spatial, temporal, or geometric structure recovery. This paired formulation turns the same unlabeled data into richer verifiable supervision through diverse pairings, shuffles, and a random-to-hard curriculum. We insta
+> This paper describes a small-scale empirical benchmark comparing three face verification pipeline configurations on a controlled LFW-derived dataset of 150 image pairs. This work does not propose a novel learning algorithm; it compares
 
 ---
 
-### [268] Beyond Multimodal Emotion Conflict: Temporal Context-Aware Hidden Emotion Detection with Multimodal Large Language Models
+### [136] ES-Merging: Biological MLLM Merging via Embedding Space Signals
 
-**链接**: https://arxiv.org/abs/2611.01943
-**作者**: Yonghao Wang and Jiaxin Zhou
-**来源**: cs.AI
-**匹配关键词**: MLLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Multimodal emotion recognition commonly combines textual, acoustic, and visual signals to infer affective states. Recent work has begun to study conflicts among modalities, but a conflict does not necessarily indicate that a person is concealing an emotion. It may also result from mixed emotions, individual expressive styles, or contextual factors. This proposal aims to distinguish ordinary emotional inconsistency from emotion concealment and to infer the underlying emotion when supported by evidence. We plan to construct a multimodal benchmark with explicit annotations of expressed emotion, internal emotion, and concealment conditions, and to develop an MLLM-based framework that integrates fine-grained facial Action Units (AUs), cross-modal features, and temporal context.
-
----
-
-### [269] PhotoGuider: Composition-Aware Cropping and 360$^{\circ}$ View Framing with Explainable Photographic Assessments
-
-**链接**: https://arxiv.org/abs/2611.02897
-**作者**: Yuan-Kang Lee, Kuan-Lin Chen, Chia-Che Chang, Yu-Lun Liu
-**来源**: cs.CV
-**匹配关键词**: MLLM
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Traditional image cropping assumes the photograph already contains the composition worth keeping, and asks only where to crop. A full 360$^{\circ}$ scene offers no such guarantee: the viewing direction in a scene has to be discovered before anything can be framed. We present PhotoGuider, a measure-then-frame method that answers both questions with compact learned scorers over one shared set of composition-aware features. The designed features are extracted using foundation and task-specific vision models and structured into four photographic tokens: Subject, Composition, Aesthetics, and Integrity. Our MLLM explainer is fine-tuned to generate composition-related explanations conditioned on images and measured token assessments. To our knowledge, PhotoGuider is the first method to combine explicit composition-based direction selection in 360$^{\circ}$ panoramas with refined framing, camera-parameter output for native re-rendering, and measurement-conditioned explanations. On two standard
-
----
-
-### [270] Do Personal Adapters Carry Over Across Sessions? Separating Personal From Population Gains When Calibrating EEG Foundation Models for Motor Imagery
-
-**链接**: https://arxiv.org/abs/2609.34801
-**作者**: Xilin Tao, Kani Chen
-**来源**: cs.LG eess.SP q-bio.NC
-**匹配关键词**: EEG, Foundation Models, Motor Imagery
-**相关性评分**: 11.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [271] LaBraM at Scale: Scaling Data and Models for EEG Pretraining
-
-**链接**: https://arxiv.org/abs/2611.03165
-**作者**: Jun-Yu Pan, Ruicheng Yin, Bao-Liang Lu, Dongsheng Li, Wei-Long Zheng, Yansen Wang
+**链接**: https://arxiv.org/abs/2603.14405
+**作者**: Wonbin Lee, Dongki Kim, Sung Ju Hwang
 **来源**: cs.LG cs.AI
+**匹配关键词**: MLLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [137] VidVec: Unlocking Video MLLM Embeddings for Video-Text Retrieval
+
+**链接**: https://arxiv.org/abs/2602.08099
+**作者**: Issar Tzachor, Dvir Samuel, Rami Ben-Ari
+**来源**: cs.CV cs.AI
+**匹配关键词**: MLLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [138] Raincheck: Deferred Multimodal Prefill for Efficient Multi-Turn MLLM Inference
+
+**链接**: https://arxiv.org/abs/2610.39562
+**作者**: Wenjie Huang, Jun Zhang, Hongyaoxing Gu, Haoyang Huang, Tianqi Xu, Xinyue Hao 等 (10 人)
+**来源**: cs.CL cs.AI
+**匹配关键词**: MLLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [139] NightIQA: A Comprehensive Dataset and Benchmark for MLLM-Based Nighttime Image Quality Assessment
+
+**链接**: https://arxiv.org/abs/2611.04811
+**作者**: Yiding Tian, Jiaojiao Yi, Jiayuan Lu, Pufan Xu, Jinlin Wu, Changyuan Wen 等 (7 人)
+**来源**: cs.CV
+**匹配关键词**: MLLM
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Nighttime images are inherently susceptible to complex, compound degradations, making accurate quality assessment exceptionally challenging. Score-based IQA methods condense quality into a single number, lacking the multi-dimensional, language-grounded reasoning required for nighttime evaluation. Multimodal Large Language Models (MLLMs) offer a more comprehensive alternative, yet remain constrained by a critical data gap: existing real-world IQA datasets are overwhelmingly daytime-centric and often built from outdated captures, while synthetic alternatives lack nighttime-specific degradation modeling, yielding artifacts far removed from authentic nighttime conditions. To bridge this gap, we present NightIQA, a dataset and benchmark suite purpose-built for MLLM-based nighttime IQA. It comprises three core components: NightIQA-Real, a real-world dataset of 1,769 high-resolution images that we captured ourselves with modern equipment, encompassing six canonical distortion types and struct
+
+---
+
+### [140] Computer-Use Agents Gain Little Benefit from a World Model When Conditioned on Tutorials
+
+**链接**: https://arxiv.org/abs/2611.04073
+**作者**: Anh Nguyen, Tianyi Xu, Phat Tran, Harry Yu, Huazheng Wang, Stefan Lee
+**来源**: cs.LG
+**匹配关键词**: MLLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Recent work has improved computer-use agents (CUAs) by combining retrieved task-relevant tutorials and look-ahead planning using world models with MLLM judges. However, the contribution of each component -- tutorials, the judge, and the world model -- to overall improvement has not been evaluated in isolation. To fill this gap, we first construct OSWorld-Tutorial and ScienceBoard-Tutorial: two datasets for CUAs with curated multimodal tutorials, covering everyday and scientific domains. We then propose RAG-PolicyJudge (RAG-PJ), a policy-judge framework for CUAs conditioned on task-specific tutorials: the policy proposes candidate actions, and the judge selects among them. To isolate the effect of world models given tutorials, we compare RAG-PJ with and without common world models: using either zero-shot text-based descriptions of next states or an oracle that returns ground-truth visual observations. We find that RAG-PJ gains little benefit from these rollouts when tutorials are presen
+
+---
+
+### [141] Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling
+
+**链接**: https://arxiv.org/abs/2611.04916
+**作者**: Kling Team, Dong Chen, Jialu Chen, Xinlong Chen, Yifan Dai, Haotian Dong 等 (10 人)
+**来源**: cs.CV
+**匹配关键词**: MLLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Video generation has progressed from isolated clips to coherent short-form audiovisual sequences, and the bottleneck is shifting from rendering to semantic control. This report summarizes the observations and insights on multimodal understanding gained from successive generations of Kling. We argue that generation quality is the projection of multimodal understanding through the entire data--conditioning--alignment--evaluation chain, and we examine this chain module by module. Kling-MLLM, a shared multimodal foundation model that unifies image, video, audio, synchronized audio--video, and interleaved inputs, is specialized for each downstream module. Because a DiT is trained on far fewer training samples than a language model, we treat captioning as a semantic contract that maximizes description density, and extend it to reference-grounded captioning that makes reference bindings explicit. Prompt enhancement translates user intent into this caption distribution: basic PE is derived fro
+
+---
+
+### [142] The Influence of Prompting Strategies on the Performance of Multimodal Large Language Models in Dental Implant Planning
+
+**链接**: https://scholar.google.com/scholar_url?url=https://ieeexplore.ieee.org/abstract/document/11745141/&hl=zh-CN&sa=X&d=13745964436178734276&ei=DtHqatXeMZHuieoP1PSsqAo&scisig=AIL1Nv6eJRP48DJRx-TtxEzt9kMJ&oi=scholaralrt&hist=F21tmVgAAAAJ:16615086028366742172:AIL1Nv7ZtfCfVzrJbncruGtkyRGX&html=&pos=2&folt=kw-top
+**作者**: K Akbulut, FG Akbulut - 2026 11th International Conference on Computer …, 2026
+**匹配关键词**: MLLM
+**相关性评分**: 1.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> of three distinct prompting strategies on MLLM clinical decisionYma?ing … on MLLM performance across all parameters. Analyzing the magnitude and direction of this effect, alongside the modelГs error profile, elucidates both the limitations and ?ey
+
+---
+
+### [143] Enhancing the Efficiency of Large Multimodal Models for Document Understanding
+
+**链接**: https://scholar.google.com/scholar_url?url=https://www.worldscientific.com/doi/abs/10.1142/9789819831050_0004&hl=zh-CN&sa=X&d=10492409457441859056&ei=DtHqatXeMZHuieoP1PSsqAo&scisig=AIL1Nv7_CBZhNQKDS0EOxCkQ6UFh&oi=scholaralrt&hist=F21tmVgAAAAJ:16615086028366742172:AIL1Nv7ZtfCfVzrJbncruGtkyRGX&html=&pos=1&folt=kw-top
+**作者**: T Sheng - Sustainable AI: Methods and Scientific Applications, 2027
+**匹配关键词**: MLLM
+**相关性评分**: 1.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> To address the absence of standardized evaluation for MLLM document understanding, we propose a quantitative evaluation framework that compares extracted numerical values against ground truth across different chart types. As
+
+---
+
+### [144] Sketch-Omni: Instance-Level Sketch-Based Visual Prompting for Perception MLLMs
+
+**链接**: https://arxiv.org/abs/2611.04262
+**作者**: Dongyu Wang, Dar-Yen Chen, Zhiming Hong, Arkaprabha Basu, Yi-Zhe Song
+**来源**: cs.CV
+**匹配关键词**: MLLM
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Promptable perception, from GroundingDINO to Rex-Omni, puts one model behind one prompt interface and returns coordinates for any localisation task. Every model in that line was built for photographs; none has been given a sketch. We present Sketch-Omni, to our knowledge the first perception MLLM built to work on sketches and from them. On a sketch, the sketch is the image, and text prompts detect, point, resolve object and spatial referring expressions, and ground affordances in it. From a sketch, the sketch is the prompt, and a drawing of one object localises that object in a photograph, even among several of the same category, a query that neither a category name nor a photo exemplar can pose. Two obstacles stand in the way. A photo-trained model's attention is tuned to colour and texture, which a sketch does not have, and no dataset pairs a drawing with the one instance it depicts among others of its kind. We build the training data instead of collecting it. An edge detector turns 
+
+---
+
+### [145] SPERA: Spherical Prior EEG Foundation Model with Geometry- and Frequency-Aware Latent Prediction
+
+**链接**: https://arxiv.org/abs/2610.10571
+**作者**: Minsu Kim, Ye-Sung Kim, Hyeseong Jeon, Wooseok Hyung, Joshua Lee, Chang-Hwan Im
+**来源**: cs.LG
 **匹配关键词**: EEG, EEG Foundation Model
-**相关性评分**: 5.0
+**相关性评分**: 7.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [146] SAMBA: Toward an EEG Foundation Model via Differential Mamba and Coordinate-Driven Spatial Embedding
+
+**链接**: https://arxiv.org/abs/2511.18571
+**作者**: Jiazhen Hong, Geoffrey Mackellar, Soheila Ghane
+**来源**: cs.LG
+**匹配关键词**: EEG, EEG Foundation Model
+**相关性评分**: 7.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [147] The Platonic Brain: Representational Convergence in EEG Foundation Models
+
+**链接**: https://arxiv.org/abs/2611.05097
+**作者**: Nicolas Waehner, Enzo Tagliazucchi, Jacobo Sitt, Demian Wassermann, Giovanni Franco Gabriel Marraffini, Trinidad Borrell
+**来源**: cs.AI
+**匹配关键词**: EEG, Foundation Models
+**相关性评分**: 7.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> LaBraM, an early EEG foundation model, demonstrated that large-scale EEG pretraining can yield strong representations for diverse downstream tasks. Building on this foundation, we expand pretraining data and model capacity while retaining its core encoder and objective. We train ten encoders with 5.8 million to 1.97 billion parameters on three EEG collections spanning 25,067 to 79,910 hours, adapting signal preparation and training to heterogeneous recordings. Across 23 tasks, Atom-L* reaches 59.05% mean balanced accuracy at its best evaluated full fine-tuning (Full-FT) checkpoint, 3.61 percentage points above the strongest baseline EEG foundation model. Quark-G leads linear probing (LP) at 54.33%, a 1.24-point margin. Both also lead average task rank. At the last evaluated checkpoints, larger encoders improve Full-FT more consistently than LP, and stronger LP does not guarantee stronger Full-FT. Preserving patch structure improves LP over average pooling. Data-fraction experiments sug
+> The Platonic Representation Hypothesis (PRH) predicts that artificial neural networks converge on shared representations as scale and performance increase. We test whether these predictions hold for representations of the human brain with EEG foundation models. Using EEG recordings from six participants watching a television series, together with aligned visual and language content, we tested whether EEG foundation-model representations converge within and across modalities as their embeddings become better at decoding an informative set of EEG markers. We found that EEG models with greater decodability showed stronger cross-family alignment in both local neighbourhood similarity and global structure, not consistently increasing with model parameter count. Cross-modal convergence was modality and metric dependent: greater EEG decodability was associated with stronger global alignment to language, but not consistently to vision models, while local alignment showed no consistent associat
 
 ---
 
-### [272] Where Does EEG Help Wearable Freezing of Gait Detection?
+### [148] SATRNet: Scale-Adaptive Temporal Refinement Network for Short-Window EEG -Based Auditory Attention Detection
 
-**链接**: https://arxiv.org/abs/2611.00497
-**作者**: Chuntian Chi, Lifang He, Huajie Shao, Gang Zhou
+**链接**: https://scholar.google.com/scholar_url?url=https://ieeexplore.ieee.org/abstract/document/11736895/&hl=zh-CN&sa=X&d=15515768217010621313&ei=DtHqauDNKOS0ieoP99PDsQo&scisig=AIL1Nv76m85qXAnE06sc7QGE2HYU&oi=scholaralrt&hist=F21tmVgAAAAJ:13652302033965123655:AIL1Nv4cb8K37bRNlxFibqagmnBp&html=&pos=8&folt=kw-top
+**作者**: K Zhang, H Jin, Z Wang - 2026 2nd International Conference on Artificial …, 2026
+**匹配关键词**: EEG
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> such as electroencephalography ( EEG ), with potential applications in neurosteered hearing devices. However, EEG -based AAD remains challenging under short decision windows, where limited temporal evidence and the non-stationary nature of
+
+---
+
+### [149] A Hybrid CNN–BiLSTM–Multi-Head Attention Framework for Ocular Artifact Elimination in EEG Signals
+
+**链接**: https://scholar.google.com/scholar_url?url=https://ieeexplore.ieee.org/abstract/document/11747163/&hl=zh-CN&sa=X&d=17493831413557348766&ei=DtHqauDNKOS0ieoP99PDsQo&scisig=AIL1Nv7YON3myT6ft3AoFwb2dmCW&oi=scholaralrt&hist=F21tmVgAAAAJ:13652302033965123655:AIL1Nv4cb8K37bRNlxFibqagmnBp&html=&pos=5&folt=kw-top
+**作者**: Y Eshwari, S Chintala, B Maram, D Sravika - 2026 10th International Conference on I …, 2026
+**匹配关键词**: EEG
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> benchmark EEG dataset for deep learning applications in EEG signal processing. This dataset is comprised of 4514 clean EEG segments … Its standardized structure allows to produce EEG signals of different noise levels while retaining the ground-truth
+
+---
+
+### [150] Comparative Evaluation of Conditional WGAN-GP Models for Synthetic EEG Generation: A Multi-Dimensional Validation Framework
+
+**链接**: https://scholar.google.com/scholar_url?url=https://ieeexplore.ieee.org/abstract/document/11739847/&hl=zh-CN&sa=X&d=14930321817625912143&ei=DtHqauDNKOS0ieoP99PDsQo&scisig=AIL1Nv5I43_alyUmfLuLdG66W-GJ&oi=scholaralrt&hist=F21tmVgAAAAJ:13652302033965123655:AIL1Nv4cb8K37bRNlxFibqagmnBp&html=&pos=7&folt=kw-top
+**作者**: B Duan, W Yang - 2026 7th International Conference on Intelligent …, 2026
+**匹配关键词**: EEG
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> Synthetic EEG generation provides a promising solution for data augmentation, algorithm development, and reproducible benchmarking when real EEG samples are insufficient. However, evaluating synthetic EEG quality remains challenging, as
+
+---
+
+### [151] DTEF-Net: Dual-Path Temporal-Evidence Fusion for Motor-Imagery EEG Decoding
+
+**链接**: https://scholar.google.com/scholar_url?url=https://ieeexplore.ieee.org/abstract/document/11736951/&hl=zh-CN&sa=X&d=8030198119155517427&ei=DtHqauDNKOS0ieoP99PDsQo&scisig=AIL1Nv4zg3hI-G3ntL0u8EtTNnq2&oi=scholaralrt&hist=F21tmVgAAAAJ:13652302033965123655:AIL1Nv4cb8K37bRNlxFibqagmnBp&html=&pos=9&folt=kw-top
+**作者**: K He, H Jin, Z Wang - 2026 2nd International Conference on Artificial …, 2026
+**匹配关键词**: EEG
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> Motor-imagery electroencephalography (MI- EEG ) decoding is challenging because discriminative activity is weak, subject-dependent, and distributed across temporal and spectral dimensions. Most deep decoders pool a trial into a shared
+
+---
+
+### [152] From Perturbation Sensitivity to Sparse Autoencoder Feature Interpretation: An EEG Foundation-Model Case Study
+
+**链接**: https://arxiv.org/abs/2609.34091
+**作者**: Yucong Cao, Chenqi Li, Tingting Zhu
 **来源**: cs.LG
 **匹配关键词**: EEG
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
+---
+
+### [153] EEG Seizure Detection under a Latency Budget: A Comparison of Constrained Feature-Selection Methods
+
+**链接**: https://scholar.google.com/scholar_url?url=https://ieeexplore.ieee.org/abstract/document/11745254/&hl=zh-CN&sa=X&d=17833612149480529315&ei=DtHqauDNKOS0ieoP99PDsQo&scisig=AIL1Nv67mh_uR4cIGx9JpNQgjzRU&oi=scholaralrt&hist=F21tmVgAAAAJ:13652302033965123655:AIL1Nv4cb8K37bRNlxFibqagmnBp&html=&pos=3&folt=kw-top
+**作者**: H Sallam, A Jafarifarmand - 2026 11th International Conference on Computer …, 2026
+**匹配关键词**: EEG
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
 **摘要**:
 
-> Freezing of gait (FoG) detectors built on inertial measurement units (IMUs) are accurate while the legs move, but they become unreliable when the legs are nearly still, which is exactly when akinetic freezing, voluntary stopping, and standing must be told apart. Electroencephalography (EEG) captures motor-planning activity that leg sensors cannot, but EEG is impractical for daily use. We ask where EEG helps: as an input at inference time, or only during pretraining, so that the deployed detector still needs only IMUs. We assemble a pretraining corpus of synchronized EEG and IMU recordings (5 datasets, 184 people, 94 hours) and compare six settings that differ only in the modalities used for pretraining and as model input, each with tuned hyperparameters and five independent pretraining runs. On the BXHC FoG dataset (leave-one-patient-out, 10 patients with FoG), adding EEG as input raises FoG F1 from 0.663 to 0.740 (9 of 10 patients improve), and the gain in ranking performance is confi
+> Wearable electroencephalography ( EEG ) seizure detectors must balance detection performance against the cost of extracting and processing large feature sets. This study formulates feature-subset selection as a binary constrained-optimization
 
 ---
 
-### [273] Omni-iEEG Planner: an open-source Python platform integrating multimodal neuroimaging and intracranial EEG data for epilepsy surgery research
+### [154] Disrupted cortical signatures of response inhibition in Parkinson's disease revealed by TMS- EEG
 
-**链接**: https://arxiv.org/abs/2611.00018
-**作者**: Yuta Tanoue, Masaki Izumi, Yipeng Zhang, Chenda Duan, Tonmoy Monsoor, Christopher A. Chan 等 (10 人)
-**来源**: physics.med-ph cs.LG
+**链接**: https://scholar.google.com/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S1388245726009600&hl=zh-CN&sa=X&d=17937746953768756145&ei=DtHqauDNKOS0ieoP99PDsQo&scisig=AIL1Nv4BjoDy2ZclhKPAC_v_LMNB&oi=scholaralrt&hist=F21tmVgAAAAJ:13652302033965123655:AIL1Nv4cb8K37bRNlxFibqagmnBp&html=&pos=1&folt=kw-top
+**作者**: EP Casula, L Rocchi, V Pezzopane, S Ajao, A Latorre… - Clinical Neurophysiology, 2026
+**匹配关键词**: EEG
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> Objective Inhibitory control deficits are a hallmark of Parkinson’s disease (PD), particularly in patients with L-DOPA-induced dyskinesias (LID), but the cortical mechanisms underlying impaired inhibition remain poorly understood. We used
+
+---
+
+### [155] Real-Time EEG -based Student Cognitive State Analysis for Smart Education using Hybrid Deep Learning
+
+**链接**: https://scholar.google.com/scholar_url?url=https://ieeexplore.ieee.org/abstract/document/11747635/&hl=zh-CN&sa=X&d=9316455102657399960&ei=DtHqauDNKOS0ieoP99PDsQo&scisig=AIL1Nv7zT-D9HSKzOq309cprEf4S&oi=scholaralrt&hist=F21tmVgAAAAJ:13652302033965123655:AIL1Nv4cb8K37bRNlxFibqagmnBp&html=&pos=6&folt=kw-top
+**作者**: K Sundaresan, R Dharshana, M Kamleshwaran… - … on I-SMAC (IoT in Social …, 2026
+**匹配关键词**: EEG
+**相关性评分**: 3.0
+**数据来源**: Google Scholar
+
+**摘要**:
+
+> electroencephalogram ( EEG ) signals. The suggested framework utilizes a hybrid deep learning architecture that combines convolutional neural networks (CNNs) for spatial feature extraction with long short-term memory (LSTM) networks for the
+
+---
+
+### [156] E2I-Flow: EEG-to-Image Reconstruction via Wavelet-Temporal Cross-Attention and Conditional Flow Matching
+
+**链接**: https://arxiv.org/abs/2611.04524
+**作者**: Haowei Pan, Hwa Hui Tew, Junn Yong Loo, Fuad Noman, Hernando Ombao, Chee-Ming Ting
+**来源**: cs.CV cs.LG
 **匹配关键词**: EEG
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Multimodal intracranial EEG (iEEG) research for epilepsy surgery combines anatomical and functional imaging, implanted electrode locations, interictal biomarkers, and functional mapping--outputs produced by different applications and reconciled by hand before they can be viewed on the same anatomy. Omni-iEEG Planner is an open-source Python platform that brings these inputs into one patient coordinate frame for research data analysis. The workflow starts from the preoperative T1-weighted MRI, from which FreeSurfer provides the cortical surface and anatomical labels; CT, PET and diffusion MRI are then co-registered to that reference, electrode contacts are detected automatically on the postimplantation CT and reviewed by the analyst, and tractography is reconstructed within the application. Channel-indexed results computed outside the platform, such as high-frequency oscillation counts from pyHFO or time-resolved gamma responses, are projected onto the contacts and the cortical surface 
+> Electroencephalography (EEG)-based visual decoding and reconstruction aims to recover visual information from non-invasive brain signals. But there are challenges due to the complex temporal-frequency characteristics of EEG signals and the difficulty of discrete denoising framework in mapping neural activity to meaningful visual representations. Here, we propose E2I-Flow, an EEG-to-image decoding and reconstruction framework that combines a novel EEG encoder for time-frequency representation learning from EEG features, and conditional flow matching for visual decoding. A stationary-wavelet frequency branch and a temporal-mixing branch are integrated through bidirectional cross-attention and adaptive fusion, with the resulting EEG representations aligned to ground-truth image embeddings using contrastive and mean-squared-error loss supervisions. The aligned EEG representation is then used as a condition for a Transformer-based flow-matching model to predict the corresponding visual embe
 
 ---
 
-### [274] The Vibe Paradox: What EEG Reveals About Your Brain When Vibe Coding
+### [157] Affective Burden and Resting-State EEG Microstate Dynamics in Sleep-Severity-Matched Chronic Insomnia
 
-**链接**: https://arxiv.org/abs/2611.02087
-**作者**: Olivia Schutz, Rudrajit Choudhuri, Yunhan Qiao, Fatima A. Moussaoui, Julia Russo, Zoe Steine-Hanson 等 (7 人)
-**来源**: cs.HC
+**链接**: https://scholar.google.com/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S138994572600585X&hl=zh-CN&sa=X&d=1904903383111264577&ei=DtHqauDNKOS0ieoP99PDsQo&scisig=AIL1Nv6MgzbXxxIvrqglckjhyrUP&oi=scholaralrt&hist=F21tmVgAAAAJ:13652302033965123655:AIL1Nv4cb8K37bRNlxFibqagmnBp&html=&pos=2&folt=kw-top
+**作者**: M Liu, A Kang, Y Zhou, T Gu, J Duan, Q Luo 等 (8 人)
 **匹配关键词**: EEG
 **相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
+**数据来源**: Google Scholar
 
 **摘要**:
 
-> Background: Much of the enthusiasm for vibe coding rests on two intuitive beliefs: (1) that developers stay invested even when they no longer write the code, and (2) that delegating more of the work to AI lowers their cognitive load. Objective: Our goal was to investigate whether developers' neurophysiological states and interactions with AI are consistent with these beliefs when they work with agentic vs. non-agentic AI on their own project vs. a legacy codebase. Method: We conducted an exploratory within-subjects crossover study with 11 participants across 22 sessions. Each participant used GitHub Copilot Chat in one session and Cursor Agents in the other, working on their own project and a legacy codebase, with tool-codebase pairings randomly assigned and session order counterbalanced. We recorded participants' EEG, on-screen activity, and prompts, and analyzed 7,924 EEG data points, 984 activities, and 141 prompts. Results: Our findings contradict both beliefs. With the agent, part
+> Sleep electroencephalography ( EEG ) is central to characterizing sleep architecture and has revealed physiological differences across clinical presentations of insomnia beyond subjective symptoms [13], [14]. Extending this investigation into
 
 ---
 
-### [275] METER: Matched-Event Calibration for Short-Event EEG Microstate Transition Analysis
+### [158] SleepTune: A real-time adaptive wake-up support through EEG based neurophysiological monitoring for optimized sleep stage classification
 
-**链接**: https://arxiv.org/abs/2611.02045
-**作者**: Abdul Basit, Eklavya Tomar, Muhammad Shafique
-**来源**: cs.LG
+**链接**: https://scholar.google.com/scholar_url?url=https://www.sciencedirect.com/science/article/pii/S1746809426022883&hl=zh-CN&sa=X&d=20473977377642577&ei=DtHqauDNKOS0ieoP99PDsQo&scisig=AIL1Nv4Pzg_RBG4uTSsUzvJaUBIS&oi=scholaralrt&hist=F21tmVgAAAAJ:13652302033965123655:AIL1Nv4cb8K37bRNlxFibqagmnBp&html=&pos=0&folt=kw-top
+**作者**: S Pelendagamage, S Rathnayake, S Munathanthiri… - … Signal Processing and …, 2027
 **匹配关键词**: EEG
 **相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
+**数据来源**: Google Scholar
 
 **摘要**:
 
-> Short cognitive events contain unequal and often sparse transition evidence, so raw EEG microstate distances can reflect finite sampling rather than neural reconfiguration. We introduce METER (Matched-Event Transition Estimation against a Reference), a participant-relative framework that separates marginal occupancy from conditional next-state choice and evaluates each event against duration-conditioned events from a fixed participant-specific reference bank. METER-Jump integrates uncertainty in sparse target and reference transition tables, returning a randomized event rank for testing and a continuous standardized coordinate for association analysis. Using a reproducible three-state representation selected by spatial criteria, we evaluated METER with participant-fitted simulations, estimator ablations, map perturbations, and preprocessing sensitivities. Event-level false-positive rates were 0.044-0.056 across four heterogeneous null mechanisms. By contrast, global cutoffs learned und
+> This study presents an EEG -based sleep stage classification system designed to avoid … time, frequency, and time–frequency domains from dual EEG channels: a Random Forest (RF) binary … , and early-rising commuters; extends EEG -based
 
 ---
 
-### [276] Beyond Augmentation: Score-Guided Pathological Prior for EEG-based Depression Detection
+### [159] Beyond Augmentation: Score-Guided Pathological Prior for EEG-based Depression Detection
 
 **链接**: https://arxiv.org/abs/2606.00180
 **作者**: Xiaojing Chen, Jingqi Cheng, Xu Zhao, Wan Jiang, Jingjing Wu
@@ -3932,373 +2205,32 @@
 
 ---
 
-### [277] GraTED: Graph--Tensor EEG Decoding for Passenger Hazard Perception in Autonomous Vehicles
+### [160] Dual-Teacher Reliability Matching for Semi-Supervised EEG Classification
 
-**链接**: https://arxiv.org/abs/2611.02827
-**作者**: Yuxuan Gu, Yingkai Yang, Qiyu Rao, Tania Stathaki, Danilo Mandic
-**来源**: cs.LG cs.HC
+**链接**: https://scholar.google.com/scholar_url?url=https://ieeexplore.ieee.org/abstract/document/11749182/&hl=zh-CN&sa=X&d=9318711116977732203&ei=DtHqauDNKOS0ieoP99PDsQo&scisig=AIL1Nv7iapXezrFck3t775cGl52O&oi=scholaralrt&hist=F21tmVgAAAAJ:13652302033965123655:AIL1Nv4cb8K37bRNlxFibqagmnBp&html=&pos=4&folt=kw-top
+**作者**: H Xing, Z Xiao, Q Wan, H Qing - 2026 2nd International Conference on Intelligent …, 2026
 **匹配关键词**: EEG
 **相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
+**数据来源**: Google Scholar
 
 **摘要**:
 
-> Passenger electroencephalography (EEG) can reveal road risk through anticipatory responses before hazardous events and neural reactions around their onset. However, existing EEG decoding methods often map physiologically meaningful arrangement of electrodes onto artificial 2D grids and thus flatten the higher-order time-feature representations into matrices, obscuring meaningful structure in the data. To preserve and exploit the spatial and time-feature structure of EEG recordings, we propose the Graph-Tensor EEG Decoding Model (GraTED) for passenger risk prediction (RP) and danger identification (DI) in autonomous-vehicle scenarios. GraTED models the electrode arrangement as an undirected graph based on their scalp locations, using graph convolution to capture spatial dependencies and low-rank tensor classification to preserve the multidimensional time-feature structure, while controlling model complexity. Evaluated on the PassengerEEG dataset, comprising 11 participants and 45 hours 
+> Electroencephalogram ( EEG ) classification is often constrained by limited labeled data, while large amounts of unlabeled recordings remain available during data acquisition. Existing semi-supervised methods commonly exploit unlabeled samples
 
 ---
 
-### [278] Neonatal EEG Seizure Prediction with Quantum Inspired Continuous-Variable (Bosonic) Reservoir Computing
-
-**链接**: https://arxiv.org/abs/2611.00008
-**作者**: Krishna Bhatia, Chun-Yu Lin
-**来源**: physics.med-ph cs.LG quant-ph
-**匹配关键词**: EEG
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> We study short-horizon neonatal seizure prediction on Helsinki-style (HUH) preprocessed EEG feature tables using quantum-inspired reservoir computing. Under strict subject-wise cross-validation on imbalanced preictal--interictal windows, we test whether reservoir constructions shaped after (i) gate-based qubit dynamics and (ii) continuous-variable (bosonic/photonic) dynamics provide a practical sequence encoder relative to strong classical baselines. Both reservoirs are executed here purely in classical simulation on a single GPU; accordingly, we do not claim quantum advantage, but rather evaluate whether quantum-shaped dynamics act as useful, low-footprint random feature maps with a trained linear readout. We compare against Random Forests and RBF--SVMs, and report AUROC, AUPRC, per-subject AUPRC, expected calibration error, and stratified bootstrap confidence intervals. Across our experiments, the CV/bosonic reservoir is consistently competitive and can improve AUPRC over the baselin
-
----
-
-### [279] Thought-deciphering via hierarchical EEG-to-text alignment
-
-**链接**: https://arxiv.org/abs/2611.03623
-**作者**: Xiaopeng Mao, Morten M{\o}rup, Xin Xu, Sang Wan Lee, Sadasivan Puthusserypady
-**来源**: cs.LG eess.SP
-**匹配关键词**: EEG
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Communication is important for our well-being, but it can be impaired by disabilities, such as locked-in syndrome (LIS), cerebral palsy (CP), and dysarthria. Non-invasive brain-to-text brain-computer interfaces (BCIs) offer a promising solution by providing an alternative communication pathway for people with communication disabilities. However, most recent breakthroughs have relied on large, cumbersome, and costly neuroimaging modalities, such as functional magnetic resonance imaging (fMRI) and magnetoencephalography (MEG). Numerous studies have attempted decoding using the lighter and cheaper electroencephalography (EEG), but the results remain inferior compared to the other modalities. More importantly, we do not understand how these modalities are related to text at the letter, word, sentence, and higher semantic levels. Many prior studies have focused on decoding below the sentence level because it is considerably easier to design an experiment around phonemes, letters, and words.
-
----
-
-### [280] Band2Net: Frequency-to-Network Transport Distillation for fMRI-Privileged, EEG-Only Session-Condition Decoding
-
-**链接**: https://arxiv.org/abs/2611.01548
-**作者**: Nishi Kanta Paul, Md Shihabul Islam Shovo and Dwarikanath Mahapatra
-**来源**: cs.CV
-**匹配关键词**: EEG
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Functional MRI resolves large-scale brain networks but is expensive and stationary, whereas EEG is portable but poorly localised. We treat fMRI as privileged information, available during training and absent at deployment, with EEG and fMRI acquired from the same participants under matched conditions but not simultaneously. Band2Net encodes EEG into five frequency-specific connectivity graphs and fMRI into seven canonical network tokens from a frozen teacher, and solves a balanced entropic transport problem between the two token sets that gives each EEG band its own fMRI target. In subject-grouped cross-validation on the PsiConnect psilocybin data set, Band2Net reaches 0.801 ROC-AUC for EEG-only session-condition decoding, 5.0 AUC points (95% CI 1.8-8.2) above an EEG-only student. Although its margins over a single shared plan, a KL-relaxed plan and label-free network descriptors remain unresolved, secondary comparisons favour band-specific transported targets over logit, global-featur
-
----
-
-### [281] ERIA: An Instruction-Optimized Agent for Clinical EEG Reporting
-
-**链接**: https://arxiv.org/abs/2611.01394
-**作者**: Ahmed Sameh, Gayal Kuruppu, Neeraj Wagh, Bridger Brundy, Yogatheesan Varatharajah
-**来源**: cs.LG cs.AI
-**匹配关键词**: EEG
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Clinical EEG interpretation requires integrating technical quality, background and behavioral states, interictal and ictal abnormalities, and overall clinical context across long recordings. We introduce ERIA (EEG Reporting and Instruction-Optimized Agent), a locally deployable framework in which a single 27B language-model controller analyzes whole-recording EEGs by orchestrating specialized parametric and signal-processing tools. ERIA combines learned tools for background abnormality, sleep-wake state, seizure-like activity, and interictal epileptiform discharges with deterministic spectral, amplitude, symmetry, montage, and signal-quality analyses. Rather than fine-tuning the controller or using multi-agent orchestration, ERIA keeps the controller weights, specialist tools, and safety constraints fixed and optimizes only its natural-language analysis policy with GEPA (Genetic-Pareto), using feedback from expert-written EEG reports. GEPA improves physician-aligned whole-recording rep
-
----
-
-### [282] LEAF: Language-EEG Aligned Foundation Model for Brain-computer interfaces
-
-**链接**: https://arxiv.org/abs/2509.24302
-**作者**: Muyun Jiang, Shuailei Zhang, Zhenjie Yang, Mengjun Wu, Wei Zhang, Weibang Jiang 等 (10 人)
-**来源**: cs.LG
-**匹配关键词**: EEG
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [283] Robust EEG-based Emotion Recognition from Coarse Trial-level Labels under Intra-trial Affective Variability
-
-**链接**: https://arxiv.org/abs/2611.01731
-**作者**: Xiaocong Zeng, Buxuan Wang, Xin Yang, Pei Huang, Dongyang Kuang
-**来源**: cs.LG cs.AI
-**匹配关键词**: EEG
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> EEG-based emotion recognition has become an active research area in brain-computer interfaces. However, fine-grained affective annotation is costly, so most datasets provide only a global label for each long EEG trial. For practical emotion recognition, trials are commonly divided into short temporal windows, with the global label propagated to all windows for training. This practice treats trial-level emotion as temporally uniform, although affective responses may fluctuate within a trial. Consequently, windows that weakly reflect or deviate from the global emotional state may receive unreliable labels, posing a key challenge to robust EEG-based emotion recognition. To address this challenge, we propose VARY, a variability-aware robust learning framework for EEG-based emotion recognition from coarse trial-level labels. VARY incorporates a Two-stage Sample Selection (TSS) strategy to identify EEG windows with reliable emotional labels, and introduces MixAug, a data augmentation method 
-
----
-
-### [284] Inner-Speech Decoding from EEG Across Three Corpora Under a Fixed Architecture and Protocol
-
-**链接**: https://arxiv.org/abs/2611.02180
-**作者**: Md Wahiduzzaman Suva, Md Imtiaj Alam Sajin, Esm E Moula Chowdhury Abha, Susham Moula Choudhury Akash, Md Tauhidul Islam, Abhijit Bhowmik 等 (8 人)
-**来源**: cs.AI cs.LG eess.SP
-**匹配关键词**: EEG
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Inner-speech decoding from electroencephalography could support non-invasive communication for people with severe motor impairment, but comparison across studies is hindered by dataset- and protocol-specific evaluation. We present a controlled cross-dataset study using one preprocessing pipeline, one within-subject five-fold cross-validation protocol, and a compact dual-attention Transformer (VC-DATNet; approximately 131,000 parameters) across three public corpora: Thinking Out Loud (10 participants), BISpeech (4), and SyncSpeech (3). VC-DATNet achieved per-participant sensor/source hybrid accuracies of 39.48% on the four-class Thinking Out Loud task, 20.60% on the eight-word BISpeech task, and 25.53% on the eight-word SyncSpeech task, for which we report the first decoding result. Sensor-space and cortical source-space representations were complementary, with each performing better for different participants; this pattern replicated across all three corpora and nine architectures. Mor
-
----
-
-### [285] Beyond Reconstruction: What EEG-to-Video Decoding Actually Recovers
-
-**链接**: https://arxiv.org/abs/2505.21385
-**作者**: Prajwal Singh, Anupam Sharma, Pankaj Pandey, Krishna Miyapuram and Shanmuganathan Raman
-**来源**: cs.HC
-**匹配关键词**: EEG
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [286] MultiMental-IAS: A Multimodal Driver Mental State Analysis Dataset for Context-Aware Non-IID Evaluation
-
-**链接**: https://arxiv.org/abs/2611.02790
-**作者**: Baran Can G\"ul, Nagendra Pal Singh, Anjana Arvind Naik
-**来源**: cs.HC cs.AI
-**匹配关键词**: EEG
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Robust driver-state modelling requires synchronized physiological, behavioural, and contextual signals, yet existing open resources typically target a single cognitive state, omit continuous vehicle context, or do not define evaluation protocols that expose inter-subject heterogeneity. We present Multimental-IAS, a multimodal driver mental-state dataset collected in a cockpit-in-the-loop simulation built on CARLA. It contains vehicle telemetry with scenario-context channels, four-channel EEG and three-channel PPG from a Muse 2 headband, and cabin-facing video from 23 participants, recorded in 148 trials (11.6 hours) under six induced states: Normal, Distracted, Alerted, Stressed, Relaxed, and Drowsy. We document the acquisition pipeline in detail and provide a benchmark with one protocol for all models: chronological within-subject splits, participant-disjoint cross-subject folds, validation-based model selection, and ablations over modalities, scenario-context channels, and signal nor
-
----
-
-### [287] OpenMidnight: Closing the Performance Gap Between Open and Proprietary Pathology Foundation Models
-
-**链接**: https://arxiv.org/abs/2611.00064
-**作者**: Ratna Sagari Grandhi, Anis Chihoub, Ryan Kim, Daniel Z. Kaplan, Chao Feng, Anish Dulal 等 (10 人)
-**来源**: cs.CV
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Pathology foundation models offer transferable representations for a range of downstream tasks in computational pathology, but reliance on proprietary data, substantial compute requirements, and limited availability of training code and preprocessing pipelines hinder independent validation and further methodological development. We present OpenMidnight 1.1, an open-source replication and refinement of Midnight trained on approximately 12,000 publicly available whole-slide images from The Cancer Genome Atlas. Using an encoder initialized with pretrained DINOv2 weights, OpenMidnight 1.1 uses approximately 320 H100 GPU-hours for pathology pretraining, a 34-fold reduction relative to the compute reported for Midnight. Across 16 classification and four segmentation datasets in THUNDER, OpenMidnight 1.1 achieves the highest mean segmentation Dice (69.7) and ranks fourth among 14 models, ahead of Midnight, with performance that matches or exceeds models trained on substantially larger dataset
-
----
-
-### [288] Towards fNIRS foundation models: A curated corpus of 67 public datasets with channel positions in MNI space
-
-**链接**: https://arxiv.org/abs/2610.40277
-**作者**: Santiago Posso-Murillo
-**来源**: cs.HC
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [289] Versatile Graph Foundation Models from Frozen Time-Series Foundation Models via Parallel Flows
-
-**链接**: https://arxiv.org/abs/2611.00670
-**作者**: Jielong Yang and Feng Ji
-**来源**: cs.LG
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Graph foundation models aim to serve unseen graphs across tasks, feature spaces, and label sets. Most current models learn how to represent a new graph by pre-training on other graphs. Because graph data are scarce and differ across domains in features and structures, what they learn may not transfer to a graph from an unseen domain. We show that a frozen time-series foundation model, pre-trained on abundant time series, can instead serve as a graph foundation model without graph pre-training and without any gradient update on the target graph. Such a model reads ordered multivariate sequences, but a graph has no time axis, and covering all its edges with sequences is nontrivial because a node can have many neighbors. We therefore propose GraphFlowFM, which decomposes a graph into parallel flows, sets of vertex-disjoint paths that jointly cover every edge, and reads each path as a multivariate time series with the nodes as time steps. A frozen TimesFM encodes the paths with causal atte
-
----
-
-### [290] Control Foundation Models across Changing Block Diagrams: Generalizing Time-Series Prediction to Dynamic Graphs
-
-**链接**: https://arxiv.org/abs/2611.02900
-**作者**: Yuji Okamoto, Kenta Hoshino, Masaki Inoue
-**来源**: eess.SY cs.LG cs.SY
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> In the prediction and control of physical systems, combining records from different experiments and operations is expected to supply information that no single experiment provides on its own. Time-series foundation models, which learn a shared predictor from diverse time series, offer a framework for treating such records as a common training resource. Moreover, query-based prediction models, which switch between known and target signals within the same time series, make it possible to handle response prediction and control-input generation in a unified manner. However, in control-experiment data, the connections between signals change with the experimental stage, such as system identification, filtering, and feedback control, which calls for a formulation that handles signal values and connection structures dynamically and in a unified way. We formulate a control foundation model that defines a data space of dynamic graphs containing connections, signal values, and missing values, tog
-
----
-
-### [291] Blueprint2CAD: Benchmarking Foundation Models on Engineering Drawing-to-CAD Render Correspondence
-
-**链接**: https://arxiv.org/abs/2611.02433
-**作者**: Alexander Valverde, Danny Xie-Li, Zhichao Wang, Marcos V. Conde
-**来源**: cs.CV
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Engineering drawings specify mechanical parts through orthographic projections. Recognizing which part a drawing depicts underlies part search, design reuse, and digitization, yet no public benchmark measures whether vision models can do it. We introduce Blueprint2CAD, a benchmark for drawing-to-render correspondence: given an orthographic line drawing and a shaded render, usually from another viewpoint, decide whether they show the same part. Its data layer, BlueCAD-30K, applies an open drafting pipeline to 29,925 Zero-to-CAD models, adding view-aligned renders, clean and dimensioned drawings from six viewpoints, and surface-type metadata. Frozen encoders retrieve the matching part from a 10,000-model gallery with up to 65% Recall@1 when viewpoints are known but 43% when they are not, and the four encoders we test lie within six points of each other: viewpoint, not backbone, is the bottleneck. Six zero-shot vision-language models reach only 0.52-0.67 verification accuracy, with model-
-
----
-
-### [292] Investigating the effects of the patch size in Time Series Foundation Models
-
-**链接**: https://arxiv.org/abs/2611.02750
-**作者**: Jad Yehya, Andrei-Tiberiu Pantea, Aymeric Dieuleveut, Matthieu Kowalski, Thomas Moreau
-**来源**: cs.LG cs.AI
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Patch size is a central design choice in patch-based time-series foundation models, controlling temporal resolution, sequence length, and computational cost. We study how this choice interacts with transformer architecture through a controlled comparison of encoder-only and decoder-only forecasting models trained with the same data mixture and optimization budget. Across 97 GIFT-Eval tasks, encoder-only models consistently benefit from smaller patches, whereas decoder-only performance follows a U-shaped trend, with an intermediate patch size performing best in aggregate. Dataset-level results further show that the preferred decoder patch size increases with the forecasting horizon. For encoder-only models, increasing context length improves performance across patch sizes, although the gains diminish beyond a context length of 2048. Finally, training-compute and CPU-latency Pareto analyses reveal complementary regimes: decoder-only models provide efficient low-cost alternatives, while e
-
----
-
-### [293] Zero-shot time-series foundation models against the Khepri v1.5 baselines for 96-hour carbon-intensity forecasts in nine Nordic bidding zones: a preregistered comparison
-
-**链接**: https://arxiv.org/abs/2611.02895
-**作者**: Eirik Botten Nicolaysen
-**来源**: physics.soc-ph cs.LG
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> We compare three zero-shot time-series foundation models (Timestral-5M, Timestral-209M and Chronos-2, 8192-hour context, no covariates) with the Khepri v1.5 SARIMA and GBM baselines, with their code and hyperparameters unchanged, for 96-hour forecasts of hourly carbon intensity in the Nordic bidding zones NO1-NO5 and SE1-SE4. The design, the analysis code and a minimum detectable effect (MDE) were timestamped before any foundation-model forecast by an OpenTimestamps proof (Bitcoin-confirmed) and the GPG-signed tag prereg-v1; the proofs are archived in Zenodo (DOI 10.5281/zenodo.23881315). The preregistration was also submitted to OSF Registries 2026-11-02 07:49 UTC (osf.io/hncz5; embargo requested, pending OSF approval). On the 2025 test (361 daily origins, contamination not ruled out) all three models have a lower zone-averaged MAPE than both baselines, by 0.952 to 1.347 percentage points (Diebold-Mariano with the Harvey-Leybourne-Newbold correction, all p < 0.0001), and each beats SA
-
----
-
-### [294] Geometric Morphology Learning: Empowering Foundation Models from Structure to Spacetime Intelligence
-
-**链接**: https://arxiv.org/abs/2611.01932
-**作者**: Li Sun, Philip S. Yu
-**来源**: cs.AI
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Geometry is the very form that connects space, time, and matter, serving as the fundamental fabric of the physical world, from continuous fields to discrete structures. Despite its importance, deep learning is inherently blind to geometry. Riemannian geometry stands as a well-established mathematical foundation for studying geometry, yet it remains largely incompatible with deep learning architectures. To bridge this gap, we establish a new learning framework--Geometric Morphology Learning--that learns geometric or topological structures, shapes or conformations for representation learning, reasoning and action modeling. Moving beyond early attempts limited to specific geometric priors, this theory centers on modeling the intrinsic geometry of objects and learning from such geometric or topological knowledge. Specifically, we construct a neural bundle, a unified scaffolding linking local and global structures, and formulate differentiable operators, including connection and curvature, 
-
----
-
-### [295] GESTALT: Fast, Generalizable Histopathology Image Synthesis from Gene Expression with Pretrained Pathology Foundation Models
-
-**链接**: https://arxiv.org/abs/2611.01141
-**作者**: Felix Ho, Alexandros Graikos, Dimitris Samaras
-**来源**: cs.CV
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Spatial transcriptomics measures gene expression while preserving where each cell sits in the tissue. The inverse, what a given transcriptomic state looks like, is less explored but equally useful: it lets researchers visualize the morphological consequence of a molecular state and interpret a spatial assay's molecular calls against real tissue structure. GeneFlow, the current state of the art on the Xenium gene expression-to-image benchmark, trains a model from scratch, incurring a high cost on every new target dataset it is applied to. We instead propose GESTALT, which reformulates gene expression-to-image synthesis as predicting a pathology foundation model's image embedding. A lightweight gene-token transformer predicts this embedding from multi-cell gene expression, and a frozen or LoRA-adapted diffusion decoder (PixCell) renders it as an image. Because this visual knowledge is reused rather than relearned, GESTALT trains in a fraction of the time. In both multi-cell and single-ce
-
----
-
-### [296] SAFE-SVD: Sensitivity-Aware Fidelity-Enforcing SVD for Physics Foundation Models
-
-**链接**: https://arxiv.org/abs/2605.17985
-**作者**: Chengjie Hong, Feixiang He, Yiheng Zeng, Lulu Kang, He Wang
-**来源**: cs.LG cs.AI
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [297] RSPDBench: Benchmarking Vision Foundation Models on Earth Observation Tasks Under Physically Grounded Remote-Sensing Product Degradations
-
-**链接**: https://arxiv.org/abs/2609.23427
-**作者**: Tanjim Bin Faruk, Khondaker Masfiq Reza, Shrideep Pallickara, Sangmi Lee Pallickara
-**来源**: cs.CV
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [298] SensOFormer: Foundation Models for Particle Accelerators
-
-**链接**: https://arxiv.org/abs/2611.02031
-**作者**: Mahindra Rautela, Alexander Scheinker
-**来源**: cs.LG physics.acc-ph
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Large-scale scientific facilities, such as particle accelerators, are complex systems composed of thousands of interacting components that must operate collectively to support diagnostics and control, and ensure safe, reliable operation. These facilities rely on extensive sensor networks that generate large volumes of heterogeneous, incomplete, and noisy telemetry, often sampled at different rates across subsystems. In this paper, we adopt the foundation-model paradigm to learn general-purpose sensor representations from historical accelerator data through self-supervised pretraining. We introduce SensOFormer, a denoising masked transformer with a Perceiver-style encoder-decoder architecture designed to handle variable sensor sets, accommodate heterogeneous sampling rates, and learn robust representations from noisy measurements. The model is pretrained on multiple particle-accelerator datasets and transferred to downstream tasks, including missing-data imputation, anomaly detection, c
-
----
-
-### [299] Evaluating Uncertainty Calibration in Probabilistic Time Series Foundation Models
-
-**链接**: https://arxiv.org/abs/2611.03592
-**作者**: Thomas Decker and Volker Tresp
-**来源**: cs.LG cs.AI
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Time series foundation models (TSFMs) are increasingly used for probabilistic forecasting across diverse domains, yet the reliability of their uncertainty estimates remains poorly understood. In this work, we study uncertainty calibration in probabilistic TSFMs from a broader methodological and empirical perspective. We introduce a taxonomy of how TSFMs represent predictive uncertainty and develop a fine-grained evaluation framework for calibration in multi-horizon forecasting that distinguishes pooled, horizon-wise, and stronger conditional notions of calibration. Using this framework, we conduct a comprehensive empirical evaluation of popular TSFMs across diverse datasets and show that current models exhibit distinct and systematic patterns of miscalibration that standard metrics often obscure. We further analyze common post-hoc recalibration methods and characterize which forms of calibration they can improve and which tend to persist. Our results provide practical guidance for eval
-
----
-
-### [300] Benchmarking Generalist and Specialist Time-Series Foundation Models for PPG-Based Health Assessment
-
-**链接**: https://arxiv.org/abs/2510.14254
-**作者**: Saurabh Kataria, Yi Wu, Zhaoliang Chen, Hyunjung Gloria Kwak, Yuhao Xu, Lovely Yeswanth Panchumarthi 等 (10 人)
-**来源**: cs.LG
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [301] A Common Language for Dynamic Graphs: Interaction Tokenization Enables Foundation Models
-
-**链接**: https://arxiv.org/abs/2611.03246
-**作者**: Fuyuan Ma, Yili Wang, Xin He, Xin Zhang, Ying Wang, Xin Wang
-**来源**: cs.LG cs.SI
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Dynamic graphs capture evolving interactions in Web systems, including online communication, user engagement, and recommendation. Graph foundation models aim to reuse predictive capabilities across networks, but extending this capability to dynamic graphs faces two challenges. First, node identities are graph-specific, and similar interaction patterns can appear at different temporal and activity scales, making histories difficult to represent consistently across networks. Second, the predictive roles of historical patterns vary across interaction dynamics, limiting transfer from a narrow range of training processes. In this paper, we show that a common interaction language, combined with learning across diverse interaction processes, offers a basis for dynamic graph foundation modeling. We propose CL-DGFM, a Common Language Dynamic Graph Foundation Model for temporal link prediction. Its Dynamic Interaction Tokenizer encodes interaction memory, historical connectivity, and ordered des
-
----
-
-### [302] Attribution-based diagnostics for single-cell foundation models
+### [161] Attribution-based diagnostics for single-cell foundation models
 
 **链接**: https://arxiv.org/abs/2611.02335
-**作者**: Farnoush Rezaei Jafari (1 and 2), Tristan Lazard (3), Kenza Bouzid (3), Shruthi Bannur (3), Jeremiah Wander (3), Ashley Mae Conard (3) 等 (10 人)
+**作者**: Farnoush Rezaei Jafari, Tristan Lazard, Kenza Bouzid, Shruthi Bannur, Jeremiah Wander, Ashley Mae Conard 等 (9 人)
 **来源**: cs.LG q-bio.QM
 **匹配关键词**: Foundation Models
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
-**摘要**:
-
-> Single-cell RNA foundation models (scFMs) are increasingly used for in-silico biological discovery, yet predictive performance alone does not reveal whether their decisions rely on biologically meaningful signals or model-specific shortcuts. We systematically investigate post-hoc attribution of downstream predictions across two tasks: cell-type annotation using pretrained Cell2Sentence and scGPT models, and perturbation prediction using scGPT+STATE in a controlled setting. For cell annotation, we use attribution to assess whether predictions rely on established marker genes and how their relevance varies with model architecture, expression rank, and the surrounding cellular context. For perturbation prediction, we compare attribution patterns with known regulatory ground-truth in a synthetic setting to assess what they reveal about the model's learned computations. Across these tasks, attribution reveals biological feature use, contextual interactions, contributions from different inpu
-
 ---
 
-### [303] Why Tabular Foundation Models Excel on Relational Data They Have Never Seen
+### [162] Why Tabular Foundation Models Excel on Relational Data They Have Never Seen
 
 **链接**: https://arxiv.org/abs/2611.02936
 **作者**: Linjie Xu, Yiqun Hu, Jixiang He, David Wipf
@@ -4307,65 +2239,9 @@
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
-**摘要**:
-
-> Given a relational database (RDB) storing heterogeneous tabular information, how can we predict missing (or future) values in some target column of interest? As candidate targets are numerous in enterprise settings, it is preferable to avoid learning a new model from scratch each time there is a new prediction task. Frozen foundation models (FMs) based on in-context learning (ICL) and RDB-specific pre-training provide a viable solution, but the ideal design still remains largely unresolved. Perhaps unexpectedly, preliminary evidence has recently shown that existing single-table FMs (aka TFMs), when combined with suitable parameter-free relational encoders, can be quite competitive in practice despite zero exposure to RDB pre-training or relational data of any kind. In this work we first empirically confirm this phenomenon with a more diverse array of experiments. We then turn to our main contribution, namely, surfacing multiple complementary explanations for why TFMs behave so effectiv
-
 ---
 
-### [304] Foundation Models to Unlock Real-World Evidence from Nationwide Medical Claims
-
-**链接**: https://arxiv.org/abs/2605.02740
-**作者**: Fan Ma, Yuntian Liu, Xiang Lan, Weipeng Zhou, Jun Ni, Mauro Giuffr\`e 等 (10 人)
-**来源**: cs.AI cs.CL
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [305] Unlocking the Potential of Vision Foundation Models for Multi-Task Dense Prediction via Mixture of Task Adapters
-
-**链接**: https://arxiv.org/abs/2611.02769
-**作者**: Yunzhi Zhuge, Xinzhuo Yu, Sitong Gong, Lu Zhang, Pingping Zhang, Huchuan Lu
-**来源**: cs.CV
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Multi-task dense prediction seeks a single, coherent representation that supports simultaneously discriminative semantic recognition and regularized geometric/structural inference. For vision foundation models, pretrained semantic invariances conflict with the frequency and smoothness biases of dense objectives; joint fine-tuning and single-route adapters therefore compress competing gradients into one update channel, causing negative transfer and unstable cross-task agreement. We frame this as two-level adaptation: task-generic alignment that preserves priors, and task-aware specialization that resolves late-stage conflicts. Based on this principle, we propose D2MoE , a Mixture of Task Adapters that explicitly factorizes these roles within a frozen DINOv3 backbone. D2MoE introduces Task-Generic Low-Rank Adaptation (TG-LoRA) in attention projections throughout the network to provide a stable, shared adaptation channel, and a Task-Adaptive Mixture of Experts (TA-MoE) injected only at th
-
----
-
-### [306] When Delay Meets Drift: Physical Safety of Robot Foundation Models Is a Cross-Layer Problem
-
-**链接**: https://arxiv.org/abs/2611.02101
-**作者**: Liangkai Liu, Bimal Thapa Magar
-**来源**: cs.RO cs.CV cs.ET
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Robot foundation models now act in a closed loop, yet their safety is evaluated one variation at a time: robustness benchmarks perturb the scene while assuming instantaneous inference, and real-time execution methods study inference delay in nominal scenes. We argue that physical safety is not a property of the model alone, but emerges from how variations in the physical environment, the model, the computing platform, and execution interact in closed loop. We formalize this as cross-layer variation propagation across these system layers and use an interaction contrast to measure when joint variation creates more risk than the sum of its parts. In 4,000 paired closed-loop episodes of the pi0.5 vision-language-action model on LIBERO, a 400 ms inference delay raises the safety-violation rate by 3.5 percentage points under the training viewpoint but by 37 percentage points under a 60-degree camera shift: 33.5 percentage points (95% CI: 25-43) more than the two effects combined. We close wi
-
----
-
-### [307] GRATE: Temporal Extensions for Inductive KG Foundation Models via Gated Rotary Attention
-
-**链接**: https://arxiv.org/abs/2607.10197
-**作者**: Jiaxin Pan, Osama Mohammed, Daniel Hern\'andez, Steffen Staab
-**来源**: cs.AI
-**匹配关键词**: Foundation Models
-**相关性评分**: 3.0
-**数据来源**: arXiv CS Mailing
-
----
-
-### [308] Axion 1.0: Open Agent Foundation Models, Simplified
+### [163] Axion 1.0: Open Agent Foundation Models, Simplified
 
 **链接**: https://arxiv.org/abs/2611.03233
 **作者**: Yuqi Jia, Yunjie Tian, Jiayu Zheng, Yijun Liang, Jingchen Sun, Mengyu Zhao 等 (7 人)
@@ -4374,46 +2250,105 @@
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
-**摘要**:
+---
 
-> We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning, without dedicated mid-training, direct preference optimization (DPO), or on-policy distillation (OPD). The first SFT stage develops strong self-contained reasoning through model-aware data construction, where we synthesize challenging problems and adversarially strengthen them based on the base model's own successful solution strategies. The second stage extends these capabilities to tool-dependent reasoning through a scalable pipeline for constructing diverse and automatically verifiable tasks grounded in real-world data sources and deterministic computation. Finally, reinforcement learning further strengthens long-horizon reasoning and interaction with external tools and environments. Despite this compact trai
+### [164] Tadpole: Autoencoders as Foundation Models for 3D PDEs with Online Learning
+
+**链接**: https://arxiv.org/abs/2605.15284
+**作者**: Qiang Liu and Felix Koehler and Benjamin Holzschuh and Nils Thuerey
+**来源**: cs.LG
+**匹配关键词**: Foundation Models
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
 
 ---
 
-### [309] From Concepts to Actual Causes: Toward Closing the Concept-Malfunction Gap in Robot Foundation Models
+### [165] Beyond Foundation Models: PFN Priors Improve Tabular Hyperparameter Optimization
 
-**链接**: https://arxiv.org/abs/2611.00155
-**作者**: Gihyuk Ko
-**来源**: cs.RO cs.AI
+**链接**: https://arxiv.org/abs/2611.05141
+**作者**: Artem Chistyakov, Renat Sergazinov, Artem Babenko
+**来源**: cs.LG
 **匹配关键词**: Foundation Models
 **相关性评分**: 3.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Post-incident analysis of a robot foundation model poses a singular causal question: which internal components caused this failure, and to what degree? Mechanistic interpretability (MI), however, establishes general causal claims by decoding the concepts a policy has learned, yet knowing which concepts are encoded is insufficient for identifying the actual cause of a specific incident. In this position paper, we analyze this concept-malfunction gap by posing fault isolation in the framework of actual causality. Specifically, we formalize a fault-isolation query as a tuple of intervened internal components, counterfactual values, contingencies, and read-outs, and lay out conditions for it to be well-specified. Through this lens, we identify shortcomings of current MI approaches: they assume fixed contingencies and read out only immediate effects, letting backups obscure actual causes. We demonstrate on a toy example that these shortcomings can lead to conflicting verdicts. Lastly, based
+> Synthetic priors have so far served one purpose: pretraining tabular foundation models. We ask whether the same priors can improve conventional tabular models, which are trained from scratch on each dataset. We propose PriorTune, a method that meta-tunes hyperparameter configurations on synthetic tasks alone. Offline, for a given model, we fit a pool of configurations on datasets sampled from a published PFN prior and greedily select the subset with the highest winrate over the random baseline. Online, a new dataset fits only the selected configurations, so the gain comes at no extra cost. Empirically, we observe that scaling both the number of configurations and synthetic datasets has an equal scaling effect on the performance of the final subset of configurations, which we also explain theoretically. On the full BeyondArena benchmark, LightGBM with TabPrep features with our configurations ranks above TabPFN-3 and RealMLP, while being much more efficient at inference. Overall, our res
 
 ---
 
-### [310] TabAbax: A Tabular Foundation Model Technical Report
+### [166] OCR in the Foundation Model Era: From Specialist Models to Unified Models
 
-**链接**: https://arxiv.org/abs/2611.00562
-**作者**: Zhixiong Cheng, Xiaoyun Gao, Shiyuan Han, Jingjing Suo, Zhengli Wang
-**来源**: cs.LG
+**链接**: https://arxiv.org/abs/2611.04874
+**作者**: Zhiheng Li, Zongyang Ma, Jiaxian Chen, Cheng Cui, Yi Liu, Ziqi Zhang 等 (10 人)
+**来源**: cs.CV
+**匹配关键词**: Unified Models
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Optical Character Recognition (OCR) is among the oldest and most widely deployed applications of artificial intelligence. This survey reviews its development, focusing on the Foundation Model Era. We define OCR through faithful transcription: within a specified visual scope, OCR should completely reconstruct the text, notation, and document structure observable in the source image, and every textual, notational, or structural element in the output must be verifiable from visual evidence in that image. We trace the development from specialist OCR models toward unified models, examining joint text detection and recognition, structured sequence generation, and the use of pretrained vision-language models (VLMs). We organize contemporary OCR systems into five coexisting families: modular toolkits and task-specific models, specialized document VLMs, hybrid workflows, general-purpose VLMs, and commercial products and managed services. We compare their architectures, data, and training, exami
+
+---
+
+### [167] Cracks in the Foundation: A Civil Infrastructure Dataset to Challenge Vision Foundation Models
+
+**链接**: https://arxiv.org/abs/2605.18413
+**作者**: Nicola Farronato, Niccolo Avogaro, Thomas Frick, Mattia Rigotti, Rizwan Ullah Khan, Michele Magno 等 (9 人)
+**来源**: cs.CV
+**匹配关键词**: Foundation Models
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [168] A local orchestration harness for molecular design with foundation models
+
+**链接**: https://arxiv.org/abs/2611.03676
+**作者**: Sakib Mostafa, Md Atik Ahamed, James Zou, Lei Xing, Md Tauhidul Islam
+**来源**: physics.chem-ph cs.LG
+**匹配关键词**: Foundation Models
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Molecular design requires coordinated generation, property prediction and iterative editing, with each decision linked to the correct chemical structure and supporting evidence. Integrating these capabilities in practice presents three major challenges: retaining local control of molecular data, connecting specialized models across tasks and verifying that proposed changes satisfy chemical constraints. Here we present MolCrew, a locally deployable system that coordinates four separately trained molecular specialists with a language-model orchestrator and RDKit calculations. The specialists generate structures from descriptions, describe molecular structures, predict biological endpoints and propose edits towards specified goals. Separate model weights allow each capability to be evaluated and updated independently within the workflow. RDKit calculations check structural validity, quantify descriptor changes and assess specified structural constraints, while returned observations guide 
+
+---
+
+### [169] Explainable Diabetic Retinopathy Classification Using Vision Foundation Models
+
+**链接**: https://arxiv.org/abs/2608.28207
+**作者**: Abhishek Verma, Anila Krishna, Abhishek Gajanan Bankar, Juan Miguel Lopez Alcaraz
+**来源**: cs.CV cs.LG
+**匹配关键词**: Foundation Models
+**相关性评分**: 3.0
+**数据来源**: arXiv CS Mailing
+
+---
+
+### [170] Molecular Prior Networks
+
+**链接**: https://arxiv.org/abs/2611.05103
+**作者**: Pawel Gomoluch, Anthony Bradley
+**来源**: cs.LG cs.AI cs.CE
 **匹配关键词**: Foundation Models
 **相关性评分**: 1.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> Tabular foundation models (TFMs) enable in-context prediction on unseen tabular datasets without task-specific training. Mechanistic work has shown that increasing the depth of the ICL Transformer yields weak gains, leaving the main headroom for gains in the synthetic pretraining prior and column-row encoder upstream of the ICL backbone. We introduce TabAbax, a TFM built on TabICLv2 that focuses all modifications on these two upstream components. On the prior side, we further improve the quality and complexity of the synthetic pretraining prior. On the encoder side, a two-pass column-row stack strengthens cross-feature interactions before row compression, using learned Fourier scalar encoding from TabFM and Causilo. Evaluations on BeyondArena and TabArena show strong regression-centric gains: TabAbax reaches 1,238 Elo on the 142-dataset BeyondArena suite (10th of 41 evaluated methods), 1,676 Elo on TabArena's overall 51-dataset suite (11th of 99 methods, +115 over TabICLv2), and 2,024 
+> Predicting affinity between small molecules and their protein targets remains one of the central problems in drug discovery. Due to the substantial cost of wet-lab experiments, machine learning models of drug-target affinity are usually trained on relatively small datasets, ranging from tens to hundreds of molecules. Given the inherent difficulty of generalization between different targets and chemical series, existing datasets of protein-ligand affinities are typically not used for new projects. At the same time, tabular foundation models, including Prior-data Fitted Networks, have recently shown how transformers can be used to solve machine learning problems in a single forward pass of the network, after being trained over a large corpus of, typically, synthetic datasets. Inspired by that line of work, we propose a novel affinity modelling approach, in which the labels of the query molecules are predicted from the labelled support molecules in a single forward pass of a transformer m
 
 ---
 
-### [311] ASCoR: Asymmetric Semantic-Spatial Learning for Remote Sensing Domain Generalization
+### [171] BhopalMLS: A LiDAR Dataset for Semantic Scene Understanding in Heterogeneous Urban Environments
 
-**链接**: https://arxiv.org/abs/2611.03382
-**作者**: Zitong Wang, Shuchang Lyu, Meng Li, Qiang Wang, Guangliang Cheng and Zhenwei Shi
+**链接**: https://arxiv.org/abs/2611.04654
+**作者**: Pyare Lal Chauhan, Vaibhav Kumar, Bharat Lohani
 **来源**: cs.CV
 **匹配关键词**: Foundation Models
 **相关性评分**: 1.0
@@ -4421,224 +2356,14 @@
 
 **摘要**:
 
-> Source-only domain generalization (DG) for remote sensing semantic segmentation seeks reliable predictions in unseen domains without target-domain data during training. Although vision foundation models offer transferable knowledge, category recognition remains sensitive to source-specific visual cues, while task-specific adaptation may weaken pretrained transferability. We propose ASCoR, an asymmetric semantic-spatial framework built on SAM3. Its text-conditioned semantic branch uses class-name prompts to provide explicit category guidance. Probe-Once Dynamic Adaptive LoRA distributes a fixed adaptation budget across encoder blocks to limit source-specific specialization. A complementary task-specific dense branch learns multi-scale spatial representations using a separate frozen SAM3 image encoder. A lightweight reliability router integrates the two branches through bounded spatial correction based on local prediction reliability. All components are trained using source-domain superv
+> We introduce BhopalMLS, a large-scale Mobile Laser Scanning (MLS) dataset from a dense, heterogeneous urban environment in Bhopal, India, with mixed traffic, informal structures, and narrow unplanned streets. It spans approximately 10 km of road corridors with over 1.2 billion points and 19,518 annotated instances across 62 fine-grained static categories, grouped into 12-class and 21-class benchmark taxonomies; 6 optional moving-class subclasses support dynamic-object analysis. Existing 3D datasets, collected in well-planned cities, are structurally more uniform than such unplanned settings, and lack their subtype diversity. On semantic and instance segmentation at both granularities, fine-tuned foundation models surpass supervised baselines: Utonia(L) reaches 71.28% mIoU (vs. PTv3's 68.04% from scratch) and 44.07% mAP50 on the 12-class benchmark. Cross-region experiments against four established datasets (Ke-MLS, Toronto-3D, Paris-Lille-3D, SemanticKITTI) reveal a consistent asymmetri
 
 ---
 
-### [312] QVR3D: Query-Guided Visual Reasoning for Training-Free 3D Grounding
+### [172] TraceRouter++: Causal Semantic Routing Realignment via Optimal Transport
 
-**链接**: https://arxiv.org/abs/2611.01084
-**作者**: Jung-Hao Kao, Jing-En Huang, Jia-Wei Liao, Tzuhsuan Huang, Yu-Lun Liu, Cheng-Fu Chou 等 (7 人)
-**来源**: cs.CV
-**匹配关键词**: Foundation Models
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> 3D visual grounding localizes objects in 3D scenes from natural language descriptions, requiring reasoning over semantics, spatial relationships, and multi-view observations. Training-free approaches avoid costly annotations but often rely on explicit scene transformation or scene-level frame selection, which may waste limited visual capacity on query-irrelevant regions. We observe that effective grounding should prioritize observations that provide evidence for the query rather than uniformly represent the entire scene. Based on this insight, we introduce QVR3D, a query-guided visual reasoning framework that operates on RGB-D observations using off-the-shelf foundation models. QVR3D combines Query-Guided Maximum Coverage (QGMC) for selecting complementary query-relevant views with Grounding Probability Estimation (GPE) that integrates instance confidence, attribute consistency, and relationship consistency. The framework supports both single- and multi-object grounding without task-sp
-
----
-
-### [313] ReCoG: Relative Node Contexts for Multi-Domain Graph Pre-training
-
-**链接**: https://arxiv.org/abs/2611.01753
-**作者**: Yupeng Tong, Lianze Shan, Jitao Zhao, Dongxiao He
-**来源**: cs.LG
-**匹配关键词**: Foundation Models
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> The success of foundation models in language and vision has motivated Graph Foundation Models (GFMs), which learn transferable knowledge through multi-domain graph pre-training. Existing methods advance GFMs through feature unification and structural learning, and in doing so they rely on the raw graph structure to organize node contexts. However, we observe that removing a large proportion of edges from source graphs during pre-training improves cross-domain transfer accuracy across four representative methods. Our theoretical analysis identifies the raw graph structure as a source of conflict in cross-graph model sharing. We therefore advocate defining node contexts using criteria consistent across graphs. Achieving this requires (1) constructing node contexts consistently across graphs without a shared positional structure, such as the token order of text or the pixel grid of images, and (2) retaining the structural and neighborhood information of the original graphs. To this end, w
-
----
-
-### [314] HistoTx: Early fusion of H&E images and spatial transcriptomics at varying spatial transcriptomics resolution with self-supervised learning
-
-**链接**: https://arxiv.org/abs/2611.02681
-**作者**: Alice Driessen, Emil Malmsten, Steffen Wolf, Bernd Illing, Isinsu Katircioglu, Adriano Martinelli 等 (10 人)
-**来源**: cs.LG cs.AI q-bio.GN q-bio.QM
-**匹配关键词**: Foundation Models
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Spatial transcriptomics maps gene expression across tissue sections and, when integrated with whole slide images, jointly captures both morphological architecture and molecular activity to provide a rich, multimodal view of tissue biology. ML approaches combining spatial transcriptomics and WSIs typically learn a mapping from morphological features to molecular profiles via contrastive alignment or supervised fine-tuning of pathology foundation models. In both cases, transcriptomics serves as a training signal rather than a true input modality, leaving inference fundamentally image-driven. We propose an early-fusion vision transformer architecture in which transcript tokens are constructed at arbitrary spatial resolution, merged with image patch tokens, and jointly processed through a shared transformer stack for deep cross-modal interaction. Starting from a pretrained vision-only pathology foundation model, we train HistoTx by continuing self-supervised pretraining on paired image and
-
----
-
-### [315] CellPlex: Benchmarking Single-Cell Spatial Proteomics Prediction from H&E
-
-**链接**: https://arxiv.org/abs/2611.02506
-**作者**: Zijun Gao, Yijiang Chen, Xiangde Luo, Pheng-Ann Heng
-**来源**: cs.CV
-**匹配关键词**: Foundation Models
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Spatial proteomics measures tens of proteins in every cell of a tissue section, but its cost confines it to small research cohorts, whereas hematoxylin and eosin (H\&E) slides exist for nearly every patient. Inferring single-cell spatial proteomics from H\&E would bring its analyses to routine pathology, and a growing number of virtual staining models pursue this goal. Each is evaluated on its own cohort, panel and pixel-level metric, and released models transfer poorly to new cohorts, leaving open which approach to build on and which proteins H\&E can reveal. We introduce CellPlex, a benchmark that poses the task at the level of the cell: seven cohorts with same-section H\&E and multiplexed immunofluorescence, from colorectal and breast cancer to lymph-node metastases, bone marrow and glioma, with 717 samples, 44.8 million cells and 149 proteins, processed by one pipeline into per-cell targets. Pathology foundation models (PFMs) are adapted with one cell-level protocol, specialist mod
-
----
-
-### [316] SynForecast: Controlled Synthetic Time Series for Forecasting Research
-
-**链接**: https://arxiv.org/abs/2611.02802
-**作者**: Olivier Sprangers, Cristian Challu, Jan Rathfelder, Han Wang, Max Mergenthaler Canseco
-**来源**: cs.LG stat.CO
-**匹配关键词**: Foundation Models
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Synthetic time series constitute a substantial share of the training corpora of several recent forecasting foundation models. Existing studies report benefits at small data budgets and modest synthetic proportions, but each evaluates individual combinations of model and generator. Studying these benefits systematically requires generators that support controlled configuration, perturbation, reproducibility and mechanism-level ablation, and the 11 existing generators we review show gaps in this combined support. We present SynForecast, an open-source Python library with 32 generators, 19 of which implement named mechanisms with a published source in econometrics, quantitative finance, statistical physics and point-process theory. Perturbations and mechanism families can be varied while everything else is held fixed, output comes in the long format that forecasting libraries accept, and output does not depend on the number of parallel workers. We evaluate SynForecast on M4 at five freque
-
----
-
-### [317] TAP-Out: Tracking Any Point in 360{\deg} via Outpainting
-
-**链接**: https://arxiv.org/abs/2611.00406
-**作者**: Finlay G. C. Hudson, James A. D. Gardner, William A. P. Smith
-**来源**: cs.CV
-**匹配关键词**: Foundation Models
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Tracking points that leave the camera's field of view (FoV) requires reasoning about unobserved scene dynamics, a fundamentally different problem from tracking visible correspondences. We present TAP-Out, an offline method that makes this out-of-view (OOV) reasoning explicit by leveraging generative video outpainting as a world-model prior. Given a narrow-FoV input video, TAP-Out outpaints a complete 360{\deg} equirectangular video, locates target objects within the panoramic scene via video object segmentation, and synthesises object-centred perspective crops on which standard in-frame trackers operate. This decoupled design composes off-the-shelf foundation models without requiring task-specific architectural modifications. On the TAPVid360 benchmark, TAP-Out achieves state-of-the-art performance, improving OOV tracking accuracy by approximately 3x over the best prior method. We demonstrate its flexibility on out-of-frame object segmentation and detection and we provide detailed diag
-
----
-
-### [318] Editing the Goal: Per-Token SAE Steering and Its Depth Limits in $\pi_{0.5}$
-
-**链接**: https://arxiv.org/abs/2611.00602
-**作者**: Rocio Perales Valdes, Animesh Garg
-**来源**: cs.AI
-**匹配关键词**: Foundation Models
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Sparse autoencoders (SAEs) have recovered interpretable, causally relevant features in robot foundation models (RFMs) such as $\pi_{0.5}$ (
-
----
-
-### [319] IsoAlign: Isoform-Aware DNA-Protein Alignment via Joint-Embedding Predictive Architectures
-
-**链接**: https://arxiv.org/abs/2611.00241
-**作者**: Niousha Sadjadi, Arman Seyed-Ahmadi, Tony Tu, Micaela Elisa Consens, Kerr Ding, Alif Munim 等 (10 人)
-**来源**: cs.LG
-**匹配关键词**: Foundation Models
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Genomic foundation models (GFMs) have emerged as a powerful paradigm for learning DNA sequence representations, yet existing self-supervised pretraining strategies overlook alternative splicing and underperform compared to specialized models. To address this gap, we introduce IsoAlign, a multimodal framework that grounds genomic pretraining in isoform-aware DNA-protein alignment to learn biologically meaningful representations. IsoAlign aligns transcripts to their corresponding protein isoforms, capturing both coding sequences and broader regulatory contexts, using two Joint-Embedding Predictive Architectures (JEPA): DNA-Protein JEPA (DP-JEPA), which predicts protein representations from DNA using contrastive alignment, and Isoform-Masked JEPA (IM-JEPA), which models relationships among alternative isoforms of the same gene through masked protein prediction. We evaluate the learned DNA representations of these architectures across a multi-metric evaluation suite spanning tasks, includi
-
----
-
-### [320] A generative foundation model for computational brain imaging
-
-**链接**: https://arxiv.org/abs/2611.00265
-**作者**: Yuting He, Xu Wen, Hongxing Lan, Chengliang Liu, Yuxing Liu, Yan Xi 等 (10 人)
-**来源**: cs.AI
-**匹配关键词**: Foundation Models
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Computational brain imaging is constrained by a mismatch between increasingly diverse tasks and scarce, heterogeneous clinical data. Although existing brain foundation models transfer pretrained representations, their knowledge remains entangled within model-specific features and fixed architectures. This paper proposes BrainGFM, a generative foundation model that extends knowledge transfer beyond representation reuse through a reusable and reconfigurable brain-imaging prior. By pretraining on a corpus of about 1.3 million MRI and CT slices, BrainGFM supported task-aligned data synthesis for low-data predictive learning and task-adapted post-training for image reconstruction. Across 48 downstream tasks, BrainGFM improved segmentation and classification under limited supervision and achieved high-fidelity image enhancement across heterogeneous imaging conditions. Multicenter clinical validation involving 4,796 stroke patients across two internal and four external centers demonstrated it
-
----
-
-### [321] Forecasting Earth Surface Change in Embedding Space
-
-**链接**: https://arxiv.org/abs/2611.02211
-**作者**: Jingtao Li, Sadiq Jaffer, Anil Madhavapeddy, Pedro Sousa, Anthony Ortiz, Kyle Gao 等 (10 人)
-**来源**: cs.CV cs.AI
-**匹配关键词**: Foundation Models
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Repeated satellite imagery permits understanding of how our planet changes over time, letting us predict its future and plan mitigating actions. Most existing studies that rely on a time series of satellite observations forecast the spectral values at each pixel for a future target date. However, clouds, shadows, and sensor noise often corrupt these observations, so that spectral forecasters waste much of their capacity on low-level features or noise rather than real change. With the advent of Earth foundation models, we argue that forecasting in embedding space is a feasible and more effective alternative. To this end, we design a token space that handles irregular histories from different sensors and foundation models and supports forecasts at any query date. Tokens from this space are inputs to our proposed forecaster, E$^2$Forecast, which is a transformer with two branches: a Gaussian branch that directly predicts a mean point forecast and per-dimension standard deviations, and a r
-
----
-
-### [322] MedHEB: Benchmarking Medical Embeddings Across Heterogeneous Clinical Evidence
-
-**链接**: https://arxiv.org/abs/2611.02519
-**作者**: Yingshu Li, Shaoyang Zhou, Zhanyu Wang, Yunyi Liu, Xinyu Liang, Xi Zhang 等 (9 人)
-**来源**: cs.CV
-**匹配关键词**: Foundation Models
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Clinical evidence is inherently relational: medical images are interpreted with prior studies, cross-modal examinations, reports, and localized findings, and retrieving relevant evidence is therefore central to clinical interpretation. Recent foundation models increasingly encode these heterogeneous sources into shared embedding spaces, yet existing embedding evaluation often focuses on isolated matches, leaving unclear whether current models retrieve relevant evidence across changes in modality, appearance, and granularity. We introduce MedHEB, a unified benchmark with 107 retrieval tasks from 54 datasets, including both in-distribution and held-out-source evaluation, across three axes: evidence form (2D images, 3D volumes, text), pairing type (image--image, image--text, text--text, and modality-bridging visual matching), and relevance granularity (global, question-conditioned, region-level). Under a single ranking protocol, MedHEB varies clinically relevant evidence definitions to te
-
----
-
-### [323] Latent Spectral Prompting for Multimodal Hyperspectral Object Tracking
-
-**链接**: https://arxiv.org/abs/2611.02512
-**作者**: Wangshu Cai and Jun Zhou and Lei Wang and Mohammad Aminul Islam and Xu Han and Kuldip Paliwal
-**来源**: cs.CV cs.AI
-**匹配关键词**: Foundation Models
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Hyperspectral videos provide rich spectral signatures for robust tracking under challenging conditions such as camouflage and low illumination. However, limited hyperspectral annotations and the large RGB-hyperspectral domain gap hinder the direct use of modern temporally pretrained RGB trackers. We propose SProTrack, a multimodal framework that transfers temporal knowledge from pretrained RGB trackers to the hyperspectral domain through latent spectral prompting. The key idea is to decouple temporal modeling from spectral adaptation, allowing temporal dynamics to be inherited from RGB foundation models while hyperspectral information is learned from unlabeled data in a self-supervised manner. Unlike band-selection methods that discard most spectral information or prompt-based approaches that rely on local-search crops, SProTrack learns a global, scene-level spectral representation from the full hyperspectral frame using an autoencoder. This latent representation is used to guide spect
-
----
-
-### [324] Data-Scarce, Multi-Granular, Multimodal: Benchmark Design for Biosynthetic Gene Clusters
-
-**链接**: https://arxiv.org/abs/2611.02275
-**作者**: Hanlin Xiao, Eriko Takano, Mauricio A. \'Alvarez, Rainer Breitling
-**来源**: cs.AI
-**匹配关键词**: Foundation Models
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Biosynthetic gene clusters (BGCs) are co-located genes that encode the biosynthesis of specialized metabolites, an important source of antibiotics, anticancer agents, immunosuppressants, and agricultural bioactives. Deep learning, particularly self-supervised foundation models, has spurred interest in BGC sequence modeling, but evaluation has lagged behind: existing benchmarks often rely on coarse classification over small curated datasets, providing limited discrimination among models and insight into downstream utility. We propose a benchmark-design framework in which an informative benchmark should be discriminative, separating models with statistical confidence, and applicable, spanning scientifically meaningful tasks under different levels of generalization. We instantiate this framework as BGC-Bench, which derives five tasks from MIBiG, ranging from A-domain substrate prediction to BGC-molecule retrieval, evaluates them under genotype- and phenotype-shift splits, includes an acti
-
----
-
-### [325] Findings-aware Language-Image Pretraining for CT Volume Interpretation
-
-**链接**: https://arxiv.org/abs/2611.02327
-**作者**: Takuro Shimaya, Junya Inoh, Masahiro Saiko
-**来源**: cs.CV physics.med-ph
-**匹配关键词**: Foundation Models
-**相关性评分**: 1.0
-**数据来源**: arXiv CS Mailing
-
-**摘要**:
-
-> Computed tomography (CT) provides diverse patient information and various clinical tasks, for which numerous deep learning models have been investigated. Recent years have seen the development of vision-language foundation models that can comprehensively extract clinical features, driven by representation learning that combines CT volumes with radiology reports. Existing approaches typically adopt Contrastive Language-Image Pre-training (CLIP)-based representation learning, where pairs from different cases are, in principle, treated as negative pairs such that the volume and report embeddings are pushed apart. In the biomedical imaging, however, treating different cases as negative pairs is not always appropriate, particularly when clinical similarity exists. In this study, we propose a supervised representation learning framework grounded in clinical knowledge from language foundation models, rather than the weak supervision used in CLIP. Specifically, we utilized a large language mod
-
----
-
-### [326] Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand
-
-**链接**: https://arxiv.org/abs/2611.00883
-**作者**: George Ling, Shanshan Zhong, Lijin Yang, Hao Yang, Nanxiang Li, Zhongzhan Huang
+**链接**: https://arxiv.org/abs/2611.04878
+**作者**: Chuancheng Shi and Shangze Li and Wenhua Wu and Hengzhi Chen and Fei Shen and Li Zhuo and Zhiyong Wang and Tat-Seng Chua
 **来源**: cs.CL
 **匹配关键词**: Foundation Models
 **相关性评分**: 1.0
@@ -4646,14 +2371,29 @@
 
 **摘要**:
 
-> Benchmark compression reduces the often prohibitive time and cost of model evaluation by evaluating models on a small benchmark subset that closely matches full-benchmark results. To quantify estimation error, we derive an accurate analytical approximation to the error distribution when estimating full-benchmark scores from a subset, showing that most subsets yield small errors, while a few produce much larger errors, resulting in a long-tailed distribution. This means random sampling alone can achieve surprisingly strong performance with high probability, but remains unstable due to rare large errors. We further show that this instability is inherent to modern foundation models and persists even as more models are evaluated. Based on these findings, we introduce BestRand, a stable and low-cost benchmark compression method that preserves the efficiency of random sampling while substantially reducing its high-error tail. We validate BestRand on 70+ text, multimodal, and agent benchmarks
+> Despite their remarkable capabilities, large foundation models (LFMs) remain susceptible to adversarial manipulation. Current safety intervention methods primarily rely on the \textit{locality hypothesis}, rigidly suppressing isolated neurons or features. However, harmful semantics manifest as distributed, cross-layer circuits, rendering localized ablations both brittle against complex jailbreaks and detrimental to general utility. To bridge this gap, we propose TraceRouter++, a routing-level safety intervention framework that explicitly traces safety-relevant causal routing pathways activated under harmful inputs and realigns their unsafe activation states. Our framework operates in a \textit{Discover-Trace-Realign} paradigm: it first pinpoints a sensitive onset layer via attention divergence and disentangles dense activations into interpretable routing features using sparse autoencoders (SAEs). Subsequently, it maps these features to downstream causal circuits via feature influence s
 
 ---
 
-### [327] Leveraging 2D Foundation Priors for Generalized Category Discovery under Test-Time Adaptation in 3D LiDAR Segmentation
+### [173] Asynchronous Robot Policies
 
-**链接**: https://arxiv.org/abs/2611.01682
-**作者**: Hanqi Chen, Chaoqi Chen, Tian Ji, Hui Huang
+**链接**: https://arxiv.org/abs/2611.05155
+**作者**: Sombit Dey, Luc Van Gool, Danda Pani Paudel
+**来源**: cs.RO cs.AI
+**匹配关键词**: Foundation Models
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Scaling vision-language foundation models has significantly advanced generalist robot manipulation, but the increased model scale introduces computational latency that degrades real-time physical reactivity. Existing Vision-Language-Action (VLA) architectures execute high-level semantic reasoning and action ex- ecution sequentially within the primary control loop, creating a fundamental tension between semantic-reasoning capability and robot agility. To address this, we propose Asynchronous Robot Policy (ARP), an architectural framework that decouples semantic reasoning from low-level action generation using asynchronous processes operating at independent frequencies. In ARP, a high-capacity Vision-Language Model (VLM) asynchronously updates a semantic memory at low fre- quency, while a lightweight Vision-Action Expert, conditioned on this semantic memory, generates robot actions at a much higher control frequency. Such a formulation, enables having a fast perception-action loop withou
+
+---
+
+### [174] PLANTEUR: A Crop-Type Segmentation Benchmark for Tropical Regions
+
+**链接**: https://arxiv.org/abs/2611.05223
+**作者**: Piper Wolters, Gabriel Tseng, Favyen Bastani, Joseph Redmon, Yawen Zhang, Hadrien Sablon 等 (7 人)
 **来源**: cs.CV cs.LG
 **匹配关键词**: Foundation Models
 **相关性评分**: 1.0
@@ -4661,14 +2401,14 @@
 
 **摘要**:
 
-> In autonomous driving, 3D LiDAR semantic segmentation is expected to adapt to evolving environments and recognize previously unseen categories, making generalized category discovery under test-time adaptation (GCD-TTA) an important problem. However, existing works treat GCD and TTA separately, while the limited semantic information in 3D point clouds makes GCD-TTA under domain shift more prone to feature collapse when combining GCD with TTA. To address this issue, we propose a two-stage framework for GCD-TTA in 3D LiDAR semantic segmentation. Specifically, in the first stage, we adaptively aggregate local 3D features according to geometric density variations and obtain reliable pseudo labels under a global class-wise prototype consistency constraint. In the second stage, we cast category discovery as an optimal transport assignment process for globally consistent grouping of novel categories. Meanwhile, semantic features from 2D vision foundation models are fused with 3D point cloud fe
+> We introduce PLANTEUR, a benchmark for crop-type mapping from satellite images in the French overseas territories. Building on the PASTIS design, PLANTEUR provides georeferenced and aligned Sentinel-2, Sentinel-1, and Landsat-8 sequences with parcel-derived labels spanning six tropical regions and an 8-class label space. We define both a standard test split and a leave-one-island-out protocol to measure cross-territory generalization, and evaluate fully supervised models, linear probes, and fine-tuned foundation models. The benchmark code and data are open source and available on GitHub and Hugging Face.
 
 ---
 
-### [328] Solv3R: 3D Looped Transformer as a Multi-view Solver
+### [175] Manifold Embedding of Deep Image Features for Image Matching via Neural Adjoint Maps
 
-**链接**: https://arxiv.org/abs/2611.02857
-**作者**: Jeong-gi Kwak, Andrea Tagliasacchi, Sho Kagami, Yuki Ono, Kwang Moo Yi
+**链接**: https://arxiv.org/abs/2611.05083
+**作者**: Nafie El Amrani, Moritz Heep, Florian Bernard
 **来源**: cs.CV
 **匹配关键词**: Foundation Models
 **相关性评分**: 1.0
@@ -4676,21 +2416,126 @@
 
 **摘要**:
 
-> Classical structure-from-motion reconstruction proceeds iteratively, refining camera poses and scene geometry from a current estimate. This allows maps to easily expand without recomputing already computed views, or geometry estimates to improve as more observations are provided. Most geometric foundation models, however, predict entire geometry in a single forward pass or update a recurrent state as frames arrive sequentially, making this expansion and refinement non-trivial. We introduce Solv3R, a looped transformer that learns to continue solving multi-view geometry from its current state. Importantly, its update operator is independent of the iteration count, allowing previously refined and newly introduced views to be jointly updated regardless of how ``solved'' they are. We train the operator to preserve accurate reconstructions under continued iteration and correct inaccurate states, enabling refinement of fixed image collections and integration of new observations. Representati
+> Estimating semantic correspondences between different object instances of similar categories in real-world images is a fundamental challenge in computer vision. While the recent progress in foundation models has significantly advanced solutions for such difficult image correspondence problems, respective methods are often insufficiently regularised. For example, common nearest-neighbour matching with foundation model features often results in noisy correspondences, which is particularly prominent when solving for dense correspondences. In this work, we tackle image matching via functional maps, which have been popularised for 3D shape matching due to their powerful spectral formalism utilising an efficient low-dimensional linear representation. However, functional maps require that domains (in our cases the rectangular image grids) are equipped with an informative and non-trivial geometry. To define a meaningful manifold structure for images, we use Galerkin's method from finite elemen
 
 ---
 
-### [329] Can You Predict the Next Mind? Toward Multi-Turn Multi-Party Mental World Modeling
+### [176] RoboTryOn: Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On
 
-**链接**: https://arxiv.org/abs/2611.02988
-**作者**: Jiahao Huang and Zheng Lian
-**来源**: cs.HC
+**链接**: https://arxiv.org/abs/2611.05163
+**作者**: Seungyong Lee, Suhyeok Jang, Minyoung Kim, Jinwoo Shin
+**来源**: cs.RO cs.AI
 **匹配关键词**: Foundation Models
 **相关性评分**: 1.0
 **数据来源**: arXiv CS Mailing
 
 **摘要**:
 
-> While multimodal foundation models have achieved remarkable progress in physical world modeling, generation, and embodied reasoning, their capacity for dynamic mental world modeling remains underexplored. Existing benchmarks predominantly focus on static mental state perception or short-horizon decision-making, overlooking the dynamic mental trajectories inherent in multi-party, multi-turn interactions. To bridge this gap, we introduce M$^3$WME-Bench, a benchmark designed to evaluate mental world modeling conditioned on the evolving actions of interactants. Specifically, models are tasked with forecasting a target subject's future mental states and behaviors over extended social interactions. In addition to the benchmark suite, we construct M$^3$WME-23K, a dedicated training dataset, and establish a competitive baseline named MindNext-7B. Extensive evaluations across four representative paradigms (general MLLMs, emotion-specialized MLLMs, agentic frameworks, and World Foundation Models
+> Robot foundation models have shown remarkable performance in robot control, yet adapting them to a new task still relies heavily on teleoperated demonstrations. Egocentric human videos offer a scalable substitute, but overlaying rendered robots on human videos or retargeting human poses into robot actions leaves significant visual or action gaps for high-DoF robot embodiments. To address this limitation, we propose RoboTryOn, which treats human-to-robot translation as virtual try-on: try-on keeps the person and swaps the garment, RoboTryOn keeps the demonstrated motion and swaps the human for the robot. Specifically, RoboTryOn converts a human video into a video of the target robot specified by a reference image, while preserving the original task, objects, and background. To maintain visual consistency, we translate selected keyframes autoregressively and use them to guide video synthesis with motion conditioned on the human hand skeleton. Additionally, we use an inverse dynamics mode
+
+---
+
+### [177] High-fidelity training-free photovoltaic module mapping from multi-view UAV imagery
+
+**链接**: https://arxiv.org/abs/2611.05131
+**作者**: WenHao Duana, Qi Chena, Penglei Zhang, Ruizhe Deng, Zhiling Guo, Haoran Zhang 等 (7 人)
+**来源**: cs.CV
+**匹配关键词**: Foundation Models
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> High-fidelity photovoltaic (PV) module mapping requires complete instance recovery and accurate delineation. Vision foundation models offer zero-shot segmentation, but converting incomplete and inconsistent predictions across views into a complete, geometrically accurate map of individual modules remains challenging. We propose the Multi-View PV Module Mapper (MV-PVMapper), a training-free framework coupling vision foundation models with unmanned aerial vehicle (UAV) photogrammetry. First, Segment Anything Model 3 (SAM 3) generates candidates from original images using text prompts. Their contours are then transferred into object space through per-module slope correction to limit distortion from surface-model noise, and verified against representative module dimensions to guide cross-view instance selection. Finally, accepted instances return to all covering images as box prompts for SAM~3, supplementing text prompts with spatial cues for iterative segmentation, verification and fusion
+
+---
+
+### [178] Recursa: Toward Recursively Self-Improving Foundation Model Systems
+
+**链接**: https://arxiv.org/abs/2611.04035
+**作者**: Erkang Zhu, Yin Lin, Xiaorong Shi, Xuanrui Lin, Jingren Zhou
+**来源**: cs.AI
+**匹配关键词**: Foundation Models
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Foundation models in changing environments can encounter unfamiliar domain knowledge that their original training did not cover. However, new domains rarely provide large amounts of expert-created training data or reliable supervisory signals for further training. We introduce Recursa, a foundation model system that adapts to new domains by learning from its own experience without human experts or a stronger teacher model. Recursa uses a knowledge repository to store what it learns: domain-specific skills and instructions on when to apply them, along with memories of past task experiences and reflections on what to improve. Recursa bootstraps the repository from domain materials and then refines it through recursive self-improvement. It uses parallel learners to execute tasks and synthesize local improvements, then validates and merges the improvements into the knowledge repository. On Harvey LAB's Firm Knowledge benchmark, Recursa raises the all-pass rate on held-out test tasks from 3
+
+---
+
+### [179] Dr. No: Feature Steering for Abstention in Vision-Language Models
+
+**链接**: https://arxiv.org/abs/2611.03862
+**作者**: Farid Hasanov, Riccardo Renzulli, Bahram Zonooz, Mykola Pechenizkiy, Decebal Constantin Mocanu
+**来源**: cs.LG
+**匹配关键词**: Foundation Models
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Large foundation models often answer even when the available visual or textual evidence is insufficient to support a reliable conclusion. This failure to abstain makes them hard to trust in high-stakes or information-seeking settings, where a confident but unsupported answer can be worse than no answer at all. It also raises a natural question: can the internal mechanisms behind this behaviour be identified and controlled at inference time? We present Dr. No, a feature-steering approach that mines sparse autoencoder (SAE) features associated with abstention and commitment, then modulates a small set of them during the prefill pass, without retraining the base model. Dr. No is evaluated on LLaVA-1.6 Mistral 7B across multimodal abstention benchmarks, including UNK-VQA and MM-UPD, and additionally benchmarked on language reasoning tasks using Qwen3.5-2B on AbstentionBench subsets. Against multiple uncertainty-based abstention baselines, feature steering achieves a more favourable balance
+
+---
+
+### [180] From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence
+
+**链接**: https://arxiv.org/abs/2611.05376
+**作者**: Hao Fei
+**来源**: cs.CL cs.AI
+**匹配关键词**: Foundation Models
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, attention has settled on one kind of intelligent individual, the embodied robot; we argue that the era of Physical AI holds a second kind of equal importance, the person augmented by AI. Alongside artificial general intelligence, which asks how intelligent a machine can be, stands AI-augmented human intelligence (AHI), which asks how much intelligence a machine can enable in a particular person. Realizing it calls for a new kind of system, a cognitive symbiont: a lifelong, embedded, real-time, priva
+
+---
+
+### [181] SPA-Q: Structure-Preserving Adaptive Post-Training Quantization for Monocular Depth Estimation
+
+**链接**: https://arxiv.org/abs/2611.04491
+**作者**: Jaemin Choi, Jincheol Yang, Nahyun Lim, Yun-Seong Jeong, Matti Zinke, Hyunwoo Yu 等 (7 人)
+**来源**: cs.CV
+**匹配关键词**: Foundation Models
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Monocular depth estimation (MDE) has advanced rapidly with the emergence of foundation models such as Depth Anything. Their transformer-based architectures provide strong generalization across diverse scenes and domains, but also incur high computational and memory cost, making efficient deployment challenging. Post-Training Quantization (PTQ) provides an efficient and practical solution for model compression, yet low-bit PTQ remains challenging for MDE models. When applying PTQ to Depth Anything, we identify two key challenges: (i) independently minimizing the quantization error of the query and key projections fails to preserve the attention maps induced by their interaction, and (ii) quantization errors accumulate across layers, resulting in intermediate feature distribution shifts. To address these issues, we propose SPA-Q, a Structure-Preserving Adaptive PTQ framework for MDE, consisting of two main components. First, Attention-Preserving Calibration (APC) determines query and key
+
+---
+
+### [182] DUNEDepth: Bronchoscopic Depth and Pose Estimation via Hybrid Adaptation of a 3D-Vision Foundation Model
+
+**链接**: https://arxiv.org/abs/2611.04025
+**作者**: Qi Chang, Austin Kao, Ange Lou, William E. Higgins
+**来源**: eess.IV cs.CV
+**匹配关键词**: Foundation Models
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> State-of-the-art bronchoscopy guidance systems and computer-aided diagnosis methods have emerged as important tools for early lung cancer detection. Effective use of these tools depends on being able to accurately link a patient's bronchoscopic airway exam video to their pre-operative 3D chest CT scan. Unfortunately, the derivation of such links, which include bronchoscope depth and camera motion, from the exam video remains an open problem. Building on recently proposed 3D-vision foundation models, we propose DUNEDepth, a hybrid architecture that combines a shared DUNE ViT encoder, a twin MASt3R cross-attention decoder structure, and a prediction head that includes elements of the MASt3R and Reloc3r models. To fine-tune the architecture to our application, we utilize an integrated hybrid synthetic-supervised/self-supervised training strategy that draws on both bronchoscopic video and CT-derived virtual bronchoscopic views. Experiments drawing on bronchoscopic video sequences demonstra
+
+---
+
+### [183] BEND 2.0: Benchmarking the Capabilities Needed to Design DNA
+
+**链接**: https://arxiv.org/abs/2611.03806
+**作者**: Andreas Bjerregaard, Rachael DeVries, Dionysia Danai Brilli, Panagiotis Antoniadis, Yan Li, Anders Krogh 等 (9 人)
+**来源**: q-bio.GN cs.LG q-bio.QM
+**匹配关键词**: Foundation Models
+**相关性评分**: 1.0
+**数据来源**: arXiv CS Mailing
+
+**摘要**:
+
+> Genomic foundation models are increasingly used to propose DNA sequences and edits. But successful design requires capabilities that current benchmarks do not measure. Here we introduce BEND 2.0 (BENchmark for DNA language models), which tests how well models predict the effects of DNA changes and whether these predictions can guide sequence design. Across eight tasks built on five experimental datasets, we find that model choice and how representations are accessed both affect performance. Linear readouts fitted to frozen representations can match or exceed models' native outputs, and functional post-training substantially improves the models' capabilities. Linear readouts transfer well across experimental assays and genes, suggesting that models capture functional patterns beyond the data used to fit individual predictors. At the same time, strong prediction of average effects can conceal weaker prediction of context-specific effects, and accurate prediction of combined mutation effe
 
 ---
