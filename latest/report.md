@@ -1,152 +1,153 @@
-# 📚 学术研究进展分析 - 2026-11-07
+# 📚 学术研究进展分析 - 2026-11-09
 
-**分析论文数**: 113 篇 | **涵盖主题**: 4 个
-**论文详情**: [papers_2026-11-07.md](papers_2026-11-07.md)
+**分析论文数**: 30 篇 | **涵盖主题**: 5 个
+**论文详情**: [papers_2026-11-09.md](papers_2026-11-09.md)
 
 ---
 
 ## 📑 目录
 
-- [LLM (大语言模型)](#llm-大语言模型) (94 篇)
-- [MLLM (多模态大语言模型)](#mllm-多模态大语言模型) (2 篇)
-- [EEG / BCI (脑电与脑机接口)](#eeg--bci-脑电与脑机接口) (3 篇)
-- [Foundation Models (基础模型)](#foundation-models-基础模型) (18 篇)
+- [LLM (大语言模型)](#llm-大语言模型) (12 篇)
+- [MLLM (多模态大语言模型)](#mllm-多模态大语言模型) (10 篇)
+- [EEG / BCI (脑电与脑机接口)](#eeg--bci-脑电与脑机接口) (10 篇)
+- [MI / ME (运动想象与运动执行)](#mi--me-运动想象与运动执行) (3 篇)
+- [Foundation Models (基础模型)](#foundation-models-基础模型) (2 篇)
 
 ---
 
 ## 🔬 LLM (大语言模型)
 
-*本主题共 94 篇相关论文*
+*本主题共 12 篇相关论文*
 
 **高度相关论文:**
 
-- [1] **LLM-Assisted Label Noise Correction for EEG-Based Sleep Stage Classification**
-  > Automatic sleep stage classification from electroencephalography (EEG) signals is a critical task in clinical sleep medicine. While deep learning mode...
+- [1] **DUET: Rapid Automated Feedback for UML Class Diagrams and ER Diagrams**
+  > DUET converts them to PlantUML through a decomposed multimodal large language model ( MLLM ) pipeline, compares its structure against instructor-provi...
 
-- [2] **Thalamus-Reasoning: A Multimodal Large Language Model for Multi-Sample Omics Reasoning**
+- [2] **An accessible efficient intervertebral disc vision-language model training strategy with LLM-based retrieval method for spine MRI report generation**
+  > This study explores a low-cost and effective MLLM -based approach for automated radiology report generation from lumbar spine MRI, aiming to improve r...
 
-- [3] **FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLM Serving**
-  > In large language model (LLM) serving systems, the key-value (KV) cache grows linearly with sequence length and concurrency, so long-context inference...
+**相关论文** (10 篇):
 
-- [4] **StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference**
-  > Quantization reduces the memory and bandwidth demands of large language model (LLM) inference but can degrade accuracy; offloading higher-precision da...
-
-- [5] **Spatiotemporal Dynamics-Aware Industrial Anomaly Detection and Reasoning**
-  > Industrial Anomaly Detection (IAD) is a long-established problem that aims to detect defects in industrial products during manufacturing for quality c...
-
-- [6] **TileQuant: Tile as the Precision-Allocation Unit for LLM Mixed-Precision Post-Training Quantization**
-  > Post-training quantization (PTQ) reduces large language model (LLM) deployment costs, but preserving quality requires accounting for uneven weight sen...
-
-- [7] **SKIM: Pruning Large Language Model Agents via Selective Knowledge Informed Masking**
-  > Large Language Model (LLM) agents are increasingly deployed under structured generation, where grammar constraints enforce output format at inference ...
-
-- [8] **The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI**
-  > Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet...
-
-**相关论文** (58 篇):
-
-- [9] The Judge is Part of the Experiment: Auditing Peer Context Sensitivity in LLM-Based Evaluation
-- [10] Taurus: LLM-in-the-Loop CT Annotation Matches Coding Agents at Half the Cost
-- [11] PromptOps: Iterative Prompt Optimization for LLM-as-a-Judge Systems
-- [12] DictLLM: Post-training Compression of Large Language Model with Dictionary Kernels
-- [13] EvoDR: Evolving Dispatching Rules via Large Language Model for Dynamic Flexible Assembly Flow Shop Scheduling
-- [14] ThermoLLM: LLM-Based Multi-Zone HVAC Control with a Spatiotemporal Context
-- [15] Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents
-- [16] TriAttention: Unified Sparse Mixed-Precision Attention for Long-Context LLM Inference
-- [17] SteelAgent: LLM-Orchestrated, Physics-Informed Steel Property Prediction with Audited Generalization and Calibrated Uncertainty
-- [18] What the Middleman Delivers: Answer Behavior, Tool Permissions, and Billed Usage in LLM API Relays
-- [19] ACSeL: Adaptive Configuration Search for Hardware-Constrained LLM Inference
-- [20] PixelMoE: Scaling Pixel-Space Diffusion with LLM-Style Mixture-of-Experts
-- [21] Do Recommenders Need to Think in Words? Latent Reasoning for Efficient LLM-Based Recommendation
-- [22] Adapting LLM Judges to Observed Human Annotation Policy through Soft Prompt Tuning
-- [23] MemForm: Benchmarking Memory Formation Poisoning in LLM Agents
-- [24] Learning Multi-Agent Orchestration:Higher-Order Interactions in Policy Improvement
-- [25] LeanStream: A Speculate-and-Refine Streaming Framework for Efficient on-Device LLM Inference
-- [26] Accepted but Wrong: Silent Failures of LLM Code Repairs after API Migrations
-- [27] When LLM Routers Overpay: The Cost of Strong-Model Preference
-- [28] CLaRE-ty Amid Chaos: Quantifying Representational Entanglement to Predict Ripple Effects in LLM Editing
-- 以及 [29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66]
-
-**其他提及** (28 篇): [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94]
+- [3] Towards a rubric-based llm -as-a-judge for patent claim translation evaluation
+- [4] Lost in context compaction: When LLM systems drop side constraints
+- [5] Who Judges the Judges? A Multilingual Probe for Complementary LLM Evaluation Metrics
+- [6] J-ToRL: Tool-Integrated LLM -as-a-Judge via Reinforcement Learning
+- [7] BHAID: A Dataset of LLM -Generated Text in Indian Languages with a Dual Contrastive Learning Framework for Detection
+- [8] Atomic and Holistic LLM Judges for Reference-Grounded Support Labels: A Prompt-Controlled Comparison
+- [9] LLM -aided heuristic for the extended truck-drone-collection station delivery problem with dual-mode collaboration and drone multi-visit
+- [10] Investigating Learner-Aware Design of LLM -Generated Educational Feedback
+- [11] Same Job, Different Gender: Uncovering LLM Stereotypes via Counterfactual Biographies
+- [12] Where Does Plan Validity Live in Grammar-Constrained LLM Planning? An Applicability Mask Induced from Environment Rollouts
 
 
 ---
 
 ## 🔬 MLLM (多模态大语言模型)
 
-*本主题共 2 篇相关论文*
+*本主题共 10 篇相关论文*
 
 **高度相关论文:**
 
-- [2] **Thalamus-Reasoning: A Multimodal Large Language Model for Multi-Sample Omics Reasoning**
+- [1] **DUET: Rapid Automated Feedback for UML Class Diagrams and ER Diagrams**
+  > DUET converts them to PlantUML through a decomposed multimodal large language model ( MLLM ) pipeline, compares its structure against instructor-provi...
 
-- [5] **Spatiotemporal Dynamics-Aware Industrial Anomaly Detection and Reasoning**
-  > Industrial Anomaly Detection (IAD) is a long-established problem that aims to detect defects in industrial products during manufacturing for quality c...
+- [2] **An accessible efficient intervertebral disc vision-language model training strategy with LLM-based retrieval method for spine MRI report generation**
+  > This study explores a low-cost and effective MLLM -based approach for automated radiology report generation from lumbar spine MRI, aiming to improve r...
+
+**相关论文** (1 篇):
+
+- [13] Render Structure Uncertainty for HTML Repair in MLLM -based UI-to-Code Generation
+
+**其他提及** (7 篇): [14, 15, 16, 17, 18, 19, 20]
 
 
 ---
 
 ## 🔬 EEG / BCI (脑电与脑机接口)
 
+*本主题共 10 篇相关论文*
+
+**高度相关论文:**
+
+- [21] **Optimization of Signal Features in EEG -BCI Based on Multi-Class Subject-Specific Motor Imagery Classification**
+  > Recent research confirms that feature selection is an unresolved challenge rather than a finished preprocessing task in MI EEG [5]. … dependencies wit...
+
+- [22] **EEG -Based Brain Dynamics in Motor Execution and Imagery: Spectral Analysis with Potential Applications in Neurorehabilitation**
+  > of real-time EEG -based device control, establishing the foundation for subsequent BCI research [16]. In the present study, EEG signals are analyzed o...
+
+- [23] **Recasting Visual Language Models as EEG Foundation Models for Clinical Neurodiagnostics**
+  > domain-specific pretraining on the unannotated EEG signal. The quality of this unified … EEG visually, emulating to a degree the way human clinicians ...
+
+- [24] **Temporal coupling shapes the effects of prolonged muscle-tendon vibration on sensorimotor EEG activity during motor imagery**
+  > Motor imagery (MI) recruits sensorimotor networks overlapping those engaged during physical execution and represents a promising rehabilitation tool. ...
+
+- [25] **EEGDash Corpus: A Training-Ready Public Corpus for EEG Foundation Models**
+  > Abstract—Foundation models for electroencephalography ( EEG ) are pretrained on tens of thousands of hours of recordings, and … EEG datasets, as the g...
+
+**相关论文** (5 篇):
+
+- [26] Distributed EEG phase-resetting dynamics predict depressive symptom severity in untreated adults
+- [27] EEG network features and APOE ε4 for amyloid classification in mild cognitive impairment
+- [28] EEG Biomarkers for Stress Detection: A Comparative Analysis of Hjorth Parameters, Spectral and Fractal-Dimension Measures
+- [29] Comprehensive benchmarking of EEG biomarkers for Parkinson's disease: robustness, reliability, and clinical discriminability across multiple datasets
+- [30] Recognition of emotional state using EEG signals using an adaptive deep learning model
+
+
+---
+
+## 🔬 MI / ME (运动想象与运动执行)
+
 *本主题共 3 篇相关论文*
 
 **高度相关论文:**
 
-- [1] **LLM-Assisted Label Noise Correction for EEG-Based Sleep Stage Classification**
-  > Automatic sleep stage classification from electroencephalography (EEG) signals is a critical task in clinical sleep medicine. While deep learning mode...
+- [21] **Optimization of Signal Features in EEG -BCI Based on Multi-Class Subject-Specific Motor Imagery Classification**
+  > Recent research confirms that feature selection is an unresolved challenge rather than a finished preprocessing task in MI EEG [5]. … dependencies wit...
 
-- [95] **Backbone-Informed Adaptation after EEG Pretraining: A Capacity-Controlled Study**
-  > Electroencephalography (EEG) foundation models learn representations that combine information across channels and time. This structure motivates adapt...
+- [22] **EEG -Based Brain Dynamics in Motor Execution and Imagery: Spectral Analysis with Potential Applications in Neurorehabilitation**
+  > of real-time EEG -based device control, establishing the foundation for subsequent BCI research [16]. In the present study, EEG signals are analyzed o...
 
-**相关论文** (1 篇):
-
-- [96] Uncertainty calibration in Bayesian M/EEG source imaging
+- [24] **Temporal coupling shapes the effects of prolonged muscle-tendon vibration on sensorimotor EEG activity during motor imagery**
+  > Motor imagery (MI) recruits sensorimotor networks overlapping those engaged during physical execution and represents a promising rehabilitation tool. ...
 
 
 ---
 
 ## 🔬 Foundation Models (基础模型)
 
-*本主题共 18 篇相关论文*
+*本主题共 2 篇相关论文*
 
 **高度相关论文:**
 
-- [95] **Backbone-Informed Adaptation after EEG Pretraining: A Capacity-Controlled Study**
-  > Electroencephalography (EEG) foundation models learn representations that combine information across channels and time. This structure motivates adapt...
+- [23] **Recasting Visual Language Models as EEG Foundation Models for Clinical Neurodiagnostics**
+  > domain-specific pretraining on the unannotated EEG signal. The quality of this unified … EEG visually, emulating to a degree the way human clinicians ...
 
-**相关论文** (10 篇):
-
-- [97] Open-HumanWAM: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models
-- [98] When, Where, How: Active In-Context Learning for Tabular Foundation Models
-- [99] When GeoFMs Meet VHR: Benchmarking Foundation Models on Very High Resolution Earth Observation Imagery
-- [100] Genome-Factory: A Library for Tuning, Deploying, and Interpreting Genomic Foundation Models
-- [101] Scaling Recurrence-aware Foundation Models for Clinical Records via Next-Visit Prediction
-- [102] Do sEMG Foundation Models Improve Cross-Subject Generalisation?
-- [103] PiCo: Physics-Informed Concept Probing for Geo-Foundation Models
-- [104] Blueprint2CAD: Benchmarking Foundation Models on Engineering Drawing-to-CAD Render Correspondence
-- [105] Towards fNIRS foundation models: A curated corpus of 67 public datasets with channel positions in MNI space
-- [106] GeoCore-9B: Towards Geo-Aware Generative Foundation Models in Earth Observation
-
-**其他提及** (7 篇): [107, 108, 109, 110, 111, 112, 113]
+- [25] **EEGDash Corpus: A Training-Ready Public Corpus for EEG Foundation Models**
+  > Abstract—Foundation models for electroencephalography ( EEG ) are pretrained on tens of thousands of hours of recordings, and … EEG datasets, as the g...
 
 
 ---
 
 ## 📊 统计
 
-- **LLM (大语言模型)**: 94 篇
-- **MLLM (多模态大语言模型)**: 2 篇
-- **EEG / BCI (脑电与脑机接口)**: 3 篇
-- **Foundation Models (基础模型)**: 18 篇
+- **LLM (大语言模型)**: 12 篇
+- **MLLM (多模态大语言模型)**: 10 篇
+- **EEG / BCI (脑电与脑机接口)**: 10 篇
+- **MI / ME (运动想象与运动执行)**: 3 篇
+- **Foundation Models (基础模型)**: 2 篇
 
 ### 关键词命中分布
 
-- **LLM**: 89 篇
-- **Large Language Model**: 19 篇
-- **Foundation Models**: 18 篇
-- **EEG**: 3 篇
-- **Multimodal Large Language Model**: 2 篇
-- **MLLM**: 1 篇
+- **LLM**: 11 篇
+- **EEG**: 10 篇
+- **MLLM**: 10 篇
+- **BCI**: 2 篇
+- **Motor Imagery**: 2 篇
+- **Foundation Models**: 2 篇
+- **Motor Execution**: 1 篇
+- **Large Language Model**: 1 篇
+- **Multimodal Large Language Model**: 1 篇
 
 ---
-*生成时间: 2026-11-07 04:06:15*
+*生成时间: 2026-11-09 02:31:30*
