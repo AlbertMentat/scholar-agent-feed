@@ -1,160 +1,163 @@
-# 📚 学术研究进展分析 - 2026-11-10
+# 📚 学术研究进展分析 - 2026-11-11
 
-**分析论文数**: 174 篇 | **涵盖主题**: 5 个
-**论文详情**: [papers_2026-11-10.md](papers_2026-11-10.md)
+**分析论文数**: 308 篇 | **涵盖主题**: 5 个
+**论文详情**: [papers_2026-11-11.md](papers_2026-11-11.md)
 
 ---
 
 ## 📑 目录
 
-- [LLM (大语言模型)](#llm-大语言模型) (138 篇)
-- [MLLM (多模态大语言模型)](#mllm-多模态大语言模型) (13 篇)
-- [EEG / BCI (脑电与脑机接口)](#eeg--bci-脑电与脑机接口) (14 篇)
+- [LLM (大语言模型)](#llm-大语言模型) (245 篇)
+- [MLLM (多模态大语言模型)](#mllm-多模态大语言模型) (7 篇)
+- [EEG / BCI (脑电与脑机接口)](#eeg--bci-脑电与脑机接口) (10 篇)
 - [MI / ME (运动想象与运动执行)](#mi--me-运动想象与运动执行) (1 篇)
-- [Foundation Models (基础模型)](#foundation-models-基础模型) (17 篇)
+- [Foundation Models (基础模型)](#foundation-models-基础模型) (50 篇)
 
 ---
 
 ## 🔬 LLM (大语言模型)
 
-*本主题共 138 篇相关论文*
+*本主题共 245 篇相关论文*
 
 **高度相关论文:**
 
-- [1] **Imagine A Reference: MLLM -Augmented Versatile Image Stylization**
-  > Image stylization under multi-modal conditions faces challenges in semantic-style alignment due to limited cross-modal understanding. While Multimodal...
+- [1] **Teamknitt: Configuring, Observing and Intervening in LLM-Agent Teams through the Lens of Dynamical-Systems and Human-Team Theory**
+  > Most frameworks for teams of large language model (LLM) agents fix the team's shape inside the software: who talks to whom, how much is passed along, ...
 
-- [2] **MLLM -Facilitated Peer-Review Self-Correction for Continual Domain Shift Learning**
-  > that utilizes a Multimodal Large Language Model ( MLLM ) as an expert reviewer and designs a … to iteratively refine predictions guided by MLLM -gener...
+- [2] **System Prompts Affect Response Bias More Than Discriminability in LLM Safety**
+  > Large language model safety evaluations often focus on a compliance-refusal tradeoff: models should refuse unsafe requests without refusing safe ones....
 
-- [3] **LLM -Assisted Multimodal Graph Attention Network for Multilabel Tourist Profiling**
-  > We introduce LANTERN , a framework for multi-label tourist profiling that couples Large Language Model ( LLM ) annotation with heterogeneous graph rep...
+- [3] **Compositional Conformal Risk Control for Multi-Stage LLM Cascades**
+  > Multi-stage large language model (LLM) cascades balance accuracy and inference cost, but reliable deployment also requires controlling error risk and ...
 
-- [4] **Language as Trait, Politeness as Strategy: Controlled Tests of Linguistic Effects in LLM Social-Deduction Agents**
-  > Large language model (LLM) agents coordinate through conversation, and the same message can be phrased in simpler or more complex language, bluntly or...
+- [4] **How Much Skill Orchestration Can LLM Agents Compile Away? Execution-Grounded Specialization for Token-Efficient Skill Use**
+  > Reusable skills guide large language model (LLM) agents through recurring requests, but each invocation still requires the model to interpret the skil...
 
-- [5] **Security Claims and Performance Evidence in TEE-Based LLM Inference: A Systematic Review on Assumptions, Validation, and Reproducibility**
-  > As large language model ( LLM ) inference increasingly relies on third-party infrastructure, trusted … to measured performance in TEE-based generative...
+- [5] **When Experience Becomes a Backdoor: Poisoning Self-Evolving LLM Agents via Failure-Aware Task Optimization**
+  > Large language model (LLM) agents increasingly improve themselves through self-evolution, distilling execution experience into persistent, reusable sk...
 
-- [6] **Measurement-Aware Multimodal LLM for No-Reference Low-Dose CT Quality Assessment**
-  > No-reference image quality assessment (IQA) of low-dose CT predicts the score that radiologists would assign to a slice without a full-dose reference,...
+- [6] **Competing Influence in LLM Populations: Budget Timing and Baseline Drift**
+  > When competing campaigns target a population of large language model (LLM) agents, observed opinion changes may reflect both campaign influence and ch...
 
-- [7] **Model-as-a-Service in the Wild: Characterizing Production LLM Inference Clusters at Scale**
-  > Large language model ( LLM ) inference has been widely deployed in modern cloud platforms … In this paper, we analyze a six-month production LLM infer...
+- [7] **Represented but Not Used: Value-Policy Dissociation in LLM Agents**
+  > Large language model (LLM) agents need to choose actions whose consequences unfold over multiple future steps, yet poor decisions do not reveal whethe...
 
-- [8] **HRaLLM: Hyperbolic Rough Aware Large Language Model for Multimodal Action Reasoning**
-  > of 3D skeleton sequences to build a comprehensible motion vocabulary for MLLM . Furthermore, to mitigate hallucination risks caused by cross-… capacit...
+- [8] **Steering Emergent Behavior in Multi-Agent LLM Systems via Information Networks**
+  > Large language model (LLM) agents increasingly operate in groups, each pursuing an individual objective while jointly determining system performance. ...
 
-- [9] **Grounding-Aware Judge Reward Reinforcement Learning for Out-of-Domain Face Anti-Spoofing**
-  > Face Anti-Spoofing (FAS) must distinguish genuine faces from presentation attacks. A unified Multimodal Large Language Model (MLLM) is an attractive s...
+- [9] **The Surprising Effectiveness of Deleting Weights in LLM Post-Training**
+  > How little of a pretrained large language model (LLM) has to change for it to acquire new capabilities? We find that zeroing fewer than 0.05% of its w...
 
-- [10] **Evidence-Grounded Reliable Anchoring for Interactive Text-to-Image Person Re-identification**
-  > Recent multimodal large language model ( MLLM )-based interactive TIReID frameworks … First, the MLLM judge is commonly adapted with coarse response-l...
+- [10] **Done Is Not Correct: Measuring Silent Failures and Self-Verification Calibration When LLM Agents Take CAD Actions**
+  > When a large language model (LLM) agent writes parametric CAD code from a natural-language specification, syntactic success decouples from semantic co...
 
-- [11] **Real-time edge intelligence for wheat disease management: integrating lightweight severity grading with LLM -driven cognitive reasoning**
-  > system that integrates lightweight visual perception with Large Language Model ( LLM )-driven cognitive reasoning. First, we developed … management re...
+- [11] **WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems**
+  > Large language model agents are increasingly deployed as multi-agent systems rather than as a standalone model operating within a single context. Rece...
 
-- [12] **On the Limits of Execution Traces for Repairing Assertion Failures in LLM-Generated Code**
-  > Iterative repair returns a failed program's error to a large language model (LLM) and asks it to fix it. After iterative repair, the remaining failure...
+- [12] **RTLREX: LLM-Guided Framework for Exact High-Level RTL Recovery**
+  > Hardware designs may be available only as gate-level netlists or input-output descriptions when the original register-transfer-level (RTL) design and ...
 
-- [13] **A Collaborative Thing-Edge-Cloud Architecture for the Agentic AI-Enabled Metaverse**
-  > heterogeneous learning-based agents and multimodal large language model ( MLLM )-based agents across system layers. At the edge layer, a … using an ML...
+- [13] **Pixie: A Context-Aware Multi-Agent Multi-Modal Large Language Models (LLM) Architecture for Digital Marketing**
+  > We present Pixie, a context-aware, multi-agent large language model (LLM) architecture designed to enhance digital marketing operations across real-ti...
 
-**相关论文** (86 篇):
+- [14] **Replay Fidelity in LLM Agent Evaluation: Randomness, Hidden State, and Test Oracles in AppWorld**
+  > Reproducibility in large language model (LLM) agent evaluation depends on replay fidelity: which parts of an execution trace are reconstructed, contro...
 
-- [14] ODD+LLM: Specifying LLM-Agent Behavior for Reproducible Social Simulation
-- [15] Counterfactual Distillation: Internalizing Reflective Experience into LLM Agent
-- [16] Architectural layered opacity in llm -mediated hardware reverse engineering pipelines
-- [17] Copies Are Not Confirmations: How News Duplication Fools LLM Judges and Continual Learners
-- [18] Phantom Consensus: Measuring Social Reasoning in Multi-Agent LLM Decision-Making
-- [19] Autoregressive Diffusion World Models for Off-Policy Evaluation of LLM Agents
-- [20] What Makes a Question Curious? Measuring Model Curiosity in Human-LLM Interactions
-- [21] Sensed but Not Told: Hidden Physiological Adaptation Shapes LLM Persuasion
-- [22] Ensemble Methodology for Reference-Free Confidence Estimation in LLM-based Code Summarization
-- [23] Using an LLM to Tackle Difficult Cases in NER for Nepali Tweets
-- [24] ClawTrace: Cost-Aware Tracing for LLM Agent Skill Distillation
-- [25] TailSieve: Partial-Rollout-Guided Tail Routing for LLM Rollouts
-- [26] Beyond Truncation? Entailment-Licensed Elision and the Limits of Semantic Preservation in LLM Decoding
-- [27] MemoryDojo: Benchmarking Poisoning Through LLM Agent Memory
-- [28] When Disclosure Is Compulsory: Evaluating Ride-Hailing Rebalancing Policies with Self-Interested LLM Driver Agents
-- [29] FIA- LLM : feedback conditioned learning state estimation with large language models
-- [30] When Routine Operations Break Architectural Pattern Relationships in LLM Agent Harnesses
-- [31] Anatomy of LLM Sycophancy: What a Flip Rate Hides
-- [32] Wind Turbine Maintenance Log Labelling Framework: LLM-Driven Data Correction and Enrichment via Semantic Extraction of Reliability Intelligence
-- [33] RouteAlign: Aligning Task Requirements with Model Profiles for LLM Service Selection
-- 以及 [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
+- [15] **Slim Foundation Models for Latency-Critical Recommendation Serving**
+  > Click-through rate (CTR) prediction is a core component of recommendation and advertising systems. Large language models (LLMs) offer rich semantic pr...
 
-**其他提及** (39 篇): [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129]...
+- [16] **Imperfectly Imperfect: Evaluating Graded Cognitive Diversity in LLM Persona Simulations**
+  > Large language model (LLM) agents are increasingly used as synthetic participants in social, behavioural, and decision-making research, yet it remains...
+
+- [17] **Efficient LLM Adaptation with Forward-Only Passes**
+  > Large language model (LLM) inference serving is undergoing rapid growth and large-scale deployment, motivating us to rethink how the inference process...
+
+- [18] **BRAT: Bounded Residual-Aligned Training for Stable Multi-Pass LLM Post-Training**
+  > Reinforcement learning for large language model post-training often reuses each batch of sampled rollouts for several gradient passes to amortize the ...
+
+- [19] **MetaPI: Constructing Prompt Injection Benchmarks from LLM Agent Benchmark**
+  > Large language model (LLM) agents increasingly perform complex tasks using high-privilege tools, making indirect prompt injection (IPI) a critical sec...
+
+- [20] **Safeguarding Agentic AI in Radiology Workflows: A Multimodel Evaluation of Rule-based and Large Language Model-based Verification**
+  > Purpose: To estimate how often tool-using large language model (LLM) agents record clinically relevant false or unsupported information in simulated r...
+
+- [21] **PARIS: A multi-agent LLM framework for end-to-end, PRISMA-guided systematic literature reviews with pre-synthesis corpus quality assessment**
+  > Systematic literature reviews (SRs) remain slow and labor-intensive, and most automation tools address single stages of the workflow. We present PARIS...
+
+- [22] **SCALE: Small-Model-First Concept Abstraction with LLM-Guided Experience Internalization**
+  > Autonomous agents must continually acquire reusable knowledge from experience without relying on costly large language model (LLM) reasoning for every...
+
+- [23] **Inside the Trading Loop: Markets, Models, and Moves with LLM Agents**
+  > We built a hybrid multi-agent trading system that combines large language model (LLM) analysts with momentum-based portfolio construction and rule-bas...
+
+**相关论文** (158 篇):
+
+- [24] Don't Blame The Preferences: Examining The Emergence of Sycophancy in LLM Training
+- [25] IF:CARGO: LLM-Based Semantic Compilation for Al-Native Rule Programming Games
+- [26] Zeroth-Order Riemannian Optimization on Fixed-Rank Manifolds for LLM Fine-Tuning
+- [27] When Safety Becomes An Outlier: Understanding the Retention of LLM Safety Behaviors
+- [28] Understanding Efficient LLM Serving: An Empirical Study of Frameworks, Optimizations Algorithms, and Real-World Adoption
+- [29] When Fancy Eviction Fails: Rethinking Cache Replacement For LLM Prefix Reuse
+- [30] When Disclosure Is Compulsory: Evaluating Ride-Hailing Rebalancing Policies with Self-Interested LLM Driver Agents
+- [31] Autonomy Is Absent, Not Eroded: An Observational Study of User Autonomy in Multi-Turn LLM Conversations
+- [32] Incorporating Machine-Others: An Enactive Exploration of Human-LLM Interactions
+- [33] SadaqahStories: A Verified English-Arabic Corpus of Charity Stories for Children, with an Audit of Errors in AI-Drafted Religious Narratives
+- [34] Beyond Query Similarity: Safety-Conditioned Cache Routing for LLM Response Reuse
+- [35] SPRING-5: Measuring Tool Documentation Repair for LLM Agents by Efficiency
+- [36] Actions Should EARN Their Credit: Test-Time Adaptation and Route Consolidation for Frozen LLM Agents
+- [37] Nominate-then-Adjudicate: LLM-Assisted One-Pass and Per-Instance MIP Solver Tuning
+- [38] AutoC2V: Synthesis-Guided LLM Training for QoR-Optimized C++-to-Verilog Generation
+- [39] VEX-Bench: Benchmarking Verification Complexity of LLM-Generated Misinformation
+- [40] Synthesizing End-to-End Human Trajectory Anomalies: An LLM-Driven Framework with Map-Constrained Routing and Sensor Noise Simulation
+- [41] Rescaling confidence: What scale design reveals about LLM metacognition
+- [42] FinCutBench: A Continually Updated Benchmark for Measuring the Temporal Boundaries of LLM Financial Knowledge
+- [43] Token Inflation: How Dishonest Providers Can Overcharge for Large Language Model Usage
+- 以及 [44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181]
+
+**其他提及** (64 篇): [182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211]...
 
 
 ---
 
 ## 🔬 MLLM (多模态大语言模型)
 
-*本主题共 13 篇相关论文*
+*本主题共 7 篇相关论文*
 
-**高度相关论文:**
+**相关论文** (1 篇):
 
-- [1] **Imagine A Reference: MLLM -Augmented Versatile Image Stylization**
-  > Image stylization under multi-modal conditions faces challenges in semantic-style alignment due to limited cross-modal understanding. While Multimodal...
+- [246] Fundus-R1: Training a Fundus-Reading MLLM on Public Data
 
-- [2] **MLLM -Facilitated Peer-Review Self-Correction for Continual Domain Shift Learning**
-  > that utilizes a Multimodal Large Language Model ( MLLM ) as an expert reviewer and designs a … to iteratively refine predictions guided by MLLM -gener...
-
-- [6] **Measurement-Aware Multimodal LLM for No-Reference Low-Dose CT Quality Assessment**
-  > No-reference image quality assessment (IQA) of low-dose CT predicts the score that radiologists would assign to a slice without a full-dose reference,...
-
-- [8] **HRaLLM: Hyperbolic Rough Aware Large Language Model for Multimodal Action Reasoning**
-  > of 3D skeleton sequences to build a comprehensible motion vocabulary for MLLM . Furthermore, to mitigate hallucination risks caused by cross-… capacit...
-
-- [9] **Grounding-Aware Judge Reward Reinforcement Learning for Out-of-Domain Face Anti-Spoofing**
-  > Face Anti-Spoofing (FAS) must distinguish genuine faces from presentation attacks. A unified Multimodal Large Language Model (MLLM) is an attractive s...
-
-- [10] **Evidence-Grounded Reliable Anchoring for Interactive Text-to-Image Person Re-identification**
-  > Recent multimodal large language model ( MLLM )-based interactive TIReID frameworks … First, the MLLM judge is commonly adapted with coarse response-l...
-
-- [13] **A Collaborative Thing-Edge-Cloud Architecture for the Agentic AI-Enabled Metaverse**
-  > heterogeneous learning-based agents and multimodal large language model ( MLLM )-based agents across system layers. At the edge layer, a … using an ML...
-
-**相关论文** (4 篇):
-
-- [139] Hierarchical Dual-Teacher Distillation for Spatial Reasoning of MLLM -Based Agents in Embodied Tasks
-- [140] ASDG: MLLM -based Audio Semantics for Dance Generation
-- [141] Vision to Geometry: 3D Spatial Memory for Sequential Embodied MLLM Reasoning and Exploration
-- [142] Rems: Resource-Efficient Video Chat for MLLM AI Assistants
-
-**其他提及** (2 篇): [143, 144]
+**其他提及** (6 篇): [247, 248, 249, 250, 251, 252]
 
 
 ---
 
 ## 🔬 EEG / BCI (脑电与脑机接口)
 
-*本主题共 14 篇相关论文*
+*本主题共 10 篇相关论文*
 
 **高度相关论文:**
 
-- [145] **Motor imagery EEG signal classification using SAGAN-based data augmentation and ResNet-18 for brain–computer interface applications**
-  > Electroencephalogram signals are an important basis for motor skill rehabilitation and motor control in brain–computer interface (BCI) research. Howev...
+- [253] **Complementarity-Driven Dual-Teacher Hierarchical Alignment for Zero-Shot EEG-to-Image Retrieval**
+  > Decoding visual information from EEG is central to brain--computer interfaces and brain-inspired intelligence, and contrastive alignment with pretrain...
 
-- [146] **PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals**
-  > We present PhysioWave-T, a token-efficient wavelet foundation model family for EEG, ECG, and sEMG. Dynamic scale folding recombines J+1 wavelet subban...
+- [254] **EEGFaceSem: An EEG Benchmark with Paired Generative Latents for Semantic Visual Modeling**
+  > Electroencephalography (EEG) is widely used to measure brain activity for brain-computer interface applications for its non-invasive nature and high t...
 
-**相关论文** (11 篇):
+- [255] **MAGE: Towards Generalizable Multi-timescale EEG Representations**
+  > Electroencephalography (EEG) data plays an important role in understanding human brain activity, with various major applications. While current approa...
 
-- [147] SPSC: Zero-Shot Cross-Subject EEG-to-Image Reconstruction via Semantic Preservation and Subspace Calibration
-- [148] Look Closer, Align Better: Explicit Visual Attributes for Robust EEG-to-Image Decoding
-- [149] Evaluation of PainWaive: a consumer-grade EEG headset for remote EEG monitoring and neurofeedback research in chronic pain
-- [150] Altered EEG -derived co-fluctuation structure in disorders of consciousness
-- [151] Adaptive Temporal-Scale Mamba with Rhythm-Aware Gating for the Classification of Ictal, Interictal and Normal EEG Segments
-- [152] Transfer learning for GAN-based EEG generation: Fine-tuning a pretrained model for mind-wandering with limited data
-- [153] Decoding deception from EEG : Frequency specific dynamic brain networks in source space
-- [154] Integrating uncertainty and practice variability for epilepsy prognostication after intracranial EEG : A meta‐analysis
-- [155] Neurofeedback Beyond the Clinic: A Scoping Review of EEG -Driven VR and MR Systems in Sport, Education, Professional Training, and Consumer Wellness
-- [156] Machine Learning Decoding of Dystonic States from EEG -LFP Signals in GPi-DBS: A Multimodal Case Study
-- [157] Phase aligned EEG source space features for distinguishing Alzheimer's disease from frontotemporal dementia
+- [256] **CABrain: A Correlation-Aware Brain Foundation Model for EEG Decoding**
+  > Electroencephalography (EEG) foundation models have emerged as promising paradigms for decoding brain activity through large-scale self-supervised pre...
 
-**其他提及** (1 篇): [158]
+**相关论文** (6 篇):
+
+- [257] MambaPD: Bidirectional Selective State Space Model for Parkinson's Disease Detection from Resting-State EEG
+- [258] PINR-ESI: Physics-Informed Self-Supervised Implicit Neural Representation Framework for EEG Extended-Source Imaging
+- [259] Look Closer, Align Better: Explicit Visual Attributes for Robust EEG-to-Image Decoding
+- [260] L-FAME: Longitudinal Focused Attention Meditation EEG Dataset and Benchmark
+- [261] ZarrFM: A Canonical Tensor Storage Architecture for EEG Foundation-Model Pretraining
+- [262] LBSNet: Lightweight Brain State Modeling via Learnable Spectral Prototypes for EEG-Based Fatigue Detection
 
 
 ---
@@ -163,59 +166,79 @@
 
 *本主题共 1 篇相关论文*
 
-**高度相关论文:**
+**相关论文** (1 篇):
 
-- [145] **Motor imagery EEG signal classification using SAGAN-based data augmentation and ResNet-18 for brain–computer interface applications**
-  > Electroencephalogram signals are an important basis for motor skill rehabilitation and motor control in brain–computer interface (BCI) research. Howev...
+- [263] fNIRSAtlas: A Large-Scale Benchmark for Functional Near-Infrared Spectroscopy Classification
 
 
 ---
 
 ## 🔬 Foundation Models (基础模型)
 
-*本主题共 17 篇相关论文*
+*本主题共 50 篇相关论文*
 
 **高度相关论文:**
 
-- [146] **PhysioWave-T: Token-Efficient Wavelet Foundation Models for Biosignals**
-  > We present PhysioWave-T, a token-efficient wavelet foundation model family for EEG, ECG, and sEMG. Dynamic scale folding recombines J+1 wavelet subban...
+- [253] **Complementarity-Driven Dual-Teacher Hierarchical Alignment for Zero-Shot EEG-to-Image Retrieval**
+  > Decoding visual information from EEG is central to brain--computer interfaces and brain-inspired intelligence, and contrastive alignment with pretrain...
 
-**相关论文** (10 篇):
+- [255] **MAGE: Towards Generalizable Multi-timescale EEG Representations**
+  > Electroencephalography (EEG) data plays an important role in understanding human brain activity, with various major applications. While current approa...
 
-- [159] StreamTab: Training-Free Temporal Link Prediction with Tabular Foundation Models
-- [160] Latent Riemannian Flow Matching for Geometry-Grounded 3D Foundation Models
-- [161] Revisiting the Generic Transformer: Deconstructing a Strong Baseline for Time Series Foundation Models
-- [162] Compact SO(3) Equivariant Atomistic Foundation Models via Structural Pruning
-- [163] ABHBench: Evaluating Moral Decision-Making of Foundation Models from an Agentic Perspective
-- [164] Extending Grid Foundation Models for Phasor-Domain Dynamic Simulation
-- [165] Causal graph fusion across incomplete cohorts and causal steering of tabular foundation models
-- [166] TailDART: Compute-Efficient Foundation Models for Financial Time-Series Forecasting
-- [167] Data-efficient flood depth prediction through domain-aware coreset selection and tabular foundation models
-- [168] No One Knows the State of the Art in Geospatial Foundation Models
+- [15] **Slim Foundation Models for Latency-Critical Recommendation Serving**
+  > Click-through rate (CTR) prediction is a core component of recommendation and advertising systems. Large language models (LLMs) offer rich semantic pr...
 
-**其他提及** (6 篇): [169, 170, 171, 172, 173, 174]
+- [256] **CABrain: A Correlation-Aware Brain Foundation Model for EEG Decoding**
+  > Electroencephalography (EEG) foundation models have emerged as promising paradigms for decoding brain activity through large-scale self-supervised pre...
+
+**相关论文** (27 篇):
+
+- [264] A Survey of Post-Training in Time Series Foundation Models
+- [265] Informing Acquisition Functions via Foundation Models for Molecular Discovery
+- [61] Decomposing Earth Embeddings with Sparse Autoencoders
+- [266] Do Time-Series Foundation Models Forecast Index-Futures Returns? A Preregistered Evaluation of Models, Metrics, and Input Representations
+- [267] REFORM-3D: A Representation-Centric Evaluation Framework for 3D Medical Vision Foundation Models
+- [268] NeuroRVQ: Multi-Scale Biosignal Tokenization for Generative Foundation Models
+- [269] RAD-TFM: Robust and Domain-Adapted Tabular Foundation Models
+- [270] Benchmarking CNNs, Vision Transformers, and Foundation Models for Explainable Brain Tumor MRI Classification: Calibration, Decision Analysis, and External Validation
+- [271] A forensic evaluation framework for egocentric foundation models: an EFM3D case study for crime scene reconstruction
+- [272] Simple models outperform single-cell foundation models on downstream benchmarks
+- [273] Out-of-the-Box Tabular Foundation Models for Bayesian Optimization in Materials Discovery
+- [274] Calibrating Scientific Foundation Models with Inference-Time Stochastic Attention
+- [275] Learning Biological Hierarchies in Single-Cell Foundation Models
+- [276] An Evaluation of Tabular Foundation Models as Training-Free World Models
+- [277] Prediction with Foundation Models under Deployment Budgets
+- [278] Can Time Series Foundation Models Serve as Surrogates for Power Systems Dynamic Simulation?
+- [279] Nanopath: Fast, Fair, Open Experimentation for Pathology Foundation Models
+- [280] Does Predictive Performance Translate to Causal Performance? Evaluating tabular foundation models as nuisance learners for causal effect estimation
+- [281] CHANNELS4WORLD: An Environment-Scale Dataset for Wireless Foundation Models
+- [282] FFM-CP: Cross-Backbone Fusion of Vision-Language Foundation Models for Few-Shot Computational Pathology
+- 以及 [283, 284, 285, 286, 287, 288, 289]
+
+**其他提及** (19 篇): [290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308]
 
 
 ---
 
 ## 📊 统计
 
-- **LLM (大语言模型)**: 138 篇
-- **MLLM (多模态大语言模型)**: 13 篇
-- **EEG / BCI (脑电与脑机接口)**: 14 篇
+- **LLM (大语言模型)**: 245 篇
+- **MLLM (多模态大语言模型)**: 7 篇
+- **EEG / BCI (脑电与脑机接口)**: 10 篇
 - **MI / ME (运动想象与运动执行)**: 1 篇
-- **Foundation Models (基础模型)**: 17 篇
+- **Foundation Models (基础模型)**: 50 篇
 
 ### 关键词命中分布
 
-- **LLM**: 125 篇
-- **Large Language Model**: 26 篇
-- **Foundation Models**: 17 篇
-- **EEG**: 14 篇
-- **MLLM**: 13 篇
-- **Multimodal Large Language Model**: 5 篇
-- **BCI**: 1 篇
+- **LLM**: 235 篇
+- **Foundation Models**: 49 篇
+- **Large Language Model**: 46 篇
+- **EEG**: 10 篇
+- **MLLM**: 7 篇
+- **Brain-Computer Interface**: 1 篇
 - **Motor Imagery**: 1 篇
+- **Motor Execution**: 1 篇
+- **Unified Models**: 1 篇
 
 ---
-*生成时间: 2026-11-10 07:10:23*
+*生成时间: 2026-11-11 04:37:25*
